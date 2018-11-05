@@ -1,0 +1,95 @@
+[02.11.2018 2:28:12 PM] Server started! Listening To Port [7689]
+[02.11.2018 2:28:15 PM] [Server] New client Connected. Current clients: [1]
+[02.11.2018 2:28:15 PM] [ClientHandler] Handling the client...
+[02.11.2018 2:28:15 PM] [CleanUp] CleanUp Thread Started
+[02.11.2018 2:28:15 PM] [Server] Created a new Thread. [Total Threads: 1]
+[02.11.2018 2:28:15 PM] [ClientHandler] Client Handled.
+[02.11.2018 2:28:20 PM] [Thread 0] : Bau bau
+
+[02.11.2018 2:28:23 PM] [Server] New client Connected. Current clients: [2]
+[02.11.2018 2:28:23 PM] [ClientHandler] Handling the client...
+[02.11.2018 2:28:23 PM] [ClientHandler] Client Handled.
+[02.11.2018 2:28:29 PM] [Thread 0] : Hau hau
+
+[02.11.2018 2:29:16 PM] Server started! Listening To Port [7689]
+[02.11.2018 2:29:18 PM] [Server] New client Connected. Current clients: [1]
+[02.11.2018 2:29:18 PM] [ClientHandler] Handling the client...
+[02.11.2018 2:29:18 PM] [CleanUp] CleanUp Thread Started
+[02.11.2018 2:29:18 PM] [Server] Created a new Thread. [Total Threads: 1]
+[02.11.2018 2:29:18 PM] [ClientHandler] Client Handled.
+[02.11.2018 2:29:28 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:29:38 PM] [CleanUp] 1 clients removed.
+[02.11.2018 2:29:38 PM] [Server] Closing an empty Thread... [Total Threads: 0]
+[02.11.2018 2:29:43 PM] [Server] New client Connected. Current clients: [1]
+[02.11.2018 2:29:43 PM] [ClientHandler] Handling the client...
+[02.11.2018 2:29:43 PM] [ClientHandler] Client Handled.
+[02.11.2018 2:29:48 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:29:58 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:32:57 PM] Server started! Listening To Port [7689]
+[02.11.2018 2:33:01 PM] [Server] New client Connected. Current clients: [1]
+[02.11.2018 2:33:01 PM] [ClientHandler] Handling the client...
+[02.11.2018 2:33:01 PM] [CleanUp] CleanUp Thread Started
+[02.11.2018 2:33:01 PM] [Server] Created a new Thread. [Total Threads: 1]
+[02.11.2018 2:33:01 PM] [ClientHandler] Client Handled.
+[02.11.2018 2:33:11 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:33:21 PM] [CleanUp] 1 clients removed.
+[02.11.2018 2:33:21 PM] [Server] Closing an empty Thread... [Total Threads: 0]
+[02.11.2018 2:33:26 PM] [Server] New client Connected. Current clients: [1]
+[02.11.2018 2:33:26 PM] [ClientHandler] Handling the client...
+[02.11.2018 2:33:26 PM] [ClientHandler] Client Handled.
+[02.11.2018 2:33:31 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:33:41 PM] [CleanUp] 1 clients removed.
+[02.11.2018 2:33:51 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:33:54 PM] [Server] New client Connected. Current clients: [1]
+[02.11.2018 2:33:54 PM] [ClientHandler] Handling the client...
+[02.11.2018 2:33:54 PM] [ClientHandler] Client Handled.
+[02.11.2018 2:34:01 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:34:11 PM] [CleanUp] 1 clients removed.
+[02.11.2018 2:39:16 PM] Server started! Listening To Port [7689]
+[02.11.2018 2:39:19 PM] [Server] New client Connected. Current clients: [1]
+[02.11.2018 2:39:19 PM] [ClientHandler] Handling the client...
+[02.11.2018 2:39:19 PM] [CleanUp] CleanUp Thread Started
+[02.11.2018 2:39:19 PM] [Server] Created a new Thread. [Total Threads: 1]
+[02.11.2018 2:39:19 PM] [ClientHandler] Client Handled.
+[02.11.2018 2:39:29 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:39:39 PM] [CleanUp] 1 clients removed.
+[02.11.2018 2:39:49 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:39:51 PM] [Server] New client Connected. Current clients: [1]
+[02.11.2018 2:39:51 PM] [ClientHandler] Handling the client...
+[02.11.2018 2:39:51 PM] [ClientHandler] Client Handled.
+[02.11.2018 2:39:56 PM] [Thread 0] : Zumba
+
+[02.11.2018 2:39:59 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:40:00 PM] [Thread 0] : Humba
+
+[02.11.2018 2:40:09 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:40:19 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:41:34 PM] Server started! Listening To Port [7689]
+[02.11.2018 2:41:35 PM] [Server] New client Connected. Current clients: [1]
+[02.11.2018 2:41:35 PM] [ClientHandler] Handling the client...
+[02.11.2018 2:41:35 PM] [CleanUp] CleanUp Thread Started
+[02.11.2018 2:41:35 PM] [Server] Created a new Thread. [Total Threads: 1]
+[02.11.2018 2:41:35 PM] [ClientHandler] Client Handled.
+[02.11.2018 2:41:45 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:41:55 PM] [CleanUp] 1 clients removed.
+[02.11.2018 2:42:05 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:42:15 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:42:38 PM] Server started! Listening To Port [7689]
+[02.11.2018 2:42:42 PM] [Server] New client Connected. Current clients: [1]
+[02.11.2018 2:42:42 PM] [ClientHandler] Handling the client...
+[02.11.2018 2:42:42 PM] [CleanUp] CleanUp Thread Started
+[02.11.2018 2:42:42 PM] [Server] Created a new Thread. [Total Threads: 1]
+[02.11.2018 2:42:42 PM] [ClientHandler] Client Handled.
+[02.11.2018 2:42:52 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:43:02 PM] [CleanUp] 1 clients removed.
+[02.11.2018 2:43:12 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:43:22 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:43:45 PM] Server started! Listening To Port [7689]
+[02.11.2018 2:43:46 PM] [Server] New client Connected. Current clients: [1]
+[02.11.2018 2:43:46 PM] [ClientHandler] Handling the client...
+[02.11.2018 2:43:46 PM] [CleanUp] CleanUp Thread Started
+[02.11.2018 2:43:46 PM] [Server] Created a new Thread. [Total Threads: 1]
+[02.11.2018 2:43:46 PM] [ClientHandler] Client Handled.
+[02.11.2018 2:43:56 PM] [CleanUp] 0 clients removed.
+[02.11.2018 2:44:06 PM] [CleanUp] 1 clients removed.
+[02.11.2018 2:44:16 PM] [CleanUp] 0 clients removed.

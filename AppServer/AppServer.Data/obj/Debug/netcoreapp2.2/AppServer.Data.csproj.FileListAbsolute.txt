@@ -1,0 +1,9 @@
+D:\Faculty\Licenta\AppServer\AppServer.Data\bin\Debug\netcoreapp2.2\AppServer.Data.deps.json
+D:\Faculty\Licenta\AppServer\AppServer.Data\bin\Debug\netcoreapp2.2\AppServer.Data.dll
+D:\Faculty\Licenta\AppServer\AppServer.Data\bin\Debug\netcoreapp2.2\AppServer.Data.pdb
+D:\Faculty\Licenta\AppServer\AppServer.Data\obj\Debug\netcoreapp2.2\AppServer.Data.csproj.CoreCompileInputs.cache
+D:\Faculty\Licenta\AppServer\AppServer.Data\obj\Debug\netcoreapp2.2\AppServer.Data.AssemblyInfoInputs.cache
+D:\Faculty\Licenta\AppServer\AppServer.Data\obj\Debug\netcoreapp2.2\AppServer.Data.AssemblyInfo.cs
+D:\Faculty\Licenta\AppServer\AppServer.Data\obj\Debug\netcoreapp2.2\AppServer.Data.dll
+D:\Faculty\Licenta\AppServer\AppServer.Data\obj\Debug\netcoreapp2.2\AppServer.Data.pdb
+D:\Faculty\Licenta\AppServer\AppServer.Data\obj\Debug\netcoreapp2.2\AppServer.Data.csprojAssemblyReference.cache

@@ -1,0 +1,14 @@
+D:\Faculty\Licenta\AppServer\AppServer.Business\bin\Debug\netcoreapp2.2\AppServer.Business.deps.json
+D:\Faculty\Licenta\AppServer\AppServer.Business\bin\Debug\netcoreapp2.2\AppServer.Business.runtimeconfig.json
+D:\Faculty\Licenta\AppServer\AppServer.Business\bin\Debug\netcoreapp2.2\AppServer.Business.runtimeconfig.dev.json
+D:\Faculty\Licenta\AppServer\AppServer.Business\bin\Debug\netcoreapp2.2\AppServer.Business.dll
+D:\Faculty\Licenta\AppServer\AppServer.Business\bin\Debug\netcoreapp2.2\AppServer.Business.pdb
+D:\Faculty\Licenta\AppServer\AppServer.Business\bin\Debug\netcoreapp2.2\AppServer.Data.dll
+D:\Faculty\Licenta\AppServer\AppServer.Business\bin\Debug\netcoreapp2.2\AppServer.Data.pdb
+D:\Faculty\Licenta\AppServer\AppServer.Business\obj\Debug\netcoreapp2.2\AppServer.Business.csprojAssemblyReference.cache
+D:\Faculty\Licenta\AppServer\AppServer.Business\obj\Debug\netcoreapp2.2\AppServer.Business.csproj.CoreCompileInputs.cache
+D:\Faculty\Licenta\AppServer\AppServer.Business\obj\Debug\netcoreapp2.2\AppServer.Business.AssemblyInfoInputs.cache
+D:\Faculty\Licenta\AppServer\AppServer.Business\obj\Debug\netcoreapp2.2\AppServer.Business.AssemblyInfo.cs
+D:\Faculty\Licenta\AppServer\AppServer.Business\obj\Debug\netcoreapp2.2\AppServer.Business.csproj.CopyComplete
+D:\Faculty\Licenta\AppServer\AppServer.Business\obj\Debug\netcoreapp2.2\AppServer.Business.dll
+D:\Faculty\Licenta\AppServer\AppServer.Business\obj\Debug\netcoreapp2.2\AppServer.Business.pdb
