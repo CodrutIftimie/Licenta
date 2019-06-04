@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ServiceReq</string>
+
+    <string name="emptyString"> </string>
+    <string name="defaultErrorMessage">Something happened! Please try again</string>
+
+    <string name="login_imageDescription">Application Image</string>
+    <string name="login_loginButton">Login</string>
+    <string name="login_emailInputHint">email@example.com</string>
+    <string name="login_passwordHint">yourpassword123</string>
+    <string name="login_emailTextView">Email</string>
+    <string name="login_passwordTextView">Password</string>
+    <string name="login_registerLink">Need an account? Tap here to register!</string>
+
+    <string name="register_registerButton">Register</string>
+    <string name="register_firstNameTextView">First Name</string>
+    <string name="register_firstNameHint">Nick</string>
+    <string name="register_lastNameTextView">Last Name</string>
+    <string name="register_lastNameHint">Fury</string>
+    <string name="register_confirmPasswordTextView">Confirm Password</string>
+    <string name="register_backButton">Go Back</string>
+    <string name="register_invalidEmail">The email is invalid!</string>
+    <string name="register_passwordsDontMatch">The passwords do not match!</string>
+    <string name="register_invalidFirstName">The First Name is invalid!</string>
+    <string name="register_invalidLastName">The Last Name is invalid!</string>
+
+    <string name="main_logoDescription">ServiceReq logo</string>
+    <string name="main_messagesDescription">Messages</string>
+    <string name="main_searchHint">fix a washing machine</string>
+    <string name="main_searchIcon">Search</string>
+
+    <string name="post_posterAvatar">Poster Avatar</string>
+    <string name="post_posterName">FirstName LastName</string>
+    <string name="post_postTime">10 minutes</string>
+    <string name="post_imageDescription">Post Image</string>
+    <string name="post_solvedState">Solved state</string>
+    <string name="post_description_example">Howdy, just testing this feature, to add a text to a post!</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_feed">Feed</string>
+    <string name="nav_messages">Messages</string>
+</resources>
