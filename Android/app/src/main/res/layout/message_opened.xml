@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <RelativeLayout
+        android:id="@+id/message_receiver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+        <ImageButton
+            android:id="@+id/post_posterAvatar"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:background="@null"
+            android:contentDescription="@string/post_posterAvatar"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_avatar_default" />
+
+        <TextView
+            android:id="@+id/post_posterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@+id/post_posterAvatar"
+            android:text="@string/post_posterName"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/exchanged_messages"
+        android:layout_below="@+id/message_receiver"
+        android:layout_above="@+id/message_send_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/message_received" />
+            <include layout="@layout/message_sent" />
+            <include layout="@layout/message_received" />
+            <include layout="@layout/message_sent" />
+            <include layout="@layout/message_received" />
+            <include layout="@layout/message_sent" />
+            <include layout="@layout/message_received" />
+            <include layout="@layout/message_sent" />
+            <include layout="@layout/message_received" />
+            <include layout="@layout/message_sent" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/message_send_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBackground">
+        <EditText
+            android:id="@+id/message_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_toStartOf="@+id/message_send_button"/>
+        <ImageButton
+            android:id="@+id/message_send_button"
+            android:src="@drawable/ic_send_black_24dp"
+            android:background="@null"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

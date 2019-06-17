@@ -38,4 +38,7 @@
     <string name="nav_profile">Profile</string>
     <string name="nav_feed">Feed</string>
     <string name="nav_messages">Messages</string>
+    <string name="messages_title">Messages</string>
+    <string name="message_previewMessage">Preview Message</string>
+    <string name="your_posts">Your Posts</string>
 </resources>

@@ -31,6 +31,7 @@ public class PostsAdapter{
         postDate.setText(post.getPostDate());
         postDescription.setText(post.getDescription());
 
+
         posts.add(toBeAdded);
         body.addView(toBeAdded);
     }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="@color/colorBackground">
+    <LinearLayout
+        android:id="@+id/preview_messages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/messages_title"
+            android:textSize="30sp"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <include android:id="@+id/message_one" layout="@layout/message_preview" />
+        <include layout="@layout/message_preview" />
+        <include layout="@layout/message_preview" />
+        <include layout="@layout/message_preview" />
+        <include layout="@layout/message_preview" />
+    </LinearLayout>
+
+</ScrollView>
