@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System.Data.SqlClient;
+using System.Net;
 using System.Net.Sockets;
 
 namespace AppServer.Data
@@ -6,15 +7,15 @@ namespace AppServer.Data
     public class Server
     {
         private static bool ExistingInstance = false;
-        private static TcpListener listener;
-
+        private static TcpListener Listener;
         public static int Port { get; private set; }
+        public static SqlConnection Database { get; private set; }
 
         public Server(int Port) //implementation of singleton so there will be only one instance of the class Server
         {
             if (ExistingInstance == false)
             {
-                listener = new TcpListener(IPAddress.Any, Port);
+                Listener = new TcpListener(IPAddress.Any, Port);
                 ExistingInstance = true;
                 Server.Port = Port;
             }
@@ -22,12 +23,16 @@ namespace AppServer.Data
 
         public void Run()
         {
-            listener.Start();
+            Listener.Start();
             Log.Add($"Server started! Listening To Port [{Port}]");
 
-            while(listener != null) //If listener is null then the server is stopped
+            Database = new SqlConnection(@"Data Source=localhost;Initial Catalog=servicereq;Integrated Security=true");
+            Database.Open();
+            Log.Add("[Database] Connected successfuly");
+
+            while (Listener != null) //If Listener is null then the server is stopped
             {
-                var client = listener.AcceptTcpClient();
+                var client = Listener.AcceptTcpClient();
                 if (client.Connected == true)
                 {
                     Log.Add($"[Server] New client Connected. Current clients: [{ClientHandler.ConnectedClients}]");
@@ -40,8 +45,8 @@ namespace AppServer.Data
 
         public static void Stop()
         {
-            listener.Stop();
-            listener = null;
+            Listener.Stop();
+            Listener = null;
         }
     }
 }

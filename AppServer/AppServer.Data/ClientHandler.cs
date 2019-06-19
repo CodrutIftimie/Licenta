@@ -2,6 +2,7 @@
 using System.Threading;
 using System.Text;
 using System;
+using System.Data.SqlClient;
 
 namespace AppServer.Data
 {
@@ -10,6 +11,7 @@ namespace AppServer.Data
         private static List<AppThread> threads;
         private static Thread CleanUpThread; //A thread that is used to delete instances of clients that are disconnected
         private static bool ExistingInstance = false;
+        private static bool messageShown = false;
 
         public static long ConnectedClients { get; private set; } = 1;
 
@@ -79,19 +81,42 @@ namespace AppServer.Data
                 if (clients.Count == 0) //if there is no client then this is the only thread (deducted from while) so i will keep it alive
                 {
                     Thread.Sleep(800); //add a delay after each loop so the CPU does not "overload"
-                    Console.WriteLine("No clients! Keeping the thread On. [Pause 800 ms]");
+                    if (!messageShown)
+                    {
+                        messageShown = true;
+                        Console.WriteLine("No clients! Keeping the thread On. [Check every 800 ms]");
+                    }
                 }
                 else
                 {
+                    messageShown = false;
                     for (int i = 0; i < clients.Count; i++)
                     {
                         try
                         {
                             if (clients[i].Client.Available > 0) //if the client has available data then treat it
                             {
+                                String message;
                                 byte[] data = new byte[clients[i].Client.Available];
                                 clients[i].Client.GetStream().Read(data);
-                                Log.Add($"[Thread {clients[i].ThreadId}] : {Encoding.Default.GetString(data)}");
+                                message = Encoding.Default.GetString(data);
+                                Log.Add($"[Thread {clients[i].ThreadId}] : {message}");
+
+                                if(message[0].Equals('L'))
+                                {
+                                    String email = message.Split(';')[1];
+                                    String password = message.Split(';')[2];
+                                    Log.Add($"Email: {email}   |   Password:{password}");
+                                    SqlCommand command;
+                                    SqlDataReader dataReader;
+                                    String sql = $"SELECT UserId FROM Users WHERE email='{email}' AND password='{password}'";
+                                    command = new SqlCommand(sql, Server.Database);
+                                    dataReader = command.ExecuteReader();
+                                    while(dataReader.Read())
+                                    {
+                                        Log.Add(dataReader.GetValue(0).ToString());
+                                    }
+                                }
                             }
                         }
                         catch (ObjectDisposedException) { } //Accessing the client right after it was removed and throws an exception, so it just needs to be ignored

@@ -1,5 +1,6 @@
 package ga.servicereq;
 
+import android.os.StrictMode;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
@@ -24,11 +25,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
 
         feedFragment = new FeedFragment();
         profileFragment = new ProfileFragment();
         messagesFragment = new MessagesFragment();
+        Server.sendMessage("Yoooo");
 
         BottomNavigationView navigation = findViewById(R.id.navigation);
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_containter, feedFragment).commit();

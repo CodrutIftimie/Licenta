@@ -1,0 +1,236 @@
+[13.6.2019 2:47:03 PM] Server started! Listening To Port [7689]
+[14.6.2019 2:14:45 PM] Server started! Listening To Port [7689]
+[19.6.2019 5:24:06 PM] Server started! Listening To Port [7689]
+[19.6.2019 5:32:35 PM] [Server] New client Connected. Current clients: [1]
+[19.6.2019 5:32:35 PM] [ClientHandler] Handling the client...
+[19.6.2019 5:32:35 PM] [CleanUp] CleanUp Thread Started
+[19.6.2019 5:32:35 PM] [Server] Created a new Thread. [Total Threads: 1]
+[19.6.2019 5:32:35 PM] [ClientHandler] Client Handled.
+[19.6.2019 5:32:45 PM] [CleanUp] 0 clients removed.
+[19.6.2019 5:32:55 PM] [CleanUp] 0 clients removed.
+[19.6.2019 5:33:01 PM] [Thread 0] : s
+[19.6.2019 5:33:01 PM] [Thread 0] : a
+[19.6.2019 5:33:01 PM] [Thread 0] : l
+[19.6.2019 5:33:01 PM] [Thread 0] : 
+
+[19.6.2019 5:33:05 PM] [CleanUp] 0 clients removed.
+[19.6.2019 5:33:09 PM] [Thread 0] : s
+[19.6.2019 5:33:11 PM] [Thread 0] : e
+[19.6.2019 5:33:11 PM] [Thread 0] : l
+[19.6.2019 5:33:11 PM] [Thread 0] : e
+[19.6.2019 5:33:11 PM] [Thread 0] : c
+[19.6.2019 5:33:12 PM] [Thread 0] : t
+[19.6.2019 5:33:12 PM] [Thread 0] : a
+[19.6.2019 5:33:13 PM] [Thread 0] : s
+[19.6.2019 5:33:13 PM] [Thread 0] : f
+[19.6.2019 5:33:13 PM] [Thread 0] : s
+[19.6.2019 5:33:13 PM] [Thread 0] : a
+[19.6.2019 5:33:13 PM] [Thread 0] : d
+[19.6.2019 5:33:13 PM] [Thread 0] : f
+[19.6.2019 5:33:13 PM] [Thread 0] : a
+[19.6.2019 5:33:13 PM] [Thread 0] : s
+[19.6.2019 5:33:13 PM] [Thread 0] : f
+[19.6.2019 5:33:13 PM] [Thread 0] : a
+[19.6.2019 5:33:13 PM] [Thread 0] : s
+[19.6.2019 5:33:13 PM] [Thread 0] : f
+[19.6.2019 5:33:13 PM] [Thread 0] : a
+[19.6.2019 5:33:14 PM] [Thread 0] : s
+[19.6.2019 5:33:14 PM] [Thread 0] : f
+[19.6.2019 5:33:15 PM] [CleanUp] 0 clients removed.
+[19.6.2019 5:33:16 PM] [Thread 0] : 
+[19.6.2019 5:33:17 PM] [Thread 0] : 
+[19.6.2019 5:33:18 PM] [Thread 0] : 
+[19.6.2019 5:33:25 PM] [CleanUp] 0 clients removed.
+[19.6.2019 5:33:35 PM] [CleanUp] 1 clients removed.
+[19.6.2019 5:33:45 PM] [CleanUp] 0 clients removed.
+[19.6.2019 5:37:37 PM] Server started! Listening To Port [7689]
+[19.6.2019 5:37:43 PM] [Server] New client Connected. Current clients: [1]
+[19.6.2019 5:37:43 PM] [ClientHandler] Handling the client...
+[19.6.2019 5:37:43 PM] [CleanUp] CleanUp Thread Started
+[19.6.2019 5:37:43 PM] [Server] Created a new Thread. [Total Threads: 1]
+[19.6.2019 5:37:43 PM] [ClientHandler] Client Handled.
+[19.6.2019 5:37:53 PM] [CleanUp] 0 clients removed.
+[19.6.2019 5:38:03 PM] [CleanUp] 0 clients removed.
+[19.6.2019 5:38:13 PM] [CleanUp] 1 clients removed.
+[19.6.2019 6:04:21 PM] Server started! Listening To Port [7689]
+[19.6.2019 6:39:43 PM] Server started! Listening To Port [7689]
+[19.6.2019 6:39:52 PM] [Server] New client Connected. Current clients: [1]
+[19.6.2019 6:39:52 PM] [ClientHandler] Handling the client...
+[19.6.2019 6:39:52 PM] [CleanUp] CleanUp Thread Started
+[19.6.2019 6:39:52 PM] [Server] Created a new Thread. [Total Threads: 1]
+[19.6.2019 6:39:52 PM] [ClientHandler] Client Handled.
+[19.6.2019 6:40:03 PM] [CleanUp] 1 clients removed.
+[19.6.2019 6:40:13 PM] [CleanUp] 0 clients removed.
+[19.6.2019 6:40:23 PM] [CleanUp] 0 clients removed.
+[19.6.2019 6:40:33 PM] [CleanUp] 0 clients removed.
+[19.6.2019 6:40:43 PM] [CleanUp] 0 clients removed.
+[19.6.2019 6:40:53 PM] [CleanUp] 0 clients removed.
+[19.6.2019 6:41:03 PM] [CleanUp] 0 clients removed.
+[19.6.2019 6:41:07 PM] [Server] New client Connected. Current clients: [1]
+[19.6.2019 6:41:07 PM] [ClientHandler] Handling the client...
+[19.6.2019 6:41:07 PM] [ClientHandler] Client Handled.
+[19.6.2019 6:41:13 PM] [CleanUp] 0 clients removed.
+[19.6.2019 6:41:23 PM] [CleanUp] 0 clients removed.
+[19.6.2019 6:41:33 PM] [CleanUp] 0 clients removed.
+[19.6.2019 6:41:43 PM] [CleanUp] 0 clients removed.
+[19.6.2019 6:41:53 PM] [CleanUp] 0 clients removed.
+[19.6.2019 6:42:03 PM] [CleanUp] 0 clients removed.
+[19.6.2019 6:42:13 PM] [CleanUp] 1 clients removed.
+[19.6.2019 7:07:15 PM] Server started! Listening To Port [7689]
+[19.6.2019 7:17:10 PM] Server started! Listening To Port [7667]
+[19.6.2019 7:17:41 PM] [Server] New client Connected. Current clients: [1]
+[19.6.2019 7:17:41 PM] [ClientHandler] Handling the client...
+[19.6.2019 7:17:41 PM] [CleanUp] CleanUp Thread Started
+[19.6.2019 7:17:41 PM] [Server] Created a new Thread. [Total Threads: 1]
+[19.6.2019 7:17:41 PM] [ClientHandler] Client Handled.
+[19.6.2019 7:17:51 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:18:01 PM] [CleanUp] 1 clients removed.
+[19.6.2019 7:18:11 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:18:21 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:18:31 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:18:38 PM] [Server] New client Connected. Current clients: [1]
+[19.6.2019 7:18:38 PM] [ClientHandler] Handling the client...
+[19.6.2019 7:18:38 PM] [ClientHandler] Client Handled.
+[19.6.2019 7:18:41 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:18:51 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:18:51 PM] [Server] New client Connected. Current clients: [2]
+[19.6.2019 7:18:51 PM] [ClientHandler] Handling the client...
+[19.6.2019 7:18:51 PM] [ClientHandler] Client Handled.
+[19.6.2019 7:19:01 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:19:11 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:19:21 PM] [CleanUp] 1 clients removed.
+[19.6.2019 7:19:31 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:19:41 PM] [CleanUp] 1 clients removed.
+[19.6.2019 7:19:51 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:20:01 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:20:11 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:20:21 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:20:23 PM] [Server] New client Connected. Current clients: [1]
+[19.6.2019 7:20:23 PM] [ClientHandler] Handling the client...
+[19.6.2019 7:20:23 PM] [ClientHandler] Client Handled.
+[19.6.2019 7:20:26 PM] [Thread 0] : Y
+[19.6.2019 7:20:26 PM] [Thread 0] : oooo
+[19.6.2019 7:20:31 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:20:41 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:20:51 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:21:01 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:21:05 PM] [Server] New client Connected. Current clients: [2]
+[19.6.2019 7:21:05 PM] [ClientHandler] Handling the client...
+[19.6.2019 7:21:05 PM] [ClientHandler] Client Handled.
+[19.6.2019 7:21:11 PM] [CleanUp] 1 clients removed.
+[19.6.2019 7:21:11 PM] [Thread 0] : Yoooo
+[19.6.2019 7:21:21 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:21:31 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:21:41 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:21:51 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:22:01 PM] [CleanUp] 1 clients removed.
+[19.6.2019 7:22:11 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:22:15 PM] [Server] New client Connected. Current clients: [1]
+[19.6.2019 7:22:15 PM] [ClientHandler] Handling the client...
+[19.6.2019 7:22:15 PM] [ClientHandler] Client Handled.
+[19.6.2019 7:22:17 PM] [Thread 0] : Yoooo
+[19.6.2019 7:22:21 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:22:31 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:22:41 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:22:51 PM] [CleanUp] 1 clients removed.
+[19.6.2019 7:23:01 PM] [CleanUp] 0 clients removed.
+[19.6.2019 7:23:11 PM] [CleanUp] 0 clients removed.
+[19.6.2019 11:55:38 PM] [Database] Connected successfuly
+[19.6.2019 11:55:38 PM] Server started! Listening To Port [7667]
+[20.6.2019 12:27:12 AM] Server started! Listening To Port [7667]
+[20.6.2019 12:27:12 AM] [Database] Connected successfuly
+[20.6.2019 12:27:38 AM] [Server] New client Connected. Current clients: [1]
+[20.6.2019 12:27:38 AM] [ClientHandler] Handling the client...
+[20.6.2019 12:27:38 AM] [Server] Created a new Thread. [Total Threads: 1]
+[20.6.2019 12:27:38 AM] [ClientHandler] Client Handled.
+[20.6.2019 12:27:48 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:27:58 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:28:02 AM] [Thread 0] : L;android.support.v7.widget.AppCompatEditText{8330566 VFED..CL. ........ 0,110-788,228 #7f080061 app:id/login_emailInput};android.support.v7.widget.AppCompatEditText{894a954 VFED..CL. .F...... 0,57-788,175 #7f080066 app:id/login_passwordInput}
+[20.6.2019 12:28:08 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:30:04 AM] Server started! Listening To Port [6789]
+[20.6.2019 12:30:05 AM] [Database] Connected successfuly
+[20.6.2019 12:30:15 AM] [Server] New client Connected. Current clients: [1]
+[20.6.2019 12:30:15 AM] [ClientHandler] Handling the client...
+[20.6.2019 12:30:15 AM] [CleanUp] CleanUp Thread Started
+[20.6.2019 12:30:15 AM] [Server] Created a new Thread. [Total Threads: 1]
+[20.6.2019 12:30:15 AM] [ClientHandler] Client Handled.
+[20.6.2019 12:30:22 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:30:25 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:30:35 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:30:41 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:30:42 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:30:43 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:30:43 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:30:43 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:30:43 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:30:44 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:30:44 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:30:44 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:30:44 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:30:44 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:30:44 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:30:45 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:30:55 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:31:05 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:31:15 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:31:25 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:31:35 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:31:45 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:34:31 AM] Server started! Listening To Port [6788]
+[20.6.2019 12:34:31 AM] [Database] Connected successfuly
+[20.6.2019 12:34:48 AM] [Server] New client Connected. Current clients: [1]
+[20.6.2019 12:34:48 AM] [ClientHandler] Handling the client...
+[20.6.2019 12:34:48 AM] [CleanUp] CleanUp Thread Started
+[20.6.2019 12:34:48 AM] [Server] Created a new Thread. [Total Threads: 1]
+[20.6.2019 12:34:48 AM] [ClientHandler] Client Handled.
+[20.6.2019 12:34:54 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:34:58 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:35:08 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:35:18 AM] [CleanUp] 1 clients removed.
+[20.6.2019 12:35:28 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:35:38 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:36:44 AM] Server started! Listening To Port [6788]
+[20.6.2019 12:36:44 AM] [Database] Connected successfuly
+[20.6.2019 12:36:50 AM] [Server] New client Connected. Current clients: [1]
+[20.6.2019 12:36:50 AM] [ClientHandler] Handling the client...
+[20.6.2019 12:36:50 AM] [CleanUp] CleanUp Thread Started
+[20.6.2019 12:36:50 AM] [Server] Created a new Thread. [Total Threads: 1]
+[20.6.2019 12:36:50 AM] [ClientHandler] Client Handled.
+[20.6.2019 12:36:57 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:37:00 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:37:10 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:37:21 AM] [CleanUp] 1 clients removed.
+[20.6.2019 12:37:31 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:37:41 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:38:08 AM] Server started! Listening To Port [6788]
+[20.6.2019 12:38:09 AM] [Database] Connected successfuly
+[20.6.2019 12:38:22 AM] Server started! Listening To Port [6788]
+[20.6.2019 12:38:22 AM] [Database] Connected successfuly
+[20.6.2019 12:38:30 AM] [Server] New client Connected. Current clients: [1]
+[20.6.2019 12:38:30 AM] [ClientHandler] Handling the client...
+[20.6.2019 12:38:30 AM] [CleanUp] CleanUp Thread Started
+[20.6.2019 12:38:30 AM] [Server] Created a new Thread. [Total Threads: 1]
+[20.6.2019 12:38:30 AM] [ClientHandler] Client Handled.
+[20.6.2019 12:38:38 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:39:10 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:39:22 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:39:32 AM] Email: codrut.iftimie@gmail.com   |   Password:1234
+[20.6.2019 12:39:47 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:40:32 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:40:42 AM] bead3745-5928-4ec1-b432-64e488551f24
+[20.6.2019 12:40:43 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:41:24 AM] Server started! Listening To Port [6788]
+[20.6.2019 12:41:24 AM] [Database] Connected successfuly
+[20.6.2019 12:41:29 AM] [Server] New client Connected. Current clients: [1]
+[20.6.2019 12:41:29 AM] [ClientHandler] Handling the client...
+[20.6.2019 12:41:29 AM] [CleanUp] CleanUp Thread Started
+[20.6.2019 12:41:29 AM] [Server] Created a new Thread. [Total Threads: 1]
+[20.6.2019 12:41:29 AM] [ClientHandler] Client Handled.
+[20.6.2019 12:41:35 AM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 12:41:35 AM] Email: codrut.iftimie@gmail.com   |   Password:1234
+[20.6.2019 12:41:35 AM] bead3745-5928-4ec1-b432-64e488551f24
+[20.6.2019 12:41:39 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:41:49 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:41:59 AM] [CleanUp] 1 clients removed.
+[20.6.2019 12:42:09 AM] [CleanUp] 0 clients removed.
+[20.6.2019 12:42:19 AM] [CleanUp] 0 clients removed.
