@@ -16,23 +16,6 @@ public final class Server implements Runnable {
     private static boolean activeConnection;
     public static String message;
 
-    public static void initializeConnection(final int port, final Context context) {
-//        if(connection == null) {
-//            new Thread(new Runnable() {
-//                @Override
-//                public void run() {
-//                    try {
-//                        connection = new Socket("192.168.2.101", 7689);
-//                        writeSocket = new DataOutputStream(connection.getOutputStream());
-//                        readSocket = new BufferedReader(new InputStreamReader(connection.getInputStream()));
-//                    } catch (IOException e) {
-//                        e.printStackTrace();
-//                    }
-//                }
-//            }).start();
-//        }
-    }
-
     public static void terminateConnection() {
         activeConnection = false;
     }

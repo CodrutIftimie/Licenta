@@ -18,7 +18,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        new Thread(new Server()).start();
+        //new Thread(new Server()).start();
 
         createLoginForm();
     }
@@ -26,18 +26,18 @@ public class LoginActivity extends AppCompatActivity {
     public void loginClicked(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         intent.putExtra("login_state", "success");
-        //startActivity(intent);
+        startActivity(intent);
 
-        try {
-            StringBuilder message = new StringBuilder();
-            message.append("L;");
-            message.append(loginForm.getEmailInput().getText().toString());
-            message.append(";");
-            message.append(loginForm.getPasswordInput().getText().toString());
-            Server.sendMessage(message.toString());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        try {
+//            StringBuilder message = new StringBuilder();
+//            message.append("L;");
+//            message.append(loginForm.getEmailInput().getText().toString());
+//            message.append(";");
+//            message.append(loginForm.getPasswordInput().getText().toString());
+//            Server.sendMessage(message.toString());
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
     }
 
     public void registerClicked(View v) {

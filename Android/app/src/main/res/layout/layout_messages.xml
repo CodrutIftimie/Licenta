@@ -19,13 +19,13 @@
             android:layout_marginBottom="10dp"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
-        <include android:id="@+id/message_one" layout="@layout/message_preview" />
-        <include layout="@layout/message_preview" />
-        <include layout="@layout/message_preview" />
-        <include layout="@layout/message_preview" />
-        <include layout="@layout/message_preview" />
+        <!--<include android:id="@+id/message_one" layout="@layout/message_preview" />-->
+        <!--<include layout="@layout/message_preview" />-->
+        <!--<include layout="@layout/message_preview" />-->
+        <!--<include layout="@layout/message_preview" />-->
+        <!--<include layout="@layout/message_preview" />-->
     </LinearLayout>
 
 </ScrollView>

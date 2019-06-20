@@ -6,6 +6,7 @@
     android:orientation="vertical"
     android:paddingStart="8dp"
     android:paddingEnd="8dp"
+    android:paddingBottom="8dp"
     android:background="@color/colorBackground">
 
     <RelativeLayout
@@ -14,7 +15,7 @@
         android:paddingTop="10dp">
 
         <ImageButton
-            android:id="@+id/post_posterAvatar"
+            android:id="@+id/messagepv_posterAvatar"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:background="@null"
@@ -23,28 +24,35 @@
             android:src="@drawable/ic_avatar_default" />
 
         <TextView
-            android:id="@+id/post_posterName"
+            android:id="@+id/messagepv_posterName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginStart="5dp"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:layout_toEndOf="@+id/post_posterAvatar"
+            android:layout_toEndOf="@+id/messagepv_posterAvatar"
             android:text="@string/post_posterName"
             android:textColor="#FFFFFF" />
 
         <TextView
-            android:id="@+id/post_time"
+            android:id="@+id/messagepv_msgPreview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/post_posterName"
+            android:layout_below="@+id/messagepv_posterName"
             android:layout_marginStart="5dp"
-            android:layout_toEndOf="@+id/post_posterAvatar"
+            android:layout_toEndOf="@+id/messagepv_posterAvatar"
             android:text="@string/message_previewMessage"
             android:textColor="#DDDDDD"
             android:textSize="16sp" />
+        <Button
+            android:id="@+id/messagepv_endButton"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@color/colorAccent"
+            android:text="@string/messagepv_end"/>
     </RelativeLayout>
-
 
 </LinearLayout>

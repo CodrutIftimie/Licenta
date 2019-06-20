@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#555555"
+    android:paddingBottom="10dp"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/rating_ratetv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate FirstName LastName"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"/>
+
+    <RatingBar
+        android:id="@+id/rating_rateBar"
+        android:layout_below="@+id/rating_ratetv"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="3"
+        android:stepSize="1"
+        android:layout_marginTop="10dp" />
+
+    <RelativeLayout
+        android:layout_below="@+id/rating_rateBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/rating_btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Rate"
+            android:background="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/rating_btnCancel"
+            android:layout_toEndOf="@id/rating_btnOk"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_height="30dp"
+            android:text="No thanks"
+            android:background="#AAAAAA"/>
+    </RelativeLayout>
+
+</RelativeLayout>

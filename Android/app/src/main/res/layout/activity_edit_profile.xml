@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".EditProfileActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:fillViewport="true">
+
+            <TextView
+                android:id="@+id/editprofile_editTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/editprofile_edit_your_profile"/>
+
+            <LinearLayout
+                android:id="@+id/editprofile_inputs"
+                android:layout_below="@+id/editprofile_editTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                >
+
+                <LinearLayout
+                    android:id="@+id/editprofile_emailInputLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/editprofile_emailTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login_emailTextView"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editprofile_emailInput"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/colorAccent"
+                        android:ems="20"
+                        android:hint="@string/login_emailInputHint"
+                        android:inputType="textEmailAddress"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorHint" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/editprofile_firstNameInputLayout"
+                    android:layout_below="@+id/editprofile_emailInputLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/editprofile_firstNameTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/register_firstNameTextView"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editprofile_firstNameInput"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/colorAccent"
+                        android:ems="20"
+                        android:hint="@string/register_firstNameHint"
+                        android:inputType="textPersonName"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorHint" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/editprofile_lastNameInputLayout"
+                    android:layout_below="@+id/editprofile_firstNameInputLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/editprofile_lastNameTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/register_lastNameTextView"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editprofile_lastNameInput"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/colorAccent"
+                        android:ems="20"
+                        android:hint="@string/register_lastNameHint"
+                        android:inputType="textPersonName"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorHint" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/editprofile_passwordInputLayout"
+                    android:layout_below="@id/editprofile_lastNameInputLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/editprofile_passwordTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login_passwordTextView"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editprofile_passwordInput"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/colorAccent"
+                        android:ems="20"
+                        android:fontFamily="sans-serif"
+                        android:hint="@string/login_passwordHint"
+                        android:inputType="textPassword"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorHint" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/editprofile_cPasswordInputLayout"
+                    android:layout_below="@id/editprofile_passwordInputLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/editprofile_cPasswordTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/register_confirmPasswordTextView"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editprofile_cPasswordInput"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/colorAccent"
+                        android:ems="20"
+                        android:fontFamily="sans-serif"
+                        android:hint="@string/login_passwordHint"
+                        android:inputType="textPassword"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorHint" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <CheckBox
+                android:id="@+id/editprofile_check_helper"
+                android:layout_below="@+id/editprofile_inputs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/editprofile_enable_helper_mode"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFFFFF"/>
+
+            <LinearLayout
+                android:id="@+id/editprofile_categories"
+                android:layout_below="@+id/editprofile_check_helper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:text="@string/editprofile_select_the_categories_where_you_think_you_can_help"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanic"
+                    android:textColor="#FFFFFF"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Electronics"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanic"
+                    android:textColor="#FFFFFF"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanic"
+                    android:textColor="#FFFFFF"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Electronics"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanic"
+                    android:textColor="#FFFFFF"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanic"
+                    android:textColor="#FFFFFF"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Electronics"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanic"
+                    android:textColor="#FFFFFF"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanic"
+                    android:textColor="#FFFFFF"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Electronics"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanic"
+                    android:textColor="#FFFFFF"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanic"
+                    android:textColor="#FFFFFF"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Electronics"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanic"
+                    android:textColor="#FFFFFF"/>
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/editprofile_bottom_buttons"
+                android:layout_below="@+id/editprofile_categories"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp">
+
+                <Button
+                    android:id="@+id/editproifle_btn_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:text="@string/editprofile_save"
+                    android:layout_marginEnd="30dp"/>
+
+                <Button
+                    android:id="@+id/editporifle_btn_cancel"
+                    android:layout_toEndOf="@+id/editproifle_btn_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#AAAAAA"
+                    android:text="@string/editprofile_cancel"/>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

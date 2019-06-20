@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         feedFragment = new FeedFragment();
         profileFragment = new ProfileFragment();
         messagesFragment = new MessagesFragment();
-        Server.sendMessage("Yoooo");
 
         BottomNavigationView navigation = findViewById(R.id.navigation);
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_containter, feedFragment).commit();

@@ -41,4 +41,17 @@
     <string name="messages_title">Messages</string>
     <string name="message_previewMessage">Preview Message</string>
     <string name="your_posts">Your Posts</string>
+    <string name="newpost_tv_add_a_new_post">Add a new post</string>
+    <string name="newpost_upload_image">Upload Image</string>
+    <string name="newpost_post">Post</string>
+    <string name="newpost_category">Category:</string>
+    <string name="newpost_post_description">Post description</string>
+    <string name="newpost_image_png">image.png</string>
+    <string name="editprofile_save">Save</string>
+    <string name="editprofile_cancel">Cancel</string>
+    <string name="editprofile_enable_helper_mode">Enable helper mode</string>
+    <string name="editprofile_select_the_categories_where_you_think_you_can_help">Select the categories where you think you can help</string>
+    <string name="editprofile_edit_your_profile">Edit your profile</string>
+    <string name="profile_edit_profile">Edit profile</string>
+    <string name="messagepv_end">End</string>
 </resources>
