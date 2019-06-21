@@ -24,34 +24,47 @@
                 android:text="@string/profile_edit_profile"
                 android:background="@color/colorAccent"/>
 
+            <Button
+                android:id="@+id/profile_logoutButton"
+                android:layout_below="@id/profile_editButton"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="@string/profile_logout"
+                android:background="#FF0000"/>
+
             <ImageButton
-                android:id="@+id/profile_posterAvatar"
-                android:layout_below="@+id/profile_editButton"
+                android:id="@+id/profile_Avatar"
+                android:layout_below="@+id/profile_logoutButton"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:background="@null"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:contentDescription="@string/post_posterAvatar"
                 android:scaleType="fitXY"
                 android:src="@drawable/ic_avatar_default" />
 
             <TextView
-                android:id="@+id/profile_posterName"
+                android:id="@+id/profile_Name"
+                android:layout_below="@id/profile_logoutButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="5dp"
-                android:layout_toEndOf="@+id/profile_posterAvatar"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/profile_Avatar"
                 android:text="@string/post_posterName"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <RatingBar
                 android:id="@+id/profile_rating"
-                android:layout_below="@+id/profile_posterName"
-                android:layout_marginTop="80dp"
-                android:layout_toEndOf="@id/profile_posterAvatar"
+                android:layout_below="@+id/profile_Name"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/profile_Avatar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scaleX="0.5"

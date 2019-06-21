@@ -6,7 +6,7 @@ namespace AppServer.Business
     {
         static void Main(string[] args)
         {
-            Server server = new Server(6788);
+            Server server = new Server(6789);
             server.Run();
         }
     }

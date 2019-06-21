@@ -20,12 +20,21 @@
             android:gravity="center"
             android:layout_gravity="center">
 
+
             <ImageView
                 android:id="@+id/login_image"
                 android:layout_width="300dp"
                 android:layout_height="50dp"
                 android:contentDescription="@string/login_imageDescription"
                 android:src="@drawable/logo_big_fit" />
+
+            <TextView
+                android:id="@+id/login_errorMessage"
+                android:layout_marginTop="20dp"
+                android:textColor="#FF0000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emptyString" />
 
             <LinearLayout
                 android:id="@+id/login_emailInputLayout"

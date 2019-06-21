@@ -1,6 +1,9 @@
-﻿using System.Data.SqlClient;
+﻿using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Net;
 using System.Net.Sockets;
+using System.Text;
 
 namespace AppServer.Data
 {
@@ -47,6 +50,56 @@ namespace AppServer.Data
         {
             Listener.Stop();
             Listener = null;
+        }
+
+        public static List<string[]> QueryResult(int numFields, string query)
+        {
+            List<string[]> values = new List<string[]>();
+            SqlCommand command;
+            SqlDataReader dataReader;
+
+            command = new SqlCommand(query, Database);
+            dataReader = command.ExecuteReader();
+
+            while (dataReader.Read())
+            {
+                string[] vals = new string[numFields];
+                for (int i = 0; i < numFields; i++)
+                    vals[i] = dataReader.GetValue(i).ToString();
+                values.Add(vals);
+            }
+
+            dataReader.Close();
+            return values;
+        }
+
+        public static bool InsertQuery(string table, string[] fields, string[] values)
+        {
+            using (SqlCommand cmd = new SqlCommand())
+            {
+                cmd.Connection = Database;
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = $"INSERT INTO {table}(";
+                foreach (var field in fields)
+                    cmd.CommandText += $"{field},";
+                cmd.CommandText = cmd.CommandText.Remove(cmd.CommandText.Length - 1);
+                cmd.CommandText += ") VALUES (";
+                foreach (var value in values)
+                    cmd.CommandText += $"'{value}',";
+                cmd.CommandText = cmd.CommandText.Remove(cmd.CommandText.Length - 1);
+                cmd.CommandText += ")";
+
+
+                if (cmd.ExecuteNonQuery() > 0)
+                    return true;
+            }
+            return false;
+        }
+
+        public static void Write(TcpClient client, string message)
+        {
+            byte[] toClient = Encoding.ASCII.GetBytes(message);
+            client.GetStream().Write(toClient, 0, toClient.Length);
         }
     }
 }

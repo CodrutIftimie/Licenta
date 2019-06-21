@@ -234,3 +234,439 @@
 [20.6.2019 12:41:59 AM] [CleanUp] 1 clients removed.
 [20.6.2019 12:42:09 AM] [CleanUp] 0 clients removed.
 [20.6.2019 12:42:19 AM] [CleanUp] 0 clients removed.
+[20.6.2019 7:07:56 PM] Server started! Listening To Port [6788]
+[20.6.2019 7:07:56 PM] [Database] Connected successfuly
+[20.6.2019 7:08:32 PM] [Server] New client Connected. Current clients: [1]
+[20.6.2019 7:08:32 PM] [ClientHandler] Handling the client...
+[20.6.2019 7:08:32 PM] [Server] Created a new Thread. [Total Threads: 1]
+[20.6.2019 7:08:32 PM] [ClientHandler] Client Handled.
+[20.6.2019 7:08:42 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:08:47 PM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 7:08:47 PM] Email: codrut.iftimie@gmail.com   |   Password:1234
+[20.6.2019 7:08:47 PM] bead3745-5928-4ec1-b432-64e488551f24
+[20.6.2019 7:08:52 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:09:02 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:09:12 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:09:22 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:09:32 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:09:42 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:09:52 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:10:02 PM] [CleanUp] 1 clients removed.
+[20.6.2019 7:10:12 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:10:22 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:10:32 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:10:42 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:10:52 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:11:02 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:11:12 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:11:22 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:11:32 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:11:42 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:11:52 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:12:02 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:12:12 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:12:22 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:12:32 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:12:42 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:12:52 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:13:02 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:13:12 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:13:22 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:13:32 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:13:42 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:13:52 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:14:02 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:14:12 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:14:22 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:14:32 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:14:42 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:14:52 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:26:12 PM] Server started! Listening To Port [6788]
+[20.6.2019 7:26:12 PM] [Database] Connected successfuly
+[20.6.2019 7:26:25 PM] [Server] New client Connected. Current clients: [1]
+[20.6.2019 7:26:25 PM] [ClientHandler] Handling the client...
+[20.6.2019 7:26:25 PM] [CleanUp] CleanUp Thread Started
+[20.6.2019 7:26:25 PM] [Server] Created a new Thread. [Total Threads: 1]
+[20.6.2019 7:26:25 PM] [ClientHandler] Client Handled.
+[20.6.2019 7:26:35 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:26:45 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:26:55 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:27:05 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:27:15 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:27:25 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:27:35 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:27:45 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:27:55 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:28:05 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:28:15 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:28:25 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:28:35 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:28:45 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:28:55 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:29:05 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:29:15 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:29:25 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:29:35 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:29:45 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:29:55 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:30:05 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:30:15 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:30:25 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:30:35 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:30:45 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:30:55 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:31:05 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:31:15 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:31:25 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:31:35 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:31:45 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:31:55 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:32:05 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:32:15 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:32:25 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:32:35 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:32:45 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:32:55 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:33:05 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:33:15 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:33:25 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:33:35 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:33:45 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:33:55 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:34:05 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:34:15 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:34:25 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:34:35 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:34:45 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:34:55 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:35:02 PM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[20.6.2019 7:35:02 PM] Email: codrut.iftimie@gmail.com   |   Password:1234
+[20.6.2019 7:35:02 PM] bead3745-5928-4ec1-b432-64e488551f24
+[20.6.2019 7:35:02 PM] [Thread 0] : Yoooo
+[20.6.2019 7:35:05 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:35:15 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:35:25 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:35:35 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:35:45 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:35:55 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:36:05 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:36:15 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:36:25 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:36:35 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:36:45 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:36:55 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:37:05 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:37:15 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:37:25 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:37:35 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:37:45 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:37:55 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:38:05 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:38:15 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:38:25 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:38:35 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:38:45 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:38:55 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:39:05 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:39:15 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:39:25 PM] [CleanUp] 0 clients removed.
+[20.6.2019 7:39:35 PM] [CleanUp] 0 clients removed.
+[21.6.2019 2:07:32 PM] Server started! Listening To Port [6788]
+[21.6.2019 2:07:33 PM] [Database] Connected successfuly
+[21.6.2019 2:10:00 PM] Server started! Listening To Port [6789]
+[21.6.2019 2:10:00 PM] [Database] Connected successfuly
+[21.6.2019 2:10:08 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 2:10:08 PM] [ClientHandler] Handling the client...
+[21.6.2019 2:10:08 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 2:10:08 PM] [ClientHandler] Client Handled.
+[21.6.2019 2:10:16 PM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[21.6.2019 2:10:16 PM] Email: codrut.iftimie@gmail.com   |   Password:1234
+[21.6.2019 2:10:16 PM] bead3745-5928-4ec1-b432-64e488551f24
+[21.6.2019 2:10:18 PM] [CleanUp] 0 clients removed.
+[21.6.2019 2:10:28 PM] [CleanUp] 0 clients removed.
+[21.6.2019 2:10:38 PM] [CleanUp] 1 clients removed.
+[21.6.2019 2:10:48 PM] [CleanUp] 0 clients removed.
+[21.6.2019 2:10:58 PM] [CleanUp] 0 clients removed.
+[21.6.2019 2:11:08 PM] [CleanUp] 0 clients removed.
+[21.6.2019 2:11:18 PM] [CleanUp] 0 clients removed.
+[21.6.2019 2:11:28 PM] [CleanUp] 0 clients removed.
+[21.6.2019 2:11:38 PM] [CleanUp] 0 clients removed.
+[21.6.2019 2:11:48 PM] [CleanUp] 0 clients removed.
+[21.6.2019 2:11:58 PM] [CleanUp] 0 clients removed.
+[21.6.2019 2:12:08 PM] [CleanUp] 0 clients removed.
+[21.6.2019 2:13:05 PM] Server started! Listening To Port [6789]
+[21.6.2019 2:13:06 PM] [Database] Connected successfuly
+[21.6.2019 2:18:13 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 2:18:13 PM] [ClientHandler] Handling the client...
+[21.6.2019 2:18:13 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 2:18:13 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 2:18:13 PM] [ClientHandler] Client Handled.
+[21.6.2019 2:18:23 PM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[21.6.2019 2:18:23 PM] Email: codrut.iftimie@gmail.com   |   Password:1234
+[21.6.2019 2:18:23 PM] bead3745-5928-4ec1-b432-64e488551f24
+[21.6.2019 2:19:18 PM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[21.6.2019 2:19:18 PM] Email: codrut.iftimie@gmail.com   |   Password:1234
+[21.6.2019 2:22:04 PM] Server started! Listening To Port [6787]
+[21.6.2019 2:22:05 PM] [Database] Connected successfuly
+[21.6.2019 2:22:11 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 2:22:11 PM] [ClientHandler] Handling the client...
+[21.6.2019 2:22:11 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 2:22:11 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 2:22:11 PM] [ClientHandler] Client Handled.
+[21.6.2019 2:22:20 PM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[21.6.2019 2:22:20 PM] Email: codrut.iftimie@gmail.com   |   Password:1234
+[21.6.2019 2:22:20 PM] bead3745-5928-4ec1-b432-64e488551f24
+[21.6.2019 2:22:52 PM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[21.6.2019 2:22:52 PM] Email: codrut.iftimie@gmail.com   |   Password:1234
+[21.6.2019 2:22:52 PM] bead3745-5928-4ec1-b432-64e488551f24
+[21.6.2019 2:23:31 PM] [CleanUp] 1 client removed.
+[21.6.2019 2:24:14 PM] Server started! Listening To Port [6787]
+[21.6.2019 2:24:14 PM] [Database] Connected successfuly
+[21.6.2019 2:24:26 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 2:24:26 PM] [ClientHandler] Handling the client...
+[21.6.2019 2:24:26 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 2:24:26 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 2:24:26 PM] [ClientHandler] Client Handled.
+[21.6.2019 2:24:34 PM] [Thread 0] : L;codrut.iftimie@gmail.com;1234
+[21.6.2019 2:24:34 PM] Email: codrut.iftimie@gmail.com   |   Password:1234
+[21.6.2019 2:24:34 PM] bead3745-5928-4ec1-b432-64e488551f24
+[21.6.2019 2:37:00 PM] Server started! Listening To Port [6786]
+[21.6.2019 2:37:00 PM] [Database] Connected successfuly
+[21.6.2019 2:37:08 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 2:37:08 PM] [ClientHandler] Handling the client...
+[21.6.2019 2:37:08 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 2:37:08 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 2:37:08 PM] [ClientHandler] Client Handled.
+[21.6.2019 2:37:15 PM] [Thread 0] : L;codrut.iftimie@gmail.com;1509442
+[21.6.2019 2:37:15 PM] Email: codrut.iftimie@gmail.com   |   Password:1509442
+[21.6.2019 2:37:38 PM] [CleanUp] 1 client removed.
+[21.6.2019 2:42:42 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 2:42:42 PM] [ClientHandler] Handling the client...
+[21.6.2019 2:42:42 PM] [ClientHandler] Client Handled.
+[21.6.2019 2:42:53 PM] [Thread 0] : L;codrut.iftimie@gmail.com;1509442
+[21.6.2019 2:42:53 PM] Email: codrut.iftimie@gmail.com   |   Password:1509442
+[21.6.2019 2:45:09 PM] [Thread 0] : L;codrut.iftimie@gmail.com;1509442
+[21.6.2019 2:45:09 PM] Email: codrut.iftimie@gmail.com   |   Password:1509442
+[21.6.2019 2:45:09 PM] bead3745-5928-4ec1-b432-64e488551f24
+[21.6.2019 2:48:18 PM] [CleanUp] 1 client removed.
+[21.6.2019 2:48:37 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 2:48:37 PM] [ClientHandler] Handling the client...
+[21.6.2019 2:48:37 PM] [ClientHandler] Client Handled.
+[21.6.2019 2:48:48 PM] [Thread 0] : L;codrut.iftimie@gmail.com;1509442
+[21.6.2019 2:48:48 PM] Email: codrut.iftimie@gmail.com   |   Password:1509442
+[21.6.2019 2:48:48 PM] bead3745-5928-4ec1-b432-64e488551f24
+[21.6.2019 3:02:38 PM] [CleanUp] 1 client removed.
+[21.6.2019 3:31:26 PM] Server started! Listening To Port [6786]
+[21.6.2019 3:31:26 PM] [Database] Connected successfuly
+[21.6.2019 3:34:14 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 3:34:14 PM] [ClientHandler] Handling the client...
+[21.6.2019 3:34:14 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 3:34:14 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 3:34:14 PM] [ClientHandler] Client Handled.
+[21.6.2019 3:34:22 PM] [Thread 0] : L;codrut.iftimie@gmail.com;1509442
+[21.6.2019 3:34:22 PM] Email: codrut.iftimie@gmail.com   |   Password:1509442
+[21.6.2019 3:34:22 PM] bead3745-5928-4ec1-b432-64e488551f24
+[21.6.2019 3:34:54 PM] [CleanUp] 1 client removed.
+[21.6.2019 3:34:57 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 3:34:57 PM] [ClientHandler] Handling the client...
+[21.6.2019 3:34:57 PM] [ClientHandler] Client Handled.
+[21.6.2019 3:35:09 PM] [Thread 0] : L;codrut.iftimie@gmail.com;-390867973
+[21.6.2019 3:35:09 PM] Email: codrut.iftimie@gmail.com   |   Password:-390867973
+[21.6.2019 3:35:30 PM] [Thread 0] : L;codrut.iftimie@gmail.com;1509442
+[21.6.2019 3:35:30 PM] Email: codrut.iftimie@gmail.com   |   Password:1509442
+[21.6.2019 3:35:30 PM] bead3745-5928-4ec1-b432-64e488551f24
+[21.6.2019 3:36:04 PM] [CleanUp] 1 client removed.
+[21.6.2019 4:09:09 PM] Server started! Listening To Port [6786]
+[21.6.2019 4:09:10 PM] [Database] Connected successfuly
+[21.6.2019 4:10:46 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 4:10:46 PM] [ClientHandler] Handling the client...
+[21.6.2019 4:10:46 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 4:10:46 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 4:10:46 PM] [ClientHandler] Client Handled.
+[21.6.2019 4:11:10 PM] [Thread 0] : R;asd@asd.com;Prenume;Nume;oparolafoartegrea
+[21.6.2019 4:12:40 PM] Server started! Listening To Port [6786]
+[21.6.2019 4:12:40 PM] [Database] Connected successfuly
+[21.6.2019 4:12:50 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 4:12:50 PM] [ClientHandler] Handling the client...
+[21.6.2019 4:12:50 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 4:12:50 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 4:12:50 PM] [ClientHandler] Client Handled.
+[21.6.2019 4:13:04 PM] [Thread 0] : R;asd@asd.com;Prenume;Nume;oparolafoartegrea
+[21.6.2019 4:13:50 PM] [CleanUp] 1 client removed.
+[21.6.2019 4:24:44 PM] Server started! Listening To Port [6786]
+[21.6.2019 4:24:44 PM] [Database] Connected successfuly
+[21.6.2019 4:34:11 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 4:34:11 PM] [ClientHandler] Handling the client...
+[21.6.2019 4:34:11 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 4:34:11 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 4:34:11 PM] [ClientHandler] Client Handled.
+[21.6.2019 4:34:32 PM] [Thread 0] : R;codrut.iftimie@gmail.com;Codrut;Iftimie;!�����B���ݿ]|�}?`�4�
+��#!�
+[21.6.2019 4:35:33 PM] [Thread 0] : R;codrut@gmail.com;Codrut;Iftimie;!�����B���ݿ]|�}?`�4�
+��#!�
+[21.6.2019 4:36:21 PM] [CleanUp] 1 client removed.
+[21.6.2019 4:36:33 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 4:36:33 PM] [ClientHandler] Handling the client...
+[21.6.2019 4:36:33 PM] [ClientHandler] Client Handled.
+[21.6.2019 4:36:48 PM] [Thread 0] : L;codrut@gmail.com;!�����B���ݿ]|�}?`�4�
+��#!�
+[21.6.2019 4:36:48 PM] Email: codrut@gmail.com   |   Password:!�����B���ݿ]|�}?`�4�
+��#!�
+[21.6.2019 4:36:48 PM] e0221c20-0571-44df-a698-b98b8e539a7b
+[21.6.2019 6:06:24 PM] Server started! Listening To Port [6786]
+[21.6.2019 6:06:25 PM] [Database] Connected successfuly
+[21.6.2019 6:09:19 PM] Server started! Listening To Port [6785]
+[21.6.2019 6:09:19 PM] [Database] Connected successfuly
+[21.6.2019 6:09:43 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 6:09:43 PM] [ClientHandler] Handling the client...
+[21.6.2019 6:09:43 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 6:09:43 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 6:09:43 PM] [ClientHandler] Client Handled.
+[21.6.2019 6:09:49 PM] [Thread 0] : L;codrut.iftimie@gmail.com;[B@fb7ed9
+[21.6.2019 6:09:49 PM] Email: codrut.iftimie@gmail.com   |   Password:[B@fb7ed9
+[21.6.2019 6:10:23 PM] [CleanUp] 1 client removed.
+[21.6.2019 6:10:28 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 6:10:28 PM] [ClientHandler] Handling the client...
+[21.6.2019 6:10:28 PM] [ClientHandler] Client Handled.
+[21.6.2019 6:10:33 PM] [Thread 0] : L;codrut.iftimie@gmail.com;[B@fb7ed9
+[21.6.2019 6:10:33 PM] Email: codrut.iftimie@gmail.com   |   Password:[B@fb7ed9
+[21.6.2019 6:11:15 PM] [Thread 0] : L;codrut.iftimi@mail.com;[B@4ad0a4
+[21.6.2019 6:11:15 PM] Email: codrut.iftimi@mail.com   |   Password:[B@4ad0a4
+[21.6.2019 6:12:22 PM] [Server] New client Connected. Current clients: [2]
+[21.6.2019 6:12:22 PM] [ClientHandler] Handling the client...
+[21.6.2019 6:12:22 PM] [ClientHandler] Client Handled.
+[21.6.2019 6:12:28 PM] [Thread 0] : L;codrut.iftimie@gmail.com;�󩒬_K�>25kV4f� ���47���
+[21.6.2019 6:12:28 PM] Email: codrut.iftimie@gmail.com   |   Password:�󩒬_K�>25kV4f� ���47���
+[21.6.2019 6:12:33 PM] [CleanUp] 1 client removed.
+[21.6.2019 6:13:03 PM] [CleanUp] 1 client removed.
+[21.6.2019 6:14:40 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 6:14:40 PM] [ClientHandler] Handling the client...
+[21.6.2019 6:14:40 PM] [ClientHandler] Client Handled.
+[21.6.2019 6:14:49 PM] [Thread 0] : L;codrut.iftimie@gmail.com;1263081-16797510669490-8211237-15-3828-61-59-1566-98-46-82-71-3130-46-286489-43125
+[21.6.2019 6:14:49 PM] Email: codrut.iftimie@gmail.com   |   Password:1263081-16797510669490-8211237-15-3828-61-59-1566-98-46-82-71-3130-46-286489-43125
+[21.6.2019 6:15:23 PM] [CleanUp] 1 client removed.
+[21.6.2019 6:17:14 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 6:17:14 PM] [ClientHandler] Handling the client...
+[21.6.2019 6:17:14 PM] [ClientHandler] Client Handled.
+[21.6.2019 6:17:31 PM] [Thread 0] : R;codrut.iftimie@gmail.com;Codrut;Iftimie;-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
+[21.6.2019 6:18:23 PM] [CleanUp] 1 client removed.
+[21.6.2019 6:18:39 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 6:18:39 PM] [ClientHandler] Handling the client...
+[21.6.2019 6:18:39 PM] [ClientHandler] Client Handled.
+[21.6.2019 6:19:06 PM] [Thread 0] : L;codrut.iftimie@gmail.com;-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
+[21.6.2019 6:19:06 PM] Email: codrut.iftimie@gmail.com   |   Password:-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
+[21.6.2019 6:19:07 PM] 40399801-15a8-4515-8dde-7707f5960a2b
+[21.6.2019 6:19:39 PM] [CleanUp] 1 client removed.
+[21.6.2019 7:23:12 PM] Server started! Listening To Port [6785]
+[21.6.2019 7:23:13 PM] [Database] Connected successfuly
+[21.6.2019 7:24:03 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 7:24:03 PM] [ClientHandler] Handling the client...
+[21.6.2019 7:24:03 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 7:24:03 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 7:24:03 PM] [ClientHandler] Client Handled.
+[21.6.2019 7:24:33 PM] [CleanUp] 1 client removed.
+[21.6.2019 7:25:32 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 7:25:32 PM] [ClientHandler] Handling the client...
+[21.6.2019 7:25:32 PM] [ClientHandler] Client Handled.
+[21.6.2019 7:25:43 PM] [Thread 0] : L;codrut.iftimie@gmail.com;-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
+[21.6.2019 7:25:43 PM] Email: codrut.iftimie@gmail.com   |   Password:-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
+[21.6.2019 7:32:53 PM] [CleanUp] 1 client removed.
+[21.6.2019 7:32:58 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 7:32:58 PM] [ClientHandler] Handling the client...
+[21.6.2019 7:32:58 PM] [ClientHandler] Client Handled.
+[21.6.2019 7:33:21 PM] [Thread 0] : L;codrut.iftimie@gmail.com;104-121-121-40-12076804412792-1-86-244-59-120-4096121-7-34-120487638-80-53-103-50-111-58
+[21.6.2019 7:33:21 PM] Email: codrut.iftimie@gmail.com   |   Password:104-121-121-40-12076804412792-1-86-244-59-120-4096121-7-34-120487638-80-53-103-50-111-58
+[21.6.2019 7:34:13 PM] [CleanUp] 1 client removed.
+[21.6.2019 7:35:49 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 7:35:49 PM] [ClientHandler] Handling the client...
+[21.6.2019 7:35:49 PM] [ClientHandler] Client Handled.
+[21.6.2019 7:39:47 PM] Server started! Listening To Port [6789]
+[21.6.2019 7:39:47 PM] [Database] Connected successfuly
+[21.6.2019 7:39:55 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 7:39:55 PM] [ClientHandler] Handling the client...
+[21.6.2019 7:39:55 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 7:39:55 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 7:39:55 PM] [ClientHandler] Client Handled.
+[21.6.2019 7:40:13 PM] [Thread 0] : L;codrut.iftimie@gmail.com;-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
+[21.6.2019 7:40:13 PM] Email: codrut.iftimie@gmail.com   |   Password:-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
+[21.6.2019 7:47:17 PM] Server started! Listening To Port [6789]
+[21.6.2019 7:47:18 PM] [Database] Connected successfuly
+[21.6.2019 7:47:26 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 7:47:26 PM] [ClientHandler] Handling the client...
+[21.6.2019 7:47:26 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 7:47:26 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 7:47:26 PM] [ClientHandler] Client Handled.
+[21.6.2019 7:47:39 PM] [Thread 0] : L;codrut.iftimie@gmail.com;-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
+[21.6.2019 7:47:39 PM] Email: codrut.iftimie@gmail.com   |   Password:-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
+[21.6.2019 7:51:56 PM] [CleanUp] 1 client removed.
+[21.6.2019 7:52:14 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 7:52:14 PM] [ClientHandler] Handling the client...
+[21.6.2019 7:52:14 PM] [ClientHandler] Client Handled.
+[21.6.2019 7:53:16 PM] [CleanUp] 1 client removed.
+[21.6.2019 7:53:42 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 7:53:42 PM] [ClientHandler] Handling the client...
+[21.6.2019 7:53:42 PM] [ClientHandler] Client Handled.
+[21.6.2019 7:53:56 PM] [CleanUp] 1 client removed.
+[21.6.2019 7:55:07 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 7:55:07 PM] [ClientHandler] Handling the client...
+[21.6.2019 7:55:07 PM] [ClientHandler] Client Handled.
+[21.6.2019 7:55:26 PM] [CleanUp] 1 client removed.
+[21.6.2019 7:57:41 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 7:57:41 PM] [ClientHandler] Handling the client...
+[21.6.2019 7:57:41 PM] [ClientHandler] Client Handled.
+[21.6.2019 7:57:42 PM] [Thread 0] : L;codrut.iftimie@gmail.com;-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
+[21.6.2019 7:57:42 PM] Email: codrut.iftimie@gmail.com   |   Password:-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
+[21.6.2019 8:02:54 PM] Server started! Listening To Port [6789]
+[21.6.2019 8:02:55 PM] [Database] Connected successfuly
+[21.6.2019 8:03:24 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 8:03:24 PM] [ClientHandler] Handling the client...
+[21.6.2019 8:03:24 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 8:03:24 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 8:03:24 PM] [ClientHandler] Client Handled.
+[21.6.2019 8:03:55 PM] [Thread 0] : R;leo@leo.ro;Leonard;Pester;-102-11243-844959-9412227-563195010143-12832-38-55443577-104-6116-65064-20-3
+[21.6.2019 8:05:25 PM] [CleanUp] 1 client removed.
+[21.6.2019 8:17:05 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 8:17:05 PM] [ClientHandler] Handling the client...
+[21.6.2019 8:17:05 PM] [ClientHandler] Client Handled.
+[21.6.2019 8:17:06 PM] [Thread 0] : L;leo@leo.ro;-102-11243-844959-9412227-563195010143-12832-38-55443577-104-6116-65064-20-3
+[21.6.2019 8:17:06 PM] Email: leo@leo.ro   |   Password:-102-11243-844959-9412227-563195010143-12832-38-55443577-104-6116-65064-20-3
+[21.6.2019 8:17:19 PM] [Server] New client Connected. Current clients: [2]
+[21.6.2019 8:17:19 PM] [ClientHandler] Handling the client...
+[21.6.2019 8:17:19 PM] [ClientHandler] Client Handled.
+[21.6.2019 8:17:33 PM] [Server] New client Connected. Current clients: [3]
+[21.6.2019 8:17:33 PM] [ClientHandler] Handling the client...
+[21.6.2019 8:17:33 PM] [ClientHandler] Client Handled.
+[21.6.2019 8:17:45 PM] [CleanUp] 1 client removed.
+[21.6.2019 8:17:55 PM] [CleanUp] 1 client removed.
+[21.6.2019 8:18:05 PM] [CleanUp] 1 client removed.
+[21.6.2019 8:18:42 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 8:18:42 PM] [ClientHandler] Handling the client...
+[21.6.2019 8:18:42 PM] [ClientHandler] Client Handled.
+[21.6.2019 8:18:53 PM] [Thread 0] : L;codrut.iftimie@gmail.com;-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
+[21.6.2019 8:18:53 PM] Email: codrut.iftimie@gmail.com   |   Password:-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
+[21.6.2019 8:19:25 PM] [CleanUp] 1 client removed.
+[21.6.2019 8:45:37 PM] Server started! Listening To Port [6789]
+[21.6.2019 8:45:37 PM] [Database] Connected successfuly
+[21.6.2019 8:45:56 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 8:45:56 PM] [ClientHandler] Handling the client...
+[21.6.2019 8:45:56 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 8:45:56 PM] [ClientHandler] Client Handled.
+[21.6.2019 8:46:07 PM] [Thread 0] : L;codrut.iftimie@gmail.com;-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
+[21.6.2019 8:46:07 PM] Email: codrut.iftimie@gmail.com   |   Password:-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
+[21.6.2019 8:49:46 PM] [CleanUp] 1 client removed.
+[21.6.2019 8:49:58 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 8:49:58 PM] [ClientHandler] Handling the client...
+[21.6.2019 8:49:58 PM] [ClientHandler] Client Handled.
+[21.6.2019 8:50:07 PM] [Thread 0] : L;codrut.iftimie@gmail.com;27-5830-11446112-64-96124-476310033-7712187-8-559356861-86-69-318-3799-528122-106
+[21.6.2019 8:50:07 PM] Email: codrut.iftimie@gmail.com   |   Password:27-5830-11446112-64-96124-476310033-7712187-8-559356861-86-69-318-3799-528122-106
+[21.6.2019 8:50:36 PM] [CleanUp] 1 client removed.
+[21.6.2019 9:10:24 PM] Server started! Listening To Port [6789]
+[21.6.2019 9:10:24 PM] [Database] Connected successfuly
+[21.6.2019 9:10:56 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 9:10:56 PM] [ClientHandler] Handling the client...
+[21.6.2019 9:10:56 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 9:10:56 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 9:10:56 PM] [ClientHandler] Client Handled.
+[21.6.2019 9:11:13 PM] [Thread 0] : R;codrut.iftimie@gmail.com;Codrut;Iftimie;-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
+[21.6.2019 9:12:11 PM] [Thread 0] : O;
+[21.6.2019 9:15:56 PM] [CleanUp] 1 client removed.

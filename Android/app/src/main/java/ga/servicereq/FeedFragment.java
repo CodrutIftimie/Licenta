@@ -32,14 +32,7 @@ public class FeedFragment extends Fragment {
 
         LinearLayout mainContent = Objects.requireNonNull(getView()).findViewById(R.id.main_content);
         posts = new PostsAdapter(this.getContext(), mainContent);
-        posts.add(new Post("Codrut", "Iftimie","10 minutes","Hahahahah asdfasdf asdf asdf a"));
-        posts.add(new Post("Codrut", "Iftimie","12 minutes","To discover all of the alternative widget styles available from the support library, look at the R.style reference for fields that begin with Widget. (Ignore the styles that begin with Base_Widget.) Remember to replace all underscores with periods when using the style name in your resources."));
-        posts.add(new Post("Codrut", "Iftimie","10 minutes","Hahahahah asdfasdf asdf asdf a"));
-        posts.add(new Post("Codrut", "Iftimie","12 minutes","To discover all of the alternative widget styles available from the support library, look at the R.style reference for fields that begin with Widget. (Ignore the styles that begin with Base_Widget.) Remember to replace all underscores with periods when using the style name in your resources."));
-        posts.add(new Post("Codrut", "Iftimie","10 minutes","Hahahahah asdfasdf asdf asdf a"));
-        posts.add(new Post("Codrut", "Iftimie","12 minutes","To discover all of the alternative widget styles available from the support library, look at the R.style reference for fields that begin with Widget. (Ignore the styles that begin with Base_Widget.) Remember to replace all underscores with periods when using the style name in your resources."));
-        posts.add(new Post("Codrut", "Iftimie","10 minutes","Hahahahah asdfasdf asdf asdf a"));
-        posts.add(new Post("Codrut", "Iftimie","12 minutes","To discover all of the alternative widget styles available from the support library, look at the R.style reference for fields that begin with Widget. (Ignore the styles that begin with Base_Widget.) Remember to replace all underscores with periods when using the style name in your resources."));
+        //posts.add(new Post("Codrut", "Iftimie","10 minutes","Hahahahah asdfasdf asdf asdf a"));
 
         addPost.setOnClickListener(new View.OnClickListener() {
             @Override

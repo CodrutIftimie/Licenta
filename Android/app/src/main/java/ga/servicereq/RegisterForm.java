@@ -89,6 +89,12 @@ public class RegisterForm {
         return false;
     }
 
+    public boolean isPasswordValid() {
+        if(passwordInput != null)
+            return passwordInput.getText().length() > 7;
+        return false;
+    }
+
     public boolean isValidName(EditText nameInput) {
         if(nameInput != null) {
             String name = nameInput.getText().toString();

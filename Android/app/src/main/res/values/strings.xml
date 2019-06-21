@@ -11,6 +11,8 @@
     <string name="login_emailTextView">Email</string>
     <string name="login_passwordTextView">Password</string>
     <string name="login_registerLink">Need an account? Tap here to register!</string>
+    <string name="login_invalidData">You have entered an invalid username or password!</string>
+    <string name="login_emptyPassword">Password cannot be empty!</string>
 
     <string name="register_registerButton">Register</string>
     <string name="register_firstNameTextView">First Name</string>
@@ -23,6 +25,8 @@
     <string name="register_passwordsDontMatch">The passwords do not match!</string>
     <string name="register_invalidFirstName">The First Name is invalid!</string>
     <string name="register_invalidLastName">The Last Name is invalid!</string>
+    <string name="register_invalidPassword">The password needs to be at least 8 characters long!</string>
+    <string name="register_existing">An account exists with the specified email!</string>
 
     <string name="main_logoDescription">ServiceReq logo</string>
     <string name="main_messagesDescription">Messages</string>
@@ -63,4 +67,5 @@
     <string name="newpost_only_at_my_home">Only at my home</string>
     <string name="profile_available">Available</string>
     <string name="main_add_new_post">Add new post</string>
+    <string name="profile_logout">Logout</string>
 </resources>

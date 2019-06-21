@@ -43,7 +43,7 @@ namespace AppServer.Data
             else
             {
                 AppThread bestThread = threads[0]; //assume that the best thread is the first thread
-                foreach(var thread in threads) //search all the threads
+                foreach (var thread in threads) //search all the threads
                 {
                     if (thread.Clients.Count < 100 && thread.Clients.Count < bestThread.Clients.Count) //if the thread has less than 100 clients and has less clients that the best thread then this is the new best thread
                         bestThread = thread;
@@ -58,7 +58,7 @@ namespace AppServer.Data
                         threads[threads.Count - 1].Thread.Start(); //start the thread
                         Log.Add($"[Server] Created a new Thread. [Total Threads: {threads.Count}]");
                     }
-                    else bestThread.AddClient(Client); 
+                    else bestThread.AddClient(Client);
                 }
                 else if (bestThread.Clients.Count >= 100) //if all the threads are full (have already 100 clients [or more?])
                 {
@@ -76,7 +76,7 @@ namespace AppServer.Data
         private static void Process(object list)
         {
             List<AppClient> clients = (List<AppClient>)list; //get the list of the clients on the current thread
-            while(clients.Count > 0 || threads.Count == 1) //while there are clients in this thread or there is only one thread
+            while (clients.Count > 0 || threads.Count == 1) //while there are clients in this thread or there is only one thread
             {
                 if (clients.Count == 0) //if there is no client then this is the only thread (deducted from while) so i will keep it alive
                 {
@@ -96,26 +96,57 @@ namespace AppServer.Data
                         {
                             if (clients[i].Client.Available > 0) //if the client has available data then treat it
                             {
+
                                 String message;
                                 byte[] data = new byte[clients[i].Client.Available];
                                 clients[i].Client.GetStream().Read(data);
                                 message = Encoding.Default.GetString(data);
                                 Log.Add($"[Thread {clients[i].ThreadId}] : {message}");
 
-                                if(message[0].Equals('L'))
+                                switch (message[0])
                                 {
-                                    String email = message.Split(';')[1];
-                                    String password = message.Split(';')[2];
-                                    Log.Add($"Email: {email}   |   Password:{password}");
-                                    SqlCommand command;
-                                    SqlDataReader dataReader;
-                                    String sql = $"SELECT UserId FROM Users WHERE email='{email}' AND password='{password}'";
-                                    command = new SqlCommand(sql, Server.Database);
-                                    dataReader = command.ExecuteReader();
-                                    while(dataReader.Read())
-                                    {
-                                        Log.Add(dataReader.GetValue(0).ToString());
-                                    }
+                                    case 'L':
+                                        String lEmail = message.Split(';')[1];
+                                        String lPassword = message.Split(';')[2];
+                                        Log.Add($"Email: {lEmail}   |   Password:{lPassword}");
+
+                                        List<string[]> lValues = Server.QueryResult(4, $"SELECT UserId, FirstName, LastName, Rating FROM Users WHERE email='{lEmail}' AND password='{lPassword}'");
+
+                                        if (lValues.Count == 1)
+                                        {
+                                            Server.Write(clients[i].Client, $"SUCCESS;{lValues[0][0]};{lValues[0][1]};{lValues[0][2]};{lValues[0][3]};");
+                                            clients[i].loggedIn = true;
+                                        }
+                                        else Server.Write(clients[i].Client, "FAIL;");
+                                        break;
+
+                                    case 'R':
+                                        String rEmail = message.Split(';')[1];
+                                        String rFirstName = message.Split(';')[2];
+                                        String rLastName = message.Split(';')[3];
+                                        String rPassword = message.Split(';')[4];
+
+                                        List<string[]> rValues = Server.QueryResult(1, $"SELECT UserId FROM Users WHERE email='{rEmail}'");
+                                        if (rValues.Count == 0)
+                                        {
+                                            string[] fields = new string[4] { "Email", "FirstName", "LastName", "Password" };
+                                            string[] values = new string[4] { rEmail, rFirstName, rLastName, rPassword };
+
+                                            if (Server.InsertQuery("Users", fields, values))
+                                            {
+                                                List<string[]> intVals = Server.QueryResult(4, $"SELECT UserId, FirstName, LastName, Rating FROM Users WHERE email='{rEmail}'");
+                                                Server.Write(clients[i].Client, $"SUCCESS;{intVals[0][0]};{intVals[0][1]};{intVals[0][2]};{intVals[0][3]};");
+                                                clients[i].loggedIn = true;
+                                            }
+                                            else Server.Write(clients[i].Client, "FAIL;");
+                                        }
+                                        else Server.Write(clients[i].Client, "EXISTING;");
+
+                                        break;
+
+                                    case 'O':
+                                        clients[i].loggedIn = false;
+                                        break;
                                 }
                             }
                         }
@@ -123,7 +154,7 @@ namespace AppServer.Data
                     }
                 }
             }
-            Log.Add($"[Server] Closing an empty Thread... [Total Threads: {threads.Count-1}]");
+            Log.Add($"[Server] Closing an empty Thread... [Total Threads: {threads.Count - 1}]");
         }
 
         private static void RemoveDisconnected(object argument)
@@ -158,7 +189,10 @@ namespace AppServer.Data
                         }
                     }
                 }
-                Log.Add($"[CleanUp] {count} clients removed.");
+                if (count == 1)
+                    Log.Add($"[CleanUp] {count} client removed.");
+                else if (count > 1)
+                    Log.Add($"[CleanUp] {count} clients removed.");
             }
         }
     }

@@ -1,5 +1,4 @@
 ﻿using System.Net.Sockets;
-using System;
 
 namespace AppServer.Data
 { 
@@ -7,6 +6,7 @@ namespace AppServer.Data
     {
         public TcpClient Client { get; set; }
         public long ThreadId { get; set; }
+        public bool loggedIn { get; set; }
 
         public AppClient(object Client, long ThreadId)
         {
@@ -25,6 +25,11 @@ namespace AppServer.Data
                 if (Client.GetStream().DataAvailable)
                     return true;
             return false;
+        }
+
+        public bool isLoggedIn()
+        {
+            return loggedIn;
         }
     }
 }
