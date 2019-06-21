@@ -15,7 +15,7 @@
         android:paddingTop="10dp">
 
         <ImageButton
-            android:id="@+id/messagepv_posterAvatar"
+            android:id="@+id/messagepv_receiverAvatar"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:background="@null"
@@ -24,14 +24,14 @@
             android:src="@drawable/ic_avatar_default" />
 
         <TextView
-            android:id="@+id/messagepv_posterName"
+            android:id="@+id/messagepv_receiverName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginStart="5dp"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:layout_toEndOf="@+id/messagepv_posterAvatar"
+            android:layout_toEndOf="@+id/messagepv_receiverAvatar"
             android:text="@string/post_posterName"
             android:textColor="#FFFFFF" />
 
@@ -39,9 +39,9 @@
             android:id="@+id/messagepv_msgPreview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/messagepv_posterName"
+            android:layout_below="@+id/messagepv_receiverName"
             android:layout_marginStart="5dp"
-            android:layout_toEndOf="@+id/messagepv_posterAvatar"
+            android:layout_toEndOf="@+id/messagepv_receiverAvatar"
             android:text="@string/message_previewMessage"
             android:textColor="#DDDDDD"
             android:textSize="16sp" />

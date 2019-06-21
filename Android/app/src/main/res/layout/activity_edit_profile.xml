@@ -34,41 +34,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_centerHorizontal="true"
-                >
-
-                <LinearLayout
-                    android:id="@+id/editprofile_emailInputLayout"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/editprofile_emailTextView"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/login_emailTextView"
-                        android:textColor="@color/colorPrimary"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-
-                    <EditText
-                        android:id="@+id/editprofile_emailInput"
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:backgroundTint="@color/colorAccent"
-                        android:ems="20"
-                        android:hint="@string/login_emailInputHint"
-                        android:inputType="textEmailAddress"
-                        android:paddingStart="15dp"
-                        android:paddingEnd="15dp"
-                        android:textColor="@color/colorPrimary"
-                        android:textColorHint="@color/colorHint" />
-                </LinearLayout>
+                android:layout_centerHorizontal="true">
 
                 <LinearLayout
                     android:id="@+id/editprofile_firstNameInputLayout"
-                    android:layout_below="@+id/editprofile_emailInputLayout"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -99,7 +68,6 @@
 
                 <LinearLayout
                     android:id="@+id/editprofile_lastNameInputLayout"
-                    android:layout_below="@+id/editprofile_firstNameInputLayout"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -130,7 +98,6 @@
 
                 <LinearLayout
                     android:id="@+id/editprofile_passwordInputLayout"
-                    android:layout_below="@id/editprofile_lastNameInputLayout"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -140,7 +107,7 @@
                         android:id="@+id/editprofile_passwordTextView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/login_passwordTextView"
+                        android:text="@string/editprofile_new_password"
                         android:textColor="@color/colorPrimary"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -162,7 +129,6 @@
 
                 <LinearLayout
                     android:id="@+id/editprofile_cPasswordInputLayout"
-                    android:layout_below="@id/editprofile_passwordInputLayout"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -172,7 +138,7 @@
                         android:id="@+id/editprofile_cPasswordTextView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/register_confirmPasswordTextView"
+                        android:text="@string/editprofile_confirm_new_password"
                         android:textColor="@color/colorPrimary"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -219,83 +185,6 @@
                     android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     android:text="@string/editprofile_select_the_categories_where_you_think_you_can_help"/>
-
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mechanic"
-                    android:textColor="#FFFFFF"/>
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#FFFFFF"
-                    android:text="Electronics"/>
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mechanic"
-                    android:textColor="#FFFFFF"/>
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mechanic"
-                    android:textColor="#FFFFFF"/>
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#FFFFFF"
-                    android:text="Electronics"/>
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mechanic"
-                    android:textColor="#FFFFFF"/>
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mechanic"
-                    android:textColor="#FFFFFF"/>
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#FFFFFF"
-                    android:text="Electronics"/>
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mechanic"
-                    android:textColor="#FFFFFF"/>
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mechanic"
-                    android:textColor="#FFFFFF"/>
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#FFFFFF"
-                    android:text="Electronics"/>
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mechanic"
-                    android:textColor="#FFFFFF"/>
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mechanic"
-                    android:textColor="#FFFFFF"/>
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#FFFFFF"
-                    android:text="Electronics"/>
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mechanic"
-                    android:textColor="#FFFFFF"/>
-
 
             </LinearLayout>
 

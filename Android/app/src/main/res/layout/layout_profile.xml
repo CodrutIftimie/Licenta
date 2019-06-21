@@ -59,6 +59,18 @@
                 android:isIndicator="true"
                 android:rating="3"
                 android:numStars="5"/>
+
+            <CheckBox
+                android:id="@+id/profile_available"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_rating"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFFFFF"
+                android:text="@string/profile_available"
+                android:textSize="18sp"
+                android:visibility="gone"
+                />
         </RelativeLayout>
 
         <TextView
@@ -71,25 +83,6 @@
             android:textStyle="bold"
             android:layout_marginBottom="10dp"/>
 
-        <include layout="@layout/main_post" />
-
-        <include layout="@layout/main_post" />
-
-        <include layout="@layout/main_post" />
-
-        <include layout="@layout/main_post" />
-
-        <include layout="@layout/main_post" />
-
-        <include layout="@layout/main_post" />
-
-        <include layout="@layout/main_post" />
-
-        <include layout="@layout/main_post" />
-
-        <include layout="@layout/main_post" />
-
-        <include layout="@layout/main_post" />
     </LinearLayout>
 
 </ScrollView>

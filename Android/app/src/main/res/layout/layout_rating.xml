@@ -13,7 +13,7 @@
         android:id="@+id/rating_ratetv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Rate FirstName LastName"
+        android:text="@string/raing_rate_firstname_lastname"
         android:layout_centerHorizontal="true"
         android:textColor="#FFFFFF"
         android:textSize="16sp"/>
@@ -39,7 +39,7 @@
             android:id="@+id/rating_btnOk"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
-            android:text="Rate"
+            android:text="@string/rating_rate"
             android:background="@color/colorAccent"/>
 
         <Button
@@ -48,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_height="30dp"
-            android:text="No thanks"
+            android:text="@string/rating_no_thanks"
             android:background="#AAAAAA"/>
     </RelativeLayout>
 

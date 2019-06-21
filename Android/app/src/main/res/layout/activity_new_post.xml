@@ -97,13 +97,13 @@
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Only at my home"
+                    android:text="@string/newpost_only_at_my_home"
                     android:textColor="#FFFFFF"
                     android:textSize="17sp" />
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="I can move"
+                    android:text="@string/newpost_i_can_move"
                     android:textColor="#FFFFFF"
                     android:textSize="17sp"/>
 
