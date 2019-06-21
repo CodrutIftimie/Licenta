@@ -54,4 +54,13 @@
     <string name="editprofile_edit_your_profile">Edit your profile</string>
     <string name="profile_edit_profile">Edit profile</string>
     <string name="messagepv_end">End</string>
+    <string name="raing_rate_firstname_lastname">Rate FirstName LastName</string>
+    <string name="rating_rate">Rate</string>
+    <string name="rating_no_thanks">No thanks</string>
+    <string name="editprofile_new_password">New Password</string>
+    <string name="editprofile_confirm_new_password">Confirm New Password</string>
+    <string name="newpost_i_can_move">I can move</string>
+    <string name="newpost_only_at_my_home">Only at my home</string>
+    <string name="profile_available">Available</string>
+    <string name="main_add_new_post">Add new post</string>
 </resources>
