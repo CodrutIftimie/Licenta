@@ -53,12 +53,12 @@ public class LoginActivity extends AppCompatActivity {
                     ";" +
                     psd;
 
-            runOnUiThread(new Runnable() {
+            new Thread(new Runnable() {
                 @Override
                 public void run() {
                     while(!Server.isActiveConnection()) {
                         try {
-                            Thread.sleep(100);
+                            Thread.sleep(1);
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
@@ -153,10 +153,11 @@ public class LoginActivity extends AppCompatActivity {
                                     @Override
                                     public void run() {
                                         try {
-                                            while (!Server.hasMessage) {
-                                                Thread.sleep(100);
+                                            while (Server.messages.isEmpty()) {
+                                                Thread.sleep(1);
                                             }
-                                            String msg = Server.getLatestMessage();
+                                            String msg = Server.messages.get(0);
+                                            Server.messages.remove(0);
                                             String[] msgs = msg.split(";");
 
                                             if (msgs[0].equals("SUCCESS")) {
@@ -171,6 +172,7 @@ public class LoginActivity extends AppCompatActivity {
                                                 preferencesEditor.apply();
 
                                                 Intent intent = new Intent(context, MainActivity.class);
+                                                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                                                 startActivity(intent);
                                             } else if(msgs[0].equals("EXISTING")){
                                                 btn.setEnabled(true);
@@ -201,16 +203,15 @@ public class LoginActivity extends AppCompatActivity {
     private void login(final View v, final String usr, final String psd) {
         final Button btn = v.findViewById(R.id.login_loginButton);
 
-        final CountDownLatch latch = new CountDownLatch(1);
-        final int[] val = new int[1];
-        new Thread(new Runnable() {
+        runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 try {
-                    while (!Server.hasMessage) {
-                        Thread.sleep(100);
+                    while (Server.messages.isEmpty()) {
+                        Thread.sleep(1);
                     }
-                    String[] msgs = Server.getLatestMessage().split(";");
+                    String[] msgs = Server.messages.get(0).split(";");
+                    Server.messages.remove(0);
                     if (msgs[0].equals("SUCCESS")) {
                         preferencesEditor = preferences.edit();
                         preferencesEditor.putString("usr",usr);
@@ -222,6 +223,7 @@ public class LoginActivity extends AppCompatActivity {
                         preferencesEditor.apply();
 
                         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                         startActivity(intent);
                     }
                     else {
@@ -231,7 +233,7 @@ public class LoginActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
             }
-        }).start();
+        });
     }
 
     public void registerGoBackClicked(View v) {

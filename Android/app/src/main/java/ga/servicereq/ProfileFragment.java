@@ -47,6 +47,7 @@ public class ProfileFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 SharedPreferences.Editor prefEdit = pref.edit();
+                PostsAdapter.clearPosts();
                 prefEdit.clear();
                 prefEdit.apply();
                 Server.sendMessage("O;");

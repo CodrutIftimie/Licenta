@@ -95,12 +95,14 @@
                 android:layout_marginTop="20dp">
 
                 <RadioButton
+                    android:id="@+id/newpost_homeRadio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/newpost_only_at_my_home"
                     android:textColor="#FFFFFF"
                     android:textSize="17sp" />
                 <RadioButton
+                    android:id="@+id/newpost_awayRadio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/newpost_i_can_move"

@@ -7,6 +7,8 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.Socket;
+import java.util.ArrayList;
+import java.util.List;
 
 public final class Server implements Runnable {
     private static Socket connection;
@@ -14,8 +16,7 @@ public final class Server implements Runnable {
     private static BufferedReader readSocket;
     private static boolean activeConnection = false;
 
-    public static boolean hasMessage = false;
-    public static String message;
+    public static List<String> messages;
 
     public static void terminateConnection() {
         activeConnection = false;
@@ -23,11 +24,6 @@ public final class Server implements Runnable {
 
     public static boolean isActiveConnection() {
         return activeConnection;
-    }
-
-    public static String getLatestMessage() {
-        hasMessage = false;
-        return message;
     }
 
     public static void sendMessage(final String message) {
@@ -47,31 +43,49 @@ public final class Server implements Runnable {
 
     @Override
     public void run() {
+        messages = new ArrayList<>();
+
         activeConnection = true;
         try {
-            connection = new Socket("192.168.137.1", 6789);
+            connection = new Socket("192.168.137.1", 6788);
             writeSocket = new DataOutputStream(connection.getOutputStream());
             readSocket = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 
             while (activeConnection) {
                 String readMessage;
-                if (!hasMessage) {
+                readMessage = readSocket.readLine();
+                while (readMessage == null || readMessage.equals("[CheckConnection]")) {
                     readMessage = readSocket.readLine();
-                    while (readMessage == null || readMessage.equals("[CheckConnection]")) {
-                        Thread.sleep(100);
-                        readMessage = readSocket.readLine();
+                }
+
+                Log.e("SERVER",readMessage);
+                if(readMessage.split(";;").length > 1) {
+                    String[] msgs = readMessage.split(";;");
+                    messages.add(msgs[0]);
+                    msgs[0] = null;
+                    for(String m:msgs) {
+                        if(m!=null)
+                            if(m.substring(0,1).equals("P")) {
+                                String[] data = m.split(";");
+                                PostsAdapter.serverAdd(new Post(data[1],data[2],data[3],data[4],data[5],data[6]));
+                            }
                     }
 
-                    Log.e("SERVER",readMessage.toString());
-                    message = readMessage;
-                    hasMessage = true;
-                } else Thread.sleep(100);
+                }
+                if(readMessage.substring(0,1).equals("P")) {
+                    String[] data = readMessage.split(";");
+                    PostsAdapter.serverAdd(new Post(data[1],data[2],data[3],data[4],data[5],data[6]));
+                }
+                else {
+                    messages.add(readMessage);
+                }
             }
-        } catch (IOException | InterruptedException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         } finally {
             try {
-                connection.close();
+                if(connection   != null)
+                    connection.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }

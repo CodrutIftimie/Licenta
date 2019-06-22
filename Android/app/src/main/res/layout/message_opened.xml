@@ -46,17 +46,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <include layout="@layout/message_received" />
-            <include layout="@layout/message_sent" />
-            <include layout="@layout/message_received" />
-            <include layout="@layout/message_sent" />
-            <include layout="@layout/message_received" />
-            <include layout="@layout/message_sent" />
-            <include layout="@layout/message_received" />
-            <include layout="@layout/message_sent" />
-            <include layout="@layout/message_received" />
-            <include layout="@layout/message_sent" />
-
         </LinearLayout>
 
     </ScrollView>

@@ -15,7 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".EditProfileActivity"></activity>
+        <activity android:name=".MessagingActivity"></activity>
+        <activity android:name=".EditProfileActivity" />
         <activity android:name=".NewPostActivity" />
         <activity
             android:name=".LoginActivity"

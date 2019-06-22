@@ -28,12 +28,10 @@ public class FeedFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        addPost = Objects.requireNonNull(getView()).findViewById(R.id.main_addPost);
-
         LinearLayout mainContent = Objects.requireNonNull(getView()).findViewById(R.id.main_content);
         posts = new PostsAdapter(this.getContext(), mainContent);
-        //posts.add(new Post("Codrut", "Iftimie","10 minutes","Hahahahah asdfasdf asdf asdf a"));
 
+        addPost = Objects.requireNonNull(getView()).findViewById(R.id.main_addPost);
         addPost.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -41,5 +39,7 @@ public class FeedFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+        posts.add(new Post("ASD","ASD","ASD","ASD","ASD","ASD"));
     }
 }

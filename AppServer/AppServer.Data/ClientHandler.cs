@@ -116,6 +116,12 @@ namespace AppServer.Data
                                         {
                                             Server.Write(clients[i].Client, $"SUCCESS;{lValues[0][0]};{lValues[0][1]};{lValues[0][2]};{lValues[0][3]};");
                                             clients[i].loggedIn = true;
+                                            List<string[]> postsValues = Server.QueryResult(8, $"SELECT u.FirstName, u.LastName, p.Date, p.Description, p.ImageAddr, u.PictureAddr, p.Category, p.Location FROM Posts p, Users u WHERE p.UserId = u.UserId ORDER BY Date DESC");
+                                            foreach (string[] post in postsValues)
+                                            {
+                                                Server.Write(clients[i].Client, $";P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};");
+                                                Log.Add($"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};");
+                                            }
                                         }
                                         else Server.Write(clients[i].Client, "FAIL;");
                                         break;
@@ -141,6 +147,22 @@ namespace AppServer.Data
                                             else Server.Write(clients[i].Client, "FAIL;");
                                         }
                                         else Server.Write(clients[i].Client, "EXISTING;");
+
+                                        break;
+
+                                    case 'N':
+                                        String pGuid = message.Split(';')[1];
+                                        String pDescription = message.Split(';')[2];
+                                        String pCategory = message.Split(';')[3];
+                                        String pLocation = message.Split(';')[4];
+                                        String pImageAddr = message.Split(';')[5];
+
+                                        string[] pFields = new string[5] { "UserId", "Description", "Category", "Location", "ImageAddr" };
+                                        string[] pValues = new string[5] { pGuid, pDescription, pCategory, pLocation, pImageAddr };
+
+                                        if (Server.InsertQuery("Posts", pFields, pValues))
+                                            Server.Write(clients[i].Client, "SUCCESS;");
+                                        else Server.Write(clients[i].Client, "FAIL;");
 
                                         break;
 

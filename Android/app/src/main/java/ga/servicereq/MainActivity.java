@@ -18,9 +18,9 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private FeedFragment feedFragment;
-    private ProfileFragment profileFragment;
-    private MessagesFragment messagesFragment;
+    public FeedFragment feedFragment;
+    public ProfileFragment profileFragment;
+    public MessagesFragment messagesFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,9 +28,12 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-        feedFragment = new FeedFragment();
-        profileFragment = new ProfileFragment();
-        messagesFragment = new MessagesFragment();
+        if(feedFragment == null)
+            feedFragment = new FeedFragment();
+        if(profileFragment == null)
+            profileFragment = new ProfileFragment();
+        if(messagesFragment == null)
+            messagesFragment = new MessagesFragment();
 
         BottomNavigationView navigation = findViewById(R.id.navigation);
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_containter, feedFragment).commit();
@@ -46,12 +49,18 @@ public class MainActivity extends AppCompatActivity {
                     Fragment selectedFragment = null;
                     switch (menuItem.getItemId()) {
                         case R.id.nav_profile:
+                            if(profileFragment == null)
+                                profileFragment =  new ProfileFragment();
                             selectedFragment = profileFragment;
                             break;
                         case R.id.nav_feed:
+                            if(feedFragment == null)
+                                feedFragment =  new FeedFragment();
                             selectedFragment = feedFragment;
                             break;
                         case R.id.nav_messages:
+                            if(messagesFragment == null)
+                                messagesFragment =  new MessagesFragment();
                             selectedFragment = messagesFragment;
                     }
                     if(selectedFragment != null)

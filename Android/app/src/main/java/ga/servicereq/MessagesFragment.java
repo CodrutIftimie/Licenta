@@ -1,6 +1,7 @@
 package ga.servicereq;
 
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -38,6 +39,14 @@ public class MessagesFragment extends Fragment {
                 final View deleteDialogView = inflater.inflate(R.layout.layout_rating, null);
                 deleteDialog.setView(deleteDialogView);
                 deleteDialog.show();
+            }
+        });
+
+        v.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getContext(),MessagingActivity.class);
+                startActivity(intent);
             }
         });
 

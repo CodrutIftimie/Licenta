@@ -670,3 +670,282 @@
 [21.6.2019 9:11:13 PM] [Thread 0] : R;codrut.iftimie@gmail.com;Codrut;Iftimie;-127111-7-119-74-63109-91-98-669112-69-59-2-391033912312746686452109-693-74-14-7172-39
 [21.6.2019 9:12:11 PM] [Thread 0] : O;
 [21.6.2019 9:15:56 PM] [CleanUp] 1 client removed.
+[21.6.2019 11:02:33 PM] Server started! Listening To Port [6789]
+[21.6.2019 11:02:33 PM] [Database] Connected successfuly
+[21.6.2019 11:02:49 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 11:02:49 PM] [ClientHandler] Handling the client...
+[21.6.2019 11:02:49 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 11:02:49 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 11:02:49 PM] [ClientHandler] Client Handled.
+[21.6.2019 11:03:06 PM] [Thread 0] : R;codrut.iftimie@gmail.com;Codrut;Iftimie;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[21.6.2019 11:03:49 PM] [CleanUp] 1 client removed.
+[21.6.2019 11:04:10 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 11:04:10 PM] [ClientHandler] Handling the client...
+[21.6.2019 11:04:10 PM] [ClientHandler] Client Handled.
+[21.6.2019 11:04:10 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[21.6.2019 11:04:10 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[21.6.2019 11:04:31 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;hello;mechanic;true;NONE;
+[21.6.2019 11:17:36 PM] Server started! Listening To Port [6789]
+[21.6.2019 11:17:36 PM] [Database] Connected successfuly
+[21.6.2019 11:17:44 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 11:17:44 PM] [ClientHandler] Handling the client...
+[21.6.2019 11:17:44 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 11:17:44 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 11:17:44 PM] [ClientHandler] Client Handled.
+[21.6.2019 11:17:44 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[21.6.2019 11:17:44 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[21.6.2019 11:18:05 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;o postare noua;mechanic;1;NONE;
+[21.6.2019 11:36:04 PM] [CleanUp] 1 client removed.
+[21.6.2019 11:54:25 PM] Server started! Listening To Port [6789]
+[21.6.2019 11:54:25 PM] [Database] Connected successfuly
+[21.6.2019 11:54:33 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 11:54:33 PM] [ClientHandler] Handling the client...
+[21.6.2019 11:54:33 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 11:54:33 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 11:54:33 PM] [ClientHandler] Client Handled.
+[21.6.2019 11:54:33 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[21.6.2019 11:54:33 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[21.6.2019 11:56:47 PM] Server started! Listening To Port [6789]
+[21.6.2019 11:56:47 PM] [Database] Connected successfuly
+[21.6.2019 11:56:56 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 11:56:56 PM] [ClientHandler] Handling the client...
+[21.6.2019 11:56:56 PM] [CleanUp] CleanUp Thread Started
+[21.6.2019 11:56:56 PM] [Server] Created a new Thread. [Total Threads: 1]
+[21.6.2019 11:56:56 PM] [ClientHandler] Client Handled.
+[21.6.2019 11:56:56 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[21.6.2019 11:56:56 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[21.6.2019 11:56:56 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;
+[21.6.2019 11:56:56 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;
+[21.6.2019 11:57:26 PM] [CleanUp] 1 client removed.
+[21.6.2019 11:57:53 PM] [Server] New client Connected. Current clients: [1]
+[21.6.2019 11:57:53 PM] [ClientHandler] Handling the client...
+[21.6.2019 11:57:53 PM] [ClientHandler] Client Handled.
+[21.6.2019 11:57:53 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[21.6.2019 11:57:53 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[21.6.2019 11:57:53 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;
+[21.6.2019 11:57:53 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;
+[21.6.2019 11:58:46 PM] [CleanUp] 1 client removed.
+[22.6.2019 12:00:02 AM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 12:00:02 AM] [ClientHandler] Handling the client...
+[22.6.2019 12:00:02 AM] [ClientHandler] Client Handled.
+[22.6.2019 12:00:02 AM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 12:00:02 AM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 12:00:02 AM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;
+[22.6.2019 12:00:02 AM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;
+[22.6.2019 12:10:56 AM] [CleanUp] 1 client removed.
+[22.6.2019 12:11:35 AM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 12:11:35 AM] [ClientHandler] Handling the client...
+[22.6.2019 12:11:35 AM] [ClientHandler] Client Handled.
+[22.6.2019 12:11:36 AM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 12:11:36 AM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 12:11:36 AM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;
+[22.6.2019 12:11:36 AM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;
+[22.6.2019 12:13:03 AM] [Thread 0] : O;
+[22.6.2019 12:17:03 AM] Server started! Listening To Port [6789]
+[22.6.2019 12:17:04 AM] [Database] Connected successfuly
+[22.6.2019 12:17:12 AM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 12:17:12 AM] [ClientHandler] Handling the client...
+[22.6.2019 12:17:12 AM] [CleanUp] CleanUp Thread Started
+[22.6.2019 12:17:12 AM] [Server] Created a new Thread. [Total Threads: 1]
+[22.6.2019 12:17:12 AM] [ClientHandler] Client Handled.
+[22.6.2019 12:17:22 AM] [Thread 0] : L;codrut.iftimie@gmail.com;-125621261093-9425-1062217-50-50-11343-25-117413-118-27-54-42-12593-1612192-35-122-73-64-16
+[22.6.2019 12:17:22 AM] Email: codrut.iftimie@gmail.com   |   Password:-125621261093-9425-1062217-50-50-11343-25-117413-118-27-54-42-12593-1612192-35-122-73-64-16
+[22.6.2019 12:17:42 AM] [CleanUp] 1 client removed.
+[22.6.2019 12:18:01 AM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 12:18:01 AM] [ClientHandler] Handling the client...
+[22.6.2019 12:18:01 AM] [ClientHandler] Client Handled.
+[22.6.2019 12:18:10 AM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 12:18:10 AM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 12:18:10 AM] ;P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;
+[22.6.2019 12:18:10 AM] ;P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;
+[22.6.2019 12:18:43 AM] Server started! Listening To Port [6789]
+[22.6.2019 12:18:43 AM] [Database] Connected successfuly
+[22.6.2019 12:18:51 AM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 12:18:51 AM] [ClientHandler] Handling the client...
+[22.6.2019 12:18:51 AM] [CleanUp] CleanUp Thread Started
+[22.6.2019 12:18:51 AM] [Server] Created a new Thread. [Total Threads: 1]
+[22.6.2019 12:18:51 AM] [ClientHandler] Client Handled.
+[22.6.2019 12:18:51 AM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 12:18:51 AM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 12:18:51 AM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;
+[22.6.2019 12:18:51 AM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;
+[22.6.2019 12:19:18 AM] [Server] New client Connected. Current clients: [2]
+[22.6.2019 12:19:18 AM] [ClientHandler] Handling the client...
+[22.6.2019 12:19:18 AM] [ClientHandler] Client Handled.
+[22.6.2019 12:19:18 AM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 12:19:18 AM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 12:19:18 AM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;
+[22.6.2019 12:19:18 AM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;
+[22.6.2019 12:19:21 AM] [CleanUp] 1 client removed.
+[22.6.2019 12:19:41 AM] [CleanUp] 1 client removed.
+[22.6.2019 10:58:28 AM] Server started! Listening To Port [6789]
+[22.6.2019 10:58:28 AM] [Database] Connected successfuly
+[22.6.2019 11:00:33 AM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 11:00:33 AM] [ClientHandler] Handling the client...
+[22.6.2019 11:00:33 AM] [Server] Created a new Thread. [Total Threads: 1]
+[22.6.2019 11:00:33 AM] [ClientHandler] Client Handled.
+[22.6.2019 11:00:33 AM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 11:00:33 AM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 11:00:33 AM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;
+[22.6.2019 11:00:33 AM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;
+[22.6.2019 11:01:03 AM] [CleanUp] 1 client removed.
+[22.6.2019 11:03:55 AM] Server started! Listening To Port [6789]
+[22.6.2019 11:03:55 AM] [Database] Connected successfuly
+[22.6.2019 11:04:27 AM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 11:04:27 AM] [ClientHandler] Handling the client...
+[22.6.2019 11:04:27 AM] [CleanUp] CleanUp Thread Started
+[22.6.2019 11:04:27 AM] [Server] Created a new Thread. [Total Threads: 1]
+[22.6.2019 11:04:27 AM] [ClientHandler] Client Handled.
+[22.6.2019 11:04:27 AM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 11:04:27 AM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 11:04:55 AM] Server started! Listening To Port [6789]
+[22.6.2019 11:04:55 AM] [Database] Connected successfuly
+[22.6.2019 11:05:02 AM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 11:05:02 AM] [ClientHandler] Handling the client...
+[22.6.2019 11:05:02 AM] [CleanUp] CleanUp Thread Started
+[22.6.2019 11:05:02 AM] [Server] Created a new Thread. [Total Threads: 1]
+[22.6.2019 11:05:02 AM] [ClientHandler] Client Handled.
+[22.6.2019 11:05:02 AM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 11:05:02 AM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 11:05:02 AM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 11:05:02 AM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 11:05:32 AM] [CleanUp] 1 client removed.
+[22.6.2019 11:11:33 AM] Server started! Listening To Port [6788]
+[22.6.2019 11:11:33 AM] [Database] Connected successfuly
+[22.6.2019 11:11:45 AM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 11:11:45 AM] [ClientHandler] Handling the client...
+[22.6.2019 11:11:45 AM] [CleanUp] CleanUp Thread Started
+[22.6.2019 11:11:45 AM] [Server] Created a new Thread. [Total Threads: 1]
+[22.6.2019 11:11:45 AM] [ClientHandler] Client Handled.
+[22.6.2019 11:11:45 AM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 11:11:45 AM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 11:11:45 AM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 11:11:45 AM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 11:13:05 AM] [CleanUp] 1 client removed.
+[22.6.2019 11:17:25 AM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 11:17:25 AM] [ClientHandler] Handling the client...
+[22.6.2019 11:17:25 AM] [ClientHandler] Client Handled.
+[22.6.2019 11:17:26 AM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 11:17:26 AM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 11:17:26 AM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 11:17:26 AM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 11:22:45 AM] [CleanUp] 1 client removed.
+[22.6.2019 11:23:01 AM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 11:23:01 AM] [ClientHandler] Handling the client...
+[22.6.2019 11:23:01 AM] [ClientHandler] Client Handled.
+[22.6.2019 11:23:02 AM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 11:23:02 AM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 11:23:02 AM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 11:23:02 AM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 11:23:41 AM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;Am nevoie de un mecanic!!!;mechanic;0;NONE;
+[22.6.2019 11:23:45 AM] [CleanUp] 1 client removed.
+[22.6.2019 11:24:57 AM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 11:24:57 AM] [ClientHandler] Handling the client...
+[22.6.2019 11:24:57 AM] [ClientHandler] Client Handled.
+[22.6.2019 11:24:57 AM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 11:24:57 AM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 11:24:57 AM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 11:24:57 AM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 11:24:57 AM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 11:27:35 AM] [CleanUp] 1 client removed.
+[22.6.2019 11:29:47 AM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 11:29:47 AM] [ClientHandler] Handling the client...
+[22.6.2019 11:29:47 AM] [ClientHandler] Client Handled.
+[22.6.2019 11:29:48 AM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 11:29:48 AM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 11:29:48 AM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 11:29:48 AM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 11:29:48 AM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 11:30:25 AM] [CleanUp] 1 client removed.
+[22.6.2019 1:16:54 PM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 1:16:54 PM] [ClientHandler] Handling the client...
+[22.6.2019 1:16:54 PM] [ClientHandler] Client Handled.
+[22.6.2019 1:16:54 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 1:16:54 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 1:16:54 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 1:16:54 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 1:16:54 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 1:17:25 PM] [CleanUp] 1 client removed.
+[22.6.2019 1:18:07 PM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 1:18:07 PM] [ClientHandler] Handling the client...
+[22.6.2019 1:18:07 PM] [ClientHandler] Client Handled.
+[22.6.2019 1:18:07 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 1:18:07 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 1:18:07 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 1:18:07 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 1:18:07 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 1:18:45 PM] [CleanUp] 1 client removed.
+[22.6.2019 1:18:49 PM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 1:18:49 PM] [ClientHandler] Handling the client...
+[22.6.2019 1:18:49 PM] [ClientHandler] Client Handled.
+[22.6.2019 1:18:49 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 1:18:49 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 1:18:49 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 1:18:49 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 1:18:49 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 1:19:25 PM] [CleanUp] 1 client removed.
+[22.6.2019 1:55:59 PM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 1:55:59 PM] [ClientHandler] Handling the client...
+[22.6.2019 1:55:59 PM] [ClientHandler] Client Handled.
+[22.6.2019 1:56:00 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 1:56:00 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 1:56:00 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 1:56:00 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 1:56:00 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 1:56:11 PM] [Thread 0] : O;
+[22.6.2019 1:56:23 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 1:56:23 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 1:56:23 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 1:56:23 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 1:56:23 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 1:56:30 PM] [Thread 0] : O;
+[22.6.2019 1:56:40 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 1:56:40 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 1:56:40 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 1:56:40 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 1:56:40 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 2:00:43 PM] [Server] New client Connected. Current clients: [2]
+[22.6.2019 2:00:43 PM] [ClientHandler] Handling the client...
+[22.6.2019 2:00:43 PM] [ClientHandler] Client Handled.
+[22.6.2019 2:00:43 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 2:00:43 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 2:00:43 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 2:00:43 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 2:00:43 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 2:00:49 PM] [Thread 0] : O;
+[22.6.2019 2:00:55 PM] [CleanUp] 1 client removed.
+[22.6.2019 2:01:00 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 2:01:00 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 2:01:00 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 2:01:00 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 2:01:00 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 2:02:01 PM] [Server] New client Connected. Current clients: [2]
+[22.6.2019 2:02:01 PM] [ClientHandler] Handling the client...
+[22.6.2019 2:02:01 PM] [ClientHandler] Client Handled.
+[22.6.2019 2:02:01 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 2:02:01 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 2:02:01 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 2:02:01 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 2:02:01 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 2:02:10 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 2:02:10 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 2:02:10 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 2:02:10 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 2:02:10 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 2:02:15 PM] [CleanUp] 1 client removed.
+[22.6.2019 2:02:16 PM] [Thread 0] : O;
+[22.6.2019 2:02:24 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 2:02:24 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 2:02:24 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 2:02:24 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 2:02:24 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 2:11:48 PM] [Server] New client Connected. Current clients: [2]
+[22.6.2019 2:11:48 PM] [ClientHandler] Handling the client...
+[22.6.2019 2:11:48 PM] [ClientHandler] Client Handled.
+[22.6.2019 2:11:49 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 2:11:49 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 2:11:49 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 2:11:49 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 2:11:49 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 2:12:05 PM] [CleanUp] 1 client removed.
+[22.6.2019 2:13:05 PM] [CleanUp] 1 client removed.
