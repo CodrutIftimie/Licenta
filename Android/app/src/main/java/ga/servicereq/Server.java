@@ -47,7 +47,7 @@ public final class Server implements Runnable {
 
         activeConnection = true;
         try {
-            connection = new Socket("192.168.137.1", 6788);
+            connection = new Socket("192.168.137.1", 6789);
             writeSocket = new DataOutputStream(connection.getOutputStream());
             readSocket = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 

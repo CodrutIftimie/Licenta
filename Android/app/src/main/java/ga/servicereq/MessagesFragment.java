@@ -17,6 +17,7 @@ import java.util.Objects;
 public class MessagesFragment extends Fragment {
 
     LinearLayout messages;
+    MessagesAdapter adapter;
 
     @Nullable
     @Override
@@ -29,6 +30,12 @@ public class MessagesFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         messages = Objects.requireNonNull(getView()).findViewById(R.id.preview_messages);
+
+        adapter = new MessagesAdapter(getContext(),messages,this);
+
+        adapter.add("Prenume","Nume","Ultimul mesaj");
+        adapter.add("Cineva","Altcineva","Mesaj");
+
         final LayoutInflater inflater = LayoutInflater.from(getContext());
         View v = inflater.inflate(R.layout.message_preview, null);
         Button b = v.findViewById(R.id.messagepv_endButton);
