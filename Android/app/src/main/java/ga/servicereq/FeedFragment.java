@@ -15,31 +15,42 @@ import java.util.Objects;
 
 public class FeedFragment extends Fragment {
 
+    private View rootView;
     private PostsAdapter posts;
     private Button addPost;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.layout_feed,container,false);
+        if (rootView == null) {
+            rootView = inflater.inflate(R.layout.layout_feed, container, false);
+            LinearLayout mainContent = Objects.requireNonNull(rootView).findViewById(R.id.main_content);
+            posts = PostsAdapter.getInstance(this.getContext());
+            posts.setFeedBody(mainContent);
+
+            addPost = Objects.requireNonNull(rootView).findViewById(R.id.main_addPost);
+            addPost.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(getContext(), NewPostActivity.class);
+                    startActivity(intent);
+                }
+            });
+            posts.runUpdater();
+        }
+        return rootView;
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+    }
 
-        LinearLayout mainContent = Objects.requireNonNull(getView()).findViewById(R.id.main_content);
-        posts = new PostsAdapter(this.getContext(), mainContent);
-
-        addPost = Objects.requireNonNull(getView()).findViewById(R.id.main_addPost);
-        addPost.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getContext(), NewPostActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        posts.add(new Post("ASD","ASD","ASD","ASD","ASD","ASD"));
+    @Override
+    public void onDestroyView() {
+        if (rootView.getParent() != null) {
+            ((ViewGroup)rootView.getParent()).removeView(rootView);
+        }
+        super.onDestroyView();
     }
 }

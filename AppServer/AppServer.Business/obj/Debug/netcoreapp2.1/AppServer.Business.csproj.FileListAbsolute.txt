@@ -6,7 +6,6 @@ D:\GitHub\Licenta\AppServer\AppServer.Business\bin\Debug\netcoreapp2.1\AppServer
 D:\GitHub\Licenta\AppServer\AppServer.Business\bin\Debug\netcoreapp2.1\AppServer.Data.dll
 D:\GitHub\Licenta\AppServer\AppServer.Business\bin\Debug\netcoreapp2.1\AppServer.Data.pdb
 D:\GitHub\Licenta\AppServer\AppServer.Business\obj\Debug\netcoreapp2.1\AppServer.Business.csprojAssemblyReference.cache
-D:\GitHub\Licenta\AppServer\AppServer.Business\obj\Debug\netcoreapp2.1\AppServer.Business.csproj.CoreCompileInputs.cache
 D:\GitHub\Licenta\AppServer\AppServer.Business\obj\Debug\netcoreapp2.1\AppServer.Business.AssemblyInfoInputs.cache
 D:\GitHub\Licenta\AppServer\AppServer.Business\obj\Debug\netcoreapp2.1\AppServer.Business.AssemblyInfo.cs
 D:\GitHub\Licenta\AppServer\AppServer.Business\obj\Debug\netcoreapp2.1\AppServer.Business.csproj.CopyComplete

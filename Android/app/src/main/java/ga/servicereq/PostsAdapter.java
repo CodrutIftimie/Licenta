@@ -1,29 +1,53 @@
 package ga.servicereq;
 
 import android.content.Context;
-import android.content.Intent;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class PostsAdapter{
+public class PostsAdapter {
 
-    private final LinearLayout body;
+    private LinearLayout feedBody;
+    private LinearLayout profileBody;
     private Context context;
     private ArrayList<LinearLayout> posts;
     private static ArrayList<Post> toAdd;
+    private static ArrayList<Post> profileToAdd;
+    private boolean updaterRunning = false;
 
-    public PostsAdapter(Context context2, View view) {
+    private static PostsAdapter instance;
+
+    public synchronized static PostsAdapter getInstance(Context context) {
+        if (instance == null)
+            instance = new PostsAdapter(context);
+        return instance;
+    }
+
+    private PostsAdapter() {
+    }
+
+    private PostsAdapter(Context context2) {
         context = context2;
-        body = (LinearLayout) view;
         posts = new ArrayList<>();
+    }
 
-        if(toAdd != null) {
-            for (Post post : toAdd) {
-                LinearLayout toBeAdded = (LinearLayout)View.inflate(context, R.layout.main_post, null);
+    public void setFeedBody(View view) {
+        this.feedBody = (LinearLayout) view;
+    }
+
+    public void setProfileBody(View view) {
+        this.profileBody = (LinearLayout) view;
+    }
+
+    public void add(final Post post) {
+        feedBody.post(new Runnable() {
+            @Override
+            public void run() {
+                LinearLayout toBeAdded = (LinearLayout) View.inflate(context, R.layout.main_post, null);
 
                 TextView posterName = toBeAdded.findViewById(R.id.post_posterName);
                 TextView postDate = toBeAdded.findViewById(R.id.post_time);
@@ -35,52 +59,76 @@ public class PostsAdapter{
                 postDescription.setText(post.getDescription());
 
                 posts.add(toBeAdded);
-
-                body.addView(toBeAdded);
+                feedBody.addView(toBeAdded, 2);
             }
-        }
+        });
     }
 
-    public void add(Post post) {
+    public boolean profileAdd(final Post post) {
+        if (profileBody != null) {
+            profileBody.post(new Runnable() {
+                @Override
+                public void run() {
+                    SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
+                    String userFName = preferences.getString("fn", "");
+                    String userLName = preferences.getString("ln", "");
 
-//        if(toAdd != null) {
-//            for (Post spost : toAdd) {
-//                LinearLayout toBeAdded = (LinearLayout)View.inflate(context, R.layout.main_post, null);
-//
-//                TextView posterName = toBeAdded.findViewById(R.id.post_posterName);
-//                TextView postDate = toBeAdded.findViewById(R.id.post_time);
-//                TextView postDescription = toBeAdded.findViewById(R.id.post_description);
-//
-//                String name = spost.getFirstName() + " " + spost.getLastName();
-//                posterName.setText(name);
-//                postDate.setText(spost.getPostDate());
-//                postDescription.setText(spost.getDescription());
-//
-//                posts.add(toBeAdded);
-//                body.addView(toBeAdded);
-//            }
-//        }
+                    if (userFName.equals(post.getFirstName()) && userLName.equals(post.getLastName())) {
+                        LinearLayout toBeAdded = (LinearLayout) View.inflate(context, R.layout.main_post, null);
 
-        LinearLayout toBeAdded = (LinearLayout)View.inflate(context, R.layout.main_post, null);
+                        TextView posterName = toBeAdded.findViewById(R.id.post_posterName);
+                        TextView postDate = toBeAdded.findViewById(R.id.post_time);
+                        TextView postDescription = toBeAdded.findViewById(R.id.post_description);
 
-        TextView posterName = toBeAdded.findViewById(R.id.post_posterName);
-        TextView postDate = toBeAdded.findViewById(R.id.post_time);
-        TextView postDescription = toBeAdded.findViewById(R.id.post_description);
+                        String name = post.getFirstName() + " " + post.getLastName();
+                        posterName.setText(name);
+                        postDate.setText(post.getPostDate());
+                        postDescription.setText(post.getDescription());
 
-        String name = post.getFirstName() + " " + post.getLastName();
-        posterName.setText(name);
-        postDate.setText(post.getPostDate());
-        postDescription.setText(post.getDescription());
-
-
-        posts.add(toBeAdded);
-        body.addView(toBeAdded);
+                        profileBody.addView(toBeAdded, 2);
+                    }
+                }
+            });
+            return true;
+        }
+        return false;
     }
 
     public static void serverAdd(Post post) {
-        if(toAdd == null)
+        if (toAdd == null) {
             toAdd = new ArrayList<>();
+            profileToAdd = new ArrayList<>();
+        }
         toAdd.add(post);
+        profileToAdd.add(post);
+    }
+
+    public void runUpdater() {
+        if (!updaterRunning) {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    while (true) {
+                        try {
+                            if (toAdd != null) {
+                                while (!toAdd.isEmpty())
+                                    add(toAdd.remove(0));
+                            }
+                            if (profileToAdd != null) {
+                                while (!profileToAdd.isEmpty())
+                                    if (profileAdd(profileToAdd.get(0)))
+                                        profileToAdd.remove(0);
+                                    else break;
+                            }
+                            Thread.sleep(1000);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }
+            }).start();
+            updaterRunning = true;
+        }
     }
 
     public static void clearPosts() {

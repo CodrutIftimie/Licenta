@@ -4,10 +4,13 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.os.Handler;
+import android.os.Looper;
 import android.os.StrictMode;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
@@ -29,48 +32,36 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-       if(!Server.isActiveConnection())
-           new Thread(new Server()).start();
+        if (!Server.isActiveConnection())
+            new Thread(new Server(getApplicationContext())).start();
 
         preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-
-        if(!preferences.getString("usr","def").equals("def")){
-            Button btn = findViewById(R.id.login_loginButton);
-            EditText userInput = findViewById(R.id.login_emailInput);
-            EditText passInput = findViewById(R.id.login_passwordInput);
-
-            btn.setEnabled(false);
-
-            String usr,psd;
-            usr = preferences.getString("usr", "");
-            psd = preferences.getString("psd", "");
-
-            userInput.setText(usr);
-            passInput.setText(psd);
-
-            String message = "L;" +
-                    usr +
-                    ";" +
-                    psd;
-
-            new Thread(new Runnable() {
+        createLoginForm();
+        if (!preferences.getString("usr", "def").equals("def")) {
+            Handler handler = new Handler(Looper.getMainLooper());
+            handler.post(new Runnable() {
                 @Override
                 public void run() {
-                    while(!Server.isActiveConnection()) {
-                        try {
-                            Thread.sleep(1);
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }
+                    Button btn = findViewById(R.id.login_loginButton);
+                    btn.setEnabled(false);
+
+                    String usr, psd;
+                    usr = preferences.getString("usr", "");
+                    psd = preferences.getString("psd", "");
+
+                    try {
+                        loginForm.getEmailInput().setText(usr);
+                        loginForm.getPasswordInput().setText(psd);
                     }
+                    catch (Exception e) { e.printStackTrace(); }
+
+                    String message = "L;" + usr + ";" + psd;
+                    Server.sendMessage(message);
+                    login(((ViewGroup) findViewById(android.R.id.content)).getChildAt(0), usr, psd);
                 }
             });
-
-            Server.sendMessage(message);
-
-            login(((ViewGroup) this.findViewById(android.R.id.content)).getChildAt(0),usr,psd);
         }
-        createLoginForm();
+
     }
 
     public void loginClicked(View view) {
@@ -89,7 +80,7 @@ public class LoginActivity extends AppCompatActivity {
                         MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
                         byte[] encryptedPassword = messageDigest.digest(loginForm.getPasswordInput().getText().toString().getBytes());
                         StringBuilder pass = new StringBuilder();
-                        for (byte b:encryptedPassword) {
+                        for (byte b : encryptedPassword) {
                             pass.append(b);
                         }
 
@@ -99,7 +90,7 @@ public class LoginActivity extends AppCompatActivity {
                                 pass.toString();
                         Server.sendMessage(message);
 
-                        login(((ViewGroup) this.findViewById(android.R.id.content)).getChildAt(0),loginForm.getEmailInput().getText().toString(), pass.toString());
+                        login(((ViewGroup) this.findViewById(android.R.id.content)).getChildAt(0), loginForm.getEmailInput().getText().toString(), pass.toString());
 
                     }
                 } else error.setText(R.string.login_emptyPassword);
@@ -134,7 +125,7 @@ public class LoginActivity extends AppCompatActivity {
                                 MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
                                 byte[] encryptedPassword = messageDigest.digest(registerForm.getPasswordInput().getText().toString().getBytes());
                                 StringBuilder pass = new StringBuilder();
-                                for (byte b:encryptedPassword) {
+                                for (byte b : encryptedPassword) {
                                     pass.append(b);
                                 }
 
@@ -146,39 +137,35 @@ public class LoginActivity extends AppCompatActivity {
 
                                 Server.sendMessage(info);
 
-                                final String usr,psd;
+                                final String usr, psd;
                                 usr = registerForm.getEmailInput().getText().toString();
                                 psd = pass.toString();
                                 runOnUiThread(new Runnable() {
                                     @Override
                                     public void run() {
                                         try {
-                                            while (Server.messages.isEmpty()) {
-                                                Thread.sleep(1);
+                                            while (Server.messagesCount() == 0) {
+                                                Thread.sleep(50);
                                             }
-                                            String msg = Server.messages.get(0);
-                                            Server.messages.remove(0);
-                                            String[] msgs = msg.split(";");
-
-                                            if (msgs[0].equals("SUCCESS")) {
-
+                                            String status = Server.getMessage(0);
+                                            if (status.equals("RSUCCESS")) {
+                                                String[] userData = Server.getMessage(0).split(";");
                                                 preferencesEditor = preferences.edit();
-                                                preferencesEditor.putString("usr",usr);
-                                                preferencesEditor.putString("psd",psd);
-                                                preferencesEditor.putString("gid",msgs[1]);
-                                                preferencesEditor.putString("fn",msgs[2]);
-                                                preferencesEditor.putString("ln",msgs[3]);
-                                                preferencesEditor.putFloat("rtg",Float.valueOf(msgs[4]));
+                                                preferencesEditor.putString("usr", usr);
+                                                preferencesEditor.putString("psd", psd);
+                                                preferencesEditor.putString("gid", userData[0]);
+                                                preferencesEditor.putString("fn", userData[1]);
+                                                preferencesEditor.putString("ln", userData[2]);
+                                                preferencesEditor.putFloat("rtg", Float.valueOf(userData[3]));
                                                 preferencesEditor.apply();
 
                                                 Intent intent = new Intent(context, MainActivity.class);
                                                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                                                 startActivity(intent);
-                                            } else if(msgs[0].equals("EXISTING")){
+                                            } else if (status.equals("REXISTING")) {
                                                 btn.setEnabled(true);
                                                 errorMessage.setText(R.string.register_existing);
-                                            }
-                                            else {
+                                            } else {
                                                 btn.setEnabled(true);
                                                 errorMessage.setText(R.string.defaultErrorMessage);
                                             }
@@ -202,35 +189,34 @@ public class LoginActivity extends AppCompatActivity {
 
     private void login(final View v, final String usr, final String psd) {
         final Button btn = v.findViewById(R.id.login_loginButton);
-
-        runOnUiThread(new Runnable() {
+        btn.post(new Runnable() {
             @Override
             public void run() {
-                try {
-                    while (Server.messages.isEmpty()) {
-                        Thread.sleep(1);
+                while(Server.messagesCount() == 0) {
+                    try {
+                        Thread.sleep(50);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
                     }
-                    String[] msgs = Server.messages.get(0).split(";");
-                    Server.messages.remove(0);
-                    if (msgs[0].equals("SUCCESS")) {
-                        preferencesEditor = preferences.edit();
-                        preferencesEditor.putString("usr",usr);
-                        preferencesEditor.putString("psd",psd);
-                        preferencesEditor.putString("gid",msgs[1]);
-                        preferencesEditor.putString("fn",msgs[2]);
-                        preferencesEditor.putString("ln",msgs[3]);
-                        preferencesEditor.putFloat("rtg",Float.valueOf(msgs[4]));
-                        preferencesEditor.apply();
+                }
+                String fMessage = Server.getMessage(0);
+                Log.e("LOGIN",fMessage);
+                if (fMessage.equals("LSUCCESS")) {
+                    String[] userData = Server.getMessage(0).split(";");
+                    preferencesEditor = preferences.edit();
+                    preferencesEditor.putString("usr", usr);
+                    preferencesEditor.putString("psd", psd);
+                    preferencesEditor.putString("gid", userData[0]);
+                    preferencesEditor.putString("fn", userData[1]);
+                    preferencesEditor.putString("ln", userData[2]);
+                    preferencesEditor.putFloat("rtg", Float.valueOf(userData[3]));
+                    preferencesEditor.apply();
 
-                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                        startActivity(intent);
-                    }
-                    else {
-                        btn.setEnabled(true);
-                    }
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    startActivity(intent);
+                } else {
+                    btn.setEnabled(true);
                 }
             }
         });

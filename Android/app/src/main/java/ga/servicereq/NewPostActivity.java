@@ -12,6 +12,8 @@ import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import java.util.List;
+
 public class NewPostActivity extends AppCompatActivity {
 
     Button post;
@@ -60,34 +62,26 @@ public class NewPostActivity extends AppCompatActivity {
 
                     Server.sendMessage(message);
 
-                    Thread t = new Thread(new Runnable() {
+                    post.post(new Runnable() {
                         @Override
                         public void run() {
                             try {
-                                while (Server.messages.isEmpty()) {
-                                    Thread.sleep(1);
+                                while (Server.messagesCount() == 0) {
+                                    Thread.sleep(50);
                                 }
-                                String msg = Server.messages.get(0);
+                                String msg = Server.getMessage(Server.messagesCount()-1);
                                 String[] msgs = msg.split(";");
 
-                                if (msgs[0].equals("SUCCESS"))
+                                if (msgs[0].equals("SUCCESS") || (msgs[0].equals("P") && msgs[8].equals("SUCCESS")))
                                     Toast.makeText(getApplicationContext(), "Post added!", Toast.LENGTH_SHORT).show();
                                 else
                                     Toast.makeText(getApplicationContext(), "Failed to add the post!", Toast.LENGTH_SHORT).show();
                             } catch (InterruptedException e) {
                                 e.printStackTrace();
                             }
+                            post.setEnabled(true);
                         }
                     });
-
-                    t.start();
-                    try {
-                        t.join();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    post.setEnabled(true);
-
                 }
             }
         });

@@ -1014,3 +1014,1255 @@
 [22.6.2019 2:54:45 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
 [22.6.2019 2:54:45 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
 [22.6.2019 2:54:45 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 3:12:54 PM] [CleanUp] 1 client removed.
+[22.6.2019 4:36:12 PM] Server started! Listening To Port [6789]
+[22.6.2019 4:36:12 PM] [Database] Connected successfuly
+[22.6.2019 4:37:57 PM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 4:37:57 PM] [ClientHandler] Handling the client...
+[22.6.2019 4:37:57 PM] [CleanUp] CleanUp Thread Started
+[22.6.2019 4:37:57 PM] [Server] Created a new Thread. [Total Threads: 1]
+[22.6.2019 4:37:57 PM] [ClientHandler] Client Handled.
+[22.6.2019 4:37:57 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 4:37:57 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 4:37:57 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 4:37:57 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 4:37:57 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 4:41:47 PM] [CleanUp] 1 client removed.
+[22.6.2019 4:43:09 PM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 4:43:09 PM] [ClientHandler] Handling the client...
+[22.6.2019 4:43:09 PM] [ClientHandler] Client Handled.
+[22.6.2019 4:43:25 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 4:43:25 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 4:43:25 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 4:43:25 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 4:43:25 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[22.6.2019 4:44:56 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;fsdafasfasfd;mechanic;0;NONE;
+[22.6.2019 4:45:07 PM] [CleanUp] 1 client removed.
+[22.6.2019 4:45:12 PM] [Server] New client Connected. Current clients: [1]
+[22.6.2019 4:45:12 PM] [ClientHandler] Handling the client...
+[22.6.2019 4:45:12 PM] [ClientHandler] Client Handled.
+[22.6.2019 4:45:12 PM] [Thread 0] : O;
+[22.6.2019 4:45:27 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 4:45:27 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[22.6.2019 4:45:27 PM] P;Codrut;Iftimie;22.6.2019 4:44:56 PM;fsdafasfasfd;NONE;NONE;
+[22.6.2019 4:45:27 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[22.6.2019 4:45:27 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[22.6.2019 4:45:27 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[18.11.2019 9:50:49 PM] Server started! Listening To Port [6789]
+[18.11.2019 9:50:50 PM] [Database] Connected successfuly
+[18.11.2019 9:53:21 PM] Server started! Listening To Port [6789]
+[18.11.2019 9:53:21 PM] [Database] Connected successfuly
+[18.11.2019 9:54:50 PM] [Server] New client Connected. Current clients: [1]
+[18.11.2019 9:54:50 PM] [ClientHandler] Handling the client...
+[18.11.2019 9:54:50 PM] [CleanUp] CleanUp Thread Started
+[18.11.2019 9:54:50 PM] [ClientHandler] Client Handled.
+[18.11.2019 9:54:53 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[18.11.2019 9:54:53 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[18.11.2019 9:54:54 PM] P;Codrut;Iftimie;22.6.2019 4:44:56 PM;fsdafasfasfd;NONE;NONE;
+[18.11.2019 9:54:54 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[18.11.2019 9:54:54 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[18.11.2019 9:54:54 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[18.11.2019 9:55:16 PM] [Thread 0] : O;
+[18.11.2019 9:55:22 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[18.11.2019 9:55:22 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[18.11.2019 9:55:22 PM] P;Codrut;Iftimie;22.6.2019 4:44:56 PM;fsdafasfasfd;NONE;NONE;
+[18.11.2019 9:55:22 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[18.11.2019 9:55:22 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[18.11.2019 9:55:22 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[18.11.2019 9:56:07 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[18.11.2019 9:56:07 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[18.11.2019 9:56:07 PM] P;Codrut;Iftimie;22.6.2019 4:44:56 PM;fsdafasfasfd;NONE;NONE;
+[18.11.2019 9:56:07 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[18.11.2019 9:56:07 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[18.11.2019 9:56:07 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[18.11.2019 9:56:40 PM] [CleanUp] 1 client removed.
+[19.11.2019 9:07:51 PM] Server started! Listening To Port [6789]
+[19.11.2019 9:07:51 PM] [Database] Connected successfuly
+[19.11.2019 9:09:03 PM] [Server] New client Connected. Current clients: [1]
+[19.11.2019 9:09:03 PM] [ClientHandler] Handling the client...
+[19.11.2019 9:09:03 PM] [CleanUp] CleanUp Thread Started
+[19.11.2019 9:09:03 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[19.11.2019 9:09:03 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[19.11.2019 9:09:03 PM] [ClientHandler] Client Handled.
+[19.11.2019 9:09:03 PM] P;Codrut;Iftimie;22.6.2019 4:44:56 PM;fsdafasfasfd;NONE;NONE;
+[19.11.2019 9:09:03 PM] P;Codrut;Iftimie;22.6.2019 11:23:41 AM;Am nevoie de un mecanic!!!;NONE;NONE;
+[19.11.2019 9:09:03 PM] P;Codrut;Iftimie;21.6.2019 11:18:05 PM;o postare noua;NONE;NONE;
+[19.11.2019 9:09:03 PM] P;Codrut;Iftimie;21.6.2019 11:16:26 PM;hello;NONE;NONE;
+[19.11.2019 9:09:53 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;test a post;mechanic;0;NONE;
+[19.11.2019 9:10:13 PM] [CleanUp] 1 client removed.
+[19.11.2019 9:35:36 PM] [Server] New client Connected. Current clients: [1]
+[19.11.2019 9:35:36 PM] [ClientHandler] Handling the client...
+[19.11.2019 9:35:36 PM] [ClientHandler] Client Handled.
+[19.11.2019 9:35:37 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[19.11.2019 9:35:37 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[19.11.2019 9:35:46 PM] [Thread 0] : O;
+[19.11.2019 9:36:13 PM] [Thread 0] : R;test@test.test;First;Last;-75407-85319-104-3880-109-88-1-18-97-7834-7176118102-6573-107702540-5862-881222136
+[19.11.2019 9:37:10 PM] [Server] New client Connected. Current clients: [2]
+[19.11.2019 9:37:10 PM] [ClientHandler] Handling the client...
+[19.11.2019 9:37:10 PM] [ClientHandler] Client Handled.
+[19.11.2019 9:37:10 PM] [Thread 0] : L;test@test.test;-75407-85319-104-3880-109-88-1-18-97-7834-7176118102-6573-107702540-5862-881222136
+[19.11.2019 9:37:10 PM] Email: test@test.test   |   Password:-75407-85319-104-3880-109-88-1-18-97-7834-7176118102-6573-107702540-5862-881222136
+[19.11.2019 9:37:13 PM] [CleanUp] 1 client removed.
+[19.11.2019 9:40:44 PM] Server started! Listening To Port [6787]
+[19.11.2019 9:40:44 PM] [Database] Connected successfuly
+[19.11.2019 9:41:06 PM] [Server] New client Connected. Current clients: [1]
+[19.11.2019 9:41:06 PM] [ClientHandler] Handling the client...
+[19.11.2019 9:41:06 PM] [CleanUp] CleanUp Thread Started
+[19.11.2019 9:41:06 PM] [Server] Created a new Thread. [Total Threads: 1]
+[19.11.2019 9:41:06 PM] [ClientHandler] Client Handled.
+[19.11.2019 9:41:11 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[19.11.2019 9:41:11 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[19.11.2019 9:41:33 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;testing this post;mechanic;1;NONE;
+[19.11.2019 9:41:56 PM] [CleanUp] 1 client removed.
+[19.11.2019 9:42:17 PM] [Server] New client Connected. Current clients: [1]
+[19.11.2019 9:42:17 PM] [ClientHandler] Handling the client...
+[19.11.2019 9:42:17 PM] [ClientHandler] Client Handled.
+[19.11.2019 9:42:18 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[19.11.2019 9:42:18 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[19.11.2019 9:42:18 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[19.11.2019 9:54:36 PM] [CleanUp] 1 client removed.
+[05.12.2019 8:50:17 PM] Server started! Listening To Port [6787]
+[05.12.2019 8:50:18 PM] [Database] Connected successfuly
+[05.12.2019 8:56:18 PM] Server started! Listening To Port [6787]
+[05.12.2019 8:56:18 PM] [Database] Connected successfuly
+[05.12.2019 8:56:26 PM] [Server] New client Connected. Current clients: [1]
+[05.12.2019 8:56:26 PM] [ClientHandler] Handling the client...
+[05.12.2019 8:56:26 PM] [CleanUp] CleanUp Thread Started
+[05.12.2019 8:56:26 PM] [Server] Created a new Thread. [Total Threads: 1]
+[05.12.2019 8:56:26 PM] [ClientHandler] Client Handled.
+[05.12.2019 8:56:26 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 8:56:26 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 8:56:26 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 8:57:17 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 8:57:17 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 8:57:17 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 9:05:46 PM] [Server] New client Connected. Current clients: [2]
+[05.12.2019 9:05:46 PM] [ClientHandler] Handling the client...
+[05.12.2019 9:05:46 PM] [ClientHandler] Client Handled.
+[05.12.2019 9:05:56 PM] [CleanUp] 1 client removed.
+[05.12.2019 9:29:01 PM] [Server] New client Connected. Current clients: [2]
+[05.12.2019 9:29:01 PM] [ClientHandler] Handling the client...
+[05.12.2019 9:29:01 PM] [ClientHandler] Client Handled.
+[05.12.2019 9:29:01 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:29:01 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:29:01 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 9:29:16 PM] [CleanUp] 1 client removed.
+[05.12.2019 9:30:27 PM] [Server] New client Connected. Current clients: [2]
+[05.12.2019 9:30:27 PM] [ClientHandler] Handling the client...
+[05.12.2019 9:30:27 PM] [ClientHandler] Client Handled.
+[05.12.2019 9:30:36 PM] [CleanUp] 1 client removed.
+[05.12.2019 9:30:56 PM] [CleanUp] 1 client removed.
+[05.12.2019 9:34:13 PM] [Server] New client Connected. Current clients: [1]
+[05.12.2019 9:34:13 PM] [ClientHandler] Handling the client...
+[05.12.2019 9:34:13 PM] [ClientHandler] Client Handled.
+[05.12.2019 9:34:13 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:34:13 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:34:13 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 9:36:53 PM] [Server] New client Connected. Current clients: [2]
+[05.12.2019 9:36:53 PM] [ClientHandler] Handling the client...
+[05.12.2019 9:36:53 PM] [ClientHandler] Client Handled.
+[05.12.2019 9:36:54 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:36:54 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 9:37:06 PM] [CleanUp] 1 client removed.
+[05.12.2019 9:40:16 PM] [CleanUp] 1 client removed.
+[05.12.2019 9:40:18 PM] [Server] New client Connected. Current clients: [1]
+[05.12.2019 9:40:18 PM] [ClientHandler] Handling the client...
+[05.12.2019 9:40:18 PM] [ClientHandler] Client Handled.
+[05.12.2019 9:40:19 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:40:19 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:40:19 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 9:40:46 PM] [CleanUp] 1 client removed.
+[05.12.2019 9:41:30 PM] [Server] New client Connected. Current clients: [1]
+[05.12.2019 9:41:30 PM] [ClientHandler] Handling the client...
+[05.12.2019 9:41:30 PM] [ClientHandler] Client Handled.
+[05.12.2019 9:41:41 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:41:41 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:41:41 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 9:42:26 PM] [CleanUp] 1 client removed.
+[05.12.2019 9:42:53 PM] [Server] New client Connected. Current clients: [1]
+[05.12.2019 9:42:53 PM] [ClientHandler] Handling the client...
+[05.12.2019 9:42:53 PM] [ClientHandler] Client Handled.
+[05.12.2019 9:42:53 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:42:53 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:42:53 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 9:43:36 PM] [CleanUp] 1 client removed.
+[05.12.2019 9:46:26 PM] [Server] New client Connected. Current clients: [1]
+[05.12.2019 9:46:26 PM] [ClientHandler] Handling the client...
+[05.12.2019 9:46:26 PM] [ClientHandler] Client Handled.
+[05.12.2019 9:46:26 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:46:26 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:46:26 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 9:47:39 PM] [Server] New client Connected. Current clients: [2]
+[05.12.2019 9:47:39 PM] [ClientHandler] Handling the client...
+[05.12.2019 9:47:39 PM] [ClientHandler] Client Handled.
+[05.12.2019 9:47:39 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:47:39 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:47:39 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 9:47:47 PM] [CleanUp] 1 client removed.
+[05.12.2019 9:47:49 PM] [Server] New client Connected. Current clients: [2]
+[05.12.2019 9:47:49 PM] [ClientHandler] Handling the client...
+[05.12.2019 9:47:49 PM] [ClientHandler] Client Handled.
+[05.12.2019 9:47:49 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:47:49 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:47:49 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 9:48:07 PM] [CleanUp] 1 client removed.
+[05.12.2019 9:49:21 PM] [Server] New client Connected. Current clients: [2]
+[05.12.2019 9:49:21 PM] [ClientHandler] Handling the client...
+[05.12.2019 9:49:21 PM] [ClientHandler] Client Handled.
+[05.12.2019 9:49:21 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:49:21 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:49:21 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 9:49:27 PM] [CleanUp] 1 client removed.
+[05.12.2019 9:49:47 PM] [CleanUp] 1 client removed.
+[05.12.2019 9:49:51 PM] [Server] New client Connected. Current clients: [1]
+[05.12.2019 9:49:51 PM] [ClientHandler] Handling the client...
+[05.12.2019 9:49:51 PM] [ClientHandler] Client Handled.
+[05.12.2019 9:49:51 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:49:51 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:49:51 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 9:50:17 PM] [CleanUp] 1 client removed.
+[05.12.2019 9:50:44 PM] [Server] New client Connected. Current clients: [1]
+[05.12.2019 9:50:44 PM] [ClientHandler] Handling the client...
+[05.12.2019 9:50:44 PM] [ClientHandler] Client Handled.
+[05.12.2019 9:50:44 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:50:44 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:50:44 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 9:51:35 PM] [Server] New client Connected. Current clients: [2]
+[05.12.2019 9:51:35 PM] [ClientHandler] Handling the client...
+[05.12.2019 9:51:35 PM] [ClientHandler] Client Handled.
+[05.12.2019 9:51:35 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:51:35 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:51:35 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 9:51:47 PM] [CleanUp] 1 client removed.
+[05.12.2019 9:52:24 PM] [Thread 0] : O;
+[05.12.2019 9:52:52 PM] [Thread 0] : R;test1@asd.com;Codrut;Iftimie;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[05.12.2019 9:53:31 PM] [Thread 0] : O;
+[05.12.2019 9:53:34 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:53:34 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 9:53:34 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 10:10:19 PM] [Server] New client Connected. Current clients: [2]
+[05.12.2019 10:10:19 PM] [ClientHandler] Handling the client...
+[05.12.2019 10:10:19 PM] [ClientHandler] Client Handled.
+[05.12.2019 10:10:19 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 10:10:19 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 10:10:19 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 10:10:37 PM] [CleanUp] 1 client removed.
+[05.12.2019 10:20:15 PM] Server started! Listening To Port [6787]
+[05.12.2019 10:20:15 PM] [Database] Connected successfuly
+[05.12.2019 10:20:28 PM] [Server] New client Connected. Current clients: [1]
+[05.12.2019 10:20:28 PM] [ClientHandler] Handling the client...
+[05.12.2019 10:20:28 PM] [CleanUp] CleanUp Thread Started
+[05.12.2019 10:20:28 PM] [ClientHandler] Client Handled.
+[05.12.2019 10:20:28 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[05.12.2019 10:20:29 PM] P;Codrut;Iftimie;05.12.2019 10:20:00 PM;second test;NONE;NONE;
+[05.12.2019 10:20:29 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[05.12.2019 10:45:58 PM] [CleanUp] 1 client removed.
+[07.12.2019 5:32:12 PM] Server started! Listening To Port [6787]
+[07.12.2019 5:32:12 PM] [Database] Connected successfuly
+[07.12.2019 5:32:33 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 5:32:33 PM] [ClientHandler] Handling the client...
+[07.12.2019 5:32:33 PM] [Server] Created a new Thread. [Total Threads: 1]
+[07.12.2019 5:32:33 PM] [ClientHandler] Client Handled.
+[07.12.2019 5:32:33 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 5:32:33 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 5:32:33 PM] P;Codrut;Iftimie;05.12.2019 10:20:00 PM;second test;NONE;NONE;
+[07.12.2019 5:32:33 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[07.12.2019 5:33:14 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;test broadcast;mechanic;0;NONE;
+[07.12.2019 5:33:33 PM] [CleanUp] 1 client removed.
+[07.12.2019 5:33:42 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 5:33:42 PM] [ClientHandler] Handling the client...
+[07.12.2019 5:33:42 PM] [ClientHandler] Client Handled.
+[07.12.2019 5:33:43 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 5:33:43 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 5:33:43 PM] P;Codrut;Iftimie;07.12.2019 5:33:14 PM;test broadcast;NONE;NONE;
+[07.12.2019 5:33:43 PM] P;Codrut;Iftimie;05.12.2019 10:20:00 PM;second test;NONE;NONE;
+[07.12.2019 5:33:43 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[07.12.2019 5:36:43 PM] Server started! Listening To Port [6787]
+[07.12.2019 5:36:44 PM] [Database] Connected successfuly
+[07.12.2019 5:36:56 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 5:36:56 PM] [ClientHandler] Handling the client...
+[07.12.2019 5:36:56 PM] [CleanUp] CleanUp Thread Started
+[07.12.2019 5:36:56 PM] [Server] Created a new Thread. [Total Threads: 1]
+[07.12.2019 5:36:56 PM] [ClientHandler] Client Handled.
+[07.12.2019 5:36:56 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 5:36:56 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 5:36:56 PM] P;Codrut;Iftimie;07.12.2019 5:33:14 PM;test broadcast;NONE;NONE;
+[07.12.2019 5:36:56 PM] P;Codrut;Iftimie;05.12.2019 10:20:00 PM;second test;NONE;NONE;
+[07.12.2019 5:36:56 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[07.12.2019 5:37:21 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;ghjfgn;mechanic;0;NONE;
+[07.12.2019 5:37:36 PM] [CleanUp] 1 client removed.
+[07.12.2019 5:38:15 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 5:38:15 PM] [ClientHandler] Handling the client...
+[07.12.2019 5:38:15 PM] [ClientHandler] Client Handled.
+[07.12.2019 5:38:15 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 5:38:15 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 5:38:15 PM] P;Codrut;Iftimie;07.12.2019 5:37:21 PM;ghjfgn;NONE;NONE;
+[07.12.2019 5:38:15 PM] P;Codrut;Iftimie;07.12.2019 5:33:14 PM;test broadcast;NONE;NONE;
+[07.12.2019 5:38:15 PM] P;Codrut;Iftimie;05.12.2019 10:20:00 PM;second test;NONE;NONE;
+[07.12.2019 5:38:15 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[07.12.2019 5:49:06 PM] [Thread 0] : O;
+[07.12.2019 5:49:10 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 5:49:10 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 5:49:10 PM] P;Codrut;Iftimie;07.12.2019 5:37:21 PM;ghjfgn;NONE;NONE;
+[07.12.2019 5:49:10 PM] P;Codrut;Iftimie;07.12.2019 5:33:14 PM;test broadcast;NONE;NONE;
+[07.12.2019 5:49:10 PM] P;Codrut;Iftimie;05.12.2019 10:20:00 PM;second test;NONE;NONE;
+[07.12.2019 5:49:10 PM] P;Codrut;Iftimie;19.11.2019 9:41:33 PM;testing this post;NONE;NONE;
+[07.12.2019 5:51:36 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;dgjstkstksfksgi;mechanic;0;NONE;
+[07.12.2019 5:51:56 PM] [CleanUp] 1 client removed.
+[07.12.2019 5:53:23 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 5:53:23 PM] [ClientHandler] Handling the client...
+[07.12.2019 5:53:23 PM] [ClientHandler] Client Handled.
+[07.12.2019 5:53:23 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 5:53:23 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 5:53:39 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;dgksgkdgmssgmsgk;mechanic;0;NONE;
+[07.12.2019 6:05:30 PM] Server started! Listening To Port [6787]
+[07.12.2019 6:05:30 PM] [Database] Connected successfuly
+[07.12.2019 6:05:38 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 6:05:38 PM] [ClientHandler] Handling the client...
+[07.12.2019 6:05:38 PM] [CleanUp] CleanUp Thread Started
+[07.12.2019 6:05:38 PM] [Server] Created a new Thread. [Total Threads: 1]
+[07.12.2019 6:05:38 PM] [ClientHandler] Client Handled.
+[07.12.2019 6:05:38 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:05:38 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:05:38 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 6:06:13 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;xmvxvkdgm;mechanic;0;NONE;
+[07.12.2019 6:30:13 PM] Server started! Listening To Port [6787]
+[07.12.2019 6:30:13 PM] [Database] Connected successfuly
+[07.12.2019 6:30:29 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 6:30:29 PM] [ClientHandler] Handling the client...
+[07.12.2019 6:30:29 PM] [CleanUp] CleanUp Thread Started
+[07.12.2019 6:30:29 PM] [Server] Created a new Thread. [Total Threads: 1]
+[07.12.2019 6:30:29 PM] [ClientHandler] Client Handled.
+[07.12.2019 6:30:29 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:30:29 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:30:29 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 6:30:29 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 6:31:05 PM] [Server] New client Connected. Current clients: [2]
+[07.12.2019 6:31:05 PM] [ClientHandler] Handling the client...
+[07.12.2019 6:31:05 PM] [ClientHandler] Client Handled.
+[07.12.2019 6:31:05 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:31:05 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:31:05 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 6:31:05 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 6:31:09 PM] [CleanUp] 1 client removed.
+[07.12.2019 6:31:29 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;ujjkk;mechanic;0;NONE;
+[07.12.2019 6:32:53 PM] Server started! Listening To Port [6787]
+[07.12.2019 6:32:54 PM] [Database] Connected successfuly
+[07.12.2019 6:32:59 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 6:32:59 PM] [ClientHandler] Handling the client...
+[07.12.2019 6:32:59 PM] [CleanUp] CleanUp Thread Started
+[07.12.2019 6:32:59 PM] [Server] Created a new Thread. [Total Threads: 1]
+[07.12.2019 6:32:59 PM] [ClientHandler] Client Handled.
+[07.12.2019 6:32:59 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:32:59 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:32:59 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 6:32:59 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 6:32:59 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 6:33:22 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;last broadcast test;mechanic;0;NONE;
+[07.12.2019 6:33:45 PM] [Thread 0] : O;
+[07.12.2019 6:33:49 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:33:49 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:33:49 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 6:33:49 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 6:33:49 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 6:33:49 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 6:34:07 PM] [Thread 0] : O;
+[07.12.2019 6:34:10 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:34:10 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:34:10 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 6:34:10 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 6:34:10 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 6:34:10 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 6:35:09 PM] [CleanUp] 1 client removed.
+[07.12.2019 6:39:45 PM] Server started! Listening To Port [6787]
+[07.12.2019 6:39:45 PM] [Database] Connected successfuly
+[07.12.2019 6:39:54 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 6:39:54 PM] [ClientHandler] Handling the client...
+[07.12.2019 6:39:54 PM] [CleanUp] CleanUp Thread Started
+[07.12.2019 6:39:54 PM] [Server] Created a new Thread. [Total Threads: 1]
+[07.12.2019 6:39:54 PM] [ClientHandler] Client Handled.
+[07.12.2019 6:39:54 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:39:54 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:39:54 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 6:39:54 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 6:39:54 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 6:39:54 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 6:40:13 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;btest;mechanic;0;NONE;
+[07.12.2019 6:43:05 PM] Server started! Listening To Port [6787]
+[07.12.2019 6:43:05 PM] [Database] Connected successfuly
+[07.12.2019 6:43:13 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 6:43:13 PM] [ClientHandler] Handling the client...
+[07.12.2019 6:43:14 PM] [CleanUp] CleanUp Thread Started
+[07.12.2019 6:43:14 PM] [Server] Created a new Thread. [Total Threads: 1]
+[07.12.2019 6:43:14 PM] [ClientHandler] Client Handled.
+[07.12.2019 6:43:14 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:43:14 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:43:14 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 6:43:14 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 6:43:14 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 6:43:14 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 6:43:14 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 6:43:33 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;j;mechanic;0;NONE;
+[07.12.2019 6:47:16 PM] Server started! Listening To Port [6787]
+[07.12.2019 6:47:17 PM] [Database] Connected successfuly
+[07.12.2019 6:47:25 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 6:47:25 PM] [ClientHandler] Handling the client...
+[07.12.2019 6:47:25 PM] [CleanUp] CleanUp Thread Started
+[07.12.2019 6:47:25 PM] [Server] Created a new Thread. [Total Threads: 1]
+[07.12.2019 6:47:25 PM] [ClientHandler] Client Handled.
+[07.12.2019 6:47:25 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:47:25 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:47:25 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 6:47:25 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 6:47:25 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 6:47:25 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 6:47:25 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 6:47:25 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 6:47:47 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;mgș;mechanic;0;NONE;
+[07.12.2019 6:48:48 PM] [Server] New client Connected. Current clients: [2]
+[07.12.2019 6:48:48 PM] [ClientHandler] Handling the client...
+[07.12.2019 6:48:48 PM] [ClientHandler] Client Handled.
+[07.12.2019 6:48:49 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:48:49 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:48:49 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 6:48:49 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 6:48:49 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 6:48:49 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 6:48:49 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 6:48:49 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 6:48:49 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 6:48:55 PM] [CleanUp] 1 client removed.
+[07.12.2019 6:51:32 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;xsgkdg;mechanic;0;NONE;
+[07.12.2019 6:53:05 PM] [CleanUp] 1 client removed.
+[07.12.2019 6:53:17 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 6:53:17 PM] [ClientHandler] Handling the client...
+[07.12.2019 6:53:17 PM] [ClientHandler] Client Handled.
+[07.12.2019 6:53:18 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:53:18 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:53:18 PM] P;Codrut;Iftimie;07.12.2019 6:51:32 PM;xsgkdg;NONE;NONE;
+[07.12.2019 6:53:18 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 6:53:18 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 6:53:18 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 6:53:18 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 6:53:18 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 6:53:18 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 6:53:18 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 6:53:33 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;sgkeyksgk;mechanic;0;NONE;
+[07.12.2019 6:54:05 PM] [CleanUp] 1 client removed.
+[07.12.2019 6:59:58 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 6:59:58 PM] [ClientHandler] Handling the client...
+[07.12.2019 6:59:58 PM] [ClientHandler] Client Handled.
+[07.12.2019 6:59:59 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:59:59 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 6:59:59 PM] P;Codrut;Iftimie;07.12.2019 6:53:33 PM;sgkeyksgk;NONE;NONE;
+[07.12.2019 6:59:59 PM] P;Codrut;Iftimie;07.12.2019 6:51:32 PM;xsgkdg;NONE;NONE;
+[07.12.2019 6:59:59 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 6:59:59 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 6:59:59 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 6:59:59 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 6:59:59 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 6:59:59 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 6:59:59 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 7:00:22 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;j;mechanic;0;NONE;
+[07.12.2019 7:00:33 PM] [Server] New client Connected. Current clients: [2]
+[07.12.2019 7:00:33 PM] [ClientHandler] Handling the client...
+[07.12.2019 7:00:33 PM] [ClientHandler] Client Handled.
+[07.12.2019 7:00:33 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 7:00:33 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 7:00:33 PM] P;Codrut;Iftimie;07.12.2019 7:00:22 PM;j;NONE;NONE;
+[07.12.2019 7:00:33 PM] P;Codrut;Iftimie;07.12.2019 6:53:33 PM;sgkeyksgk;NONE;NONE;
+[07.12.2019 7:00:33 PM] P;Codrut;Iftimie;07.12.2019 6:51:32 PM;xsgkdg;NONE;NONE;
+[07.12.2019 7:00:33 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 7:00:33 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 7:00:33 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 7:00:33 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 7:00:33 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 7:00:33 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 7:00:33 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 7:00:44 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;tyjfr;mechanic;0;NONE;
+[07.12.2019 7:02:01 PM] Server started! Listening To Port [6787]
+[07.12.2019 7:02:01 PM] [Database] Connected successfuly
+[07.12.2019 7:02:12 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 7:02:12 PM] [ClientHandler] Handling the client...
+[07.12.2019 7:02:12 PM] [CleanUp] CleanUp Thread Started
+[07.12.2019 7:02:12 PM] [Server] Created a new Thread. [Total Threads: 1]
+[07.12.2019 7:02:12 PM] [ClientHandler] Client Handled.
+[07.12.2019 7:02:13 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 7:02:13 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 7:02:13 PM] P;Codrut;Iftimie;07.12.2019 7:00:44 PM;tyjfr;NONE;NONE;
+[07.12.2019 7:02:13 PM] P;Codrut;Iftimie;07.12.2019 7:00:22 PM;j;NONE;NONE;
+[07.12.2019 7:02:13 PM] P;Codrut;Iftimie;07.12.2019 6:53:33 PM;sgkeyksgk;NONE;NONE;
+[07.12.2019 7:02:13 PM] P;Codrut;Iftimie;07.12.2019 6:51:32 PM;xsgkdg;NONE;NONE;
+[07.12.2019 7:02:13 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 7:02:13 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 7:02:13 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 7:02:13 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 7:02:13 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 7:02:13 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 7:02:13 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 7:02:35 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;figtg;mechanic;0;NONE;
+[07.12.2019 7:10:12 PM] Server started! Listening To Port [6787]
+[07.12.2019 7:10:13 PM] [Database] Connected successfuly
+[07.12.2019 7:10:19 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 7:10:19 PM] [ClientHandler] Handling the client...
+[07.12.2019 7:10:19 PM] [CleanUp] CleanUp Thread Started
+[07.12.2019 7:10:19 PM] [Server] Created a new Thread. [Total Threads: 1]
+[07.12.2019 7:10:19 PM] [ClientHandler] Client Handled.
+[07.12.2019 7:10:19 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 7:10:19 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 7:10:19 PM] P;Codrut;Iftimie;07.12.2019 7:02:35 PM;figtg;NONE;NONE;
+[07.12.2019 7:10:19 PM] P;Codrut;Iftimie;07.12.2019 7:00:44 PM;tyjfr;NONE;NONE;
+[07.12.2019 7:10:19 PM] P;Codrut;Iftimie;07.12.2019 7:00:22 PM;j;NONE;NONE;
+[07.12.2019 7:10:19 PM] P;Codrut;Iftimie;07.12.2019 6:53:33 PM;sgkeyksgk;NONE;NONE;
+[07.12.2019 7:10:19 PM] P;Codrut;Iftimie;07.12.2019 6:51:32 PM;xsgkdg;NONE;NONE;
+[07.12.2019 7:10:19 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 7:10:19 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 7:10:19 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 7:10:19 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 7:10:19 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 7:10:19 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 7:10:19 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 7:10:41 PM] [Thread 0] : N;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;nani the fuck;mechanic;0;NONE;
+[07.12.2019 7:25:19 PM] [Server] New client Connected. Current clients: [2]
+[07.12.2019 7:25:19 PM] [ClientHandler] Handling the client...
+[07.12.2019 7:25:19 PM] [ClientHandler] Client Handled.
+[07.12.2019 7:25:40 PM] [Thread 0] : L;test@test.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[07.12.2019 7:25:40 PM] Email: test@test.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[07.12.2019 7:26:19 PM] [CleanUp] 1 client removed.
+[07.12.2019 7:26:26 PM] [Server] New client Connected. Current clients: [2]
+[07.12.2019 7:26:26 PM] [ClientHandler] Handling the client...
+[07.12.2019 7:26:26 PM] [ClientHandler] Client Handled.
+[07.12.2019 7:26:44 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[07.12.2019 7:26:44 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[07.12.2019 7:26:44 PM] P;Codrut;Iftimie;07.12.2019 7:10:41 PM;nani the fuck;NONE;NONE;
+[07.12.2019 7:26:44 PM] P;Codrut;Iftimie;07.12.2019 7:02:35 PM;figtg;NONE;NONE;
+[07.12.2019 7:26:44 PM] P;Codrut;Iftimie;07.12.2019 7:00:44 PM;tyjfr;NONE;NONE;
+[07.12.2019 7:26:44 PM] P;Codrut;Iftimie;07.12.2019 7:00:22 PM;j;NONE;NONE;
+[07.12.2019 7:26:44 PM] P;Codrut;Iftimie;07.12.2019 6:53:33 PM;sgkeyksgk;NONE;NONE;
+[07.12.2019 7:26:44 PM] P;Codrut;Iftimie;07.12.2019 6:51:32 PM;xsgkdg;NONE;NONE;
+[07.12.2019 7:26:44 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 7:26:44 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 7:26:44 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 7:26:44 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 7:26:44 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 7:26:44 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 7:26:44 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 7:27:25 PM] [Thread 0] : N;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Nani the fuck, second part;mechanic;0;NONE;
+[07.12.2019 7:34:29 PM] [CleanUp] 1 client removed.
+[07.12.2019 7:35:12 PM] [Server] New client Connected. Current clients: [2]
+[07.12.2019 7:35:12 PM] [ClientHandler] Handling the client...
+[07.12.2019 7:35:12 PM] [ClientHandler] Client Handled.
+[07.12.2019 7:35:12 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[07.12.2019 7:35:12 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[07.12.2019 7:35:12 PM] P;Codrut;Iftimie;07.12.2019 7:27:25 PM;Nani the fuck, second part;NONE;NONE;
+[07.12.2019 7:35:12 PM] P;Codrut;Iftimie;07.12.2019 7:10:41 PM;nani the fuck;NONE;NONE;
+[07.12.2019 7:35:12 PM] P;Codrut;Iftimie;07.12.2019 7:02:35 PM;figtg;NONE;NONE;
+[07.12.2019 7:35:12 PM] P;Codrut;Iftimie;07.12.2019 7:00:44 PM;tyjfr;NONE;NONE;
+[07.12.2019 7:35:12 PM] P;Codrut;Iftimie;07.12.2019 7:00:22 PM;j;NONE;NONE;
+[07.12.2019 7:35:12 PM] P;Codrut;Iftimie;07.12.2019 6:53:33 PM;sgkeyksgk;NONE;NONE;
+[07.12.2019 7:35:12 PM] P;Codrut;Iftimie;07.12.2019 6:51:32 PM;xsgkdg;NONE;NONE;
+[07.12.2019 7:35:12 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 7:35:12 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 7:35:12 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 7:35:12 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 7:35:12 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 7:35:12 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 7:35:12 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 7:35:20 PM] [CleanUp] 1 client removed.
+[07.12.2019 7:35:22 PM] [Server] New client Connected. Current clients: [2]
+[07.12.2019 7:35:22 PM] [ClientHandler] Handling the client...
+[07.12.2019 7:35:22 PM] [ClientHandler] Client Handled.
+[07.12.2019 7:35:22 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 7:35:22 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 7:35:22 PM] P;Codrut;Iftimie;07.12.2019 7:27:25 PM;Nani the fuck, second part;NONE;NONE;
+[07.12.2019 7:35:22 PM] P;Codrut;Iftimie;07.12.2019 7:10:41 PM;nani the fuck;NONE;NONE;
+[07.12.2019 7:35:22 PM] P;Codrut;Iftimie;07.12.2019 7:02:35 PM;figtg;NONE;NONE;
+[07.12.2019 7:35:22 PM] P;Codrut;Iftimie;07.12.2019 7:00:44 PM;tyjfr;NONE;NONE;
+[07.12.2019 7:35:22 PM] P;Codrut;Iftimie;07.12.2019 7:00:22 PM;j;NONE;NONE;
+[07.12.2019 7:35:22 PM] P;Codrut;Iftimie;07.12.2019 6:53:33 PM;sgkeyksgk;NONE;NONE;
+[07.12.2019 7:35:22 PM] P;Codrut;Iftimie;07.12.2019 6:51:32 PM;xsgkdg;NONE;NONE;
+[07.12.2019 7:35:22 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 7:35:22 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 7:35:22 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 7:35:22 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 7:35:22 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 7:35:22 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 7:35:22 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 7:36:22 PM] [Thread 0] : N;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Nani the fuck PRESENTS: third time's the charm;mechanic;0;NONE;
+[07.12.2019 7:39:01 PM] Server started! Listening To Port [6787]
+[07.12.2019 7:39:01 PM] [Database] Connected successfuly
+[07.12.2019 7:39:09 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 7:39:09 PM] [ClientHandler] Handling the client...
+[07.12.2019 7:39:09 PM] [CleanUp] CleanUp Thread Started
+[07.12.2019 7:39:09 PM] [ClientHandler] Client Handled.
+[07.12.2019 7:39:09 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 7:39:09 PM] P;Codrut;Iftimie;07.12.2019 7:27:25 PM;Nani the fuck, second part;NONE;NONE;
+[07.12.2019 7:39:09 PM] P;Codrut;Iftimie;07.12.2019 7:10:41 PM;nani the fuck;NONE;NONE;
+[07.12.2019 7:39:09 PM] P;Codrut;Iftimie;07.12.2019 7:02:35 PM;figtg;NONE;NONE;
+[07.12.2019 7:39:09 PM] P;Codrut;Iftimie;07.12.2019 7:00:44 PM;tyjfr;NONE;NONE;
+[07.12.2019 7:39:09 PM] P;Codrut;Iftimie;07.12.2019 7:00:22 PM;j;NONE;NONE;
+[07.12.2019 7:39:09 PM] P;Codrut;Iftimie;07.12.2019 6:53:33 PM;sgkeyksgk;NONE;NONE;
+[07.12.2019 7:39:09 PM] P;Codrut;Iftimie;07.12.2019 6:51:32 PM;xsgkdg;NONE;NONE;
+[07.12.2019 7:39:09 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 7:39:09 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 7:39:09 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 7:39:09 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 7:39:09 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 7:39:09 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 7:39:09 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 7:39:19 PM] [Server] New client Connected. Current clients: [2]
+[07.12.2019 7:39:19 PM] [ClientHandler] Handling the client...
+[07.12.2019 7:39:19 PM] [ClientHandler] Client Handled.
+[07.12.2019 7:39:20 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[07.12.2019 7:39:20 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[07.12.2019 7:39:20 PM] P;Codrut;Iftimie;07.12.2019 7:27:25 PM;Nani the fuck, second part;NONE;NONE;
+[07.12.2019 7:39:20 PM] P;Codrut;Iftimie;07.12.2019 7:10:41 PM;nani the fuck;NONE;NONE;
+[07.12.2019 7:39:20 PM] P;Codrut;Iftimie;07.12.2019 7:02:35 PM;figtg;NONE;NONE;
+[07.12.2019 7:39:20 PM] P;Codrut;Iftimie;07.12.2019 7:00:44 PM;tyjfr;NONE;NONE;
+[07.12.2019 7:39:20 PM] P;Codrut;Iftimie;07.12.2019 7:00:22 PM;j;NONE;NONE;
+[07.12.2019 7:39:20 PM] P;Codrut;Iftimie;07.12.2019 6:53:33 PM;sgkeyksgk;NONE;NONE;
+[07.12.2019 7:39:20 PM] P;Codrut;Iftimie;07.12.2019 6:51:32 PM;xsgkdg;NONE;NONE;
+[07.12.2019 7:39:20 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 7:39:20 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 7:39:20 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 7:39:20 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 7:39:20 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 7:39:20 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 7:39:20 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 7:39:40 PM] [Thread 0] : N;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;naniiiiiiiiiiii;mechanic;0;NONE;
+[07.12.2019 7:41:07 PM] [Server] New client Connected. Current clients: [3]
+[07.12.2019 7:41:07 PM] [ClientHandler] Handling the client...
+[07.12.2019 7:41:07 PM] [ClientHandler] Client Handled.
+[07.12.2019 7:41:07 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 7:41:07 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 7:41:07 PM] P;Codrut;Iftimie;07.12.2019 7:39:40 PM;naniiiiiiiiiiii;NONE;NONE;
+[07.12.2019 7:41:07 PM] P;Codrut;Iftimie;07.12.2019 7:27:25 PM;Nani the fuck, second part;NONE;NONE;
+[07.12.2019 7:41:07 PM] P;Codrut;Iftimie;07.12.2019 7:10:41 PM;nani the fuck;NONE;NONE;
+[07.12.2019 7:41:07 PM] P;Codrut;Iftimie;07.12.2019 7:02:35 PM;figtg;NONE;NONE;
+[07.12.2019 7:41:07 PM] P;Codrut;Iftimie;07.12.2019 7:00:44 PM;tyjfr;NONE;NONE;
+[07.12.2019 7:41:07 PM] P;Codrut;Iftimie;07.12.2019 7:00:22 PM;j;NONE;NONE;
+[07.12.2019 7:41:07 PM] P;Codrut;Iftimie;07.12.2019 6:53:33 PM;sgkeyksgk;NONE;NONE;
+[07.12.2019 7:41:07 PM] P;Codrut;Iftimie;07.12.2019 6:51:32 PM;xsgkdg;NONE;NONE;
+[07.12.2019 7:41:07 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 7:41:07 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 7:41:07 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 7:41:07 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 7:41:07 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 7:41:07 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 7:41:07 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 7:41:09 PM] [CleanUp] 1 client removed.
+[07.12.2019 7:41:48 PM] [Thread 0] : O;
+[07.12.2019 7:41:51 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 7:41:51 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 7:41:51 PM] P;Codrut;Iftimie;07.12.2019 7:39:40 PM;naniiiiiiiiiiii;NONE;NONE;
+[07.12.2019 7:41:51 PM] P;Codrut;Iftimie;07.12.2019 7:27:25 PM;Nani the fuck, second part;NONE;NONE;
+[07.12.2019 7:41:51 PM] P;Codrut;Iftimie;07.12.2019 7:10:41 PM;nani the fuck;NONE;NONE;
+[07.12.2019 7:41:51 PM] P;Codrut;Iftimie;07.12.2019 7:02:35 PM;figtg;NONE;NONE;
+[07.12.2019 7:41:51 PM] P;Codrut;Iftimie;07.12.2019 7:00:44 PM;tyjfr;NONE;NONE;
+[07.12.2019 7:41:51 PM] P;Codrut;Iftimie;07.12.2019 7:00:22 PM;j;NONE;NONE;
+[07.12.2019 7:41:51 PM] P;Codrut;Iftimie;07.12.2019 6:53:33 PM;sgkeyksgk;NONE;NONE;
+[07.12.2019 7:41:51 PM] P;Codrut;Iftimie;07.12.2019 6:51:32 PM;xsgkdg;NONE;NONE;
+[07.12.2019 7:41:51 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 7:41:51 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 7:41:51 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 7:41:51 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 7:41:51 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 7:41:51 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 7:41:51 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 7:42:13 PM] [Thread 0] : N;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;naniiiiiiiiiiii2;mechanic;0;NONE;
+[07.12.2019 7:53:11 PM] [Server] New client Connected. Current clients: [3]
+[07.12.2019 7:53:11 PM] [ClientHandler] Handling the client...
+[07.12.2019 7:53:11 PM] [ClientHandler] Client Handled.
+[07.12.2019 7:53:11 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 7:53:11 PM] P;Codrut;Iftimie;07.12.2019 7:42:13 PM;naniiiiiiiiiiii2;NONE;NONE;
+[07.12.2019 7:53:11 PM] P;Codrut;Iftimie;07.12.2019 7:39:40 PM;naniiiiiiiiiiii;NONE;NONE;
+[07.12.2019 7:53:11 PM] P;Codrut;Iftimie;07.12.2019 7:27:25 PM;Nani the fuck, second part;NONE;NONE;
+[07.12.2019 7:53:11 PM] P;Codrut;Iftimie;07.12.2019 7:10:41 PM;nani the fuck;NONE;NONE;
+[07.12.2019 7:53:11 PM] P;Codrut;Iftimie;07.12.2019 7:02:35 PM;figtg;NONE;NONE;
+[07.12.2019 7:53:11 PM] P;Codrut;Iftimie;07.12.2019 7:00:44 PM;tyjfr;NONE;NONE;
+[07.12.2019 7:53:11 PM] P;Codrut;Iftimie;07.12.2019 7:00:22 PM;j;NONE;NONE;
+[07.12.2019 7:53:11 PM] P;Codrut;Iftimie;07.12.2019 6:53:33 PM;sgkeyksgk;NONE;NONE;
+[07.12.2019 7:53:11 PM] P;Codrut;Iftimie;07.12.2019 6:51:32 PM;xsgkdg;NONE;NONE;
+[07.12.2019 7:53:11 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 7:53:11 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 7:53:11 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 7:53:11 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 7:53:11 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 7:53:11 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 7:53:11 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 7:53:17 PM] [Server] New client Connected. Current clients: [4]
+[07.12.2019 7:53:17 PM] [ClientHandler] Handling the client...
+[07.12.2019 7:53:17 PM] [ClientHandler] Client Handled.
+[07.12.2019 7:53:17 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[07.12.2019 7:53:17 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[07.12.2019 7:53:17 PM] P;Codrut;Iftimie;07.12.2019 7:42:13 PM;naniiiiiiiiiiii2;NONE;NONE;
+[07.12.2019 7:53:17 PM] P;Codrut;Iftimie;07.12.2019 7:39:40 PM;naniiiiiiiiiiii;NONE;NONE;
+[07.12.2019 7:53:17 PM] P;Codrut;Iftimie;07.12.2019 7:27:25 PM;Nani the fuck, second part;NONE;NONE;
+[07.12.2019 7:53:17 PM] P;Codrut;Iftimie;07.12.2019 7:10:41 PM;nani the fuck;NONE;NONE;
+[07.12.2019 7:53:17 PM] P;Codrut;Iftimie;07.12.2019 7:02:35 PM;figtg;NONE;NONE;
+[07.12.2019 7:53:17 PM] P;Codrut;Iftimie;07.12.2019 7:00:44 PM;tyjfr;NONE;NONE;
+[07.12.2019 7:53:17 PM] P;Codrut;Iftimie;07.12.2019 7:00:22 PM;j;NONE;NONE;
+[07.12.2019 7:53:17 PM] P;Codrut;Iftimie;07.12.2019 6:53:33 PM;sgkeyksgk;NONE;NONE;
+[07.12.2019 7:53:17 PM] P;Codrut;Iftimie;07.12.2019 6:51:32 PM;xsgkdg;NONE;NONE;
+[07.12.2019 7:53:17 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 7:53:17 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 7:53:17 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 7:53:17 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 7:53:17 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 7:53:17 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 7:53:17 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 7:53:19 PM] [CleanUp] 1 client removed.
+[07.12.2019 7:53:29 PM] [CleanUp] 1 client removed.
+[07.12.2019 7:55:39 PM] [CleanUp] 1 client removed.
+[07.12.2019 7:55:47 PM] Server started! Listening To Port [6787]
+[07.12.2019 7:55:47 PM] [Database] Connected successfuly
+[07.12.2019 7:56:01 PM] [Server] New client Connected. Current clients: [1]
+[07.12.2019 7:56:01 PM] [ClientHandler] Handling the client...
+[07.12.2019 7:56:01 PM] [CleanUp] CleanUp Thread Started
+[07.12.2019 7:56:01 PM] [Server] Created a new Thread. [Total Threads: 1]
+[07.12.2019 7:56:01 PM] [ClientHandler] Client Handled.
+[07.12.2019 7:56:01 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[07.12.2019 7:56:01 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[07.12.2019 7:56:01 PM] P;Codrut;Iftimie;07.12.2019 7:42:13 PM;naniiiiiiiiiiii2;NONE;NONE;
+[07.12.2019 7:56:01 PM] P;Codrut;Iftimie;07.12.2019 7:39:40 PM;naniiiiiiiiiiii;NONE;NONE;
+[07.12.2019 7:56:01 PM] P;Codrut;Iftimie;07.12.2019 7:27:25 PM;Nani the fuck, second part;NONE;NONE;
+[07.12.2019 7:56:01 PM] P;Codrut;Iftimie;07.12.2019 7:10:41 PM;nani the fuck;NONE;NONE;
+[07.12.2019 7:56:01 PM] P;Codrut;Iftimie;07.12.2019 7:02:35 PM;figtg;NONE;NONE;
+[07.12.2019 7:56:01 PM] P;Codrut;Iftimie;07.12.2019 7:00:44 PM;tyjfr;NONE;NONE;
+[07.12.2019 7:56:01 PM] P;Codrut;Iftimie;07.12.2019 7:00:22 PM;j;NONE;NONE;
+[07.12.2019 7:56:01 PM] P;Codrut;Iftimie;07.12.2019 6:53:33 PM;sgkeyksgk;NONE;NONE;
+[07.12.2019 7:56:01 PM] P;Codrut;Iftimie;07.12.2019 6:51:32 PM;xsgkdg;NONE;NONE;
+[07.12.2019 7:56:01 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 7:56:01 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 7:56:01 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 7:56:01 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 7:56:01 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 7:56:01 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 7:56:01 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 7:56:07 PM] [Server] New client Connected. Current clients: [2]
+[07.12.2019 7:56:07 PM] [ClientHandler] Handling the client...
+[07.12.2019 7:56:07 PM] [ClientHandler] Client Handled.
+[07.12.2019 7:56:07 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 7:56:07 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[07.12.2019 7:56:07 PM] P;Codrut;Iftimie;07.12.2019 7:42:13 PM;naniiiiiiiiiiii2;NONE;NONE;
+[07.12.2019 7:56:07 PM] P;Codrut;Iftimie;07.12.2019 7:39:40 PM;naniiiiiiiiiiii;NONE;NONE;
+[07.12.2019 7:56:07 PM] P;Codrut;Iftimie;07.12.2019 7:27:25 PM;Nani the fuck, second part;NONE;NONE;
+[07.12.2019 7:56:07 PM] P;Codrut;Iftimie;07.12.2019 7:10:41 PM;nani the fuck;NONE;NONE;
+[07.12.2019 7:56:07 PM] P;Codrut;Iftimie;07.12.2019 7:02:35 PM;figtg;NONE;NONE;
+[07.12.2019 7:56:07 PM] P;Codrut;Iftimie;07.12.2019 7:00:44 PM;tyjfr;NONE;NONE;
+[07.12.2019 7:56:07 PM] P;Codrut;Iftimie;07.12.2019 7:00:22 PM;j;NONE;NONE;
+[07.12.2019 7:56:07 PM] P;Codrut;Iftimie;07.12.2019 6:53:33 PM;sgkeyksgk;NONE;NONE;
+[07.12.2019 7:56:07 PM] P;Codrut;Iftimie;07.12.2019 6:51:32 PM;xsgkdg;NONE;NONE;
+[07.12.2019 7:56:07 PM] P;Codrut;Iftimie;07.12.2019 6:47:47 PM;mg?;NONE;NONE;
+[07.12.2019 7:56:07 PM] P;Codrut;Iftimie;07.12.2019 6:43:33 PM;j;NONE;NONE;
+[07.12.2019 7:56:07 PM] P;Codrut;Iftimie;07.12.2019 6:40:13 PM;btest;NONE;NONE;
+[07.12.2019 7:56:07 PM] P;Codrut;Iftimie;07.12.2019 6:33:22 PM;last broadcast test;NONE;NONE;
+[07.12.2019 7:56:07 PM] P;Codrut;Iftimie;07.12.2019 6:31:29 PM;ujjkk;NONE;NONE;
+[07.12.2019 7:56:07 PM] P;Codrut;Iftimie;07.12.2019 6:06:13 PM;xmvxvkdgm;NONE;NONE;
+[07.12.2019 7:56:07 PM] P;Codrut;Iftimie;07.12.2019 5:53:39 PM;dgksgkdgmssgmsgk;NONE;NONE;
+[07.12.2019 7:56:30 PM] [Thread 0] : N;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Nani should fucking work;mechanic;0;NONE;
+[11.12.2019 8:01:48 PM] Server started! Listening To Port [6787]
+[11.12.2019 8:01:48 PM] [Database] Connected successfuly
+[11.12.2019 8:02:22 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 8:02:23 PM] [ClientHandler] Handling the client...
+[11.12.2019 8:02:23 PM] [CleanUp] CleanUp Thread Started
+[11.12.2019 8:02:23 PM] [Server] Created a new Thread. [Total Threads: 1]
+[11.12.2019 8:02:23 PM] [ClientHandler] Client Handled.
+[11.12.2019 8:02:23 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:02:23 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:02:54 PM] [Server] New client Connected. Current clients: [2]
+[11.12.2019 8:02:54 PM] [ClientHandler] Handling the client...
+[11.12.2019 8:02:54 PM] [ClientHandler] Client Handled.
+[11.12.2019 8:02:54 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:02:54 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:03:03 PM] [CleanUp] 1 client removed.
+[11.12.2019 8:04:50 PM] [Server] New client Connected. Current clients: [2]
+[11.12.2019 8:04:50 PM] [ClientHandler] Handling the client...
+[11.12.2019 8:04:50 PM] [ClientHandler] Client Handled.
+[11.12.2019 8:04:50 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:04:50 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:05:10 PM] [Thread 0] : N;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;a new post;mechanic;0;NONE;
+[11.12.2019 8:05:44 PM] [CleanUp] 1 client removed.
+[11.12.2019 8:07:01 PM] Server started! Listening To Port [6787]
+[11.12.2019 8:07:02 PM] [Database] Connected successfuly
+[11.12.2019 8:07:06 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 8:07:06 PM] [ClientHandler] Handling the client...
+[11.12.2019 8:07:06 PM] [CleanUp] CleanUp Thread Started
+[11.12.2019 8:07:06 PM] [Server] Created a new Thread. [Total Threads: 1]
+[11.12.2019 8:07:06 PM] [ClientHandler] Client Handled.
+[11.12.2019 8:07:06 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:07:06 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:07:07 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 8:17:23 PM] [Server] New client Connected. Current clients: [2]
+[11.12.2019 8:17:23 PM] [ClientHandler] Handling the client...
+[11.12.2019 8:17:23 PM] [ClientHandler] Client Handled.
+[11.12.2019 8:17:23 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:17:23 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:17:23 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 8:17:46 PM] [CleanUp] 1 client removed.
+[11.12.2019 8:19:10 PM] Server started! Listening To Port [6787]
+[11.12.2019 8:19:11 PM] [Database] Connected successfuly
+[11.12.2019 8:19:16 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 8:19:16 PM] [ClientHandler] Handling the client...
+[11.12.2019 8:19:16 PM] [CleanUp] CleanUp Thread Started
+[11.12.2019 8:19:16 PM] [Server] Created a new Thread. [Total Threads: 1]
+[11.12.2019 8:19:16 PM] [ClientHandler] Client Handled.
+[11.12.2019 8:19:16 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:19:16 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:19:16 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 8:20:06 PM] [CleanUp] 1 client removed.
+[11.12.2019 8:27:32 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 8:27:32 PM] [ClientHandler] Handling the client...
+[11.12.2019 8:27:32 PM] [ClientHandler] Client Handled.
+[11.12.2019 8:27:33 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:27:33 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:27:33 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 8:29:49 PM] [Server] New client Connected. Current clients: [2]
+[11.12.2019 8:29:49 PM] [ClientHandler] Handling the client...
+[11.12.2019 8:29:49 PM] [ClientHandler] Client Handled.
+[11.12.2019 8:30:02 PM] Server started! Listening To Port [6787]
+[11.12.2019 8:30:02 PM] [Database] Connected successfuly
+[11.12.2019 8:30:14 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 8:30:14 PM] [ClientHandler] Handling the client...
+[11.12.2019 8:30:14 PM] [Server] Created a new Thread. [Total Threads: 1]
+[11.12.2019 8:30:14 PM] [ClientHandler] Client Handled.
+[11.12.2019 8:30:14 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:30:14 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:30:14 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 8:30:46 PM] [Thread 0] : N;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;test new post;mechanic;0;NONE;
+[11.12.2019 8:32:27 PM] [Server] New client Connected. Current clients: [2]
+[11.12.2019 8:32:27 PM] [ClientHandler] Handling the client...
+[11.12.2019 8:32:27 PM] [ClientHandler] Client Handled.
+[11.12.2019 8:32:27 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:32:27 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 8:32:27 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 8:32:27 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 8:32:54 PM] [CleanUp] 1 client removed.
+[11.12.2019 9:19:02 PM] Server started! Listening To Port [6787]
+[11.12.2019 9:19:02 PM] [Database] Connected successfuly
+[11.12.2019 9:19:10 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 9:19:10 PM] [ClientHandler] Handling the client...
+[11.12.2019 9:19:10 PM] [Server] Created a new Thread. [Total Threads: 1]
+[11.12.2019 9:19:10 PM] [ClientHandler] Client Handled.
+[11.12.2019 9:19:10 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:19:10 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:19:10 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 9:19:10 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 9:19:30 PM] [CleanUp] 1 client removed.
+[11.12.2019 9:20:50 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 9:20:50 PM] [ClientHandler] Handling the client...
+[11.12.2019 9:20:50 PM] [ClientHandler] Client Handled.
+[11.12.2019 9:20:51 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:20:51 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:20:51 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 9:20:51 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 9:21:10 PM] [CleanUp] 1 client removed.
+[11.12.2019 9:25:15 PM] Server started! Listening To Port [6787]
+[11.12.2019 9:25:16 PM] [Database] Connected successfuly
+[11.12.2019 9:25:24 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 9:25:24 PM] [ClientHandler] Handling the client...
+[11.12.2019 9:25:24 PM] [CleanUp] CleanUp Thread Started
+[11.12.2019 9:25:24 PM] [Server] Created a new Thread. [Total Threads: 1]
+[11.12.2019 9:25:24 PM] [ClientHandler] Client Handled.
+[11.12.2019 9:25:25 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:25:25 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:25:25 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 9:25:25 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 9:26:22 PM] Server started! Listening To Port [6787]
+[11.12.2019 9:26:22 PM] [Database] Connected successfuly
+[11.12.2019 9:26:33 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 9:26:33 PM] [ClientHandler] Handling the client...
+[11.12.2019 9:26:33 PM] [CleanUp] CleanUp Thread Started
+[11.12.2019 9:26:33 PM] [Server] Created a new Thread. [Total Threads: 1]
+[11.12.2019 9:26:33 PM] [ClientHandler] Client Handled.
+[11.12.2019 9:26:33 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:26:33 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:26:33 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 9:26:33 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 9:26:53 PM] [CleanUp] 1 client removed.
+[11.12.2019 9:35:58 PM] Server started! Listening To Port [6787]
+[11.12.2019 9:35:59 PM] [Database] Connected successfuly
+[11.12.2019 9:36:04 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 9:36:04 PM] [ClientHandler] Handling the client...
+[11.12.2019 9:36:04 PM] [CleanUp] CleanUp Thread Started
+[11.12.2019 9:36:04 PM] [Server] Created a new Thread. [Total Threads: 1]
+[11.12.2019 9:36:04 PM] [ClientHandler] Client Handled.
+[11.12.2019 9:36:04 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:36:04 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:36:04 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 9:36:04 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 9:36:24 PM] [CleanUp] 1 client removed.
+[11.12.2019 9:38:30 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 9:38:30 PM] [ClientHandler] Handling the client...
+[11.12.2019 9:38:30 PM] [ClientHandler] Client Handled.
+[11.12.2019 9:38:30 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:38:30 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:38:31 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 9:38:31 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 9:39:16 PM] [Thread 0] : L;test1@asd.com;-115-5-102-10842-41-112-94-7673-64-106-26-120-124102-73-609557-122-504779-61-9799-29-7436118
+[11.12.2019 9:39:16 PM] Email: test1@asd.com   |   Password:-115-5-102-10842-41-112-94-7673-64-106-26-120-124102-73-609557-122-504779-61-9799-29-7436118
+[11.12.2019 9:39:44 PM] Server started! Listening To Port [6787]
+[11.12.2019 9:39:45 PM] [Database] Connected successfuly
+[11.12.2019 9:39:57 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 9:39:57 PM] [ClientHandler] Handling the client...
+[11.12.2019 9:39:57 PM] [CleanUp] CleanUp Thread Started
+[11.12.2019 9:39:57 PM] [Server] Created a new Thread. [Total Threads: 1]
+[11.12.2019 9:39:57 PM] [ClientHandler] Client Handled.
+[11.12.2019 9:39:57 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:39:57 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:39:57 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 9:39:57 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 9:42:02 PM] [Server] New client Connected. Current clients: [2]
+[11.12.2019 9:42:02 PM] [ClientHandler] Handling the client...
+[11.12.2019 9:42:02 PM] [ClientHandler] Client Handled.
+[11.12.2019 9:42:02 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:42:02 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:42:02 PM] [CleanUp] 1 client removed.
+[11.12.2019 9:42:29 PM] Server started! Listening To Port [6787]
+[11.12.2019 9:42:29 PM] [Database] Connected successfuly
+[11.12.2019 9:42:33 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 9:42:33 PM] [ClientHandler] Handling the client...
+[11.12.2019 9:42:33 PM] [CleanUp] CleanUp Thread Started
+[11.12.2019 9:42:33 PM] [Server] Created a new Thread. [Total Threads: 1]
+[11.12.2019 9:42:33 PM] [ClientHandler] Client Handled.
+[11.12.2019 9:42:33 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:42:33 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:42:33 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 9:42:33 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 9:43:22 PM] [Thread 0] : N;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;whaaaat;mechanic;0;NONE;
+[11.12.2019 9:45:10 PM] Server started! Listening To Port [6787]
+[11.12.2019 9:45:11 PM] [Database] Connected successfuly
+[11.12.2019 9:45:30 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 9:45:30 PM] [ClientHandler] Handling the client...
+[11.12.2019 9:45:30 PM] [CleanUp] CleanUp Thread Started
+[11.12.2019 9:45:30 PM] [Server] Created a new Thread. [Total Threads: 1]
+[11.12.2019 9:45:30 PM] [ClientHandler] Client Handled.
+[11.12.2019 9:45:30 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:45:30 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:45:30 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.12.2019 9:45:30 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 9:45:30 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 9:46:07 PM] [Thread 0] : N;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;new post ffs;mechanic;0;NONE;
+[11.12.2019 9:46:25 PM] [CleanUp] 1 client removed.
+[11.12.2019 9:49:06 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 9:49:06 PM] [ClientHandler] Handling the client...
+[11.12.2019 9:49:06 PM] [ClientHandler] Client Handled.
+[11.12.2019 9:49:07 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:49:07 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:49:07 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.12.2019 9:49:07 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.12.2019 9:49:07 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 9:49:07 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 9:49:21 PM] [Thread 0] : N;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;this should be good;mechanic;0;NONE;
+[11.12.2019 9:53:00 PM] [CleanUp] 1 client removed.
+[11.12.2019 9:53:07 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 9:53:07 PM] [ClientHandler] Handling the client...
+[11.12.2019 9:53:07 PM] [ClientHandler] Client Handled.
+[11.12.2019 9:53:07 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:53:07 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:53:07 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.12.2019 9:53:07 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.12.2019 9:53:07 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.12.2019 9:53:07 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 9:53:07 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 9:53:55 PM] [CleanUp] 1 client removed.
+[11.12.2019 9:53:59 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 9:53:59 PM] [ClientHandler] Handling the client...
+[11.12.2019 9:53:59 PM] [ClientHandler] Client Handled.
+[11.12.2019 9:54:00 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:54:00 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:54:00 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.12.2019 9:54:00 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.12.2019 9:54:00 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.12.2019 9:54:00 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 9:54:00 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 9:54:20 PM] [Server] New client Connected. Current clients: [2]
+[11.12.2019 9:54:20 PM] [ClientHandler] Handling the client...
+[11.12.2019 9:54:20 PM] [ClientHandler] Client Handled.
+[11.12.2019 9:54:21 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:54:21 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:54:21 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.12.2019 9:54:21 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.12.2019 9:54:21 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.12.2019 9:54:21 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 9:54:21 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 9:54:25 PM] [CleanUp] 1 client removed.
+[11.12.2019 9:54:51 PM] [Thread 0] : N;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;test for a new post 100% working;mechanic;0;NONE;
+[11.12.2019 9:55:48 PM] Server started! Listening To Port [6787]
+[11.12.2019 9:55:49 PM] [Database] Connected successfuly
+[11.12.2019 9:55:56 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 9:55:56 PM] [ClientHandler] Handling the client...
+[11.12.2019 9:55:56 PM] [CleanUp] CleanUp Thread Started
+[11.12.2019 9:55:56 PM] [Server] Created a new Thread. [Total Threads: 1]
+[11.12.2019 9:55:56 PM] [ClientHandler] Client Handled.
+[11.12.2019 9:55:56 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:55:56 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 9:55:56 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 9:55:56 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 9:55:56 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.12.2019 9:55:56 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.12.2019 9:55:56 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.12.2019 9:55:56 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.12.2019 9:56:36 PM] [Thread 0] : N;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;lets just add another post to make sure this post function works;mechanic;0;NONE;
+[11.12.2019 9:57:31 PM] [CleanUp] 1 client removed.
+[11.12.2019 10:04:49 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 10:04:49 PM] [ClientHandler] Handling the client...
+[11.12.2019 10:04:49 PM] [ClientHandler] Client Handled.
+[11.12.2019 10:04:49 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 10:04:49 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 10:04:49 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 10:04:49 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 10:04:49 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.12.2019 10:04:49 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.12.2019 10:04:49 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.12.2019 10:04:49 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.12.2019 10:04:49 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.12.2019 10:12:35 PM] [Server] New client Connected. Current clients: [2]
+[11.12.2019 10:12:35 PM] [ClientHandler] Handling the client...
+[11.12.2019 10:12:35 PM] [ClientHandler] Client Handled.
+[11.12.2019 10:12:35 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 10:12:35 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 10:12:35 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 10:12:35 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 10:12:35 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.12.2019 10:12:35 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.12.2019 10:12:35 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.12.2019 10:12:35 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.12.2019 10:12:35 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.12.2019 10:12:41 PM] [CleanUp] 1 client removed.
+[11.12.2019 10:15:41 PM] [CleanUp] 1 client removed.
+[11.12.2019 10:16:15 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 10:16:15 PM] [ClientHandler] Handling the client...
+[11.12.2019 10:16:15 PM] [ClientHandler] Client Handled.
+[11.12.2019 10:16:15 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 10:16:15 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 10:16:15 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 10:16:15 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 10:16:15 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.12.2019 10:16:15 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.12.2019 10:16:15 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.12.2019 10:16:15 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.12.2019 10:16:15 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.12.2019 10:16:44 PM] [Thread 0] : N;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;mechanic;0;NONE;
+[11.12.2019 10:23:16 PM] [CleanUp] 1 client removed.
+[11.12.2019 10:23:17 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 10:23:17 PM] [ClientHandler] Handling the client...
+[11.12.2019 10:23:17 PM] [ClientHandler] Client Handled.
+[11.12.2019 10:23:18 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 10:23:18 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 10:23:18 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 10:23:18 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 10:23:18 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.12.2019 10:23:18 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.12.2019 10:23:18 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.12.2019 10:23:18 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.12.2019 10:23:18 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.12.2019 10:23:18 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.12.2019 10:23:36 PM] [CleanUp] 1 client removed.
+[11.12.2019 10:24:00 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 10:24:00 PM] [ClientHandler] Handling the client...
+[11.12.2019 10:24:00 PM] [ClientHandler] Client Handled.
+[11.12.2019 10:24:01 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 10:24:01 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 10:24:01 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 10:24:01 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 10:24:01 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.12.2019 10:24:01 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.12.2019 10:24:01 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.12.2019 10:24:01 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.12.2019 10:24:01 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.12.2019 10:24:01 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.12.2019 10:25:34 PM] [Server] New client Connected. Current clients: [2]
+[11.12.2019 10:25:34 PM] [ClientHandler] Handling the client...
+[11.12.2019 10:25:34 PM] [ClientHandler] Client Handled.
+[11.12.2019 10:25:34 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 10:25:34 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 10:25:34 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 10:25:34 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 10:25:34 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.12.2019 10:25:34 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.12.2019 10:25:34 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.12.2019 10:25:34 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.12.2019 10:25:34 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.12.2019 10:25:34 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.12.2019 10:25:36 PM] [CleanUp] 1 client removed.
+[11.12.2019 10:26:06 PM] [CleanUp] 1 client removed.
+[11.12.2019 10:28:07 PM] [Server] New client Connected. Current clients: [1]
+[11.12.2019 10:28:07 PM] [ClientHandler] Handling the client...
+[11.12.2019 10:28:07 PM] [ClientHandler] Client Handled.
+[11.12.2019 10:28:07 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 10:28:07 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[11.12.2019 10:28:07 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.12.2019 10:28:07 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.12.2019 10:28:07 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.12.2019 10:28:07 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.12.2019 10:28:07 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.12.2019 10:28:07 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.12.2019 10:28:07 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.12.2019 10:28:07 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.12.2019 10:28:26 PM] [Thread 0] : N;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;post;mechanic;0;NONE;
+[11.12.2019 10:30:11 PM] [CleanUp] 1 client removed.
+[25.12.2019 5:07:09 PM] Server started! Listening To Port [6787]
+[25.12.2019 5:07:10 PM] [Database] Connected successfuly
+[25.12.2019 5:07:46 PM] [Server] New client Connected. Current clients: [1]
+[25.12.2019 5:07:46 PM] [ClientHandler] Handling the client...
+[25.12.2019 5:07:46 PM] [CleanUp] CleanUp Thread Started
+[25.12.2019 5:07:46 PM] [Server] Created a new Thread. [Total Threads: 1]
+[25.12.2019 5:07:46 PM] [ClientHandler] Client Handled.
+[25.12.2019 5:07:46 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 5:07:46 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 5:07:46 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[25.12.2019 5:07:46 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[25.12.2019 5:07:46 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[25.12.2019 5:07:46 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[25.12.2019 5:07:46 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[25.12.2019 5:07:46 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[25.12.2019 5:07:46 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[25.12.2019 5:07:46 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[25.12.2019 5:07:46 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[25.12.2019 5:08:06 PM] [CleanUp] 1 client removed.
+[25.12.2019 5:08:12 PM] [Server] New client Connected. Current clients: [1]
+[25.12.2019 5:08:12 PM] [ClientHandler] Handling the client...
+[25.12.2019 5:08:12 PM] [ClientHandler] Client Handled.
+[25.12.2019 5:08:12 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 5:08:12 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 5:08:12 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[25.12.2019 5:08:12 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[25.12.2019 5:08:12 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[25.12.2019 5:08:12 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[25.12.2019 5:08:12 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[25.12.2019 5:08:12 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[25.12.2019 5:08:12 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[25.12.2019 5:08:12 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[25.12.2019 5:08:12 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[25.12.2019 5:09:01 PM] [CleanUp] 1 client removed.
+[25.12.2019 5:11:55 PM] [Server] New client Connected. Current clients: [1]
+[25.12.2019 5:11:55 PM] [ClientHandler] Handling the client...
+[25.12.2019 5:11:55 PM] [ClientHandler] Client Handled.
+[25.12.2019 5:11:55 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 5:11:55 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 5:11:55 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[25.12.2019 5:11:55 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[25.12.2019 5:11:55 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[25.12.2019 5:11:55 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[25.12.2019 5:11:55 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[25.12.2019 5:11:55 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[25.12.2019 5:11:55 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[25.12.2019 5:11:55 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[25.12.2019 5:11:55 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[25.12.2019 5:12:11 PM] [CleanUp] 1 client removed.
+[25.12.2019 5:24:43 PM] [Server] New client Connected. Current clients: [1]
+[25.12.2019 5:24:43 PM] [ClientHandler] Handling the client...
+[25.12.2019 5:24:43 PM] [ClientHandler] Client Handled.
+[25.12.2019 5:24:43 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 5:24:43 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 5:24:43 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[25.12.2019 5:24:43 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[25.12.2019 5:24:43 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[25.12.2019 5:24:43 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[25.12.2019 5:24:43 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[25.12.2019 5:24:43 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[25.12.2019 5:24:43 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[25.12.2019 5:24:43 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[25.12.2019 5:24:43 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[25.12.2019 5:25:01 PM] [CleanUp] 1 client removed.
+[25.12.2019 5:30:29 PM] [Server] New client Connected. Current clients: [1]
+[25.12.2019 5:30:29 PM] [ClientHandler] Handling the client...
+[25.12.2019 5:30:29 PM] [ClientHandler] Client Handled.
+[25.12.2019 5:30:29 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 5:30:29 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 5:30:29 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[25.12.2019 5:30:29 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[25.12.2019 5:30:29 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[25.12.2019 5:30:29 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[25.12.2019 5:30:29 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[25.12.2019 5:30:29 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[25.12.2019 5:30:29 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[25.12.2019 5:30:29 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[25.12.2019 5:30:29 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[25.12.2019 5:30:46 PM] [CleanUp] 1 client removed.
+[25.12.2019 5:36:32 PM] [Server] New client Connected. Current clients: [1]
+[25.12.2019 5:36:32 PM] [ClientHandler] Handling the client...
+[25.12.2019 5:36:32 PM] [ClientHandler] Client Handled.
+[25.12.2019 5:36:32 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 5:36:32 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 5:36:32 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[25.12.2019 5:36:32 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[25.12.2019 5:36:32 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[25.12.2019 5:36:32 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[25.12.2019 5:36:32 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[25.12.2019 5:36:32 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[25.12.2019 5:36:32 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[25.12.2019 5:36:32 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[25.12.2019 5:36:32 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[25.12.2019 5:36:58 PM] [Thread 0] : N;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;test profile update feed;mechanic;0;NONE;
+[25.12.2019 5:37:27 PM] [Thread 0] : N;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;test add profile post order;mechanic;0;NONE;
+[25.12.2019 5:44:27 PM] [Server] New client Connected. Current clients: [2]
+[25.12.2019 5:44:27 PM] [ClientHandler] Handling the client...
+[25.12.2019 5:44:27 PM] [ClientHandler] Client Handled.
+[25.12.2019 5:44:27 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 5:44:27 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 5:44:27 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[25.12.2019 5:44:27 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[25.12.2019 5:44:27 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[25.12.2019 5:44:27 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[25.12.2019 5:44:27 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[25.12.2019 5:44:27 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[25.12.2019 5:44:27 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[25.12.2019 5:44:27 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[25.12.2019 5:44:27 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[25.12.2019 5:44:27 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[25.12.2019 5:44:27 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[25.12.2019 5:44:31 PM] [CleanUp] 1 client removed.
+[25.12.2019 6:01:26 PM] [CleanUp] 1 client removed.
+[25.12.2019 6:01:51 PM] [Server] New client Connected. Current clients: [1]
+[25.12.2019 6:01:51 PM] [ClientHandler] Handling the client...
+[25.12.2019 6:01:51 PM] [ClientHandler] Client Handled.
+[25.12.2019 6:01:51 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 6:01:51 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 6:01:51 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[25.12.2019 6:01:51 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[25.12.2019 6:01:51 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[25.12.2019 6:01:51 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[25.12.2019 6:01:51 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[25.12.2019 6:01:51 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[25.12.2019 6:01:51 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[25.12.2019 6:01:51 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[25.12.2019 6:01:51 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[25.12.2019 6:01:51 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[25.12.2019 6:01:51 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[25.12.2019 6:02:57 PM] [CleanUp] 1 client removed.
+[25.12.2019 6:02:57 PM] [Server] New client Connected. Current clients: [1]
+[25.12.2019 6:02:57 PM] [ClientHandler] Handling the client...
+[25.12.2019 6:02:57 PM] [ClientHandler] Client Handled.
+[25.12.2019 6:02:57 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 6:02:57 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 6:02:57 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[25.12.2019 6:02:57 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[25.12.2019 6:02:57 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[25.12.2019 6:02:57 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[25.12.2019 6:02:57 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[25.12.2019 6:02:57 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[25.12.2019 6:02:57 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[25.12.2019 6:02:57 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[25.12.2019 6:02:57 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[25.12.2019 6:02:57 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[25.12.2019 6:02:57 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[25.12.2019 6:03:51 PM] [Server] New client Connected. Current clients: [2]
+[25.12.2019 6:03:51 PM] [ClientHandler] Handling the client...
+[25.12.2019 6:03:51 PM] [ClientHandler] Client Handled.
+[25.12.2019 6:03:51 PM] [Thread 0] : L;test1@asd.com;-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 6:03:51 PM] Email: test1@asd.com   |   Password:-57117-25-7387-19-2648-5110-951759-47210226-77-12041-5482-906642-73-126-1224738-12270
+[25.12.2019 6:03:51 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[25.12.2019 6:03:51 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[25.12.2019 6:03:51 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[25.12.2019 6:03:51 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[25.12.2019 6:03:51 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[25.12.2019 6:03:51 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[25.12.2019 6:03:51 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[25.12.2019 6:03:51 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[25.12.2019 6:03:51 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[25.12.2019 6:03:51 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[25.12.2019 6:03:51 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[25.12.2019 6:03:57 PM] [CleanUp] 1 client removed.
+[25.12.2019 6:04:27 PM] [CleanUp] 1 client removed.

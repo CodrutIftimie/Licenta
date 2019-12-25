@@ -2,7 +2,6 @@ D:\GitHub\Licenta\AppServer\AppServer.Data\bin\Debug\netcoreapp2.1\AppServer.Dat
 D:\GitHub\Licenta\AppServer\AppServer.Data\bin\Debug\netcoreapp2.1\AppServer.Data.dll
 D:\GitHub\Licenta\AppServer\AppServer.Data\bin\Debug\netcoreapp2.1\AppServer.Data.pdb
 D:\GitHub\Licenta\AppServer\AppServer.Data\obj\Debug\netcoreapp2.1\AppServer.Data.csprojAssemblyReference.cache
-D:\GitHub\Licenta\AppServer\AppServer.Data\obj\Debug\netcoreapp2.1\AppServer.Data.csproj.CoreCompileInputs.cache
 D:\GitHub\Licenta\AppServer\AppServer.Data\obj\Debug\netcoreapp2.1\AppServer.Data.AssemblyInfoInputs.cache
 D:\GitHub\Licenta\AppServer\AppServer.Data\obj\Debug\netcoreapp2.1\AppServer.Data.AssemblyInfo.cs
 D:\GitHub\Licenta\AppServer\AppServer.Data\obj\Debug\netcoreapp2.1\AppServer.Data.dll

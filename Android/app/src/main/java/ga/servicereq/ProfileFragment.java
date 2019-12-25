@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
@@ -20,12 +21,20 @@ public class ProfileFragment extends Fragment {
 
     private Button editProfile;
     private Button logout;
+    private PostsAdapter posts;
+    private View rootView;
     SharedPreferences pref;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.layout_profile, container, false);
+        if(rootView == null)
+        {
+            rootView = inflater.inflate(R.layout.layout_profile, container, false);
+            LinearLayout mainContent = Objects.requireNonNull(rootView).findViewById(R.id.profile_main);
+            PostsAdapter.getInstance(this.getContext()).setProfileBody(mainContent);
+        }
+        return rootView;
     }
 
     @Override
@@ -64,5 +73,13 @@ public class ProfileFragment extends Fragment {
         RatingBar rating = view.findViewById(R.id.profile_rating);
         rating.setRating(pref.getFloat("rtg",0f));
 
+    }
+
+    @Override
+    public void onDestroyView() {
+        if (rootView.getParent() != null) {
+            ((ViewGroup)rootView.getParent()).removeView(rootView);
+        }
+        super.onDestroyView();
     }
 }

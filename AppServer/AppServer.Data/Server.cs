@@ -91,7 +91,21 @@ namespace AppServer.Data
 
 
                 if (cmd.ExecuteNonQuery() > 0)
+                {
+                    if (table.Equals("Posts"))
+                    {
+                        List<string[]> result = QueryResult(2, $"SELECT FirstName, LastName FROM USERS WHERE UserId='{values[0]}'"); //Get the name from the new post
+                        string[] newValues = new string[values.Length + 2];
+                        newValues[0] = result[0][0]; // FirstName
+                        newValues[1] = result[0][1]; // LastName
+                        result = QueryResult(1, $"SELECT Date FROM Posts WHERE Description='{values[1]}' ORDER BY Date DESC"); //Get the date from the new post
+                        newValues[2] = result[0][0]; // Date
+                        for (int i = 3; i < values.Length + 2; i++) //Copy rest of values
+                            newValues[i] = values[i - 2];
+                        ClientHandler.BroadcastNewPost(newValues);
+                    }
                     return true;
+                }
             }
             return false;
         }

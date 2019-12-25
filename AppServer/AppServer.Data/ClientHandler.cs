@@ -73,6 +73,23 @@ namespace AppServer.Data
             ConnectedClients++;
         }
 
+        internal static void BroadcastNewPost(string[] values)
+        {
+            int count = 0;
+            string message = "P;";
+            foreach (string value in values)
+                message += value + ";";
+            message += ";";
+            foreach (AppThread thread in threads)
+                foreach (AppClient client in thread.Clients)
+                    if (client.isLoggedIn())
+                    {
+                        Server.Write(client.Client, message);
+                        count++;
+                    }
+            Console.WriteLine($"Sent message to {count} users");
+        }
+
         private static void Process(object list)
         {
             List<AppClient> clients = (List<AppClient>)list; //get the list of the clients on the current thread
@@ -114,16 +131,16 @@ namespace AppServer.Data
 
                                         if (lValues.Count == 1)
                                         {
-                                            Server.Write(clients[i].Client, $"SUCCESS;{lValues[0][0]};{lValues[0][1]};{lValues[0][2]};{lValues[0][3]};");
+                                            Server.Write(clients[i].Client, $"LSUCCESS;;{lValues[0][0]};{lValues[0][1]};{lValues[0][2]};{lValues[0][3]};;");
                                             clients[i].loggedIn = true;
-                                            List<string[]> postsValues = Server.QueryResult(8, $"SELECT u.FirstName, u.LastName, p.Date, p.Description, p.ImageAddr, u.PictureAddr, p.Category, p.Location FROM Posts p, Users u WHERE p.UserId = u.UserId ORDER BY Date DESC");
+                                            List<string[]> postsValues = Server.QueryResult(8, $"SELECT u.FirstName, u.LastName, p.Date, p.Description, p.ImageAddr, u.PictureAddr, p.Category, p.Location FROM Posts p, Users u WHERE p.UserId = u.UserId ORDER BY Date ASC");
                                             foreach (string[] post in postsValues)
                                             {
-                                                Server.Write(clients[i].Client, $";P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};");
+                                                Server.Write(clients[i].Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};;");
                                                 Log.Add($"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};");
                                             }
                                         }
-                                        else Server.Write(clients[i].Client, "FAIL;");
+                                        else Server.Write(clients[i].Client, "LFAIL;;");
                                         break;
 
                                     case 'R':
@@ -141,12 +158,12 @@ namespace AppServer.Data
                                             if (Server.InsertQuery("Users", fields, values))
                                             {
                                                 List<string[]> intVals = Server.QueryResult(4, $"SELECT UserId, FirstName, LastName, Rating FROM Users WHERE email='{rEmail}'");
-                                                Server.Write(clients[i].Client, $"SUCCESS;{intVals[0][0]};{intVals[0][1]};{intVals[0][2]};{intVals[0][3]};");
+                                                Server.Write(clients[i].Client, $"RSUCCESS;;{intVals[0][0]};{intVals[0][1]};{intVals[0][2]};{intVals[0][3]};;");
                                                 clients[i].loggedIn = true;
                                             }
-                                            else Server.Write(clients[i].Client, "FAIL;");
+                                            else Server.Write(clients[i].Client, "RFAIL;;");
                                         }
-                                        else Server.Write(clients[i].Client, "EXISTING;");
+                                        else Server.Write(clients[i].Client, "REXISTING;;");
 
                                         break;
 
@@ -161,8 +178,8 @@ namespace AppServer.Data
                                         string[] pValues = new string[5] { pGuid, pDescription, pCategory, pLocation, pImageAddr };
 
                                         if (Server.InsertQuery("Posts", pFields, pValues))
-                                            Server.Write(clients[i].Client, "SUCCESS;");
-                                        else Server.Write(clients[i].Client, "FAIL;");
+                                            Server.Write(clients[i].Client, "SUCCESS;;");
+                                        else Server.Write(clients[i].Client, "FAIL;;");
 
                                         break;
 
@@ -186,14 +203,14 @@ namespace AppServer.Data
             while (true)
             {
                 long count = 0;
-                Thread.Sleep(10000); //Check every 10 minutes
+                Thread.Sleep(5000); //Check every 5 minutes
                 for (int i = 0; i < list.Count; i++)
                 {
                     for (int j = 0; j < list[i].Clients.Count; j++)
                     {
                         try //try to send a message to the client
                         {
-                            byte[] data = Encoding.ASCII.GetBytes("[CheckConnection]\n");
+                            byte[] data = Encoding.ASCII.GetBytes("[CheckConnection];;\n");
                             list[i].Clients[j].Client.GetStream().Write(data, 0, data.Length);
                         }
                         catch (Exception) //if there is an error it means that the client disconnected
@@ -215,6 +232,7 @@ namespace AppServer.Data
                     Log.Add($"[CleanUp] {count} client removed.");
                 else if (count > 1)
                     Log.Add($"[CleanUp] {count} clients removed.");
+                else count = 0;
             }
         }
     }
