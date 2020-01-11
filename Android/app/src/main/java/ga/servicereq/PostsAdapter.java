@@ -1,11 +1,13 @@
 package ga.servicereq;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -47,18 +49,33 @@ public class PostsAdapter {
         feedBody.post(new Runnable() {
             @Override
             public void run() {
-                LinearLayout toBeAdded = (LinearLayout) View.inflate(context, R.layout.main_post, null);
+                final LinearLayout toBeAdded = (LinearLayout) View.inflate(context, R.layout.main_post, null);
 
                 TextView posterName = toBeAdded.findViewById(R.id.post_posterName);
                 TextView postDate = toBeAdded.findViewById(R.id.post_time);
                 TextView postDescription = toBeAdded.findViewById(R.id.post_description);
 
-                String name = post.getFirstName() + " " + post.getLastName();
+                final String name = post.getFirstName() + " " + post.getLastName();
                 posterName.setText(name);
                 postDate.setText(post.getPostDate());
                 postDescription.setText(post.getDescription());
 
+                toBeAdded.setTag(post.getPosterId());
+
                 posts.add(toBeAdded);
+
+                toBeAdded.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
+                        String senderId = preferences.getString("gid", "");
+                        Intent i = new Intent(feedBody.getContext(), MessagingActivity.class);
+                        i.putExtra("senderId",(String)toBeAdded.getTag());
+                        i.putExtra("fname", post.getFirstName());
+                        i.putExtra("lname", post.getLastName());
+                        context.startActivity(i);
+                    }
+                });
                 feedBody.addView(toBeAdded, 2);
             }
         });
@@ -80,10 +97,17 @@ public class PostsAdapter {
                         TextView postDate = toBeAdded.findViewById(R.id.post_time);
                         TextView postDescription = toBeAdded.findViewById(R.id.post_description);
 
-                        String name = post.getFirstName() + " " + post.getLastName();
+                        final String name = post.getFirstName() + " " + post.getLastName();
                         posterName.setText(name);
                         postDate.setText(post.getPostDate());
                         postDescription.setText(post.getDescription());
+
+                        toBeAdded.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                Toast.makeText(context,"Test onClick " + name + " " + post.getPostDate(), Toast.LENGTH_LONG).show();
+                            }
+                        });
 
                         profileBody.addView(toBeAdded, 2);
                     }

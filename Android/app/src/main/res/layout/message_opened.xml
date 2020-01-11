@@ -36,12 +36,14 @@
 
     </RelativeLayout>
     <ScrollView
-        android:id="@+id/exchanged_messages"
+        android:id="@+id/message_scrollArea"
+        android:fillViewport="true"
         android:layout_below="@+id/message_receiver"
         android:layout_above="@+id/message_send_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <LinearLayout
+            android:id="@+id/exchanged_messages"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -55,19 +57,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
         android:background="@color/colorBackground">
         <EditText
             android:id="@+id/message_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/message_edittext_borders"
             android:textColor="#FFFFFF"
             android:layout_toStartOf="@+id/message_send_button"/>
         <ImageButton
             android:id="@+id/message_send_button"
-            android:src="@drawable/ic_send_black_24dp"
+            android:src="@drawable/ic_send_black_44dp"
             android:background="@null"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="50dp"
+            android:layout_centerInParent="true"
+            android:layout_height="50dp"
             android:layout_alignParentEnd="true" />
 
     </RelativeLayout>

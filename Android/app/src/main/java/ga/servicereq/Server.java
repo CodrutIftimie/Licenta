@@ -28,6 +28,7 @@ public final class Server implements Runnable {
     public static Context getAppContext() {
         return appContext;
     }
+
     public static void terminateConnection() {
         activeConnection = false;
     }
@@ -41,10 +42,10 @@ public final class Server implements Runnable {
             @Override
             public void run() {
                 try {
-                    while(writeSocket == null)
+                    while (writeSocket == null)
                         Thread.sleep(100);
                     writeSocket.write(message.getBytes());
-                } catch (IOException|InterruptedException e) {
+                } catch (IOException | InterruptedException e) {
                     e.printStackTrace();
                 }
             }
@@ -57,7 +58,8 @@ public final class Server implements Runnable {
 
         activeConnection = true;
         try {
-            connection = new Socket("192.168.43.108", 6787);
+//            connection = new Socket("192.168.43.108", 6787);
+            connection = new Socket("192.168.0.173", 6787);
             writeSocket = new DataOutputStream(connection.getOutputStream());
             readSocket = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 
@@ -67,15 +69,18 @@ public final class Server implements Runnable {
                 while (readMessage == null) {
                     readMessage = readSocket.readLine();
                 }
-                if(readMessage.split(";;").length > 0) {
-                    for(String m : readMessage.split(";;")) {
-                        Log.d("SERVER",m.contains("[CheckConnection]")?"": m);
-                        if (m != null && !m.equals("[CheckConnection]")) {
+                if (readMessage.split(";;").length > 0) {
+                    for (String m : readMessage.split(";;")) {
+                        Log.d("SERVER", m.contains("[CheckConnection]") ? "" : m);
+                        if (!m.equals("[CheckConnection]")) {
                             if (m.substring(0, 1).equals("P")) {
                                 String[] data = m.split(";");
-                                PostsAdapter.serverAdd(new Post(data[1], data[2], data[3], data[4], data[5], data[6]));
+                                PostsAdapter.serverAdd(new Post(data[1], data[2], data[3], data[4], data[5], data[6], data[7]));
                             }
-                            else messages.add(m);
+                            if (m.substring(0, 1).equals("M")) {
+                                String[] data = m.split(";");
+                                MessagesAdapter.serverAdd(new Message(data[1], data[3], data[4], data[5], data[6]));
+                            } else messages.add(m);
                         }
                     }
 
@@ -85,7 +90,7 @@ public final class Server implements Runnable {
             e.printStackTrace();
         } finally {
             try {
-                if(connection   != null)
+                if (connection != null)
                     connection.close();
             } catch (IOException e) {
                 e.printStackTrace();
@@ -94,7 +99,7 @@ public final class Server implements Runnable {
     }
 
     public static String getMessage(int index) {
-         return Server.messages.remove(index);
+        return Server.messages.remove(index);
     }
 
     public static int messagesCount() {

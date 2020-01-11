@@ -2266,3 +2266,1406 @@
 [25.12.2019 6:03:51 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
 [25.12.2019 6:03:57 PM] [CleanUp] 1 client removed.
 [25.12.2019 6:04:27 PM] [CleanUp] 1 client removed.
+[06.1.2020 9:58:44 PM] Server started! Listening To Port [6787]
+[06.1.2020 9:58:44 PM] [Database] Connected successfuly
+[06.1.2020 10:00:27 PM] [Server] New client Connected. Current clients: [1]
+[06.1.2020 10:00:27 PM] [ClientHandler] Handling the client...
+[06.1.2020 10:00:27 PM] [CleanUp] CleanUp Thread Started
+[06.1.2020 10:00:27 PM] [Server] Created a new Thread. [Total Threads: 1]
+[06.1.2020 10:00:27 PM] [ClientHandler] Client Handled.
+[06.1.2020 10:01:11 PM] [Thread 0] : R;testuser@test.ro;Test;User;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[06.1.2020 10:02:52 PM] [CleanUp] 1 client removed.
+[06.1.2020 10:03:03 PM] [Server] New client Connected. Current clients: [1]
+[06.1.2020 10:03:03 PM] [ClientHandler] Handling the client...
+[06.1.2020 10:03:03 PM] [ClientHandler] Client Handled.
+[06.1.2020 10:03:04 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[06.1.2020 10:03:04 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[06.1.2020 10:03:04 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[06.1.2020 10:03:04 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[06.1.2020 10:03:04 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[06.1.2020 10:03:04 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[06.1.2020 10:03:04 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[06.1.2020 10:03:04 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[06.1.2020 10:03:04 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[06.1.2020 10:03:04 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[06.1.2020 10:03:04 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[06.1.2020 10:03:04 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[06.1.2020 10:03:04 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[06.1.2020 10:04:06 PM] [Thread 0] : N;26a70c14-5ffe-4f80-8c66-78d4e1d89045;test user profile post;mechanic;0;NONE;
+[06.1.2020 10:04:36 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[06.1.2020 10:04:36 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[06.1.2020 10:04:36 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[06.1.2020 10:04:36 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[06.1.2020 10:04:36 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[06.1.2020 10:04:36 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[06.1.2020 10:04:36 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[06.1.2020 10:04:36 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[06.1.2020 10:04:36 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[06.1.2020 10:04:36 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[06.1.2020 10:04:36 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[06.1.2020 10:04:36 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[06.1.2020 10:04:36 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[06.1.2020 10:04:36 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[06.1.2020 10:07:57 PM] [CleanUp] 1 client removed.
+[06.1.2020 10:11:23 PM] [Server] New client Connected. Current clients: [1]
+[06.1.2020 10:11:23 PM] [ClientHandler] Handling the client...
+[06.1.2020 10:11:23 PM] [ClientHandler] Client Handled.
+[06.1.2020 10:11:23 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[06.1.2020 10:11:23 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[06.1.2020 10:11:23 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[06.1.2020 10:11:23 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[06.1.2020 10:11:23 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[06.1.2020 10:11:23 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[06.1.2020 10:11:23 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[06.1.2020 10:11:23 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[06.1.2020 10:11:23 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[06.1.2020 10:11:23 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[06.1.2020 10:11:23 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[06.1.2020 10:11:23 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[06.1.2020 10:11:23 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[06.1.2020 10:11:23 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[06.1.2020 10:12:21 PM] [Server] New client Connected. Current clients: [2]
+[06.1.2020 10:12:21 PM] [ClientHandler] Handling the client...
+[06.1.2020 10:12:21 PM] [ClientHandler] Client Handled.
+[06.1.2020 10:12:21 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[06.1.2020 10:12:21 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[06.1.2020 10:12:21 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[06.1.2020 10:12:21 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[06.1.2020 10:12:21 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[06.1.2020 10:12:21 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[06.1.2020 10:12:21 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[06.1.2020 10:12:21 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[06.1.2020 10:12:21 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[06.1.2020 10:12:21 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[06.1.2020 10:12:21 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[06.1.2020 10:12:21 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[06.1.2020 10:12:21 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[06.1.2020 10:12:21 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[06.1.2020 10:12:22 PM] [CleanUp] 1 client removed.
+[06.1.2020 10:14:33 PM] [Server] New client Connected. Current clients: [2]
+[06.1.2020 10:14:33 PM] [ClientHandler] Handling the client...
+[06.1.2020 10:14:33 PM] [ClientHandler] Client Handled.
+[06.1.2020 10:14:33 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[06.1.2020 10:14:33 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[06.1.2020 10:14:33 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[06.1.2020 10:14:33 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[06.1.2020 10:14:33 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[06.1.2020 10:14:33 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[06.1.2020 10:14:33 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[06.1.2020 10:14:33 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[06.1.2020 10:14:33 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[06.1.2020 10:14:33 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[06.1.2020 10:14:33 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[06.1.2020 10:14:33 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[06.1.2020 10:14:33 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[06.1.2020 10:14:33 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[06.1.2020 10:14:38 PM] [CleanUp] 1 client removed.
+[06.1.2020 10:19:53 PM] [CleanUp] 1 client removed.
+[07.1.2020 7:39:49 PM] Server started! Listening To Port [6787]
+[07.1.2020 7:39:51 PM] [Database] Connected successfuly
+[07.1.2020 7:47:27 PM] [Server] New client Connected. Current clients: [1]
+[07.1.2020 7:47:27 PM] [ClientHandler] Handling the client...
+[07.1.2020 7:47:27 PM] [CleanUp] CleanUp Thread Started
+[07.1.2020 7:47:27 PM] [Server] Created a new Thread. [Total Threads: 1]
+[07.1.2020 7:47:27 PM] [ClientHandler] Client Handled.
+[07.1.2020 7:47:27 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[07.1.2020 7:47:27 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[07.1.2020 7:47:27 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[07.1.2020 7:47:27 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[07.1.2020 7:47:27 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[07.1.2020 7:47:27 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[07.1.2020 7:47:27 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[07.1.2020 7:47:27 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[07.1.2020 7:47:27 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[07.1.2020 7:47:27 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[07.1.2020 7:47:27 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[07.1.2020 7:47:27 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[07.1.2020 7:47:27 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[07.1.2020 7:47:27 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[07.1.2020 7:48:42 PM] [CleanUp] 1 client removed.
+[07.1.2020 7:48:49 PM] [Server] New client Connected. Current clients: [1]
+[07.1.2020 7:48:49 PM] [ClientHandler] Handling the client...
+[07.1.2020 7:48:49 PM] [ClientHandler] Client Handled.
+[07.1.2020 7:48:49 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[07.1.2020 7:48:49 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[07.1.2020 7:48:49 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[07.1.2020 7:48:49 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[07.1.2020 7:48:49 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[07.1.2020 7:48:49 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[07.1.2020 7:48:49 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[07.1.2020 7:48:49 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[07.1.2020 7:48:49 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[07.1.2020 7:48:49 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[07.1.2020 7:48:49 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[07.1.2020 7:48:49 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[07.1.2020 7:48:49 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[07.1.2020 7:48:49 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[07.1.2020 7:49:02 PM] [CleanUp] 1 client removed.
+[07.1.2020 7:53:31 PM] [Server] New client Connected. Current clients: [1]
+[07.1.2020 7:53:31 PM] [ClientHandler] Handling the client...
+[07.1.2020 7:53:31 PM] [ClientHandler] Client Handled.
+[07.1.2020 7:53:31 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[07.1.2020 7:53:31 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[07.1.2020 7:53:31 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[07.1.2020 7:53:31 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[07.1.2020 7:53:31 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[07.1.2020 7:53:31 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[07.1.2020 7:53:31 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[07.1.2020 7:53:31 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[07.1.2020 7:53:31 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[07.1.2020 7:53:31 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[07.1.2020 7:53:31 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[07.1.2020 7:53:31 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[07.1.2020 7:53:31 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[07.1.2020 7:53:31 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[07.1.2020 7:53:47 PM] [CleanUp] 1 client removed.
+[07.1.2020 7:53:48 PM] [Server] New client Connected. Current clients: [1]
+[07.1.2020 7:53:48 PM] [ClientHandler] Handling the client...
+[07.1.2020 7:53:48 PM] [ClientHandler] Client Handled.
+[07.1.2020 7:53:48 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[07.1.2020 7:53:48 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[07.1.2020 7:53:48 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[07.1.2020 7:53:48 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[07.1.2020 7:53:48 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[07.1.2020 7:53:48 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[07.1.2020 7:53:48 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[07.1.2020 7:53:48 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[07.1.2020 7:53:48 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[07.1.2020 7:53:48 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[07.1.2020 7:53:48 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[07.1.2020 7:53:48 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[07.1.2020 7:53:48 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[07.1.2020 7:53:48 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[07.1.2020 7:54:07 PM] [CleanUp] 1 client removed.
+[07.1.2020 8:27:20 PM] [Server] New client Connected. Current clients: [1]
+[07.1.2020 8:27:20 PM] [ClientHandler] Handling the client...
+[07.1.2020 8:27:20 PM] [ClientHandler] Client Handled.
+[07.1.2020 8:27:21 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[07.1.2020 8:27:21 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[07.1.2020 8:27:21 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[07.1.2020 8:27:21 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[07.1.2020 8:27:21 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[07.1.2020 8:27:21 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[07.1.2020 8:27:21 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[07.1.2020 8:27:21 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[07.1.2020 8:27:21 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[07.1.2020 8:27:21 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[07.1.2020 8:27:21 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[07.1.2020 8:27:21 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[07.1.2020 8:27:21 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[07.1.2020 8:27:21 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[07.1.2020 8:35:17 PM] Server started! Listening To Port [6787]
+[07.1.2020 8:35:17 PM] [Database] Connected successfuly
+[07.1.2020 8:35:55 PM] [Server] New client Connected. Current clients: [1]
+[07.1.2020 8:35:55 PM] [ClientHandler] Handling the client...
+[07.1.2020 8:35:55 PM] [CleanUp] CleanUp Thread Started
+[07.1.2020 8:35:55 PM] [Server] Created a new Thread. [Total Threads: 1]
+[07.1.2020 8:35:55 PM] [ClientHandler] Client Handled.
+[07.1.2020 8:35:56 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[07.1.2020 8:35:56 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[07.1.2020 8:35:56 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[07.1.2020 8:35:56 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[07.1.2020 8:35:56 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[07.1.2020 8:35:56 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[07.1.2020 8:35:56 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[07.1.2020 8:35:56 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[07.1.2020 8:35:56 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[07.1.2020 8:35:56 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[07.1.2020 8:35:56 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[07.1.2020 8:35:56 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[07.1.2020 8:35:56 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[07.1.2020 8:35:56 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[07.1.2020 8:43:36 PM] [CleanUp] 1 client removed.
+[08.1.2020 10:03:41 PM] Server started! Listening To Port [6787]
+[08.1.2020 10:03:42 PM] [Database] Connected successfuly
+[08.1.2020 10:08:25 PM] [Server] New client Connected. Current clients: [1]
+[08.1.2020 10:08:25 PM] [ClientHandler] Handling the client...
+[08.1.2020 10:08:25 PM] [CleanUp] CleanUp Thread Started
+[08.1.2020 10:08:25 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:08:25 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:08:25 PM] [ClientHandler] Client Handled.
+[08.1.2020 10:08:25 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[08.1.2020 10:08:25 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[08.1.2020 10:08:25 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[08.1.2020 10:08:25 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[08.1.2020 10:08:25 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[08.1.2020 10:08:25 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[08.1.2020 10:08:25 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[08.1.2020 10:08:25 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[08.1.2020 10:08:25 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[08.1.2020 10:08:25 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[08.1.2020 10:08:25 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[08.1.2020 10:08:25 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[08.1.2020 10:08:50 PM] [CleanUp] 1 client removed.
+[08.1.2020 10:08:52 PM] [Server] New client Connected. Current clients: [1]
+[08.1.2020 10:08:52 PM] [ClientHandler] Handling the client...
+[08.1.2020 10:08:52 PM] [ClientHandler] Client Handled.
+[08.1.2020 10:08:52 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:08:52 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:08:52 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[08.1.2020 10:08:52 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[08.1.2020 10:08:52 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[08.1.2020 10:08:52 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[08.1.2020 10:08:52 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[08.1.2020 10:08:52 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[08.1.2020 10:08:52 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[08.1.2020 10:08:52 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[08.1.2020 10:08:52 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[08.1.2020 10:08:52 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[08.1.2020 10:08:52 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[08.1.2020 10:08:52 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[08.1.2020 10:09:24 PM] [Server] New client Connected. Current clients: [2]
+[08.1.2020 10:09:24 PM] [ClientHandler] Handling the client...
+[08.1.2020 10:09:24 PM] [ClientHandler] Client Handled.
+[08.1.2020 10:09:24 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:09:24 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:09:24 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[08.1.2020 10:09:24 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[08.1.2020 10:09:24 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[08.1.2020 10:09:24 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[08.1.2020 10:09:24 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[08.1.2020 10:09:24 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[08.1.2020 10:09:24 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[08.1.2020 10:09:24 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[08.1.2020 10:09:24 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[08.1.2020 10:09:24 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[08.1.2020 10:09:24 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[08.1.2020 10:09:24 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[08.1.2020 10:09:30 PM] [CleanUp] 1 client removed.
+[08.1.2020 10:23:15 PM] [Server] New client Connected. Current clients: [2]
+[08.1.2020 10:23:15 PM] [ClientHandler] Handling the client...
+[08.1.2020 10:23:15 PM] [ClientHandler] Client Handled.
+[08.1.2020 10:23:15 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:23:15 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[08.1.2020 10:23:15 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[08.1.2020 10:23:15 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[08.1.2020 10:23:15 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[08.1.2020 10:23:15 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[08.1.2020 10:23:15 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[08.1.2020 10:23:15 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[08.1.2020 10:23:15 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[08.1.2020 10:23:15 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[08.1.2020 10:23:15 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[08.1.2020 10:23:15 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[08.1.2020 10:23:15 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[08.1.2020 10:23:20 PM] [CleanUp] 1 client removed.
+[08.1.2020 10:23:35 PM] [CleanUp] 1 client removed.
+[08.1.2020 10:28:48 PM] [Server] New client Connected. Current clients: [1]
+[08.1.2020 10:28:48 PM] [ClientHandler] Handling the client...
+[08.1.2020 10:28:48 PM] [ClientHandler] Client Handled.
+[08.1.2020 10:28:49 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:28:49 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:28:49 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[08.1.2020 10:28:49 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[08.1.2020 10:28:49 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[08.1.2020 10:28:49 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[08.1.2020 10:28:49 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[08.1.2020 10:28:49 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[08.1.2020 10:28:49 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[08.1.2020 10:28:49 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[08.1.2020 10:28:49 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[08.1.2020 10:28:49 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[08.1.2020 10:28:49 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[08.1.2020 10:28:49 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[08.1.2020 10:29:48 PM] [Server] New client Connected. Current clients: [2]
+[08.1.2020 10:29:48 PM] [ClientHandler] Handling the client...
+[08.1.2020 10:29:48 PM] [ClientHandler] Client Handled.
+[08.1.2020 10:29:48 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:29:48 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:29:48 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[08.1.2020 10:29:48 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[08.1.2020 10:29:48 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[08.1.2020 10:29:48 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[08.1.2020 10:29:48 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[08.1.2020 10:29:48 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[08.1.2020 10:29:48 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[08.1.2020 10:29:48 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[08.1.2020 10:29:48 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[08.1.2020 10:29:48 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[08.1.2020 10:29:48 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[08.1.2020 10:29:48 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[08.1.2020 10:29:55 PM] [CleanUp] 1 client removed.
+[08.1.2020 10:30:10 PM] [CleanUp] 1 client removed.
+[08.1.2020 10:34:00 PM] [Server] New client Connected. Current clients: [1]
+[08.1.2020 10:34:00 PM] [ClientHandler] Handling the client...
+[08.1.2020 10:34:00 PM] [ClientHandler] Client Handled.
+[08.1.2020 10:34:01 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:34:01 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:34:01 PM] P;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[08.1.2020 10:34:01 PM] P;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[08.1.2020 10:34:01 PM] P;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[08.1.2020 10:34:01 PM] P;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[08.1.2020 10:34:01 PM] P;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[08.1.2020 10:34:01 PM] P;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[08.1.2020 10:34:01 PM] P;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[08.1.2020 10:34:01 PM] P;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[08.1.2020 10:34:01 PM] P;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[08.1.2020 10:34:01 PM] P;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[08.1.2020 10:34:01 PM] P;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[08.1.2020 10:34:01 PM] P;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[08.1.2020 10:34:30 PM] [CleanUp] 1 client removed.
+[08.1.2020 10:54:06 PM] Server started! Listening To Port [6787]
+[08.1.2020 10:54:07 PM] [Database] Connected successfuly
+[08.1.2020 10:54:24 PM] [Server] New client Connected. Current clients: [1]
+[08.1.2020 10:54:24 PM] [ClientHandler] Handling the client...
+[08.1.2020 10:54:24 PM] [CleanUp] CleanUp Thread Started
+[08.1.2020 10:54:24 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:54:24 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:54:24 PM] [ClientHandler] Client Handled.
+[08.1.2020 10:54:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[08.1.2020 10:54:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[08.1.2020 10:54:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[08.1.2020 10:54:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[08.1.2020 10:54:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[08.1.2020 10:54:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[08.1.2020 10:54:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[08.1.2020 10:54:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[08.1.2020 10:54:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[08.1.2020 10:54:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[08.1.2020 10:54:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[08.1.2020 10:54:24 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[08.1.2020 10:56:19 PM] [CleanUp] 1 client removed.
+[08.1.2020 10:57:19 PM] [Server] New client Connected. Current clients: [1]
+[08.1.2020 10:57:19 PM] [ClientHandler] Handling the client...
+[08.1.2020 10:57:19 PM] [ClientHandler] Client Handled.
+[08.1.2020 10:57:20 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:57:20 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 10:57:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[08.1.2020 10:57:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[08.1.2020 10:57:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[08.1.2020 10:57:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[08.1.2020 10:57:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[08.1.2020 10:57:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[08.1.2020 10:57:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[08.1.2020 10:57:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[08.1.2020 10:57:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[08.1.2020 10:57:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[08.1.2020 10:57:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[08.1.2020 10:57:20 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[08.1.2020 11:06:09 PM] [CleanUp] 1 client removed.
+[08.1.2020 11:10:45 PM] [Server] New client Connected. Current clients: [1]
+[08.1.2020 11:10:45 PM] [ClientHandler] Handling the client...
+[08.1.2020 11:10:45 PM] [ClientHandler] Client Handled.
+[08.1.2020 11:10:45 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 11:10:45 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 11:10:45 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[08.1.2020 11:10:45 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[08.1.2020 11:10:45 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[08.1.2020 11:10:45 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[08.1.2020 11:10:45 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[08.1.2020 11:10:45 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[08.1.2020 11:10:45 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[08.1.2020 11:10:45 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[08.1.2020 11:10:45 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[08.1.2020 11:10:45 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[08.1.2020 11:10:45 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[08.1.2020 11:10:45 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[08.1.2020 11:12:40 PM] [Server] New client Connected. Current clients: [2]
+[08.1.2020 11:12:40 PM] [ClientHandler] Handling the client...
+[08.1.2020 11:12:40 PM] [ClientHandler] Client Handled.
+[08.1.2020 11:12:40 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 11:12:40 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[08.1.2020 11:12:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[08.1.2020 11:12:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[08.1.2020 11:12:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[08.1.2020 11:12:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[08.1.2020 11:12:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[08.1.2020 11:12:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[08.1.2020 11:12:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[08.1.2020 11:12:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[08.1.2020 11:12:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[08.1.2020 11:12:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[08.1.2020 11:12:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[08.1.2020 11:12:40 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[08.1.2020 11:12:44 PM] [CleanUp] 1 client removed.
+[08.1.2020 11:13:44 PM] [CleanUp] 1 client removed.
+[09.1.2020 9:01:21 PM] Server started! Listening To Port [6787]
+[09.1.2020 9:01:21 PM] [Database] Connected successfuly
+[09.1.2020 9:02:07 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 9:02:07 PM] [ClientHandler] Handling the client...
+[09.1.2020 9:02:07 PM] [Server] Created a new Thread. [Total Threads: 1]
+[09.1.2020 9:02:07 PM] [ClientHandler] Client Handled.
+[09.1.2020 9:02:07 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 9:02:07 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 9:02:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 9:02:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 9:02:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 9:02:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 9:02:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 9:02:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 9:02:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 9:02:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 9:02:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 9:02:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 9:02:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 9:02:07 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 9:26:12 PM] [CleanUp] 1 client removed.
+[09.1.2020 9:52:19 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 9:52:19 PM] [ClientHandler] Handling the client...
+[09.1.2020 9:52:19 PM] [ClientHandler] Client Handled.
+[09.1.2020 9:52:19 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 9:52:19 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 9:52:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 9:52:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 9:52:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 9:52:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 9:52:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 9:52:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 9:52:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 9:52:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 9:52:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 9:52:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 9:52:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 9:52:19 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 9:53:58 PM] [CleanUp] 1 client removed.
+[09.1.2020 9:54:38 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 9:54:38 PM] [ClientHandler] Handling the client...
+[09.1.2020 9:54:38 PM] [ClientHandler] Client Handled.
+[09.1.2020 9:54:39 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 9:54:39 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 9:54:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 9:54:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 9:54:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 9:54:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 9:54:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 9:54:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 9:54:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 9:54:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 9:54:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 9:54:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 9:54:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 9:54:39 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 9:55:08 PM] [CleanUp] 1 client removed.
+[09.1.2020 9:58:28 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 9:58:28 PM] [ClientHandler] Handling the client...
+[09.1.2020 9:58:28 PM] [ClientHandler] Client Handled.
+[09.1.2020 9:58:29 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 9:58:29 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 9:58:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 9:58:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 9:58:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 9:58:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 9:58:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 9:58:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 9:58:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 9:58:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 9:58:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 9:58:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 9:58:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 9:58:29 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 10:05:38 PM] [CleanUp] 1 client removed.
+[09.1.2020 10:06:01 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 10:06:01 PM] [ClientHandler] Handling the client...
+[09.1.2020 10:06:01 PM] [ClientHandler] Client Handled.
+[09.1.2020 10:06:01 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:06:01 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:06:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 10:06:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 10:06:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 10:06:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 10:06:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 10:06:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 10:06:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 10:06:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 10:06:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 10:06:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 10:06:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 10:06:01 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 10:06:13 PM] [CleanUp] 1 client removed.
+[09.1.2020 10:07:11 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 10:07:11 PM] [ClientHandler] Handling the client...
+[09.1.2020 10:07:11 PM] [ClientHandler] Client Handled.
+[09.1.2020 10:07:11 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:07:11 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:07:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 10:07:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 10:07:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 10:07:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 10:07:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 10:07:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 10:07:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 10:07:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 10:07:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 10:07:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 10:07:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 10:07:11 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 10:09:33 PM] [CleanUp] 1 client removed.
+[09.1.2020 10:09:39 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 10:09:39 PM] [ClientHandler] Handling the client...
+[09.1.2020 10:09:39 PM] [ClientHandler] Client Handled.
+[09.1.2020 10:09:39 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:09:39 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:09:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 10:09:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 10:09:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 10:09:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 10:09:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 10:09:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 10:09:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 10:09:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 10:09:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 10:09:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 10:09:39 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 10:09:39 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 10:11:53 PM] [CleanUp] 1 client removed.
+[09.1.2020 10:11:58 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 10:11:58 PM] [ClientHandler] Handling the client...
+[09.1.2020 10:11:58 PM] [ClientHandler] Client Handled.
+[09.1.2020 10:11:59 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:11:59 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:11:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 10:11:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 10:11:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 10:11:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 10:11:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 10:11:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 10:11:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 10:11:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 10:11:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 10:11:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 10:11:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 10:11:59 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 10:18:58 PM] [CleanUp] 1 client removed.
+[09.1.2020 10:19:40 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 10:19:40 PM] [ClientHandler] Handling the client...
+[09.1.2020 10:19:40 PM] [ClientHandler] Client Handled.
+[09.1.2020 10:19:40 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:19:40 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:19:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 10:19:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 10:19:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 10:19:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 10:19:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 10:19:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 10:19:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 10:19:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 10:19:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 10:19:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 10:19:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 10:19:40 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 10:23:45 PM] [Server] New client Connected. Current clients: [2]
+[09.1.2020 10:23:46 PM] [ClientHandler] Handling the client...
+[09.1.2020 10:23:46 PM] [ClientHandler] Client Handled.
+[09.1.2020 10:23:46 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:23:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 10:23:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 10:23:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 10:23:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 10:23:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 10:23:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 10:23:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 10:23:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 10:23:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 10:23:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 10:23:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 10:23:46 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 10:23:48 PM] [CleanUp] 1 client removed.
+[09.1.2020 10:26:08 PM] [CleanUp] 1 client removed.
+[09.1.2020 10:26:10 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 10:26:10 PM] [ClientHandler] Handling the client...
+[09.1.2020 10:26:10 PM] [ClientHandler] Client Handled.
+[09.1.2020 10:26:10 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:26:10 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:26:10 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 10:26:10 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 10:26:10 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 10:26:10 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 10:26:10 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 10:26:10 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 10:26:10 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 10:26:10 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 10:26:10 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 10:26:10 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 10:26:10 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 10:26:10 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 10:30:38 PM] [Server] New client Connected. Current clients: [2]
+[09.1.2020 10:30:38 PM] [ClientHandler] Handling the client...
+[09.1.2020 10:30:38 PM] [ClientHandler] Client Handled.
+[09.1.2020 10:30:38 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:30:38 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:30:38 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 10:30:38 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 10:30:38 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 10:30:38 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 10:30:38 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 10:30:38 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 10:30:38 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 10:30:38 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 10:30:38 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 10:30:38 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 10:30:38 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 10:30:38 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 10:30:38 PM] [CleanUp] 1 client removed.
+[09.1.2020 10:31:55 PM] [Server] New client Connected. Current clients: [2]
+[09.1.2020 10:31:55 PM] [ClientHandler] Handling the client...
+[09.1.2020 10:31:55 PM] [ClientHandler] Client Handled.
+[09.1.2020 10:31:55 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:31:55 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:31:55 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 10:31:55 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 10:31:55 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 10:31:55 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 10:31:55 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 10:31:55 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 10:31:55 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 10:31:55 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 10:31:55 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 10:31:55 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 10:31:55 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 10:31:55 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 10:31:59 PM] [CleanUp] 1 client removed.
+[09.1.2020 10:35:49 PM] [CleanUp] 1 client removed.
+[09.1.2020 10:35:50 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 10:35:50 PM] [ClientHandler] Handling the client...
+[09.1.2020 10:35:50 PM] [ClientHandler] Client Handled.
+[09.1.2020 10:35:50 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:35:50 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:35:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 10:35:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 10:35:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 10:35:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 10:35:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 10:35:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 10:35:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 10:35:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 10:35:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 10:35:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 10:35:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 10:35:50 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 10:38:18 PM] [Server] New client Connected. Current clients: [2]
+[09.1.2020 10:38:18 PM] [ClientHandler] Handling the client...
+[09.1.2020 10:38:18 PM] [ClientHandler] Client Handled.
+[09.1.2020 10:38:19 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:38:19 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:38:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 10:38:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 10:38:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 10:38:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 10:38:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 10:38:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 10:38:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 10:38:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 10:38:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 10:38:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 10:38:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 10:38:19 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 10:38:24 PM] [CleanUp] 1 client removed.
+[09.1.2020 10:40:48 PM] [Server] New client Connected. Current clients: [2]
+[09.1.2020 10:40:48 PM] [ClientHandler] Handling the client...
+[09.1.2020 10:40:48 PM] [ClientHandler] Client Handled.
+[09.1.2020 10:41:04 PM] Server started! Listening To Port [6787]
+[09.1.2020 10:41:05 PM] [Database] Connected successfuly
+[09.1.2020 10:41:17 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 10:41:17 PM] [ClientHandler] Handling the client...
+[09.1.2020 10:41:17 PM] [CleanUp] CleanUp Thread Started
+[09.1.2020 10:41:17 PM] [ClientHandler] Client Handled.
+[09.1.2020 10:41:17 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:41:17 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:41:17 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 10:41:17 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 10:41:17 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 10:41:17 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 10:41:17 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 10:41:17 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 10:41:17 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 10:41:17 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 10:41:17 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 10:41:17 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 10:41:17 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 10:41:17 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 10:42:24 PM] [Server] New client Connected. Current clients: [2]
+[09.1.2020 10:42:24 PM] [ClientHandler] Handling the client...
+[09.1.2020 10:42:24 PM] [ClientHandler] Client Handled.
+[09.1.2020 10:42:24 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:42:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 10:42:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 10:42:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 10:42:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 10:42:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 10:42:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 10:42:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 10:42:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 10:42:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 10:42:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 10:42:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 10:42:24 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 10:42:27 PM] [CleanUp] 1 client removed.
+[09.1.2020 10:44:27 PM] [CleanUp] 1 client removed.
+[09.1.2020 10:44:27 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 10:44:27 PM] [ClientHandler] Handling the client...
+[09.1.2020 10:44:27 PM] [ClientHandler] Client Handled.
+[09.1.2020 10:44:28 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:44:28 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:44:28 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 10:44:28 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 10:44:28 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 10:44:28 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 10:44:28 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 10:44:28 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 10:44:28 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 10:44:28 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 10:44:28 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 10:44:28 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 10:44:28 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 10:44:28 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 10:46:12 PM] [CleanUp] 1 client removed.
+[09.1.2020 10:46:12 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 10:46:12 PM] [ClientHandler] Handling the client...
+[09.1.2020 10:46:12 PM] [ClientHandler] Client Handled.
+[09.1.2020 10:46:13 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:46:13 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 10:46:13 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 10:46:13 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 10:46:13 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 10:46:13 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 10:46:13 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 10:46:13 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 10:46:13 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 10:46:13 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 10:46:13 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 10:46:13 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 10:46:13 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 10:46:13 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 11:15:57 PM] Server started! Listening To Port [6787]
+[09.1.2020 11:15:58 PM] [Database] Connected successfuly
+[09.1.2020 11:19:19 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 11:19:19 PM] [ClientHandler] Handling the client...
+[09.1.2020 11:19:19 PM] [CleanUp] CleanUp Thread Started
+[09.1.2020 11:19:19 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:19:19 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:19:19 PM] [ClientHandler] Client Handled.
+[09.1.2020 11:19:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 11:19:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 11:19:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 11:19:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 11:19:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 11:19:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 11:19:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 11:19:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 11:19:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 11:19:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 11:19:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 11:19:19 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 11:19:39 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;26a70c14-5ffe-4f80-8c66-78d4e1d89045;;;
+[09.1.2020 11:23:55 PM] Server started! Listening To Port [6787]
+[09.1.2020 11:23:55 PM] [Database] Connected successfuly
+[09.1.2020 11:24:12 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 11:24:12 PM] [ClientHandler] Handling the client...
+[09.1.2020 11:24:12 PM] [CleanUp] CleanUp Thread Started
+[09.1.2020 11:24:12 PM] [Server] Created a new Thread. [Total Threads: 1]
+[09.1.2020 11:24:12 PM] [ClientHandler] Client Handled.
+[09.1.2020 11:24:12 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:24:12 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:24:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 11:24:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 11:24:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 11:24:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 11:24:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 11:24:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 11:24:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 11:24:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 11:24:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 11:24:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 11:24:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 11:24:12 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 11:24:27 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;26a70c14-5ffe-4f80-8c66-78d4e1d89045;;;
+[09.1.2020 11:26:29 PM] Server started! Listening To Port [6787]
+[09.1.2020 11:26:29 PM] [Database] Connected successfuly
+[09.1.2020 11:26:37 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 11:26:37 PM] [ClientHandler] Handling the client...
+[09.1.2020 11:26:37 PM] [CleanUp] CleanUp Thread Started
+[09.1.2020 11:26:37 PM] [Server] Created a new Thread. [Total Threads: 1]
+[09.1.2020 11:26:37 PM] [ClientHandler] Client Handled.
+[09.1.2020 11:26:37 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:26:37 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:26:37 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 11:26:37 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 11:26:37 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 11:26:37 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 11:26:37 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 11:26:37 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 11:26:37 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 11:26:37 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 11:26:37 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 11:26:37 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 11:26:37 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 11:26:37 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 11:26:54 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;26a70c14-5ffe-4f80-8c66-78d4e1d89045;;;
+[09.1.2020 11:27:07 PM] [CleanUp] 1 client removed.
+[09.1.2020 11:28:52 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 11:28:52 PM] [ClientHandler] Handling the client...
+[09.1.2020 11:28:52 PM] [ClientHandler] Client Handled.
+[09.1.2020 11:28:53 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:28:53 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:28:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 11:28:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 11:28:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 11:28:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 11:28:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 11:28:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 11:28:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 11:28:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 11:28:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 11:28:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 11:28:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 11:28:53 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 11:29:06 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;26a70c14-5ffe-4f80-8c66-78d4e1d89045;;;
+[09.1.2020 11:29:17 PM] [CleanUp] 1 client removed.
+[09.1.2020 11:30:12 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 11:30:12 PM] [ClientHandler] Handling the client...
+[09.1.2020 11:30:12 PM] [ClientHandler] Client Handled.
+[09.1.2020 11:30:12 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:30:12 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:30:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 11:30:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 11:30:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 11:30:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 11:30:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 11:30:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 11:30:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 11:30:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 11:30:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 11:30:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 11:30:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 11:30:12 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 11:30:28 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;26a70c14-5ffe-4f80-8c66-78d4e1d89045;another round of this shitshow;;
+[09.1.2020 11:36:00 PM] Server started! Listening To Port [6787]
+[09.1.2020 11:36:01 PM] [Database] Connected successfuly
+[09.1.2020 11:36:11 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 11:36:11 PM] [ClientHandler] Handling the client...
+[09.1.2020 11:36:11 PM] [CleanUp] CleanUp Thread Started
+[09.1.2020 11:36:11 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:36:11 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:36:12 PM] [ClientHandler] Client Handled.
+[09.1.2020 11:36:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 11:36:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 11:36:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 11:36:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 11:36:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 11:36:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 11:36:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 11:36:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 11:36:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 11:36:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 11:36:12 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 11:36:12 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 11:36:41 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;first test to see if it adds a message for me;;
+[09.1.2020 11:36:53 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:36:53 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:36:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 11:36:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 11:36:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 11:36:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 11:36:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 11:36:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 11:36:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 11:36:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 11:36:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 11:36:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 11:36:53 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 11:36:53 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 11:36:54 PM] [Thread 0] : L;testuser@test.ro;-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:54 PM] Email: testuser@test.ro   |   Password:-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:57 PM] [Thread 0] : L;testuser@test.ro;-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:57 PM] Email: testuser@test.ro   |   Password:-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:58 PM] [Thread 0] : L;testuser@test.ro;-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:58 PM] Email: testuser@test.ro   |   Password:-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:58 PM] [Thread 0] : L;testuser@test.ro;-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:58 PM] Email: testuser@test.ro   |   Password:-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:58 PM] [Thread 0] : L;testuser@test.ro;-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:58 PM] Email: testuser@test.ro   |   Password:-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:59 PM] [Thread 0] : L;testuser@test.ro;-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:59 PM] Email: testuser@test.ro   |   Password:-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:59 PM] [Thread 0] : L;testuser@test.ro;-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:59 PM] Email: testuser@test.ro   |   Password:-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:59 PM] [Thread 0] : L;testuser@test.ro;-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:59 PM] Email: testuser@test.ro   |   Password:-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:59 PM] [Thread 0] : L;testuser@test.ro;-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:59 PM] Email: testuser@test.ro   |   Password:-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:59 PM] [Thread 0] : L;testuser@test.ro;-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:36:59 PM] Email: testuser@test.ro   |   Password:-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:37:00 PM] [Thread 0] : L;testuser@test.ro;-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:37:00 PM] Email: testuser@test.ro   |   Password:-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[09.1.2020 11:37:12 PM] [CleanUp] 1 client removed.
+[09.1.2020 11:37:18 PM] Server started! Listening To Port [6787]
+[09.1.2020 11:37:18 PM] [Database] Connected successfuly
+[09.1.2020 11:37:24 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 11:37:24 PM] [ClientHandler] Handling the client...
+[09.1.2020 11:37:24 PM] [CleanUp] CleanUp Thread Started
+[09.1.2020 11:37:24 PM] [Server] Created a new Thread. [Total Threads: 1]
+[09.1.2020 11:37:24 PM] [ClientHandler] Client Handled.
+[09.1.2020 11:37:24 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:37:24 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:37:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 11:37:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 11:37:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 11:37:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 11:37:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 11:37:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 11:37:24 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 11:37:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 11:37:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 11:37:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 11:37:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 11:37:25 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 11:37:49 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;cplm;;
+[09.1.2020 11:40:40 PM] Server started! Listening To Port [6787]
+[09.1.2020 11:40:40 PM] [Database] Connected successfuly
+[09.1.2020 11:40:50 PM] [Server] New client Connected. Current clients: [1]
+[09.1.2020 11:40:50 PM] [ClientHandler] Handling the client...
+[09.1.2020 11:40:50 PM] [CleanUp] CleanUp Thread Started
+[09.1.2020 11:40:50 PM] [Server] Created a new Thread. [Total Threads: 1]
+[09.1.2020 11:40:50 PM] [ClientHandler] Client Handled.
+[09.1.2020 11:40:50 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:40:50 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[09.1.2020 11:40:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[09.1.2020 11:40:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[09.1.2020 11:40:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[09.1.2020 11:40:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[09.1.2020 11:40:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[09.1.2020 11:40:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[09.1.2020 11:40:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[09.1.2020 11:40:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[09.1.2020 11:40:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[09.1.2020 11:40:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[09.1.2020 11:40:50 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[09.1.2020 11:40:50 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[09.1.2020 11:41:06 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;sending a message to another motherfucker;;
+[09.1.2020 11:42:05 PM] [CleanUp] 1 client removed.
+[11.1.2020 5:24:13 PM] Server started! Listening To Port [6787]
+[11.1.2020 5:24:14 PM] [Database] Connected successfuly
+[11.1.2020 5:24:16 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 5:24:16 PM] [ClientHandler] Handling the client...
+[11.1.2020 5:24:16 PM] [CleanUp] CleanUp Thread Started
+[11.1.2020 5:24:16 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 5:24:16 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 5:24:16 PM] [ClientHandler] Client Handled.
+[11.1.2020 5:24:16 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 5:24:16 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 5:24:16 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 5:24:16 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 5:24:16 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 5:24:16 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 5:24:16 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 5:24:16 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 5:24:16 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 5:24:16 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 5:24:16 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 5:24:16 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 5:24:44 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;ii trimit un mesaj lu muie asta;;
+[11.1.2020 5:25:30 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;26a70c14-5ffe-4f80-8c66-78d4e1d89045;imi trimit si mie un mesaj;;
+[11.1.2020 5:34:36 PM] [CleanUp] 1 client removed.
+[11.1.2020 5:42:10 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 5:42:10 PM] [ClientHandler] Handling the client...
+[11.1.2020 5:42:10 PM] [ClientHandler] Client Handled.
+[11.1.2020 5:42:11 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 5:42:11 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 5:42:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 5:42:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 5:42:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 5:42:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 5:42:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 5:42:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 5:42:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 5:42:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 5:42:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 5:42:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 5:42:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 5:42:11 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 5:42:29 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;test catre baiatul asta;;
+[11.1.2020 5:42:49 PM] [Server] New client Connected. Current clients: [2]
+[11.1.2020 5:42:49 PM] [ClientHandler] Handling the client...
+[11.1.2020 5:42:49 PM] [ClientHandler] Client Handled.
+[11.1.2020 5:42:49 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 5:42:49 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 5:42:49 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 5:42:49 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 5:42:49 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 5:42:49 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 5:42:49 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 5:42:49 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 5:42:49 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 5:42:49 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 5:42:49 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 5:42:49 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 5:42:49 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 5:42:49 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 5:42:51 PM] [CleanUp] 1 client removed.
+[11.1.2020 5:43:04 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;ce faci baiatu meu;;
+[11.1.2020 5:43:23 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;26a70c14-5ffe-4f80-8c66-78d4e1d89045;imi trimit mesaj mie;;
+[11.1.2020 5:43:44 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;ii trimit iar lu asta;;
+[11.1.2020 5:44:02 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;26a70c14-5ffe-4f80-8c66-78d4e1d89045;ad;;
+[11.1.2020 6:00:12 PM] [CleanUp] 1 client removed.
+[11.1.2020 6:37:48 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 6:37:48 PM] [ClientHandler] Handling the client...
+[11.1.2020 6:37:48 PM] [ClientHandler] Client Handled.
+[11.1.2020 6:37:48 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 6:37:48 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 6:37:48 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 6:37:48 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 6:37:48 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 6:37:48 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 6:37:48 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 6:37:48 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 6:37:48 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 6:37:48 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 6:37:48 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 6:37:48 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 6:37:48 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 6:37:48 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 6:38:09 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;test frate;;
+[11.1.2020 6:38:53 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;second test;;
+[11.1.2020 6:39:15 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;third test;;
+[11.1.2020 6:42:20 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 6:42:20 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 6:42:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 6:42:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 6:42:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 6:42:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 6:42:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 6:42:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 6:42:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 6:42:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 6:42:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 6:42:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 6:42:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 6:42:20 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 6:42:32 PM] [CleanUp] 1 client removed.
+[11.1.2020 6:45:06 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 6:45:06 PM] [ClientHandler] Handling the client...
+[11.1.2020 6:45:06 PM] [ClientHandler] Client Handled.
+[11.1.2020 6:45:06 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 6:45:06 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 6:45:06 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 6:45:06 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 6:45:06 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 6:45:06 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 6:45:06 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 6:45:06 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 6:45:06 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 6:45:06 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 6:45:06 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 6:45:06 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 6:45:06 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 6:45:06 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 6:45:21 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;forth;;
+[11.1.2020 6:45:31 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;fifth;;
+[11.1.2020 6:45:42 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;26a70c14-5ffe-4f80-8c66-78d4e1d89045;ci fa coaie;;
+[11.1.2020 6:45:56 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;26a70c14-5ffe-4f80-8c66-78d4e1d89045;iar test;;
+[11.1.2020 6:46:08 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;bagam sixth;;
+[11.1.2020 6:46:28 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Seven;;
+[11.1.2020 6:46:38 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;eight;;
+[11.1.2020 6:46:48 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;nine;;
+[11.1.2020 6:47:02 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;cam multe mesaje;;
+[11.1.2020 6:48:57 PM] [CleanUp] 1 client removed.
+[11.1.2020 6:58:29 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 6:58:29 PM] [ClientHandler] Handling the client...
+[11.1.2020 6:58:29 PM] [ClientHandler] Client Handled.
+[11.1.2020 6:58:30 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 6:58:30 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 6:58:30 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 6:58:30 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 6:58:30 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 6:58:30 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 6:58:30 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 6:58:30 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 6:58:30 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 6:58:30 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 6:58:30 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 6:58:30 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 6:58:30 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 6:58:30 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 6:58:41 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;26a70c14-5ffe-4f80-8c66-78d4e1d89045;view test;;
+[11.1.2020 6:58:50 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;26a70c14-5ffe-4f80-8c66-78d4e1d89045;anither view test;;
+[11.1.2020 6:59:03 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;sha;;
+[11.1.2020 6:59:14 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;26a70c14-5ffe-4f80-8c66-78d4e1d89045;ceee;;
+[11.1.2020 7:00:00 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;cumva a dat override;;
+[11.1.2020 7:00:13 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;da de ce;;
+[11.1.2020 7:00:23 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;26a70c14-5ffe-4f80-8c66-78d4e1d89045;ce face;;
+[11.1.2020 7:00:52 PM] [CleanUp] 1 client removed.
+[11.1.2020 7:45:40 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 7:45:40 PM] [ClientHandler] Handling the client...
+[11.1.2020 7:45:40 PM] [ClientHandler] Client Handled.
+[11.1.2020 7:45:40 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 7:45:40 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 7:45:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 7:45:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 7:45:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 7:45:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 7:45:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 7:45:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 7:45:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 7:45:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 7:45:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 7:45:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 7:45:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 7:45:40 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 7:45:58 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;test;;
+[11.1.2020 7:46:41 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;di ci nu apari;;
+[11.1.2020 7:47:04 PM] [Server] New client Connected. Current clients: [2]
+[11.1.2020 7:47:04 PM] [ClientHandler] Handling the client...
+[11.1.2020 7:47:04 PM] [ClientHandler] Client Handled.
+[11.1.2020 7:47:22 PM] Server started! Listening To Port [6787]
+[11.1.2020 7:47:22 PM] [Database] Connected successfuly
+[11.1.2020 7:47:26 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 7:47:26 PM] [ClientHandler] Handling the client...
+[11.1.2020 7:47:26 PM] [Server] Created a new Thread. [Total Threads: 1]
+[11.1.2020 7:47:26 PM] [CleanUp] CleanUp Thread Started
+[11.1.2020 7:47:26 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 7:47:26 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 7:47:26 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 7:47:26 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 7:47:26 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 7:47:26 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 7:47:26 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 7:47:26 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 7:47:26 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 7:47:26 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 7:47:26 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 7:47:26 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 7:47:26 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 7:47:26 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 7:47:51 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;test codi;;
+[11.1.2020 7:48:01 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 7:48:01 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 7:48:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 7:48:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 7:48:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 7:48:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 7:48:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 7:48:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 7:48:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 7:48:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 7:48:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 7:48:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 7:48:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 7:48:01 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 7:48:03 PM] [Thread 0] : L;testuser@test.ro;-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[11.1.2020 7:48:03 PM] Email: testuser@test.ro   |   Password:-2265-18745165-106-8011029103-4425-18-18143-90688868-9521-8346-8-912510610115-72
+[11.1.2020 7:48:30 PM] Server started! Listening To Port [6787]
+[11.1.2020 7:48:30 PM] [Database] Connected successfuly
+[11.1.2020 7:48:35 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 7:48:35 PM] [ClientHandler] Handling the client...
+[11.1.2020 7:48:35 PM] [CleanUp] CleanUp Thread Started
+[11.1.2020 7:48:35 PM] [Server] Created a new Thread. [Total Threads: 1]
+[11.1.2020 7:48:35 PM] [ClientHandler] Client Handled.
+[11.1.2020 7:48:35 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 7:48:35 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 7:48:35 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 7:48:35 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 7:48:35 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 7:48:35 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 7:48:35 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 7:48:35 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 7:48:35 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 7:48:35 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 7:48:35 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 7:48:35 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 7:48:35 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 7:48:35 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 7:48:50 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;26a70c14-5ffe-4f80-8c66-78d4e1d89045;test user salveaza;;
+[11.1.2020 7:49:12 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;codrut iftimie nu salveaza;;
+[11.1.2020 7:49:24 PM] [Thread 0] : M;26a70c14-5ffe-4f80-8c66-78d4e1d89045;26a70c14-5ffe-4f80-8c66-78d4e1d89045;de ce;;
+[11.1.2020 7:50:10 PM] [CleanUp] 1 client removed.
+[11.1.2020 7:53:10 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 7:53:10 PM] [ClientHandler] Handling the client...
+[11.1.2020 7:53:10 PM] [ClientHandler] Client Handled.
+[11.1.2020 7:53:11 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 7:53:11 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 7:53:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 7:53:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 7:53:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 7:53:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 7:53:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 7:53:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 7:53:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 7:53:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 7:53:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 7:53:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 7:53:11 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 7:53:11 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 7:54:00 PM] [CleanUp] 1 client removed.
+[11.1.2020 7:54:19 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 7:54:19 PM] [ClientHandler] Handling the client...
+[11.1.2020 7:54:19 PM] [ClientHandler] Client Handled.
+[11.1.2020 7:54:19 PM] [Thread 0] : L;testuser@test.ro;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 7:54:19 PM] Email: testuser@test.ro   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[11.1.2020 7:54:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 7:54:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 7:54:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 7:54:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 7:54:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 7:54:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 7:54:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 7:54:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 7:54:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 7:54:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 7:54:19 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 7:54:19 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 7:56:00 PM] [CleanUp] 1 client removed.
+[11.1.2020 7:56:50 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 7:56:50 PM] [ClientHandler] Handling the client...
+[11.1.2020 7:56:50 PM] [ClientHandler] Client Handled.
+[11.1.2020 7:57:01 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[11.1.2020 7:57:01 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[11.1.2020 7:57:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 7:57:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 7:57:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 7:57:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 7:57:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 7:57:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 7:57:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 7:57:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 7:57:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 7:57:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 7:57:01 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 7:57:01 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 7:57:31 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;26a70c14-5ffe-4f80-8c66-78d4e1d89045;coaie test;;
+[11.1.2020 7:58:57 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;mie mesaj;;
+[11.1.2020 7:59:00 PM] [CleanUp] 1 client removed.
+[11.1.2020 7:59:07 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 7:59:07 PM] [ClientHandler] Handling the client...
+[11.1.2020 7:59:07 PM] [ClientHandler] Client Handled.
+[11.1.2020 7:59:07 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[11.1.2020 7:59:07 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[11.1.2020 7:59:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 7:59:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 7:59:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 7:59:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 7:59:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 7:59:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 7:59:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 7:59:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 7:59:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 7:59:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 7:59:07 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 7:59:07 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 7:59:26 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;test mesaj mie;;
+[11.1.2020 7:59:53 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;nici mie nu imi salveaza mesajele;;
+[11.1.2020 8:00:53 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;26a70c14-5ffe-4f80-8c66-78d4e1d89045;tuser;;
+[11.1.2020 8:01:03 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;26a70c14-5ffe-4f80-8c66-78d4e1d89045;cee;;
+[11.1.2020 8:22:45 PM] [CleanUp] 1 client removed.
+[11.1.2020 8:26:25 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 8:26:25 PM] [ClientHandler] Handling the client...
+[11.1.2020 8:26:25 PM] [ClientHandler] Client Handled.
+[11.1.2020 8:26:25 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[11.1.2020 8:26:25 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[11.1.2020 8:26:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 8:26:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 8:26:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 8:26:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 8:26:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 8:26:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 8:26:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 8:26:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 8:26:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 8:26:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 8:26:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 8:26:25 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 8:26:43 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;26a70c14-5ffe-4f80-8c66-78d4e1d89045;ia un mesaj baiatu;;
+[11.1.2020 8:26:55 PM] [CleanUp] 1 client removed.
+[11.1.2020 8:28:08 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 8:28:08 PM] [ClientHandler] Handling the client...
+[11.1.2020 8:28:08 PM] [ClientHandler] Client Handled.
+[11.1.2020 8:28:08 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[11.1.2020 8:28:08 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[11.1.2020 8:28:08 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 8:28:08 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 8:28:08 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 8:28:08 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 8:28:08 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 8:28:08 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 8:28:08 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 8:28:08 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 8:28:08 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 8:28:08 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 8:28:08 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 8:28:08 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 8:28:18 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;26a70c14-5ffe-4f80-8c66-78d4e1d89045;na baiatu;;
+[11.1.2020 8:32:50 PM] [CleanUp] 1 client removed.
+[11.1.2020 8:34:50 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 8:34:50 PM] [ClientHandler] Handling the client...
+[11.1.2020 8:34:50 PM] [ClientHandler] Client Handled.
+[11.1.2020 8:34:51 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[11.1.2020 8:34:51 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[11.1.2020 8:34:51 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 8:34:51 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 8:34:51 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 8:34:51 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 8:34:51 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 8:34:51 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 8:34:51 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 8:34:51 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 8:34:51 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 8:34:51 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 8:34:51 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 8:34:51 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 8:35:10 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;trimit mesaj;;
+[11.1.2020 8:35:22 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;uu s-a salvat;;
+[11.1.2020 8:35:41 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;ba da eu mie imi trimit?;;
+[11.1.2020 8:36:02 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;coaie s-a futut da macar face ceva;;
+[11.1.2020 8:36:26 PM] [CleanUp] 1 client removed.
+[11.1.2020 8:36:26 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 8:36:26 PM] [ClientHandler] Handling the client...
+[11.1.2020 8:36:26 PM] [ClientHandler] Client Handled.
+[11.1.2020 8:36:27 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[11.1.2020 8:36:27 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[11.1.2020 8:36:27 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 8:36:27 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 8:36:27 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 8:36:27 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 8:36:27 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 8:36:27 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 8:36:27 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 8:36:27 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 8:36:27 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 8:36:27 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 8:36:27 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 8:36:27 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 8:36:41 PM] [CleanUp] 1 client removed.
+[11.1.2020 8:36:51 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 8:36:51 PM] [ClientHandler] Handling the client...
+[11.1.2020 8:36:51 PM] [ClientHandler] Client Handled.
+[11.1.2020 8:36:52 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[11.1.2020 8:36:52 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[11.1.2020 8:36:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 8:36:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 8:36:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 8:36:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 8:36:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 8:36:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 8:36:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 8:36:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 8:36:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 8:36:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 8:36:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 8:36:52 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 8:37:22 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;i need to tweak it a little bit but it seems ok;;
+[11.1.2020 8:38:17 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;he's a little confused, but he's got the spirit 😂;;
+[11.1.2020 8:39:18 PM] [Server] New client Connected. Current clients: [2]
+[11.1.2020 8:39:18 PM] [ClientHandler] Handling the client...
+[11.1.2020 8:39:18 PM] [ClientHandler] Client Handled.
+[11.1.2020 8:41:34 PM] Server started! Listening To Port [6787]
+[11.1.2020 8:41:34 PM] [Database] Connected successfuly
+[11.1.2020 8:41:40 PM] [Server] New client Connected. Current clients: [1]
+[11.1.2020 8:41:40 PM] [ClientHandler] Handling the client...
+[11.1.2020 8:41:40 PM] [CleanUp] CleanUp Thread Started
+[11.1.2020 8:41:40 PM] [Server] Created a new Thread. [Total Threads: 1]
+[11.1.2020 8:41:40 PM] [ClientHandler] Client Handled.
+[11.1.2020 8:41:40 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[11.1.2020 8:41:40 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[11.1.2020 8:41:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[11.1.2020 8:41:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[11.1.2020 8:41:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[11.1.2020 8:41:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[11.1.2020 8:41:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[11.1.2020 8:41:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[11.1.2020 8:41:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[11.1.2020 8:41:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[11.1.2020 8:41:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[11.1.2020 8:41:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[11.1.2020 8:41:40 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[11.1.2020 8:41:40 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[11.1.2020 8:41:59 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;ba coaie;;
+[11.1.2020 8:42:14 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;26a70c14-5ffe-4f80-8c66-78d4e1d89045;ci mă;;
+[11.1.2020 8:42:45 PM] [CleanUp] 1 client removed.

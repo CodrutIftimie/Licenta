@@ -2,7 +2,6 @@
 using System.Threading;
 using System.Text;
 using System;
-using System.Data.SqlClient;
 
 namespace AppServer.Data
 {
@@ -90,6 +89,27 @@ namespace AppServer.Data
             Console.WriteLine($"Sent message to {count} users");
         }
 
+        internal static void NotifyClientNewMessage(string senderId, string receiverId, string message)
+        {
+            foreach (AppThread thread in threads)
+                foreach (AppClient client in thread.Clients)
+                    if (client.isLoggedIn())
+                        if(client.UserId.Equals(receiverId))
+                        {
+                            List<string[]> queryResult = Server.QueryResult(3, $"SELECT u.FirstName, u.LastName, m.Date FROM Users u, Messages m WHERE m.SenderId='{senderId}' AND m.ReceiverId='{receiverId}' AND u.UserId='{senderId}' ORDER BY Date DESC");
+                            string anotherMessage = $"M;{senderId};{receiverId};{queryResult[0][0]};{queryResult[0][1]};{message};{queryResult[0][2]};;";
+                            Server.Write(client.Client, anotherMessage);
+                            Console.WriteLine($"Sent notification to ID:{receiverId} for new message");
+                        }
+                        else if (client.UserId.Equals(senderId))
+                        {
+                            List<string[]> queryResult = Server.QueryResult(3, $"SELECT u.FirstName, u.LastName, m.Date FROM Users u, Messages m WHERE m.SenderId='{senderId}' AND m.ReceiverId='{receiverId}' AND u.UserId='{receiverId}' ORDER BY Date DESC");
+                            string anotherMessage = $"M;{senderId};{receiverId};{queryResult[0][0]};{queryResult[0][1]};{message};{queryResult[0][2]};;";
+                            Server.Write(client.Client, anotherMessage);
+                            Console.WriteLine($"Sent notification to ID:{senderId} for success sent");
+                        }
+        }
+
         private static void Process(object list)
         {
             List<AppClient> clients = (List<AppClient>)list; //get the list of the clients on the current thread
@@ -133,11 +153,12 @@ namespace AppServer.Data
                                         {
                                             Server.Write(clients[i].Client, $"LSUCCESS;;{lValues[0][0]};{lValues[0][1]};{lValues[0][2]};{lValues[0][3]};;");
                                             clients[i].loggedIn = true;
-                                            List<string[]> postsValues = Server.QueryResult(8, $"SELECT u.FirstName, u.LastName, p.Date, p.Description, p.ImageAddr, u.PictureAddr, p.Category, p.Location FROM Posts p, Users u WHERE p.UserId = u.UserId ORDER BY Date ASC");
+                                            clients[i].UserId = lValues[0][0];
+                                            List<string[]> postsValues = Server.QueryResult(8, $"SELECT p.UserId, u.FirstName, u.LastName, p.Date, p.Description, p.ImageAddr, u.PictureAddr, p.Category, p.Location FROM Posts p, Users u WHERE p.UserId = u.UserId ORDER BY Date ASC");
                                             foreach (string[] post in postsValues)
                                             {
-                                                Server.Write(clients[i].Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};;");
-                                                Log.Add($"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};");
+                                                Server.Write(clients[i].Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};{post[6]};;");
+                                                Log.Add($"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};{post[6]};");
                                             }
                                         }
                                         else Server.Write(clients[i].Client, "LFAIL;;");
@@ -160,6 +181,7 @@ namespace AppServer.Data
                                                 List<string[]> intVals = Server.QueryResult(4, $"SELECT UserId, FirstName, LastName, Rating FROM Users WHERE email='{rEmail}'");
                                                 Server.Write(clients[i].Client, $"RSUCCESS;;{intVals[0][0]};{intVals[0][1]};{intVals[0][2]};{intVals[0][3]};;");
                                                 clients[i].loggedIn = true;
+                                                clients[i].UserId = intVals[0][0];
                                             }
                                             else Server.Write(clients[i].Client, "RFAIL;;");
                                         }
@@ -185,6 +207,23 @@ namespace AppServer.Data
 
                                     case 'O':
                                         clients[i].loggedIn = false;
+                                        break;
+                                    case 'M':
+                                        String senderId = message.Split(';')[1];
+                                        String receiverId = message.Split(';')[2];
+                                        String sentMessage = message.Split(';')[3];
+
+                                        string[] mFields = new string[3] { "SenderId", "ReceiverId", "Text" };
+                                        string[] mValues = new string[3] { senderId, receiverId, sentMessage };
+                                        if (Server.InsertQuery("Messages", mFields, mValues))
+                                        {
+                                            Server.Write(clients[i].Client, "SUCCESS;;");
+                                            NotifyClientNewMessage(senderId, receiverId, sentMessage);
+                                        }
+                                        else Server.Write(clients[i].Client, "FAIL;;");
+                                        break;
+                                    default:
+                                        Log.Add($"Received an unknown request: {message}");
                                         break;
                                 }
                             }

@@ -28,7 +28,7 @@ public class NewPostActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_post);
 
-        prefs = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        prefs = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
 
         post = findViewById(R.id.newpost_postButton);
         description = findViewById(R.id.newpost_editText);

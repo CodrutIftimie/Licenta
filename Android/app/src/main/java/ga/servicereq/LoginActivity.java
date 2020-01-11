@@ -23,6 +23,8 @@ import java.util.concurrent.CountDownLatch;
 
 public class LoginActivity extends AppCompatActivity {
 
+    //FIXME login layout to show when automatically logging in (AGAIN)
+
     LoginForm loginForm;
     RegisterForm registerForm;
     SharedPreferences preferences;
@@ -35,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
         if (!Server.isActiveConnection())
             new Thread(new Server(getApplicationContext())).start();
 
-        preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
         createLoginForm();
         if (!preferences.getString("usr", "def").equals("def")) {
             Handler handler = new Handler(Looper.getMainLooper());

@@ -4,6 +4,7 @@ namespace AppServer.Data
 { 
     class AppClient //A TcpClient that has an id for which 
     {
+        public string UserId { get; set; }
         public TcpClient Client { get; set; }
         public long ThreadId { get; set; }
         public bool loggedIn { get; set; }

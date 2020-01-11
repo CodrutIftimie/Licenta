@@ -3,6 +3,7 @@ package ga.servicereq;
 import android.util.Log;
 
 public class Post {
+    private String posterId;
     private String firstName;
     private String lastName;
     private String postDate;
@@ -12,19 +13,21 @@ public class Post {
 
     public Post(String[] args) {
         try {
-            firstName = args[0];
-            lastName = args[1];
-            postDate = args[2];
-            description = args[3];
-            descriptionImageURL = args[4];
-            profileImageURL = args[5];
+            posterId = args[0];
+            firstName = args[1];
+            lastName = args[2];
+            postDate = args[3];
+            description = args[4];
+            descriptionImageURL = args[5];
+            profileImageURL = args[6];
         }
         catch (NullPointerException e) {
             Log.e("Post Constructor","Insufficient arguments in array");
         }
     }
 
-    public Post(String firstName, String lastName, String postDate, String description, String descriptionImageURL, String profileImageURL) {
+    public Post(String posterId, String firstName, String lastName, String postDate, String description, String descriptionImageURL, String profileImageURL) {
+        this.posterId = posterId;
         this.firstName = firstName;
         this.lastName = lastName;
         this.postDate = postDate;
@@ -33,17 +36,27 @@ public class Post {
         this.profileImageURL = profileImageURL;
     }
 
-    public Post(String firstName, String lastName, String description) {
+    public Post(String posterId, String firstName, String lastName, String description) {
+        this.posterId = posterId;
         this.firstName = firstName;
         this.lastName = lastName;
         this.description = description;
     }
 
-    public Post(String firstName, String lastName, String postDate, String description) {
+    public Post(String posterId, String firstName, String lastName, String postDate, String description) {
+        this.posterId = posterId;
         this.firstName = firstName;
         this.lastName = lastName;
         this.postDate = postDate;
         this.description = description;
+    }
+
+    public String getPosterId() {
+        return posterId;
+    }
+
+    public void setPosterId(String posterId) {
+        this.posterId = posterId;
     }
 
     public String getFirstName() {

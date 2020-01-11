@@ -40,7 +40,7 @@ public class ProfileFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        pref = PreferenceManager.getDefaultSharedPreferences(Objects.requireNonNull(getActivity()).getApplicationContext());
+        pref = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
 
         editProfile = Objects.requireNonNull(getView()).findViewById(R.id.profile_editButton);
         editProfile.setOnClickListener(new View.OnClickListener() {

@@ -30,7 +30,7 @@
 
     <string name="main_logoDescription">ServiceReq logo</string>
     <string name="main_messagesDescription">Messages</string>
-    <string name="main_searchHint">fix a washing machine</string>
+    <string name="main_searchHint">i request something…</string>
     <string name="main_searchIcon">Search</string>
 
     <string name="post_posterAvatar">Poster Avatar</string>
