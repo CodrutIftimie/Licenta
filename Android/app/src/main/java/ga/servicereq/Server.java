@@ -58,8 +58,8 @@ public final class Server implements Runnable {
 
         activeConnection = true;
         try {
-//            connection = new Socket("192.168.43.108", 6787);
-            connection = new Socket("192.168.0.173", 6787);
+            connection = new Socket("192.168.43.5", 6787);
+//            connection = new Socket("192.168.0.173", 6787);
             writeSocket = new DataOutputStream(connection.getOutputStream());
             readSocket = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 
@@ -79,7 +79,7 @@ public final class Server implements Runnable {
                             }
                             if (m.substring(0, 1).equals("M")) {
                                 String[] data = m.split(";");
-                                MessagesAdapter.serverAdd(new Message(data[1], data[3], data[4], data[5], data[6]));
+                                MessagesAdapter.serverAdd(new Message(data[1], data[2], data[3], data[4], data[5], data[6]));
                             } else messages.add(m);
                         }
                     }

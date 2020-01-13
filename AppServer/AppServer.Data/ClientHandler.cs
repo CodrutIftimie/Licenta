@@ -101,13 +101,13 @@ namespace AppServer.Data
                             Server.Write(client.Client, anotherMessage);
                             Console.WriteLine($"Sent notification to ID:{receiverId} for new message");
                         }
-                        else if (client.UserId.Equals(senderId))
-                        {
-                            List<string[]> queryResult = Server.QueryResult(3, $"SELECT u.FirstName, u.LastName, m.Date FROM Users u, Messages m WHERE m.SenderId='{senderId}' AND m.ReceiverId='{receiverId}' AND u.UserId='{receiverId}' ORDER BY Date DESC");
-                            string anotherMessage = $"M;{senderId};{receiverId};{queryResult[0][0]};{queryResult[0][1]};{message};{queryResult[0][2]};;";
-                            Server.Write(client.Client, anotherMessage);
-                            Console.WriteLine($"Sent notification to ID:{senderId} for success sent");
-                        }
+                        //else if (client.UserId.Equals(senderId))
+                        //{
+                        //    List<string[]> queryResult = Server.QueryResult(3, $"SELECT u.FirstName, u.LastName, m.Date FROM Users u, Messages m WHERE m.SenderId='{senderId}' AND m.ReceiverId='{receiverId}' AND u.UserId='{receiverId}' ORDER BY Date DESC");
+                        //    string anotherMessage = $"M;{senderId};{receiverId};{queryResult[0][0]};{queryResult[0][1]};{message};{queryResult[0][2]};;";
+                        //    Server.Write(client.Client, anotherMessage);
+                        //    Console.WriteLine($"Sent notification to ID:{senderId} for success sent");
+                        //}
         }
 
         private static void Process(object list)

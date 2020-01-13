@@ -21,7 +21,7 @@ public class MessagesAdapter {
 
     private final LinearLayout body;
     private Context context;
-    public ArrayList<LinearLayout> messages;
+    private ArrayList<LinearLayout> messages;
     private static ArrayList<Message> messagesList = new ArrayList<>();
     private final Fragment fragment;
     private boolean updaterRunning = false;
@@ -35,7 +35,7 @@ public class MessagesAdapter {
         preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
     }
 
-    private void add(final Message msg, final long viewTagId) {
+    private void add(final Message msg, final String viewTagId) {
         body.post(new Runnable() {
             @Override
             public void run() {
@@ -60,7 +60,8 @@ public class MessagesAdapter {
 
                 final String name = msg.firstName + " " + msg.lastName;
                 receiverName.setText(name);
-                lastMessageTv.setText(msg.lastMessage);
+                String lM = msg.lastMessage.substring(0,35) + "...";
+                lastMessageTv.setText(lM);
 
                 toBeAdded.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -68,7 +69,7 @@ public class MessagesAdapter {
                         Intent i = new Intent(view.getContext(), MessagingActivity.class);
                         i.putExtra("fname", msg.firstName);
                         i.putExtra("lname", msg.lastName);
-                        i.putExtra("senderId", msg.senderId);
+                        i.putExtra("receiverId", msg.receiverId);
                         fragment.startActivity(i);
                     }
                 });
@@ -77,8 +78,9 @@ public class MessagesAdapter {
                 if (possibleExistingView != null) {
                     body.removeView(possibleExistingView);
                     Toast.makeText(Server.getAppContext(), "FOUND VIEW, DELETED!", Toast.LENGTH_LONG).show();
-                } else toBeAdded.setTag(viewTagId);
+                }
 
+                toBeAdded.setTag(viewTagId);
                 messages.add(toBeAdded);
                 body.addView(toBeAdded, 1);
             }
@@ -86,28 +88,35 @@ public class MessagesAdapter {
     }
 
     public void add(final Message msg) {
+
+        String receiver = msg.activityAdded?msg.receiverId:msg.senderId;
+
         Map<String, ?> convos = preferences.getAll();
         boolean found = false;
         for (Map.Entry<String, ?> convo : convos.entrySet())
             if(convo.getKey().length() > 5) {
                 if (convo.getKey().substring(0, 5).equals("CONVO")) {
                     Conversation convoObj = new Gson().fromJson(convo.getValue().toString(), Conversation.class);
-                    if (convoObj.senderId.equals(msg.senderId)) {
-                        add(msg, convoObj.viewTag);
+                    if (convoObj.receiverId.equals(receiver)) {
+                        add(msg, receiver);
                         found = true;
                     }
                 }
             }
         if (!found) {
             Conversation newConversation = new Conversation(msg.senderId, msg.firstName, msg.lastName);
-            newConversation.viewTag = Conversation.conversationsCount++;
-            add(msg, newConversation.viewTag);
+            add(msg, newConversation.receiverId);
         }
     }
 
     public void add(Conversation convo) {
-        String latestMessage = convo.conversation.get(convo.conversation.size()-1).message;
-        add(new Message(convo.senderId, convo.firstName, convo.lastName, latestMessage, ""), convo.viewTag);
+        ExchangedMessage messagesExchanged = convo.conversation.get(convo.conversation.size()-1);
+        String latestMessage = messagesExchanged.message;
+        String currentUserId = preferences.getString("gid","");
+        if(currentUserId.equals(convo.receiverId))
+            add(new Message(convo.receiverId,convo.receiverId, convo.firstName, convo.lastName, latestMessage, ""), convo.receiverId);
+        else
+            add(new Message(currentUserId,convo.receiverId,convo.firstName,convo.lastName,latestMessage,""),convo.receiverId);
     }
 
     public void runUpdater() {
@@ -131,6 +140,6 @@ public class MessagesAdapter {
     }
 
     public static void serverAdd(final Message msg) {
-        messagesList.add(msg);
+            messagesList.add(msg);
     }
 }

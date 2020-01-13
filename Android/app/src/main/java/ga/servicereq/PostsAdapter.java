@@ -67,10 +67,8 @@ public class PostsAdapter {
                 toBeAdded.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
-                        String senderId = preferences.getString("gid", "");
                         Intent i = new Intent(feedBody.getContext(), MessagingActivity.class);
-                        i.putExtra("senderId",(String)toBeAdded.getTag());
+                        i.putExtra("receiverId",post.getPosterId());
                         i.putExtra("fname", post.getFirstName());
                         i.putExtra("lname", post.getLastName());
                         context.startActivity(i);

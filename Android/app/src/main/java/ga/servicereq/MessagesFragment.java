@@ -10,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
 import com.google.gson.Gson;
 
@@ -40,9 +39,7 @@ public class MessagesFragment extends Fragment {
                 if(convo.getKey().startsWith("CONVO")) {
                     Conversation convoObj = new Gson().fromJson(convo.getValue().toString(), Conversation.class);
                     adapter.add(convoObj);
-                    Toast.makeText(Server.getAppContext(),"new convo" + ++convsC, Toast.LENGTH_SHORT).show();
                 }
-            Toast.makeText(Server.getAppContext(),"END CONVOS", Toast.LENGTH_SHORT).show();
 
             adapter.runUpdater();
         }

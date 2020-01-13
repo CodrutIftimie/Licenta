@@ -59,7 +59,7 @@ public class ProfileFragment extends Fragment {
                 PostsAdapter.clearPosts();
                 prefEdit.clear();
                 prefEdit.apply();
-                Server.sendMessage("O;");
+                Server.sendMessage("O;;");
                 Intent intent = new Intent(getContext(),LoginActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);

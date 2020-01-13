@@ -41,6 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/messagepv_receiverName"
             android:layout_marginStart="5dp"
+            android:maxLength="40"
             android:layout_toEndOf="@+id/messagepv_receiverAvatar"
             android:text="@string/message_previewMessage"
             android:textColor="#DDDDDD"
@@ -51,7 +52,7 @@
             android:layout_centerVertical="true"
             android:layout_width="40dp"
             android:layout_height="25dp"
-            android:background="@color/colorAccent"
+            android:background="@drawable/message_sent_borders"
             android:text="@string/messagepv_end"/>
     </RelativeLayout>
 

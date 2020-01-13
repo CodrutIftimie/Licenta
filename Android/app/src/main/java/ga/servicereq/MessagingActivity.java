@@ -37,27 +37,23 @@ public class MessagingActivity extends AppCompatActivity {
 
         final SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
         final String currentUserId = preferences.getString("gid","");
-        final String senderId = getIntent().getStringExtra("senderId");
-        String firstName = getIntent().getStringExtra("fname");
-        String lastName = getIntent().getStringExtra("lname");
-        String tempConversationId;
+        final String receiverId = getIntent().getStringExtra("receiverId");
+        final String firstName = getIntent().getStringExtra("fname");
+        final String lastName = getIntent().getStringExtra("lname");
+        final String conversationId = "CONVO"+receiverId;
 
         TextView name = findViewById(R.id.message_receiverName);
         String fullName = firstName + " " + lastName;
         name.setText(fullName);
 
         final Conversation conversation;
-        tempConversationId = "CONVO"+senderId;
-        String savedConversation = preferences.getString(tempConversationId, "");
-        if(savedConversation.equals("")) {
-            tempConversationId = "CONVO"+senderId;
-            conversation = new Conversation(senderId, firstName, lastName);
-        }
+        String savedConversation = preferences.getString(conversationId, "CONVO NOT FOUND");
+        if(savedConversation.equals("CONVO NOT FOUND"))
+            conversation = new Conversation(receiverId, firstName, lastName);
         else {
             conversation = new Gson().fromJson(savedConversation, Conversation.class);
         }
 
-        final String conversationId = tempConversationId;
         for(ExchangedMessage msg : conversation.conversation) {
             RelativeLayout savedMessage;
             TextView messageText;
@@ -85,22 +81,23 @@ public class MessagingActivity extends AppCompatActivity {
                     messageText.setText(message.getText());
 
                     exchangedMessages.addView(newMessage);
-                    ExchangedMessage exchMsgObj = new ExchangedMessage(senderId, message.getText().toString());
+                    ExchangedMessage exchMsgObj = new ExchangedMessage(currentUserId, message.getText().toString());
                     conversation.addMessage(exchMsgObj);
                     SharedPreferences.Editor prefsEditor = preferences.edit();
                     String exchMsg = new Gson().toJson(conversation);
                     prefsEditor.putString(conversationId, exchMsg);
                     prefsEditor.apply();
-//                    exchangedMessages.addView(oppMessage);
                     scrollArea.fullScroll(View.FOCUS_DOWN);
                     sendButton.post(new Runnable() {
                         @Override
                         public void run() {
-                            int count = Server.messagesCount();
-                            Server.sendMessage("M;"+currentUserId+";"+senderId+";"+msg+";;");
+                            Server.sendMessage("M;"+currentUserId+";"+receiverId+";"+msg+";;");
                         }
                     });
                     message.setText("");
+                    Message m = new Message(currentUserId,receiverId,firstName,lastName,msg,"");
+                    m.activityAdded = true;
+                    MessagesAdapter.serverAdd(m);
                 }
             }
         });

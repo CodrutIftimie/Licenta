@@ -6,19 +6,18 @@ import java.util.List;
 
 public class Conversation implements Serializable {
     public static long conversationsCount = 0;
-    public long viewTag;
     public String firstName;
     public String lastName;
-    public String senderId;
+    public String receiverId;
     public List<ExchangedMessage> conversation;
 
-    public Conversation(String sender) {
-        this.senderId = sender;
+    public Conversation(String receiver) {
+        this.receiverId = receiver;
         this.conversation = new ArrayList<>();
     }
 
-    public Conversation(String sender, String firstname, String lastname) {
-        this.senderId = sender;
+    public Conversation(String receiver, String firstname, String lastname) {
+        this.receiverId = receiver;
         this.conversation = new ArrayList<>();
         this.firstName = firstname;
         this.lastName = lastname;
