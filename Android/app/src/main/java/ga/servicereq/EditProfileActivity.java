@@ -1,6 +1,8 @@
 package ga.servicereq;
 
+import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -22,6 +24,7 @@ public class EditProfileActivity extends AppCompatActivity {
 
         final CheckBox enableHelper = findViewById(R.id.editprofile_check_helper);
         final LinearLayout helperOptions = findViewById(R.id.editprofile_categories);
+        final Button saveButton = findViewById(R.id.editproifle_btn_save);
         enableHelper.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
@@ -37,12 +40,23 @@ public class EditProfileActivity extends AppCompatActivity {
                     for (int i = 0; i < helperOptions.getChildCount() + 10; i++) {
                         try {
                             CheckBox view = (CheckBox) helperOptions.getChildAt(i);
-                            String viewTag = view.getTag().toString();
-                            if (Services.isService(viewTag))
-                                helperOptions.removeViewAt(i);
-                        } catch (ClassCastException ignored) {}
+                            if (view != null) {
+                                String viewTag = view.getTag().toString();
+                                if (Services.isService(viewTag))
+                                    helperOptions.removeViewAt(i--);
+                            }
+                        } catch (ClassCastException ignored) {
+                        }
                     }
                 }
+            }
+        });
+
+        saveButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
+                //TODO: send to server updated information
             }
         });
     }

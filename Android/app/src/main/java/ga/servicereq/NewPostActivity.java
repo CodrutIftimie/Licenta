@@ -1,6 +1,9 @@
 package ga.servicereq;
 
+import android.annotation.SuppressLint;
 import android.content.SharedPreferences;
+import android.os.AsyncTask;
+import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -22,6 +25,7 @@ public class NewPostActivity extends AppCompatActivity {
     RadioGroup radios;
     byte location;
     SharedPreferences prefs;
+    static AsyncTask<String, String, String> task;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +42,7 @@ public class NewPostActivity extends AppCompatActivity {
         radios.check(R.id.newpost_homeRadio);
 
         post.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("StaticFieldLeak")
             @Override
             public void onClick(View view) {
                 if (description.getText().length() == 0) {
@@ -57,31 +62,58 @@ public class NewPostActivity extends AppCompatActivity {
                             //category.getSelectedItem().toString() +
                             ";" +
                             location +
-                            ";NONE;";
+                            ";NONE;;";
                     post.setEnabled(false);
 
                     Server.sendMessage(message);
 
-                    post.post(new Runnable() {
-                        @Override
-                        public void run() {
-                            try {
-                                while (Server.messagesCount() == 0) {
-                                    Thread.sleep(50);
-                                }
-                                String msg = Server.getMessage(Server.messagesCount()-1);
-                                String[] msgs = msg.split(";");
+//                    post.post(new Runnable() {
+//                        @Override
+//                        public void run() {
+//                            int count = Server.messagesCount();
+//                            while (count == Server.messagesCount()) {
+//                                SystemClock.sleep(100);
+//                            }
+//                            String response = Server.getMessage(Server.messagesCount() - 1);
+//
+//                            if ((response.equals("SUCCESS")))
+//                                Toast.makeText(getApplicationContext(), "Post added!", Toast.LENGTH_SHORT).show();
+//                            else
+//                                Toast.makeText(getApplicationContext(), "Failed to add the post!", Toast.LENGTH_SHORT).show();
+//                            post.setEnabled(true);
+//                        }
+//                    });
 
-                                if (msgs[0].equals("SUCCESS") || (msgs[0].equals("P") && msgs[8].equals("SUCCESS")))
-                                    Toast.makeText(getApplicationContext(), "Post added!", Toast.LENGTH_SHORT).show();
-                                else
-                                    Toast.makeText(getApplicationContext(), "Failed to add the post!", Toast.LENGTH_SHORT).show();
-                            } catch (InterruptedException e) {
-                                e.printStackTrace();
-                            }
-                            post.setEnabled(true);
+                    task = new AsyncTask<String, String, String>() {
+                        @Override
+                        protected void onPreExecute() {
+                            post.postDelayed(new Runnable() {
+                                @Override
+                                public void run() {
+                                    post.setEnabled(true);
+                                }
+                            },200);
                         }
-                    });
+
+                        @Override
+                        protected String doInBackground(String... params) {
+                            int count = Server.messagesCount();
+                            while (count == Server.messagesCount()) {
+                                SystemClock.sleep(100);
+                            }
+                            final String response = Server.getMessage(Server.messagesCount() - 1);
+                            runOnUiThread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    if ((response.equals("SUCCESS")))
+                                        Toast.makeText(NewPostActivity.this, "Post added!", Toast.LENGTH_SHORT).show();
+                                    else
+                                        Toast.makeText(NewPostActivity.this, "Failed to add the post!", Toast.LENGTH_SHORT).show();
+                                }
+                            });
+                            return null;
+                        }
+                    }.execute();
                 }
             }
         });

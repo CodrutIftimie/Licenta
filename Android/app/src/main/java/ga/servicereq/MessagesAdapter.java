@@ -60,7 +60,10 @@ public class MessagesAdapter {
 
                 final String name = msg.firstName + " " + msg.lastName;
                 receiverName.setText(name);
-                String lM = msg.lastMessage.substring(0,35) + "...";
+                String lM;
+                if(msg.lastMessage.length()>34)
+                    lM = msg.lastMessage.substring(0,35) + "...";
+                else lM = msg.lastMessage;
                 lastMessageTv.setText(lM);
 
                 toBeAdded.setOnClickListener(new View.OnClickListener() {

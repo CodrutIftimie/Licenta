@@ -102,7 +102,7 @@ namespace AppServer.Data
                         result = QueryResult(1, $"SELECT Date FROM Posts WHERE Description='{values[1]}' ORDER BY Date DESC"); //Get the date from the new post
                         newValues[3] = result[0][0]; // Date
                         for (int i = 4; i < values.Length + 2; i++) //Copy rest of values
-                            newValues[i] = values[i - 2];
+                            newValues[i] = values[i - 3];
                         ClientHandler.BroadcastNewPost(newValues);
                     }
                     return true;
