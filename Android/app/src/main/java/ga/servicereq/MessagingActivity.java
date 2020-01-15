@@ -16,7 +16,13 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 
+import java.util.ArrayList;
+import java.util.Map;
+
 public class MessagingActivity extends AppCompatActivity {
+
+    private boolean upadterRunning = false;
+    private static ArrayList<Message> senderMessages = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,6 +75,7 @@ public class MessagingActivity extends AppCompatActivity {
             }
             exchangedMessages.addView(savedMessage);
         }
+//        runUpdater();
 
         sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -95,11 +102,72 @@ public class MessagingActivity extends AppCompatActivity {
                         }
                     });
                     message.setText("");
-                    Message m = new Message(currentUserId,receiverId,firstName,lastName,msg,"");
+                    Message m = new Message(receiverId,firstName,lastName,msg,"");
                     m.activityAdded = true;
                     MessagesAdapter.serverAdd(m);
                 }
             }
         });
+    }
+
+//    private void addFromQueue(Message m) {
+//        final LinearLayout exchangedMessages = findViewById(R.id.exchanged_messages);
+//        final LayoutInflater inflater = LayoutInflater.from(exchangedMessages.getContext());
+//        RelativeLayout queueMessage;
+//        TextView messageText;
+//        queueMessage = (RelativeLayout) inflater.inflate(R.layout.message_received, null);
+//        messageText = queueMessage.findViewById(R.id.messagerecv_senderText);
+//        messageText.setText(m.lastMessage);
+//        exchangedMessages.addView(queueMessage);
+//    }
+//
+//    public void runUpdater() {
+//        if(!upadterRunning) {
+//            upadterRunning = true;
+//            new Thread(new Runnable() {
+//                @Override
+//                public void run() {
+//                    try {
+//                        while (upadterRunning) {
+//                            while (senderMessages.size() > 0) {
+//                                addFromQueue(senderMessages.remove(0));
+//                            }
+//                            Thread.sleep(1000);
+//                        }
+//                    } catch (InterruptedException ignored) {
+//                    }
+//                }
+//            }).start();
+//        }
+//    }
+
+    public static void staticAdd(Message m) {
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
+        SharedPreferences.Editor editor = preferences.edit();
+        Map<String, ?> convos = preferences.getAll();
+        boolean found = false;
+        for (Map.Entry<String, ?> convo : convos.entrySet())
+            if(convo.getKey().length() > 5) {
+                if (convo.getKey().substring(0, 5).equals("CONVO")) {
+                    Conversation convoObj = new Gson().fromJson(convo.getValue().toString(), Conversation.class);
+                    if (convoObj.receiverId.equals(m.senderId)) {
+                        convoObj.addMessage(new ExchangedMessage(m.senderId,m.lastMessage,m.date));
+                        String convoString = new Gson().toJson(convoObj,Conversation.class);
+                        editor.putString("CONVO"+convoObj.receiverId,convoString);
+                        editor.apply();
+                        found = true;
+                    }
+                }
+            }
+        if (!found) {
+            Conversation newConversation = new Conversation(m.senderId, m.firstName, m.lastName);
+            newConversation.receiverId = m.senderId;
+            newConversation.firstName = m.firstName;
+            newConversation.lastName = m.lastName;
+            newConversation.addMessage(new ExchangedMessage(m.senderId,m.lastMessage,m.date));
+            String convoString = new Gson().toJson(newConversation,Conversation.class);
+            editor.putString("CONVO"+newConversation.receiverId,convoString);
+            editor.apply();
+        }
     }
 }

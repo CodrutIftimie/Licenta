@@ -30,3 +30,5 @@
 [13.1.2020 8:34:06 PM] The process cannot access the file 'D:\GitHub\Licenta\AppServer\AppServer.Business\bin\Debug\netcoreapp2.1\Logs\Server.txt' because it is being used by another process.
 [14.1.2020 5:42:44 PM] The process cannot access the file 'D:\GitHub\Licenta\AppServer\AppServer.Business\bin\Debug\netcoreapp2.1\Logs\Server.txt' because it is being used by another process.
 [15.1.2020 9:22:02 PM] The process cannot access the file 'D:\GitHub\Licenta\AppServer\AppServer.Business\bin\Debug\netcoreapp2.1\Logs\Server.txt' because it is being used by another process.
+[15.1.2020 11:00:19 PM] The process cannot access the file 'D:\GitHub\Licenta\AppServer\AppServer.Business\bin\Debug\netcoreapp2.1\Logs\Server.txt' because it is being used by another process.
+[15.1.2020 11:00:20 PM] The process cannot access the file 'D:\GitHub\Licenta\AppServer\AppServer.Business\bin\Debug\netcoreapp2.1\Logs\Server.txt' because it is being used by another process.

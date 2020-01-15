@@ -5473,3 +5473,568 @@
 [15.1.2020 10:53:15 PM] [Thread 0] : M;b7588e37-0be5-47f5-8ad4-dea708b2b891;26a70c14-5ffe-4f80-8c66-78d4e1d89045;on click it blocks?;;
 [15.1.2020 10:53:40 PM] [Thread 0] : M;b7588e37-0be5-47f5-8ad4-dea708b2b891;26a70c14-5ffe-4f80-8c66-78d4e1d89045;asfsdf asdfs ;;
 [15.1.2020 10:53:47 PM] [Thread 0] : M;b7588e37-0be5-47f5-8ad4-dea708b2b891;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;asdfasdfasf asdf asdf a;;
+[15.1.2020 11:00:15 PM] Server started! Listening To Port [6787]
+[15.1.2020 11:00:16 PM] [Database] Connected successfuly
+[15.1.2020 11:00:19 PM] [Server] New client Connected. Current clients: [1]
+[15.1.2020 11:00:19 PM] [ClientHandler] Handling the client...
+[15.1.2020 11:00:19 PM] [CleanUp] CleanUp Thread Started
+[15.1.2020 11:00:19 PM] [Thread 0] : L;123@123.123;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[15.1.2020 11:00:19 PM] Email: 123@123.123   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[15.1.2020 11:00:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 6:40:11 PM;test post;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 11:54:56 PM;de ce ai picat?;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:18:41 PM;hau;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:25:26 PM;care-i faza;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:29:00 PM;xcv;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:32:29 PM;everything should work again right now;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:13 PM;fs in chat pls;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:55 PM;fs in chat again please;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:35:59 PM;back in working position;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:02:19 PM;is this working?;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:04:53 PM;everything should be in check;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:07:34 PM;everyting in check;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:40 PM;ciao;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:53 PM;did i notice lag?;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:25:08 PM;do not crash pls;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:26:01 PM;adsdasd;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:29:26 PM;asdasd;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:42:23 PM;gh;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:44:36 PM;what is happening;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:46:20 PM;should be good;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:47:38 PM;how bout this;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:49:24 PM;go;NONE;NONE;
+[15.1.2020 11:00:20 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:51:32 PM;it works?;NONE;NONE;
+[15.1.2020 11:05:05 PM] [Server] New client Connected. Current clients: [2]
+[15.1.2020 11:05:05 PM] [ClientHandler] Handling the client...
+[15.1.2020 11:05:05 PM] [ClientHandler] Client Handled.
+[15.1.2020 11:05:49 PM] Server started! Listening To Port [6787]
+[15.1.2020 11:05:50 PM] [Database] Connected successfuly
+[15.1.2020 11:05:59 PM] [Server] New client Connected. Current clients: [1]
+[15.1.2020 11:05:59 PM] [ClientHandler] Handling the client...
+[15.1.2020 11:05:59 PM] [CleanUp] CleanUp Thread Started
+[15.1.2020 11:05:59 PM] [Server] Created a new Thread. [Total Threads: 1]
+[15.1.2020 11:05:59 PM] [ClientHandler] Client Handled.
+[15.1.2020 11:05:59 PM] [Thread 0] : L;123@123.123;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[15.1.2020 11:05:59 PM] Email: 123@123.123   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[15.1.2020 11:05:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 6:40:11 PM;test post;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 11:54:56 PM;de ce ai picat?;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:18:41 PM;hau;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:25:26 PM;care-i faza;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:29:00 PM;xcv;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:32:29 PM;everything should work again right now;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:13 PM;fs in chat pls;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:55 PM;fs in chat again please;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:35:59 PM;back in working position;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:02:19 PM;is this working?;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:04:53 PM;everything should be in check;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:07:34 PM;everyting in check;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:40 PM;ciao;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:53 PM;did i notice lag?;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:25:08 PM;do not crash pls;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:26:01 PM;adsdasd;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:29:26 PM;asdasd;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:42:23 PM;gh;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:44:36 PM;what is happening;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:46:20 PM;should be good;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:47:38 PM;how bout this;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:49:24 PM;go;NONE;NONE;
+[15.1.2020 11:05:59 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:51:32 PM;it works?;NONE;NONE;
+[15.1.2020 11:06:01 PM] [Server] New client Connected. Current clients: [2]
+[15.1.2020 11:06:01 PM] [ClientHandler] Handling the client...
+[15.1.2020 11:06:01 PM] [ClientHandler] Client Handled.
+[15.1.2020 11:06:15 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[15.1.2020 11:06:15 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[15.1.2020 11:06:15 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 6:40:11 PM;test post;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 11:54:56 PM;de ce ai picat?;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:18:41 PM;hau;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:25:26 PM;care-i faza;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:29:00 PM;xcv;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:32:29 PM;everything should work again right now;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:13 PM;fs in chat pls;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:55 PM;fs in chat again please;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:35:59 PM;back in working position;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:02:19 PM;is this working?;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:04:53 PM;everything should be in check;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:07:34 PM;everyting in check;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:40 PM;ciao;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:53 PM;did i notice lag?;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:25:08 PM;do not crash pls;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:26:01 PM;adsdasd;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:29:26 PM;asdasd;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:42:23 PM;gh;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:44:36 PM;what is happening;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:46:20 PM;should be good;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:47:38 PM;how bout this;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:49:24 PM;go;NONE;NONE;
+[15.1.2020 11:06:15 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:51:32 PM;it works?;NONE;NONE;
+[15.1.2020 11:06:57 PM] [Thread 0] : M;b7588e37-0be5-47f5-8ad4-dea708b2b891;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;hello;;
+[15.1.2020 11:07:23 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;b7588e37-0be5-47f5-8ad4-dea708b2b891;hi;;
+[15.1.2020 11:07:52 PM] [Thread 0] : M;b7588e37-0be5-47f5-8ad4-dea708b2b891;b7588e37-0be5-47f5-8ad4-dea708b2b891;hello back;;
+[15.1.2020 11:08:24 PM] [CleanUp] 1 client removed.
+[15.1.2020 11:16:42 PM] Server started! Listening To Port [6787]
+[15.1.2020 11:16:43 PM] [Database] Connected successfuly
+[15.1.2020 11:16:46 PM] [Server] New client Connected. Current clients: [1]
+[15.1.2020 11:16:46 PM] [ClientHandler] Handling the client...
+[15.1.2020 11:16:46 PM] [CleanUp] CleanUp Thread Started
+[15.1.2020 11:16:46 PM] [Server] Created a new Thread. [Total Threads: 1]
+[15.1.2020 11:16:46 PM] [ClientHandler] Client Handled.
+[15.1.2020 11:16:46 PM] [Thread 0] : L;123@123.123;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[15.1.2020 11:16:46 PM] Email: 123@123.123   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[15.1.2020 11:16:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 6:40:11 PM;test post;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 11:54:56 PM;de ce ai picat?;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:18:41 PM;hau;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:25:26 PM;care-i faza;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:29:00 PM;xcv;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:32:29 PM;everything should work again right now;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:13 PM;fs in chat pls;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:55 PM;fs in chat again please;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:35:59 PM;back in working position;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:02:19 PM;is this working?;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:04:53 PM;everything should be in check;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:07:34 PM;everyting in check;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:40 PM;ciao;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:53 PM;did i notice lag?;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:25:08 PM;do not crash pls;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:26:01 PM;adsdasd;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:29:26 PM;asdasd;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:42:23 PM;gh;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:44:36 PM;what is happening;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:46:20 PM;should be good;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:47:38 PM;how bout this;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:49:24 PM;go;NONE;NONE;
+[15.1.2020 11:16:46 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:51:32 PM;it works?;NONE;NONE;
+[15.1.2020 11:17:09 PM] [Thread 0] : M;b7588e37-0be5-47f5-8ad4-dea708b2b891;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;ciao;;
+[15.1.2020 11:17:41 PM] [CleanUp] 1 client removed.
+[15.1.2020 11:17:43 PM] [Server] New client Connected. Current clients: [1]
+[15.1.2020 11:17:43 PM] [ClientHandler] Handling the client...
+[15.1.2020 11:17:43 PM] [ClientHandler] Client Handled.
+[15.1.2020 11:17:52 PM] [Thread 0] : L;123@123.123;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[15.1.2020 11:17:52 PM] Email: 123@123.123   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[15.1.2020 11:17:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 6:40:11 PM;test post;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 11:54:56 PM;de ce ai picat?;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:18:41 PM;hau;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:25:26 PM;care-i faza;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:29:00 PM;xcv;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:32:29 PM;everything should work again right now;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:13 PM;fs in chat pls;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:55 PM;fs in chat again please;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:35:59 PM;back in working position;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:02:19 PM;is this working?;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:04:53 PM;everything should be in check;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:07:34 PM;everyting in check;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:40 PM;ciao;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:53 PM;did i notice lag?;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:25:08 PM;do not crash pls;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:26:01 PM;adsdasd;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:29:26 PM;asdasd;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:42:23 PM;gh;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:44:36 PM;what is happening;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:46:20 PM;should be good;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:47:38 PM;how bout this;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:49:24 PM;go;NONE;NONE;
+[15.1.2020 11:17:52 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:51:32 PM;it works?;NONE;NONE;
+[15.1.2020 11:18:11 PM] [Thread 0] : M;b7588e37-0be5-47f5-8ad4-dea708b2b891;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;salut;;
+[15.1.2020 11:18:15 PM] [Thread 0] : M;b7588e37-0be5-47f5-8ad4-dea708b2b891;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;ce faci?;;
+[15.1.2020 11:20:11 PM] [CleanUp] 1 client removed.
+[15.1.2020 11:20:13 PM] [Server] New client Connected. Current clients: [1]
+[15.1.2020 11:20:13 PM] [ClientHandler] Handling the client...
+[15.1.2020 11:20:13 PM] [ClientHandler] Client Handled.
+[15.1.2020 11:20:25 PM] [Thread 0] : L;123@123.123;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[15.1.2020 11:20:25 PM] Email: 123@123.123   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[15.1.2020 11:20:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 6:40:11 PM;test post;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 11:54:56 PM;de ce ai picat?;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:18:41 PM;hau;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:25:26 PM;care-i faza;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:29:00 PM;xcv;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:32:29 PM;everything should work again right now;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:13 PM;fs in chat pls;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:55 PM;fs in chat again please;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:35:59 PM;back in working position;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:02:19 PM;is this working?;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:04:53 PM;everything should be in check;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:07:34 PM;everyting in check;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:40 PM;ciao;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:53 PM;did i notice lag?;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:25:08 PM;do not crash pls;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:26:01 PM;adsdasd;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:29:26 PM;asdasd;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:42:23 PM;gh;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:44:36 PM;what is happening;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:46:20 PM;should be good;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:47:38 PM;how bout this;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:49:24 PM;go;NONE;NONE;
+[15.1.2020 11:20:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:51:32 PM;it works?;NONE;NONE;
+[15.1.2020 11:20:41 PM] [Thread 0] : M;b7588e37-0be5-47f5-8ad4-dea708b2b891;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;does it work now?;;
+[15.1.2020 11:20:52 PM] [Thread 0] : M;b7588e37-0be5-47f5-8ad4-dea708b2b891;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;it seems so;;
+[15.1.2020 11:21:54 PM] [Server] New client Connected. Current clients: [2]
+[15.1.2020 11:21:54 PM] [ClientHandler] Handling the client...
+[15.1.2020 11:21:54 PM] [ClientHandler] Client Handled.
+[15.1.2020 11:21:54 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[15.1.2020 11:21:54 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[15.1.2020 11:21:54 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 6:40:11 PM;test post;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 11:54:56 PM;de ce ai picat?;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:18:41 PM;hau;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:25:26 PM;care-i faza;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:29:00 PM;xcv;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:32:29 PM;everything should work again right now;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:13 PM;fs in chat pls;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:55 PM;fs in chat again please;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:35:59 PM;back in working position;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:02:19 PM;is this working?;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:04:53 PM;everything should be in check;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:07:34 PM;everyting in check;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:40 PM;ciao;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:53 PM;did i notice lag?;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:25:08 PM;do not crash pls;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:26:01 PM;adsdasd;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:29:26 PM;asdasd;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:42:23 PM;gh;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:44:36 PM;what is happening;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:46:20 PM;should be good;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:47:38 PM;how bout this;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:49:24 PM;go;NONE;NONE;
+[15.1.2020 11:21:54 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:51:32 PM;it works?;NONE;NONE;
+[15.1.2020 11:22:28 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;b7588e37-0be5-47f5-8ad4-dea708b2b891;coi;;
+[15.1.2020 11:22:43 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;b7588e37-0be5-47f5-8ad4-dea708b2b891;ce faci?;;
+[15.1.2020 11:23:24 PM] [Thread 0] : M;b7588e37-0be5-47f5-8ad4-dea708b2b891;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;tuto bene;;
+[15.1.2020 11:23:59 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;b7588e37-0be5-47f5-8ad4-dea708b2b891;glad to hear it;;
+[15.1.2020 11:24:13 PM] [Thread 0] : M;b7588e37-0be5-47f5-8ad4-dea708b2b891;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;nice;;
+[15.1.2020 11:24:31 PM] [Thread 0] : M;b7588e37-0be5-47f5-8ad4-dea708b2b891;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;what;;
+[15.1.2020 11:25:03 PM] [Server] New client Connected. Current clients: [3]
+[15.1.2020 11:25:03 PM] [ClientHandler] Handling the client...
+[15.1.2020 11:25:03 PM] [ClientHandler] Client Handled.
+[15.1.2020 11:25:03 PM] [Thread 0] : L;123@123.123;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[15.1.2020 11:25:03 PM] Email: 123@123.123   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[15.1.2020 11:25:03 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 6:40:11 PM;test post;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 11:54:56 PM;de ce ai picat?;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:18:41 PM;hau;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:25:26 PM;care-i faza;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:29:00 PM;xcv;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:32:29 PM;everything should work again right now;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:13 PM;fs in chat pls;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:55 PM;fs in chat again please;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:35:59 PM;back in working position;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:02:19 PM;is this working?;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:04:53 PM;everything should be in check;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:07:34 PM;everyting in check;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:40 PM;ciao;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:53 PM;did i notice lag?;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:25:08 PM;do not crash pls;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:26:01 PM;adsdasd;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:29:26 PM;asdasd;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:42:23 PM;gh;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:44:36 PM;what is happening;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:46:20 PM;should be good;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:47:38 PM;how bout this;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:49:24 PM;go;NONE;NONE;
+[15.1.2020 11:25:03 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:51:32 PM;it works?;NONE;NONE;
+[15.1.2020 11:25:06 PM] [CleanUp] 1 client removed.
+[15.1.2020 11:25:11 PM] [CleanUp] 1 client removed.
+[15.1.2020 11:25:26 PM] [CleanUp] 1 client removed.
+[15.1.2020 11:49:25 PM] [Server] New client Connected. Current clients: [1]
+[15.1.2020 11:49:25 PM] [ClientHandler] Handling the client...
+[15.1.2020 11:49:25 PM] [ClientHandler] Client Handled.
+[15.1.2020 11:49:42 PM] [Thread 0] : L;123@123.123;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[15.1.2020 11:49:42 PM] Email: 123@123.123   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[15.1.2020 11:49:42 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 6:40:11 PM;test post;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 11:54:56 PM;de ce ai picat?;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:18:41 PM;hau;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:25:26 PM;care-i faza;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:29:00 PM;xcv;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:32:29 PM;everything should work again right now;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:13 PM;fs in chat pls;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:55 PM;fs in chat again please;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:35:59 PM;back in working position;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:02:19 PM;is this working?;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:04:53 PM;everything should be in check;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:07:34 PM;everyting in check;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:40 PM;ciao;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:53 PM;did i notice lag?;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:25:08 PM;do not crash pls;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:26:01 PM;adsdasd;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:29:26 PM;asdasd;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:42:23 PM;gh;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:44:36 PM;what is happening;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:46:20 PM;should be good;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:47:38 PM;how bout this;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:49:24 PM;go;NONE;NONE;
+[15.1.2020 11:49:42 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:51:32 PM;it works?;NONE;NONE;
+[15.1.2020 11:50:16 PM] [Server] New client Connected. Current clients: [2]
+[15.1.2020 11:50:16 PM] [ClientHandler] Handling the client...
+[15.1.2020 11:50:16 PM] [ClientHandler] Client Handled.
+[15.1.2020 11:50:25 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[15.1.2020 11:50:25 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[15.1.2020 11:50:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 6:40:11 PM;test post;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 11:54:56 PM;de ce ai picat?;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:18:41 PM;hau;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:25:26 PM;care-i faza;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:29:00 PM;xcv;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:32:29 PM;everything should work again right now;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:13 PM;fs in chat pls;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:55 PM;fs in chat again please;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:35:59 PM;back in working position;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:02:19 PM;is this working?;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:04:53 PM;everything should be in check;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:07:34 PM;everyting in check;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:40 PM;ciao;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:53 PM;did i notice lag?;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:25:08 PM;do not crash pls;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:26:01 PM;adsdasd;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:29:26 PM;asdasd;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:42:23 PM;gh;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:44:36 PM;what is happening;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:46:20 PM;should be good;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:47:38 PM;how bout this;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:49:24 PM;go;NONE;NONE;
+[15.1.2020 11:50:25 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:51:32 PM;it works?;NONE;NONE;
+[15.1.2020 11:50:42 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;b7588e37-0be5-47f5-8ad4-dea708b2b891;salut;;
+[15.1.2020 11:51:14 PM] [Thread 0] : M;b7588e37-0be5-47f5-8ad4-dea708b2b891;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;salut si tie;;
+[15.1.2020 11:52:26 PM] [CleanUp] 1 client removed.
+[15.1.2020 11:52:31 PM] [CleanUp] 1 client removed.
+[15.1.2020 11:55:51 PM] [Server] New client Connected. Current clients: [1]
+[15.1.2020 11:55:51 PM] [ClientHandler] Handling the client...
+[15.1.2020 11:55:51 PM] [ClientHandler] Client Handled.
+[15.1.2020 11:56:03 PM] [Server] New client Connected. Current clients: [2]
+[15.1.2020 11:56:03 PM] [ClientHandler] Handling the client...
+[15.1.2020 11:56:03 PM] [ClientHandler] Client Handled.
+[15.1.2020 11:56:29 PM] [Thread 0] : L;123@123.123;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[15.1.2020 11:56:29 PM] Email: 123@123.123   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 6:40:11 PM;test post;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 11:54:56 PM;de ce ai picat?;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:18:41 PM;hau;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:25:26 PM;care-i faza;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:29:00 PM;xcv;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:32:29 PM;everything should work again right now;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:13 PM;fs in chat pls;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:55 PM;fs in chat again please;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:35:59 PM;back in working position;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:02:19 PM;is this working?;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:04:53 PM;everything should be in check;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:07:34 PM;everyting in check;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:40 PM;ciao;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:53 PM;did i notice lag?;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:25:08 PM;do not crash pls;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:26:01 PM;adsdasd;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:29:26 PM;asdasd;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:42:23 PM;gh;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:44:36 PM;what is happening;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:46:20 PM;should be good;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:47:38 PM;how bout this;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:49:24 PM;go;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:51:32 PM;it works?;NONE;NONE;
+[15.1.2020 11:56:29 PM] [Thread 0] : L;codrut.iftimie@gmail.com;20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[15.1.2020 11:56:29 PM] Email: codrut.iftimie@gmail.com   |   Password:20-65-2936-5363-50113-382441-69116120-108122-668151791144334-113-67-3110-76-1165962
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 6:40:11 PM;test post;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 11:54:56 PM;de ce ai picat?;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:18:41 PM;hau;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:25:26 PM;care-i faza;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:29:00 PM;xcv;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:32:29 PM;everything should work again right now;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:13 PM;fs in chat pls;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:55 PM;fs in chat again please;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:35:59 PM;back in working position;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:02:19 PM;is this working?;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:04:53 PM;everything should be in check;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:07:34 PM;everyting in check;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:40 PM;ciao;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:53 PM;did i notice lag?;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:25:08 PM;do not crash pls;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:26:01 PM;adsdasd;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:29:26 PM;asdasd;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:42:23 PM;gh;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:44:36 PM;what is happening;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:46:20 PM;should be good;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:47:38 PM;how bout this;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:49:24 PM;go;NONE;NONE;
+[15.1.2020 11:56:29 PM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:51:32 PM;it works?;NONE;NONE;
+[15.1.2020 11:56:52 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;b7588e37-0be5-47f5-8ad4-dea708b2b891;i hope it works;;
+[15.1.2020 11:57:14 PM] [Thread 0] : M;b7588e37-0be5-47f5-8ad4-dea708b2b891;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;holy fucking shit it works;;
+[15.1.2020 11:57:42 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;b7588e37-0be5-47f5-8ad4-dea708b2b891;how well does it work though?;;
+[15.1.2020 11:58:42 PM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;b7588e37-0be5-47f5-8ad4-dea708b2b891;i get double messages, but it does not matter! It works for now. I am so happy!!!;;
+[16.1.2020 12:00:46 AM] [CleanUp] 1 client removed.
+[16.1.2020 12:00:48 AM] [Server] New client Connected. Current clients: [2]
+[16.1.2020 12:00:48 AM] [ClientHandler] Handling the client...
+[16.1.2020 12:00:48 AM] [ClientHandler] Client Handled.
+[16.1.2020 12:00:48 AM] [Thread 0] : L;123@123.123;21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[16.1.2020 12:00:48 AM] Email: 123@123.123   |   Password:21-30-80-45-6156-111-21-80-15-1796-98-6025661232-2932-50-108-5895-68-116511868-114-7837
+[16.1.2020 12:00:48 AM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:05:10 PM;a new post;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 8:30:46 PM;test new post;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:43:22 PM;whaaaat;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:46:07 PM;new post ffs;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:49:21 PM;this should be good;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:54:51 PM;test for a new post 100% working;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 9:56:36 PM;lets just add another post to make sure this post function works;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:16:44 PM;asdfghasdfasfbasdbfaasfjhasdklfjhas dklfjhas dljkfhasdlkfjhasjkldfghasd klfhgasdklfhg asjdfhgasdjkfgh askjdfghaskdjhfgasdjkfhg asdhjkfgasjkhdfgasjkdhfg kasdjfhgasjkdfghasjfghkasjdfghka;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;11.12.2019 10:28:26 PM;post;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:36:58 PM;test profile update feed;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;f44fe110-fd13-48ac-9dcd-c0bdb4a6a144;Codrut;Iftimie;25.12.2019 5:37:27 PM;test add profile post order;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;26a70c14-5ffe-4f80-8c66-78d4e1d89045;Test;User;06.1.2020 10:04:06 PM;test user profile post;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 6:40:11 PM;test post;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;14.1.2020 11:54:56 PM;de ce ai picat?;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:18:41 PM;hau;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:25:26 PM;care-i faza;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:29:00 PM;xcv;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:32:29 PM;everything should work again right now;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:13 PM;fs in chat pls;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:34:55 PM;fs in chat again please;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 9:35:59 PM;back in working position;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:02:19 PM;is this working?;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:04:53 PM;everything should be in check;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:07:34 PM;everyting in check;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:40 PM;ciao;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:09:53 PM;did i notice lag?;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:25:08 PM;do not crash pls;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:26:01 PM;adsdasd;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:29:26 PM;asdasd;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:42:23 PM;gh;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:44:36 PM;what is happening;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:46:20 PM;should be good;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:47:38 PM;how bout this;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:49:24 PM;go;NONE;NONE;
+[16.1.2020 12:00:48 AM] P;b7588e37-0be5-47f5-8ad4-dea708b2b891;Another;Testuser;15.1.2020 10:51:32 PM;it works?;NONE;NONE;
+[16.1.2020 12:01:16 AM] [Thread 0] : M;b7588e37-0be5-47f5-8ad4-dea708b2b891;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;i do not know man. i seem to have fixed the double messages;;
+[16.1.2020 12:01:43 AM] [Thread 0] : M;0b1a0f0c-07d5-4087-b7dd-ac99447a9cd3;b7588e37-0be5-47f5-8ad4-dea708b2b891;well, good for you man!;;
+[16.1.2020 12:02:12 AM] [CleanUp] 1 client removed.

@@ -97,7 +97,7 @@ namespace AppServer.Data
                         if(client.UserId.Equals(receiverId))
                         {
                             List<string[]> queryResult = Server.QueryResult(3, $"SELECT u.FirstName, u.LastName, m.Date FROM Users u, Messages m WHERE m.SenderId='{senderId}' AND m.ReceiverId='{receiverId}' AND u.UserId='{senderId}' ORDER BY Date DESC");
-                            string anotherMessage = $"M;{senderId};{receiverId};{queryResult[0][0]};{queryResult[0][1]};{message};{queryResult[0][2]};;";
+                            string anotherMessage = $"M;{senderId};{queryResult[0][0]};{queryResult[0][1]};{message};{queryResult[0][2]};;";
                             Server.Write(client.Client, anotherMessage);
                             Console.WriteLine($"Sent notification to ID:{receiverId} for new message");
                         }

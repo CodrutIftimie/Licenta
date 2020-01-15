@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Conversation implements Serializable {
-    public static long conversationsCount = 0;
     public String firstName;
     public String lastName;
     public String receiverId;

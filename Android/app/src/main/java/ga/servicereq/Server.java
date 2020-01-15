@@ -79,7 +79,8 @@ public final class Server implements Runnable {
                             }
                             if (m.substring(0, 1).equals("M")) {
                                 String[] data = m.split(";");
-                                MessagesAdapter.serverAdd(new Message(data[1], data[2], data[3], data[4], data[5], data[6]));
+                                MessagesAdapter.serverAdd(new Message(data[1], data[2], data[3], data[4], data[5]));
+                                MessagingActivity.staticAdd(new Message(data[1], data[2], data[3], data[4], data[5]));
                             } else messages.add(m);
                         }
                     }
