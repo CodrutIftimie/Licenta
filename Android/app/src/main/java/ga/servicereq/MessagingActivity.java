@@ -21,14 +21,14 @@ import java.util.Map;
 
 public class MessagingActivity extends AppCompatActivity {
 
-    private boolean upadterRunning = false;
+    private boolean updaterRunning = false;
     private static ArrayList<Message> senderMessages = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.message_opened);
-
+        runUpdater();
         //ToDo: [DONE - need fix] server-side send message to receiver (similar to post broadcast but check client name (implement that))
 
         //ToDo: [DONE] message adding like in Posts (most likely with an adapter)
@@ -94,7 +94,6 @@ public class MessagingActivity extends AppCompatActivity {
                     String exchMsg = new Gson().toJson(conversation);
                     prefsEditor.putString(conversationId, exchMsg);
                     prefsEditor.apply();
-                    scrollArea.fullScroll(View.FOCUS_DOWN);
                     sendButton.post(new Runnable() {
                         @Override
                         public void run() {
@@ -102,6 +101,7 @@ public class MessagingActivity extends AppCompatActivity {
                         }
                     });
                     message.setText("");
+                    scrollArea.fullScroll(View.FOCUS_DOWN);
                     Message m = new Message(receiverId,firstName,lastName,msg,"");
                     m.activityAdded = true;
                     MessagesAdapter.serverAdd(m);
@@ -110,36 +110,43 @@ public class MessagingActivity extends AppCompatActivity {
         });
     }
 
-//    private void addFromQueue(Message m) {
-//        final LinearLayout exchangedMessages = findViewById(R.id.exchanged_messages);
-//        final LayoutInflater inflater = LayoutInflater.from(exchangedMessages.getContext());
-//        RelativeLayout queueMessage;
-//        TextView messageText;
-//        queueMessage = (RelativeLayout) inflater.inflate(R.layout.message_received, null);
-//        messageText = queueMessage.findViewById(R.id.messagerecv_senderText);
-//        messageText.setText(m.lastMessage);
-//        exchangedMessages.addView(queueMessage);
-//    }
-//
-//    public void runUpdater() {
-//        if(!upadterRunning) {
-//            upadterRunning = true;
-//            new Thread(new Runnable() {
-//                @Override
-//                public void run() {
-//                    try {
-//                        while (upadterRunning) {
-//                            while (senderMessages.size() > 0) {
-//                                addFromQueue(senderMessages.remove(0));
-//                            }
-//                            Thread.sleep(1000);
-//                        }
-//                    } catch (InterruptedException ignored) {
-//                    }
-//                }
-//            }).start();
-//        }
-//    }
+    private void addFromQueue(Message m) {
+        final LinearLayout exchangedMessages = findViewById(R.id.exchanged_messages);
+        final ScrollView scrollArea = findViewById(R.id.message_scrollArea);
+        final LayoutInflater inflater = LayoutInflater.from(exchangedMessages.getContext());
+        final RelativeLayout queueMessage;
+        TextView messageText;
+        queueMessage = (RelativeLayout) inflater.inflate(R.layout.message_received, null);
+        messageText = queueMessage.findViewById(R.id.messagerecv_senderText);
+        messageText.setText(m.lastMessage);
+        exchangedMessages.post(new Runnable() {
+            @Override
+            public void run() {
+                exchangedMessages.addView(queueMessage);
+                scrollArea.fullScroll(ScrollView.FOCUS_DOWN);
+            }
+        });
+    }
+
+    public void runUpdater() {
+        if(!updaterRunning) {
+            updaterRunning = true;
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        while (updaterRunning) {
+                            while (senderMessages.size() > 0) {
+                                addFromQueue(senderMessages.remove(0));
+                            }
+                            Thread.sleep(1000);
+                        }
+                    } catch (InterruptedException ignored) {
+                    }
+                }
+            }).start();
+        }
+    }
 
     public static void staticAdd(Message m) {
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
@@ -169,5 +176,6 @@ public class MessagingActivity extends AppCompatActivity {
             editor.putString("CONVO"+newConversation.receiverId,convoString);
             editor.apply();
         }
+        senderMessages.add(m);
     }
 }

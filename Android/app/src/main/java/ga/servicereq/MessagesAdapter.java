@@ -80,7 +80,6 @@ public class MessagesAdapter {
                 View possibleExistingView = body.findViewWithTag(viewTagId);
                 if (possibleExistingView != null) {
                     body.removeView(possibleExistingView);
-                    Toast.makeText(Server.getAppContext(), "FOUND VIEW, DELETED!", Toast.LENGTH_LONG).show();
                 }
 
                 toBeAdded.setTag(viewTagId);
