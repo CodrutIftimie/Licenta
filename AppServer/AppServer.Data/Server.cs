@@ -1,6 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.IO;
+using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -94,15 +97,18 @@ namespace AppServer.Data
                 {
                     if (table.Equals("Posts"))
                     {
-                        List<string[]> result = QueryResult(2, $"SELECT FirstName, LastName FROM USERS WHERE UserId='{values[0]}'"); //Get the name from the new post
-                        string[] newValues = new string[values.Length + 2];
-                        newValues[0] = values[0];
+                        List<string[]> result = QueryResult(3, $"SELECT FirstName, LastName, PictureAddr FROM USERS WHERE UserId='{values[0]}'"); //Get the name from the new post
+                        string[] newValues = new string[7];
+                        newValues[0] = values[0]; //userId
                         newValues[1] = result[0][0]; // FirstName
                         newValues[2] = result[0][1]; // LastName
+                        newValues[4] = values[1]; // PostDescription
+                        newValues[5] = values[4]; // PostImage
+                        newValues[6] = result[0][2]; // PictureAddr
                         result = QueryResult(1, $"SELECT Date FROM Posts WHERE Description='{values[1]}' ORDER BY Date DESC"); //Get the date from the new post
                         newValues[3] = result[0][0]; // Date
-                        for (int i = 4; i < values.Length + 2; i++) //Copy rest of values
-                            newValues[i] = values[i - 3];
+                        //for (int i = 5; i < values.Length + 1; i++) //Copy rest of values
+                        //    newValues[i] = values[i - 4];
                         ClientHandler.BroadcastNewPost(newValues);
                     }
                     return true;
@@ -111,10 +117,53 @@ namespace AppServer.Data
             return false;
         }
 
+        public static bool Update(string table, string[] fields, string[] values)
+        {
+            using (SqlCommand cmd = new SqlCommand())
+            {
+                cmd.Connection = Database;
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = $"UPDATE {table} SET ";
+                for (int i = 1; i < fields.Length; i++)
+                {
+                    cmd.CommandText += $"{fields[i]} = '{values[i]}',";
+                }
+                cmd.CommandText = cmd.CommandText.Remove(cmd.CommandText.Length - 1);
+                cmd.CommandText += $" WHERE {fields[0]} = '{values[0]}'";
+                if (cmd.ExecuteNonQuery() > 0)
+                    return true;
+                return false;
+            }
+        }
+
         public static void Write(TcpClient client, string message)
         {
-            byte[] toClient = Encoding.ASCII.GetBytes(message);
-            client.GetStream().Write(toClient, 0, toClient.Length);
+            byte[] messageBytes = Encoding.UTF8.GetBytes(message);
+            //byte[] messageSize = BitConverter.GetBytes(messageBytes.Length);
+            //Array.Reverse(messageSize);
+            //client.GetStream().Write(messageSize, 0, 4);
+            //client.GetStream().Flush();
+            client.GetStream().Write(messageBytes, 0, messageBytes.Length);
+            client.GetStream().Flush();
+        }
+
+
+        public static string readMessage(TcpClient client)
+        {
+            byte[] messageSize = new byte[4];
+            client.GetStream().Read(messageSize, 0, 4);
+            Array.Reverse(messageSize); //Convert to Big Edian
+            int messageSizeInteger = BitConverter.ToInt32(messageSize, 0);
+            byte[] message = new byte[messageSizeInteger];
+            int bytesRead = 0, bytesLeft = messageSizeInteger;
+            while (bytesRead < messageSizeInteger)
+            {
+                int currentBytesRead = client.GetStream().Read(message, bytesRead, bytesLeft);
+                bytesRead += currentBytesRead;
+                bytesLeft -= currentBytesRead;
+            }
+
+            return System.Text.Encoding.UTF8.GetString(message);
         }
     }
 }

@@ -158,6 +158,7 @@ public class LoginActivity extends AppCompatActivity {
                                                 preferencesEditor.putString("gid", userData[0]);
                                                 preferencesEditor.putString("fn", userData[1]);
                                                 preferencesEditor.putString("ln", userData[2]);
+                                                preferencesEditor.putString("img", "NONE");
                                                 preferencesEditor.putFloat("rtg", Float.valueOf(userData[3]));
                                                 preferencesEditor.apply();
 
@@ -211,6 +212,7 @@ public class LoginActivity extends AppCompatActivity {
                     preferencesEditor.putString("gid", userData[0]);
                     preferencesEditor.putString("fn", userData[1]);
                     preferencesEditor.putString("ln", userData[2]);
+                    preferencesEditor.putString("img", userData[4]);
                     preferencesEditor.putFloat("rtg", Float.valueOf(userData[3]));
                     preferencesEditor.apply();
 

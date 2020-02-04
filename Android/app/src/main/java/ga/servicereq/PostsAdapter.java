@@ -3,8 +3,12 @@ package ga.servicereq;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.preference.PreferenceManager;
+import android.util.DisplayMetrics;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -54,11 +58,29 @@ public class PostsAdapter {
                 TextView posterName = toBeAdded.findViewById(R.id.post_posterName);
                 TextView postDate = toBeAdded.findViewById(R.id.post_time);
                 TextView postDescription = toBeAdded.findViewById(R.id.post_description);
+                ImageView posterImage = toBeAdded.findViewById(R.id.post_posterAvatar);
+                ImageView postImage = toBeAdded.findViewById(R.id.post_image);
 
                 final String name = post.getFirstName() + " " + post.getLastName();
                 posterName.setText(name);
                 postDate.setText(post.getPostDate());
                 postDescription.setText(post.getDescription());
+                if (!post.getProfileImageURL().equals("NONE")) {
+                    String[] byteValues = post.getProfileImageURL().substring(1, post.getProfileImageURL().length() - 1).split(",");
+                    byte[] bytes = new byte[byteValues.length];
+
+                    for (int i = 0, len = bytes.length; i < len; i++) {
+                        bytes[i] = Byte.parseByte(byteValues[i]);
+                    }
+                    Bitmap image = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
+                    image = Bitmap.createScaledBitmap(image, 400, 400, true);
+                    RoundDrawable roundDrawable = new RoundDrawable(image);
+                    posterImage.setImageDrawable(roundDrawable);
+                }
+
+                if (!post.getDescriptionImageURL().equals("NONE")) {
+                    addPostImage(post.getDescriptionImageURL(), postImage);
+                }
 
                 toBeAdded.setTag(post.getPosterId());
 
@@ -68,7 +90,7 @@ public class PostsAdapter {
                     @Override
                     public void onClick(View v) {
                         Intent i = new Intent(feedBody.getContext(), MessagingActivity.class);
-                        i.putExtra("receiverId",post.getPosterId());
+                        i.putExtra("receiverId", post.getPosterId());
                         i.putExtra("fname", post.getFirstName());
                         i.putExtra("lname", post.getLastName());
                         context.startActivity(i);
@@ -94,16 +116,21 @@ public class PostsAdapter {
                         TextView posterName = toBeAdded.findViewById(R.id.post_posterName);
                         TextView postDate = toBeAdded.findViewById(R.id.post_time);
                         TextView postDescription = toBeAdded.findViewById(R.id.post_description);
+                        ImageView postImage = toBeAdded.findViewById(R.id.post_image);
 
                         final String name = post.getFirstName() + " " + post.getLastName();
                         posterName.setText(name);
                         postDate.setText(post.getPostDate());
                         postDescription.setText(post.getDescription());
 
+                        if (!post.getDescriptionImageURL().equals("NONE")) {
+                            addPostImage(post.getDescriptionImageURL(), postImage);
+                        }
+
                         toBeAdded.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
-                                Toast.makeText(context,"Test onClick " + name + " " + post.getPostDate(), Toast.LENGTH_LONG).show();
+                                Toast.makeText(context, "Test onClick " + name + " " + post.getPostDate(), Toast.LENGTH_LONG).show();
                             }
                         });
 
@@ -114,6 +141,21 @@ public class PostsAdapter {
             return true;
         }
         return false;
+    }
+
+    private void addPostImage(String image, ImageView imageView) {
+        String[] byteValues = image.substring(1, image.length() - 1).split(",");
+        byte[] bytes = new byte[byteValues.length];
+
+        for (int i = 0, len = bytes.length; i < len; i++) {
+            bytes[i] = Byte.parseByte(byteValues[i]);
+        }
+
+        Bitmap imageB = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
+        DisplayMetrics displayMetrics = Server.getAppContext().getResources().getDisplayMetrics();
+        int width = displayMetrics.widthPixels;
+        imageB = Bitmap.createScaledBitmap(imageB, width,1000, true);
+        imageView.setImageBitmap(imageB);
     }
 
     public static void serverAdd(Post post) {

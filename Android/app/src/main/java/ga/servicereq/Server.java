@@ -2,13 +2,27 @@ package ga.servicereq;
 
 import android.content.Context;
 import android.util.Log;
+import android.util.Xml;
+
+import org.apache.commons.io.ByteOrderMark;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.input.BOMInputStream;
 
 import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.math.BigInteger;
 import java.net.Socket;
+import java.nio.ByteBuffer;
+import java.nio.charset.Charset;
+import java.nio.charset.CharsetEncoder;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public final class Server implements Runnable {
@@ -44,12 +58,38 @@ public final class Server implements Runnable {
                 try {
                     while (writeSocket == null)
                         Thread.sleep(100);
-                    writeSocket.write(message.getBytes());
+                   byte[] messageInBytes = message.getBytes(StandardCharsets.UTF_8);
+                   byte[] messageLength = ByteBuffer.allocate(4).putInt(messageInBytes.length).array();
+                   writeSocket.write(messageLength,0,4);
+                   writeSocket.flush();
+                   writeSocket.write(messageInBytes,0,messageInBytes.length);
+                   writeSocket.flush();
+
                 } catch (IOException | InterruptedException e) {
                     e.printStackTrace();
                 }
             }
         }).start();
+    }
+
+    private String readMessage() throws IOException {
+        if(readSocket.ready()) {
+            return readSocket.readLine();
+//            byte[] messageLength = new byte[4];
+////            readSocket.read(messageLength, 0, 4);
+//            int messageLengthInteger = ByteBuffer.wrap(messageLength).getInt();
+//            byte[] message = new byte[messageLengthInteger];
+//            int bytesRead = 0, bytesLeft = messageLengthInteger;
+////            while (bytesRead < messageLengthInteger) {
+////                int currentBytesRead = readSocket.read(message, bytesRead, bytesLeft);
+////                bytesRead += currentBytesRead;
+////                bytesLeft -= currentBytesRead;
+////            }
+//            return new String(message, StandardCharsets.UTF_8);
+//        }
+//        return null;
+        }
+        return null;
     }
 
     @Override
@@ -64,12 +104,8 @@ public final class Server implements Runnable {
             readSocket = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 
             while (activeConnection) {
-                String readMessage;
-                readMessage = readSocket.readLine();
-                while (readMessage == null) {
-                    readMessage = readSocket.readLine();
-                }
-                if (readMessage.split(";;").length > 0) {
+                String readMessage = readMessage();
+                if (readMessage != null && readMessage.split(";;").length > 0) {
                     for (String m : readMessage.split(";;")) {
                         Log.d("SERVER", m.contains("[CheckConnection]") ? "" : m);
                         if (!m.equals("[CheckConnection]")) {
@@ -106,4 +142,6 @@ public final class Server implements Runnable {
     public static int messagesCount() {
         return Server.messages.size();
     }
+
+    public static void clearMessages() {Server.messages.clear();}
 }

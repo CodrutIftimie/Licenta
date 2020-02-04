@@ -2,6 +2,8 @@
 using System.Threading;
 using System.Text;
 using System;
+using System.Drawing;
+using System.IO;
 
 namespace AppServer.Data
 {
@@ -134,10 +136,23 @@ namespace AppServer.Data
                             if (clients[i].Client.Available > 0) //if the client has available data then treat it
                             {
 
-                                String message;
-                                byte[] data = new byte[clients[i].Client.Available];
-                                clients[i].Client.GetStream().Read(data);
-                                message = Encoding.Default.GetString(data);
+                                String message = Server.readMessage(clients[i].Client);
+                                if (message == null)
+                                    continue;
+
+                                //var reader = new BinaryReader(clients[i].Client.GetStream());
+                                //byte[] lenBytes = reader.ReadBytes(4);
+                                //Array.Reverse(lenBytes);
+                                //int len = BitConverter.ToInt32(lenBytes);
+
+                                //byte[] bytes = reader.ReadBytes(len);
+                                //message = Encoding.UTF8.GetString(bytes);
+
+                                ////byte[] data = new byte[clients[i].Client.Available];
+                                ////clients[i].Client.GetStream().Read
+
+                                ////clients[i].Client.GetStream().Flush();
+
                                 Log.Add($"[Thread {clients[i].ThreadId}] : {message}");
 
                                 switch (message[0])
@@ -147,11 +162,11 @@ namespace AppServer.Data
                                         String lPassword = message.Split(';')[2];
                                         Log.Add($"Email: {lEmail}   |   Password:{lPassword}");
 
-                                        List<string[]> lValues = Server.QueryResult(4, $"SELECT UserId, FirstName, LastName, Rating FROM Users WHERE email='{lEmail}' AND password='{lPassword}'");
+                                        List<string[]> lValues = Server.QueryResult(5, $"SELECT UserId, FirstName, LastName, Rating, PictureAddr FROM Users WHERE email='{lEmail}' AND password='{lPassword}'");
 
                                         if (lValues.Count == 1)
                                         {
-                                            Server.Write(clients[i].Client, $"LSUCCESS;;{lValues[0][0]};{lValues[0][1]};{lValues[0][2]};{lValues[0][3]};;");
+                                            Server.Write(clients[i].Client, $"LSUCCESS;;{lValues[0][0]};{lValues[0][1]};{lValues[0][2]};{lValues[0][3]};{lValues[0][4]};;");
                                             clients[i].loggedIn = true;
                                             clients[i].UserId = lValues[0][0];
                                             List<string[]> postsValues = Server.QueryResult(8, $"SELECT p.UserId, u.FirstName, u.LastName, p.Date, p.Description, p.ImageAddr, u.PictureAddr, p.Category, p.Location FROM Posts p, Users u WHERE p.UserId = u.UserId ORDER BY Date ASC");
@@ -182,11 +197,16 @@ namespace AppServer.Data
                                                 Server.Write(clients[i].Client, $"RSUCCESS;;{intVals[0][0]};{intVals[0][1]};{intVals[0][2]};{intVals[0][3]};;");
                                                 clients[i].loggedIn = true;
                                                 clients[i].UserId = intVals[0][0];
+                                                List<string[]> postsValues = Server.QueryResult(8, $"SELECT p.UserId, u.FirstName, u.LastName, p.Date, p.Description, p.ImageAddr, u.PictureAddr, p.Category, p.Location FROM Posts p, Users u WHERE p.UserId = u.UserId ORDER BY Date ASC");
+                                                foreach (string[] post in postsValues)
+                                                {
+                                                    Server.Write(clients[i].Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};{post[6]};;");
+                                                    Log.Add($"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};{post[6]};");
+                                                }
                                             }
                                             else Server.Write(clients[i].Client, "RFAIL;;");
                                         }
                                         else Server.Write(clients[i].Client, "REXISTING;;");
-
                                         break;
 
                                     case 'N':
@@ -202,9 +222,39 @@ namespace AppServer.Data
                                         if (Server.InsertQuery("Posts", pFields, pValues))
                                             Server.Write(clients[i].Client, "SUCCESS;;");
                                         else Server.Write(clients[i].Client, "FAIL;;");
-
                                         break;
+                                    case 'U':
+                                        String uGuid = message.Split(';')[1];
+                                        String uHelperOptionsCount = message.Split(';')[2];
+                                        String uFirstName = message.Split(';')[3];
+                                        String uLastName = message.Split(';')[4];
+                                        String uPassword = message.Split(';')[5];
+                                        List<string> uFields = new List<string>();
+                                        List<string> uValues = new List<string>();
+                                        uFields.Add("UserId");
+                                        uValues.Add(uGuid);
 
+                                        if (!uFirstName.Equals("_"))
+                                        {
+                                            uFields.Add("FirstName");
+                                            uValues.Add(uFirstName);
+                                        }
+
+                                        if(!uLastName.Equals("_"))
+                                        {
+                                            uFields.Add("LastName");
+                                            uValues.Add(uLastName);
+                                        }
+
+                                        if(!uPassword.Equals("_"))
+                                        {
+                                            uFields.Add("Password");
+                                            uValues.Add(uPassword);
+                                        }
+
+                                        //TODO: CATEGORIES
+                                        Server.Update("Users", uFields.ToArray(), uValues.ToArray());
+                                        break;
                                     case 'O':
                                         clients[i].loggedIn = false;
                                         break;
@@ -222,10 +272,21 @@ namespace AppServer.Data
                                         }
                                         else Server.Write(clients[i].Client, "FAIL;;");
                                         break;
+
+                                    case 'I':
+                                        String userId = message.Split(';')[1];
+                                        String imageString = message.Split(';')[2];
+
+                                        string[] iFields = { "UserId", "PictureAddr" };
+                                        string[] iValues = { userId, imageString };
+
+                                        Server.Update("Users", iFields, iValues);
+                                        break;
                                     default:
                                         Log.Add($"Received an unknown request: {message}");
                                         break;
                                 }
+
                             }
                         }
                         catch (ObjectDisposedException) { } //Accessing the client right after it was removed and throws an exception, so it just needs to be ignored

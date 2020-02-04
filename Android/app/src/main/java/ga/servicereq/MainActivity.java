@@ -1,5 +1,6 @@
 package ga.servicereq;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
@@ -52,4 +53,10 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 }
             };
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+
 }

@@ -37,13 +37,14 @@
                 android:text="@string/profile_logout"
                 android:background="#FF0000"/>
 
-            <ImageButton
+            <ImageView
                 android:id="@+id/profile_Avatar"
                 android:layout_below="@+id/profile_logoutButton"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
                 android:background="@null"
                 android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
                 android:contentDescription="@string/post_posterAvatar"
                 android:scaleType="fitXY"
                 android:src="@drawable/ic_avatar_default" />

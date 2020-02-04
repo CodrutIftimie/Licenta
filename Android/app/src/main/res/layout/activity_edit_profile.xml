@@ -198,7 +198,7 @@
                 android:layout_marginTop="30dp">
 
                 <Button
-                    android:id="@+id/editproifle_btn_save"
+                    android:id="@+id/editprofile_btn_save"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@color/colorAccent"
@@ -206,8 +206,8 @@
                     android:layout_marginEnd="30dp"/>
 
                 <Button
-                    android:id="@+id/editporifle_btn_cancel"
-                    android:layout_toEndOf="@+id/editproifle_btn_save"
+                    android:id="@+id/editprofile_btn_cancel"
+                    android:layout_toEndOf="@+id/editprofile_btn_save"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="#AAAAAA"

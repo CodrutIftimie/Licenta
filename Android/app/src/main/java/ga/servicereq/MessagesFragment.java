@@ -32,7 +32,6 @@ public class MessagesFragment extends Fragment {
             messages = Objects.requireNonNull(rootView).findViewById(R.id.preview_messages);
             preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
             adapter = new MessagesAdapter(getContext(),messages,this);
-            int convsC = 0;
 
             Map<String, ?> convos = preferences.getAll();
             for(Map.Entry<String, ?> convo : convos.entrySet())
