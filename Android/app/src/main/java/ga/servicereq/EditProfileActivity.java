@@ -35,7 +35,7 @@ public class EditProfileActivity extends AppCompatActivity {
                 if (isChecked) {
                     for (int i = 0; i < 21; i++) {
                         CheckBox helpOption = new CheckBox(enableHelper.getContext());
-                        helpOption.setText(Services.getById(i).toString());
+                        helpOption.setText(Services.getById(i).toString().replace("_"," "));
                         helpOption.setTextColor(Color.WHITE);
                         helpOption.setTag(Services.getById(i).toString());
                         helperOptions.addView(helpOption);

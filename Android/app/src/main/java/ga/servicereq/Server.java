@@ -2,27 +2,14 @@ package ga.servicereq;
 
 import android.content.Context;
 import android.util.Log;
-import android.util.Xml;
-
-import org.apache.commons.io.ByteOrderMark;
-import org.apache.commons.io.IOUtils;
-import org.apache.commons.io.input.BOMInputStream;
-
 import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigInteger;
 import java.net.Socket;
 import java.nio.ByteBuffer;
-import java.nio.charset.Charset;
-import java.nio.charset.CharsetEncoder;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public final class Server implements Runnable {
@@ -98,8 +85,9 @@ public final class Server implements Runnable {
 
         activeConnection = true;
         try {
-            connection = new Socket("192.168.43.5", 6787);
-//            connection = new Socket("192.168.0.173", 6787);
+//            connection = new Socket("192.168.43.5", 6787);
+            connection = new Socket("192.168.0.173", 6787);
+//            connection = new Socket("192.168.137.1",6787);
             writeSocket = new DataOutputStream(connection.getOutputStream());
             readSocket = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 

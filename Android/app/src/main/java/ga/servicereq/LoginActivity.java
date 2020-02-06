@@ -16,6 +16,7 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import java.security.MessageDigest;
@@ -205,6 +206,13 @@ public class LoginActivity extends AppCompatActivity {
                 String fMessage = Server.getMessage(0);
                 Log.e("LOGIN",fMessage);
                 if (fMessage.equals("LSUCCESS")) {
+                    if(Server.messagesCount() == 0) {
+                        try {
+                            Thread.sleep(100);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    }
                     String[] userData = Server.getMessage(0).split(";");
                     preferencesEditor = preferences.edit();
                     preferencesEditor.putString("usr", usr);

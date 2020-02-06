@@ -2,17 +2,18 @@ package ga.servicereq;
 
 
 class ExchangedMessage {
-    public String senderId;
-    public String message;
-    public String date;
+    String senderId;
+    String message;
+    String date;
 
-    public ExchangedMessage(String sender, String message, String date) {
+
+    ExchangedMessage(String sender, String message, String date) {
         this.senderId = sender;
         this.message = message;
         this.date = date;
     }
 
-    public ExchangedMessage(String sender, String message) {
+    ExchangedMessage(String sender, String message) {
         this.senderId = sender;
         this.message = message;
     }

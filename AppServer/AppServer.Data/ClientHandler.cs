@@ -119,7 +119,7 @@ namespace AppServer.Data
             {
                 if (clients.Count == 0) //if there is no client then this is the only thread (deducted from while) so i will keep it alive
                 {
-                    Thread.Sleep(800); //add a delay after each loop so the CPU does not "overload"
+                    Thread.Sleep(800); //add a delay after each loop
                     if (!messageShown)
                     {
                         messageShown = true;

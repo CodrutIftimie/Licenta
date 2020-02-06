@@ -1,9 +1,11 @@
 package ga.servicereq;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
@@ -13,6 +15,8 @@ import android.os.StrictMode;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.provider.MediaStore;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
@@ -129,23 +133,37 @@ public class NewPostActivity extends AppCompatActivity {
     }
 
     private void selectImage() {
-        final CharSequence[] options = {"Take Photo", "Choose a photo from Gallery", "Cancel"};
+        final CharSequence[] options = {"Camera", "Alege din Galeria foto", "Anulează"};
         android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(postImage.getContext());
-        builder.setTitle("Upload a photo");
+        builder.setTitle("Încarcă o imagine");
         builder.setItems(options, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int item) {
-                if (options[item].equals("Take Photo")) {
+                if (options[item].equals("Camera")) {
                     StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
                     StrictMode.setVmPolicy(builder.build());
+
+                    if (ContextCompat.checkSelfPermission(NewPostActivity.this, Manifest.permission.CAMERA)
+                            != PackageManager.PERMISSION_GRANTED) {
+                        ActivityCompat.requestPermissions(NewPostActivity.this,
+                                new String[]{Manifest.permission.CAMERA},1);
+                    }
+
                     Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                    File f = new File(android.os.Environment.getExternalStorageDirectory(), "postImage.jpg");
+                    File f = new File(android.os.Environment.getExternalStorageDirectory(), "fotografie.jpg");
                     intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(f));
                     startActivityForResult(intent, 1);
-                } else if (options[item].equals("Choose a photo from Gallery")) {
+                } else if (options[item].equals("Alege din Galeria foto")) {
+
+                    if (ContextCompat.checkSelfPermission(NewPostActivity.this, Manifest.permission.READ_EXTERNAL_STORAGE)!= PackageManager.PERMISSION_GRANTED ||
+                            ContextCompat.checkSelfPermission(NewPostActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE)!= PackageManager.PERMISSION_GRANTED) {
+                        ActivityCompat.requestPermissions(NewPostActivity.this,
+                                new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE},1);
+                    }
+
                     Intent intent = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.INTERNAL_CONTENT_URI);
-                    startActivityForResult(Intent.createChooser(intent,"Select a picture"), 2);
-                } else if (options[item].equals("Cancel")) {
+                    startActivityForResult(Intent.createChooser(intent,"Alege o fotografie"), 2);
+                } else if (options[item].equals("Anulează")) {
                     dialog.dismiss();
                 }
             }
@@ -160,12 +178,12 @@ public class NewPostActivity extends AppCompatActivity {
                 if(resultCode == RESULT_OK) {
                     File f = new File(Environment.getExternalStorageDirectory().toString());
                     for (File temp : f.listFiles()) {
-                        if (temp.getName().equals("postImage.jpg")) {
+                        if (temp.getName().equals("fotografie.jpg")) {
                             f = temp;
                             break;
                         }
                     }
-                    imageName.setText("taken_photo.jpg");
+                    imageName.setText("fotografie.jpg");
                     Bitmap image = BitmapFactory.decodeFile(f.getPath());
                     ByteArrayOutputStream stream = new ByteArrayOutputStream();
                     image = Bitmap.createScaledBitmap(image, 400,400, true);

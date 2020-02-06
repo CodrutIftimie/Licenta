@@ -52,7 +52,7 @@
             android:layout_centerVertical="true"
             android:layout_width="40dp"
             android:layout_height="25dp"
-            android:background="@drawable/message_sent_borders"
+            android:background="@null"
             android:text="@string/messagepv_end"/>
     </RelativeLayout>
 

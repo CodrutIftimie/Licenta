@@ -1,28 +1,27 @@
 package ga.servicereq;
 
 public enum Services {
-    Knowledge(0),
+    Cunoștințe(0),
     IT(1),
     Design(2),
-    Arts_and_Entertainment(3),
-    Creative(4),
-    Government(5),
-    Education_and_Childcare(6),
-    Construction(7),
-    Cleaning(8),
-    Financial(9),
-    Agents_and_Brokers(10),
-    Health_Care(11),
-    Wellness_and_Personal_Grooming(12),
-    Sports_and_Fitness(13),
-    Hospitality(14),
-    Transport(15),
-    Utilities(16),
-    Insurance(17),
-    Food_and_Beverages(18),
-    Rentals(19),
-    Events(20),
-    UNKNOWN(30);
+    Arte_și_Amuzament(3),
+    Creativitate(4),
+    Politică(5),
+    Educație_și_creșterea_copilului(6),
+    Construcții(7),
+    Curățenie(8),
+    Financiar(9),
+    Agenți_și_Vânzări(10),
+    Sănătate(11),
+    Sport_și_Fitness(12),
+    Ospitalitate(13),
+    Transport(14),
+    Utilități(15),
+    Asigurări(16),
+    Mâncare_și_Băuturi(17),
+    Închirieri(18),
+    Evenimente(19),
+    Altceva(20);
 
     public int id;
 
@@ -35,7 +34,7 @@ public enum Services {
             if(e.id == id)
                 return e;
         }
-        return UNKNOWN;
+        return Altceva;
     }
 
     public static boolean isService(String name) {

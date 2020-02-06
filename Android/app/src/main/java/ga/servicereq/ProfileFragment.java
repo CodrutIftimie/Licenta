@@ -1,9 +1,12 @@
 package ga.servicereq;
 
+import android.Manifest;
 import android.app.Activity;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
@@ -17,7 +20,9 @@ import android.preference.PreferenceManager;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.util.Log;
@@ -48,6 +53,8 @@ public class ProfileFragment extends Fragment {
     public ImageView avatar;
     private View rootView;
     SharedPreferences pref;
+
+    private static Boolean permissionGranted = false;
 
     @Nullable
     @Override
@@ -134,23 +141,41 @@ public class ProfileFragment extends Fragment {
     }
 
     private void selectImage() {
-        final CharSequence[] options = {"Take Photo", "Choose a photo from Gallery", "Cancel"};
+        final CharSequence[] options = {"Camera", "Alege din Galeria foto", "Anulează"};
+        final Context activity = Objects.requireNonNull(this.getContext());
         android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(rootView.getContext());
-        builder.setTitle("Upload a photo");
+        builder.setTitle("Încarcă o imagine");
         builder.setItems(options, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int item) {
-                if (options[item].equals("Take Photo")) {
+                if (options[item].equals("Camera")) {
                     StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
                     StrictMode.setVmPolicy(builder.build());
+
+                    if (ContextCompat.checkSelfPermission(activity, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+                        requestPermissions(new String[]{Manifest.permission.CAMERA}, 1);
+                    }
+
+                    getActivity().runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            while (!permissionGranted) {
+                                try {
+                                    Thread.sleep(100);
+                                } catch (InterruptedException e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        }
+                    });
                     Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                    File f = new File(android.os.Environment.getExternalStorageDirectory(), "avatar.jpg");
+                    File f = new File(android.os.Environment.getExternalStorageDirectory(), "fotografie.jpg");
                     intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(f));
                     startActivityForResult(intent, 1);
-                } else if (options[item].equals("Choose a photo from Gallery")) {
+                } else if (options[item].equals("Alege din Galeria foto")) {
                     Intent intent = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.INTERNAL_CONTENT_URI);
-                    startActivityForResult(Intent.createChooser(intent,"Select a picture"), 2);
-                } else if (options[item].equals("Cancel")) {
+                    startActivityForResult(Intent.createChooser(intent,"Alege o fotografie"), 2);
+                } else if (options[item].equals("Anulează")) {
                     dialog.dismiss();
                 }
             }
@@ -169,7 +194,7 @@ public class ProfileFragment extends Fragment {
                 if(resultCode == RESULT_OK) {
                     File f = new File(Environment.getExternalStorageDirectory().toString());
                     for (File temp : f.listFiles()) {
-                        if (temp.getName().equals("avatar.jpg")) {
+                        if (temp.getName().equals("fotografie.jpg")) {
                             f = temp;
                             break;
                         }
@@ -216,7 +241,7 @@ public class ProfileFragment extends Fragment {
                             imageString.append(b).append(",");
                         imageString.setLength(imageString.length()-1);
                         serverMessage.append(imageString.append("]"));
-                        serverMessage.append("];;");
+                        serverMessage.append(";;");
                         Server.sendMessage(serverMessage.toString());
                         SharedPreferences.Editor prefEdit= preferences.edit();
                         prefEdit.putString("img",imageString.toString());
@@ -229,6 +254,16 @@ public class ProfileFragment extends Fragment {
             }
         } catch (Exception e) {
             Log.e("UPLOAD_IMAGE", "Exception in onActivityResult : " + e.getMessage());
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull  String[] permissions, @NonNull int[] grantResults) {
+        if (requestCode == 1) {
+            if (grantResults[0] == PackageManager.PERMISSION_DENIED) {
+                requestPermissions(new String[]{Manifest.permission.CAMERA}, 1);
+            }
+            else permissionGranted = true;
         }
     }
 }

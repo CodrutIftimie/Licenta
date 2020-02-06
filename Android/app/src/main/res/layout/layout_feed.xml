@@ -21,11 +21,11 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="15dp"/>
 
-        <include
-            android:id="@+id/main_searchBar"
-            layout="@layout/main_search_bar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"/>
+<!--        <include-->
+<!--            android:id="@+id/main_searchBar"-->
+<!--            layout="@layout/main_search_bar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="20dp"/>-->
     </LinearLayout>
 </ScrollView>

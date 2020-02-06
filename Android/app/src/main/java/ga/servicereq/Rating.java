@@ -25,7 +25,7 @@ public class Rating {
 //                Server.sendMessage("Z;" + rating.getRating() + ";;");
                 String senderId = (String)view.getTag();
 
-                Toast.makeText(view.getContext(),"Thank you for rating!"+senderId, Toast.LENGTH_SHORT).show();
+                Toast.makeText(view.getContext(),"Mulțumim pentru evaluarea utilizatorului!", Toast.LENGTH_SHORT).show();
                 deleteDialog.dismiss();
             }
         });

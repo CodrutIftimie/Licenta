@@ -96,7 +96,7 @@ public class PostsAdapter {
                         context.startActivity(i);
                     }
                 });
-                feedBody.addView(toBeAdded, 2);
+                feedBody.addView(toBeAdded, 1);
             }
         });
     }
@@ -116,12 +116,26 @@ public class PostsAdapter {
                         TextView posterName = toBeAdded.findViewById(R.id.post_posterName);
                         TextView postDate = toBeAdded.findViewById(R.id.post_time);
                         TextView postDescription = toBeAdded.findViewById(R.id.post_description);
+                        ImageView posterImage = toBeAdded.findViewById(R.id.post_posterAvatar);
                         ImageView postImage = toBeAdded.findViewById(R.id.post_image);
 
                         final String name = post.getFirstName() + " " + post.getLastName();
                         posterName.setText(name);
                         postDate.setText(post.getPostDate());
                         postDescription.setText(post.getDescription());
+
+                        if (!post.getProfileImageURL().equals("NONE")) {
+                            String[] byteValues = post.getProfileImageURL().substring(1, post.getProfileImageURL().length() - 1).split(",");
+                            byte[] bytes = new byte[byteValues.length];
+
+                            for (int i = 0, len = bytes.length; i < len; i++) {
+                                bytes[i] = Byte.parseByte(byteValues[i]);
+                            }
+                            Bitmap image = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
+                            image = Bitmap.createScaledBitmap(image, 400, 400, true);
+                            RoundDrawable roundDrawable = new RoundDrawable(image);
+                            posterImage.setImageDrawable(roundDrawable);
+                        }
 
                         if (!post.getDescriptionImageURL().equals("NONE")) {
                             addPostImage(post.getDescriptionImageURL(), postImage);
