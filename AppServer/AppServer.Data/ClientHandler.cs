@@ -2,8 +2,6 @@
 using System.Threading;
 using System.Text;
 using System;
-using System.Drawing;
-using System.IO;
 
 namespace AppServer.Data
 {
@@ -13,6 +11,7 @@ namespace AppServer.Data
         private static Thread CleanUpThread; //A thread that is used to delete instances of clients that are disconnected
         private static bool ExistingInstance = false;
         private static bool messageShown = false;
+        private static List<Notification> notifications;
 
         public static long ConnectedClients { get; private set; } = 1;
 
@@ -23,6 +22,7 @@ namespace AppServer.Data
             else
             {
                 threads = new List<AppThread>(); //Initialize the list of threads
+                notifications = new List<Notification>(); // Initialize the list of notifications
                 CleanUpThread = new Thread(() => RemoveDisconnected(threads)); //Give the cleanup thread the working method
                 CleanUpThread.Start(); //Start the cleanup thread
                 ExistingInstance = true;
@@ -93,23 +93,41 @@ namespace AppServer.Data
 
         internal static void NotifyClientNewMessage(string senderId, string receiverId, string message)
         {
+            bool messageSent = false;
+            string anotherMessage;
+            List<string[]> queryResult = Server.QueryResult(4, $"SELECT u.FirstName, u.LastName, m.Date, u.HelperCategories FROM Users u, Messages m WHERE m.SenderId='{senderId}' AND m.ReceiverId='{receiverId}' AND u.UserId='{senderId}' ORDER BY Date DESC");
+            anotherMessage = $"M;1;{senderId};{queryResult[0][0]};{queryResult[0][1]};{message};{queryResult[0][2]}{(queryResult[0][3] == "" ? "" : ";Helper") };;";
+
             foreach (AppThread thread in threads)
                 foreach (AppClient client in thread.Clients)
                     if (client.isLoggedIn())
-                        if(client.UserId.Equals(receiverId))
-                        {
-                            List<string[]> queryResult = Server.QueryResult(3, $"SELECT u.FirstName, u.LastName, m.Date FROM Users u, Messages m WHERE m.SenderId='{senderId}' AND m.ReceiverId='{receiverId}' AND u.UserId='{senderId}' ORDER BY Date DESC");
-                            string anotherMessage = $"M;{senderId};{queryResult[0][0]};{queryResult[0][1]};{message};{queryResult[0][2]};;";
+                        if (client.UserId.Equals(receiverId)) {
                             Server.Write(client.Client, anotherMessage);
                             Console.WriteLine($"Sent notification to ID:{receiverId} for new message");
+                            messageSent = true;
                         }
-                        //else if (client.UserId.Equals(senderId))
-                        //{
-                        //    List<string[]> queryResult = Server.QueryResult(3, $"SELECT u.FirstName, u.LastName, m.Date FROM Users u, Messages m WHERE m.SenderId='{senderId}' AND m.ReceiverId='{receiverId}' AND u.UserId='{receiverId}' ORDER BY Date DESC");
-                        //    string anotherMessage = $"M;{senderId};{receiverId};{queryResult[0][0]};{queryResult[0][1]};{message};{queryResult[0][2]};;";
-                        //    Server.Write(client.Client, anotherMessage);
-                        //    Console.WriteLine($"Sent notification to ID:{senderId} for success sent");
-                        //}
+            if(!messageSent)
+            {
+                addNewNotification(receiverId, anotherMessage);
+            }
+        }
+
+        private static void addNewNotification(string receiverId, string anotherMessage)
+        {
+            bool userFound = false;
+            foreach(Notification notification in notifications)
+            {
+                if (notification.Guid.Equals(receiverId))
+                {
+                    notification.addNotification(anotherMessage);
+                    userFound = true;
+                }
+            }
+
+            if(!userFound)
+            {
+                notifications.Add(new Notification(receiverId, anotherMessage));
+            }
         }
 
         private static void Process(object list)
@@ -135,158 +153,12 @@ namespace AppServer.Data
                         {
                             if (clients[i].Client.Available > 0) //if the client has available data then treat it
                             {
-
                                 String message = Server.readMessage(clients[i].Client);
                                 if (message == null)
                                     continue;
 
-                                //var reader = new BinaryReader(clients[i].Client.GetStream());
-                                //byte[] lenBytes = reader.ReadBytes(4);
-                                //Array.Reverse(lenBytes);
-                                //int len = BitConverter.ToInt32(lenBytes);
-
-                                //byte[] bytes = reader.ReadBytes(len);
-                                //message = Encoding.UTF8.GetString(bytes);
-
-                                ////byte[] data = new byte[clients[i].Client.Available];
-                                ////clients[i].Client.GetStream().Read
-
-                                ////clients[i].Client.GetStream().Flush();
-
                                 Log.Add($"[Thread {clients[i].ThreadId}] : {message}");
-
-                                switch (message[0])
-                                {
-                                    case 'L':
-                                        String lEmail = message.Split(';')[1];
-                                        String lPassword = message.Split(';')[2];
-                                        Log.Add($"Email: {lEmail}   |   Password:{lPassword}");
-
-                                        List<string[]> lValues = Server.QueryResult(5, $"SELECT UserId, FirstName, LastName, Rating, PictureAddr FROM Users WHERE email='{lEmail}' AND password='{lPassword}'");
-
-                                        if (lValues.Count == 1)
-                                        {
-                                            Server.Write(clients[i].Client, $"LSUCCESS;;{lValues[0][0]};{lValues[0][1]};{lValues[0][2]};{lValues[0][3]};{lValues[0][4]};;");
-                                            clients[i].loggedIn = true;
-                                            clients[i].UserId = lValues[0][0];
-                                            List<string[]> postsValues = Server.QueryResult(8, $"SELECT p.UserId, u.FirstName, u.LastName, p.Date, p.Description, p.ImageAddr, u.PictureAddr, p.Category, p.Location FROM Posts p, Users u WHERE p.UserId = u.UserId ORDER BY Date ASC");
-                                            foreach (string[] post in postsValues)
-                                            {
-                                                Server.Write(clients[i].Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};{post[6]};;");
-                                                Log.Add($"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};{post[6]};");
-                                            }
-                                        }
-                                        else Server.Write(clients[i].Client, "LFAIL;;");
-                                        break;
-
-                                    case 'R':
-                                        String rEmail = message.Split(';')[1];
-                                        String rFirstName = message.Split(';')[2];
-                                        String rLastName = message.Split(';')[3];
-                                        String rPassword = message.Split(';')[4];
-
-                                        List<string[]> rValues = Server.QueryResult(1, $"SELECT UserId FROM Users WHERE email='{rEmail}'");
-                                        if (rValues.Count == 0)
-                                        {
-                                            string[] fields = new string[4] { "Email", "FirstName", "LastName", "Password" };
-                                            string[] values = new string[4] { rEmail, rFirstName, rLastName, rPassword };
-
-                                            if (Server.InsertQuery("Users", fields, values))
-                                            {
-                                                List<string[]> intVals = Server.QueryResult(4, $"SELECT UserId, FirstName, LastName, Rating FROM Users WHERE email='{rEmail}'");
-                                                Server.Write(clients[i].Client, $"RSUCCESS;;{intVals[0][0]};{intVals[0][1]};{intVals[0][2]};{intVals[0][3]};;");
-                                                clients[i].loggedIn = true;
-                                                clients[i].UserId = intVals[0][0];
-                                                List<string[]> postsValues = Server.QueryResult(8, $"SELECT p.UserId, u.FirstName, u.LastName, p.Date, p.Description, p.ImageAddr, u.PictureAddr, p.Category, p.Location FROM Posts p, Users u WHERE p.UserId = u.UserId ORDER BY Date ASC");
-                                                foreach (string[] post in postsValues)
-                                                {
-                                                    Server.Write(clients[i].Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};{post[6]};;");
-                                                    Log.Add($"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};{post[6]};");
-                                                }
-                                            }
-                                            else Server.Write(clients[i].Client, "RFAIL;;");
-                                        }
-                                        else Server.Write(clients[i].Client, "REXISTING;;");
-                                        break;
-
-                                    case 'N':
-                                        String pGuid = message.Split(';')[1];
-                                        String pDescription = message.Split(';')[2];
-                                        String pCategory = message.Split(';')[3];
-                                        String pLocation = message.Split(';')[4];
-                                        String pImageAddr = message.Split(';')[5];
-
-                                        string[] pFields = new string[5] { "UserId", "Description", "Category", "Location", "ImageAddr" };
-                                        string[] pValues = new string[5] { pGuid, pDescription, pCategory, pLocation, pImageAddr };
-
-                                        if (Server.InsertQuery("Posts", pFields, pValues))
-                                            Server.Write(clients[i].Client, "SUCCESS;;");
-                                        else Server.Write(clients[i].Client, "FAIL;;");
-                                        break;
-                                    case 'U':
-                                        String uGuid = message.Split(';')[1];
-                                        String uHelperOptionsCount = message.Split(';')[2];
-                                        String uFirstName = message.Split(';')[3];
-                                        String uLastName = message.Split(';')[4];
-                                        String uPassword = message.Split(';')[5];
-                                        List<string> uFields = new List<string>();
-                                        List<string> uValues = new List<string>();
-                                        uFields.Add("UserId");
-                                        uValues.Add(uGuid);
-
-                                        if (!uFirstName.Equals("_"))
-                                        {
-                                            uFields.Add("FirstName");
-                                            uValues.Add(uFirstName);
-                                        }
-
-                                        if(!uLastName.Equals("_"))
-                                        {
-                                            uFields.Add("LastName");
-                                            uValues.Add(uLastName);
-                                        }
-
-                                        if(!uPassword.Equals("_"))
-                                        {
-                                            uFields.Add("Password");
-                                            uValues.Add(uPassword);
-                                        }
-
-                                        //TODO: CATEGORIES
-                                        Server.Update("Users", uFields.ToArray(), uValues.ToArray());
-                                        break;
-                                    case 'O':
-                                        clients[i].loggedIn = false;
-                                        break;
-                                    case 'M':
-                                        String senderId = message.Split(';')[1];
-                                        String receiverId = message.Split(';')[2];
-                                        String sentMessage = message.Split(';')[3];
-
-                                        string[] mFields = new string[3] { "SenderId", "ReceiverId", "Text" };
-                                        string[] mValues = new string[3] { senderId, receiverId, sentMessage };
-                                        if (Server.InsertQuery("Messages", mFields, mValues))
-                                        {
-                                            Server.Write(clients[i].Client, "SUCCESS;;");
-                                            NotifyClientNewMessage(senderId, receiverId, sentMessage);
-                                        }
-                                        else Server.Write(clients[i].Client, "FAIL;;");
-                                        break;
-
-                                    case 'I':
-                                        String userId = message.Split(';')[1];
-                                        String imageString = message.Split(';')[2];
-
-                                        string[] iFields = { "UserId", "PictureAddr" };
-                                        string[] iValues = { userId, imageString };
-
-                                        Server.Update("Users", iFields, iValues);
-                                        break;
-                                    default:
-                                        Log.Add($"Received an unknown request: {message}");
-                                        break;
-                                }
-
+                                assignWork(clients[i], message);
                             }
                         }
                         catch (ObjectDisposedException) { } //Accessing the client right after it was removed and throws an exception, so it just needs to be ignored
@@ -294,6 +166,205 @@ namespace AppServer.Data
                 }
             }
             Log.Add($"[Server] Closing an empty Thread... [Total Threads: {threads.Count - 1}]");
+        }
+
+        private static void assignWork(AppClient client, string message)
+        {
+            if (message[0].Equals('L'))
+                loginClient(client, message);
+            else if (message[0].Equals('R'))
+                registerClient(client, message);
+            else if (message[0].Equals('N'))
+                newPost(client, message);
+            else if (message[0].Equals('U'))
+                updateClient(client, message);
+            else if (message[0].Equals('O'))
+                client.loggedIn = false;
+            else if (message[0].Equals('M'))
+                newMessage(client, message);
+            else if (message[0].Equals('I'))
+                updateClientImage(message);
+            else if (message[0].Equals('E'))
+                rateClient(message);
+            else Log.Add($"Received an unknown request: {message}");
+        }
+        private static void loginClient(AppClient client, string message)
+        {
+            String lEmail = message.Split(';')[1];
+            String lPassword = message.Split(';')[2];
+            Log.Add($"Email: {lEmail}   |   Password:{lPassword}");
+
+            List<string[]> lValues = Server.QueryResult(6, $"SELECT UserId, FirstName, LastName, Rating, PictureAddr, HelperCategories FROM Users WHERE email='{lEmail}' AND password='{lPassword}'");
+
+            if (lValues.Count == 1)
+            {
+                if (lValues[0][4][lValues[0][4].Length - 1].Equals(';'))
+                    lValues[0][4] = lValues[0][4].Substring(0, lValues[0][4].Length - 1);
+                if (lValues[0][5].Equals(""))
+                    lValues[0][5] = " ";
+                Server.Write(client.Client, $"LSUCCESS;;{lValues[0][0]};{lValues[0][1]};{lValues[0][2]};{lValues[0][3]};{lValues[0][4]};{lValues[0][5]};;");
+                client.loggedIn = true;
+                client.UserId = lValues[0][0];
+                client.Categories = lValues[0][5];
+                List<string[]> postsValues = Server.QueryResult(10, $"SELECT p.UserId, u.FirstName, u.LastName, p.Date, p.Description, p.ImageAddr, u.PictureAddr, p.Category, p.Location, u.HelperCategories FROM Posts p, Users u WHERE p.UserId = u.UserId ORDER BY Date ASC");
+                foreach (string[] post in postsValues)
+                {
+                    if (post[9] != "")
+                        Server.Write(client.Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};{post[6]};{post[7]};Helper;;");
+                    else
+                        Server.Write(client.Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};{post[6]};{post[7]};;");
+
+                    Log.Add($"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};[POST IMAGE];[USER AVATAR];");
+                }
+                List<string[]> messagesValues = Server.QueryResult(7, $"SELECT m.SenderId, m.ReceiverId, u.FirstName, u.LastName, m.Text, m.Date, u.HelperCategories FROM Messages m, Users u WHERE (m.ReceiverId='{client.UserId}' and u.UserId=m.SenderId) or (m.SenderId='{client.UserId}' and u.UserId=m.ReceiverId) order by Date ASC");
+                foreach (string[] msg in messagesValues)
+                {
+                    if (msg[0].Equals(client.UserId))
+                        Server.Write(client.Client, $"M;0;{msg[1]};{msg[2]};{msg[3]};{msg[4]};{msg[5]}{(msg[6].Equals("")?"":";Helper")};;");
+                    else Server.Write(client.Client, $"M;1;{msg[0]};{msg[2]};{msg[3]};{msg[4]};{msg[5]}{(msg[6].Equals("") ? "" : ";Helper")};;");
+                }
+            }
+            else Server.Write(client.Client, "LFAIL;;");
+        }
+
+        private static void registerClient(AppClient client, string message)
+        {
+            String rEmail = message.Split(';')[1];
+            String rFirstName = message.Split(';')[2];
+            String rLastName = message.Split(';')[3];
+            String rPassword = message.Split(';')[4];
+
+            List<string[]> rValues = Server.QueryResult(1, $"SELECT UserId FROM Users WHERE email='{rEmail}'");
+            if (rValues.Count == 0)
+            {
+                string[] fields = new string[4] { "Email", "FirstName", "LastName", "Password" };
+                string[] values = new string[4] { rEmail, rFirstName, rLastName, rPassword };
+
+                if (Server.InsertQuery("Users", fields, values))
+                {
+                    List<string[]> intVals = Server.QueryResult(4, $"SELECT UserId, FirstName, LastName, Rating FROM Users WHERE email='{rEmail}'");
+                    Server.Write(client.Client, $"RSUCCESS;;{intVals[0][0]};{intVals[0][1]};{intVals[0][2]};{intVals[0][3]};;");
+                    client.loggedIn = true;
+                    client.UserId = intVals[0][0];
+                    client.Categories = "";
+                    List<string[]> postsValues = Server.QueryResult(10, $"SELECT p.UserId, u.FirstName, u.LastName, p.Date, p.Description, p.ImageAddr, u.PictureAddr, p.Category, p.Location, u.HelperCategories FROM Posts p, Users u WHERE p.UserId = u.UserId ORDER BY Date ASC");
+                    foreach (string[] post in postsValues)
+                    {
+                        if (post[9] != "")
+                            Server.Write(client.Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};{post[6]};{post[7]};Helper;;");
+                        else
+                            Server.Write(client.Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};{post[6]};{post[7]};;");
+                        Log.Add($"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};[POST IMAGE];[USER AVATAR];");
+                    }
+                }
+                else Server.Write(client.Client, "RFAIL;;");
+            }
+            else Server.Write(client.Client, "REXISTING;;");
+        }
+
+        private static void newPost(AppClient client, string message)
+        {
+            String pGuid = message.Split(';')[1];
+            String pDescription = message.Split(';')[2];
+            String pCategory = message.Split(';')[3];
+            String pLocation = message.Split(';')[4];
+            String pImageAddr = message.Split(';')[5];
+
+            string[] pFields = new string[5] { "UserId", "Description", "Category", "Location", "ImageAddr" };
+            string[] pValues = new string[5] { pGuid, pDescription, pCategory, pLocation, pImageAddr };
+
+            if (Server.InsertQuery("Posts", pFields, pValues))
+                Server.Write(client.Client, "SUCCESS;;");
+            else Server.Write(client.Client, "FAIL;;");
+        }
+
+        private static void updateClient(AppClient client, string message)
+        {
+            String uGuid = message.Split(';')[1];
+            int uHelperOptionsCount = Int32.Parse(message.Split(';')[2]);
+            String uFirstName = message.Split(';')[3];
+            String uLastName = message.Split(';')[4];
+            String uPassword = message.Split(';')[5];
+            List<string> uFields = new List<string>();
+            List<string> uValues = new List<string>();
+            uFields.Add("UserId");
+            uValues.Add(uGuid);
+
+            if (!uFirstName.Equals("_"))
+            {
+                uFields.Add("FirstName");
+                uValues.Add(uFirstName);
+            }
+
+            if (!uLastName.Equals("_"))
+            {
+                uFields.Add("LastName");
+                uValues.Add(uLastName);
+            }
+
+            if (!uPassword.Equals("_"))
+            {
+                uFields.Add("Password");
+                uValues.Add(uPassword);
+            }
+
+            string categories = "";
+            if (uHelperOptionsCount > 0)
+            {
+                for (int j = 6; j < 6 + uHelperOptionsCount; j++)
+                    categories += message.Split(';')[j] + ';';
+                categories = categories.Substring(0, categories.Length - 1);
+            }
+            uFields.Add("HelperCategories");
+            uValues.Add(categories);
+
+            client.Categories = categories;
+            Server.Update("Users", uFields.ToArray(), uValues.ToArray());
+        }
+
+        private static void newMessage(AppClient client, string message)
+        {
+            String senderId = message.Split(';')[1];
+            String receiverId = message.Split(';')[2];
+            String sentMessage = message.Split(';')[3];
+
+            string[] mFields = new string[3] { "SenderId", "ReceiverId", "Text" };
+            string[] mValues = new string[3] { senderId, receiverId, sentMessage };
+            if (Server.InsertQuery("Messages", mFields, mValues))
+            {
+                Server.Write(client.Client, "SUCCESS;;");
+                NotifyClientNewMessage(senderId, receiverId, sentMessage);
+            }
+            else Server.Write(client.Client, "FAIL;;");
+        }
+
+        private static void updateClientImage(string message)
+        {
+            String userId = message.Split(';')[1];
+            String imageString = message.Split(';')[2];
+
+            string[] iFields = { "UserId", "PictureAddr" };
+            string[] iValues = { userId, imageString };
+
+            Server.Update("Users", iFields, iValues);
+        }
+
+        private static void rateClient(string message)
+        {
+            string ratingFor = message.Split(';')[1];
+            float rateValue = float.Parse(message.Split(';')[2]);
+            List<string[]> values = Server.QueryResult(2, $"SELECT Rating, RatingNumber FROM Users WHERE UserId='{ratingFor}'");
+            float rating = float.Parse(values[0][0]);
+            int ratingNumber = Int32.Parse(values[0][1]);
+
+            if (ratingNumber == 0)
+                rating = rateValue;
+            else rating = rating + ((rateValue - rating) / ratingNumber);
+
+            string[] uFields = { "UserId", "Rating", "RatingNumber" };
+            string[] uValues = { ratingFor.ToString(), rating.ToString(), (ratingNumber + 1).ToString() };
+
+            Server.Update("Users", uFields, uValues);
         }
 
         private static void RemoveDisconnected(object argument)

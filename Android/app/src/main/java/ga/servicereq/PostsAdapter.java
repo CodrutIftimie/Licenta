@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class PostsAdapter {
 
@@ -60,6 +61,10 @@ public class PostsAdapter {
                 TextView postDescription = toBeAdded.findViewById(R.id.post_description);
                 ImageView posterImage = toBeAdded.findViewById(R.id.post_posterAvatar);
                 ImageView postImage = toBeAdded.findViewById(R.id.post_image);
+                ImageView helperIcon = toBeAdded.findViewById(R.id.post_helper);
+
+                if(!post.isHelper())
+                    helperIcon.setImageDrawable(null);
 
                 final String name = post.getFirstName() + " " + post.getLastName();
                 posterName.setText(name);
@@ -93,6 +98,7 @@ public class PostsAdapter {
                         i.putExtra("receiverId", post.getPosterId());
                         i.putExtra("fname", post.getFirstName());
                         i.putExtra("lname", post.getLastName());
+                        i.putExtra("helper", post.isHelper());
                         context.startActivity(i);
                     }
                 });
@@ -107,10 +113,9 @@ public class PostsAdapter {
                 @Override
                 public void run() {
                     SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
-                    String userFName = preferences.getString("fn", "");
-                    String userLName = preferences.getString("ln", "");
+                    String posterId = Objects.requireNonNull(preferences.getString("gid", ""));
 
-                    if (userFName.equals(post.getFirstName()) && userLName.equals(post.getLastName())) {
+                    if (posterId.equals(post.getPosterId())) {
                         LinearLayout toBeAdded = (LinearLayout) View.inflate(context, R.layout.main_post, null);
 
                         TextView posterName = toBeAdded.findViewById(R.id.post_posterName);
@@ -118,6 +123,10 @@ public class PostsAdapter {
                         TextView postDescription = toBeAdded.findViewById(R.id.post_description);
                         ImageView posterImage = toBeAdded.findViewById(R.id.post_posterAvatar);
                         ImageView postImage = toBeAdded.findViewById(R.id.post_image);
+                        ImageView helperIcon = toBeAdded.findViewById(R.id.post_helper);
+
+                        if(!post.isHelper())
+                            helperIcon.setImageDrawable(null);
 
                         final String name = post.getFirstName() + " " + post.getLastName();
                         posterName.setText(name);

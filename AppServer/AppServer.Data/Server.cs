@@ -97,16 +97,18 @@ namespace AppServer.Data
                 {
                     if (table.Equals("Posts"))
                     {
-                        List<string[]> result = QueryResult(3, $"SELECT FirstName, LastName, PictureAddr FROM USERS WHERE UserId='{values[0]}'"); //Get the name from the new post
-                        string[] newValues = new string[7];
+                        List<string[]> result = QueryResult(4, $"SELECT FirstName, LastName, PictureAddr, HelperCategories FROM USERS WHERE UserId='{values[0]}'"); //Get the name from the new post
+                        string[] newValues = new string[9];
                         newValues[0] = values[0]; //userId
                         newValues[1] = result[0][0]; // FirstName
                         newValues[2] = result[0][1]; // LastName
                         newValues[4] = values[1]; // PostDescription
                         newValues[5] = values[4]; // PostImage
                         newValues[6] = result[0][2]; // PictureAddr
-                        result = QueryResult(1, $"SELECT Date FROM Posts WHERE Description='{values[1]}' ORDER BY Date DESC"); //Get the date from the new post
+                        newValues[8] = result[0][3] == "" ? "" : "Helper";
+                        result = QueryResult(2, $"SELECT Date, Category FROM Posts WHERE Description='{values[1]}' ORDER BY Date DESC"); //Get the date from the new post
                         newValues[3] = result[0][0]; // Date
+                        newValues[7] = result[0][1]; // Category
                         //for (int i = 5; i < values.Length + 1; i++) //Copy rest of values
                         //    newValues[i] = values[i - 4];
                         ClientHandler.BroadcastNewPost(newValues);

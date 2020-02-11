@@ -22,12 +22,15 @@ import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
+import android.widget.SpinnerAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -65,6 +68,18 @@ public class NewPostActivity extends AppCompatActivity {
         radios = findViewById(R.id.newpost_radiogroup);
         radios.check(R.id.newpost_homeRadio);
 
+        ArrayAdapter adapter = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, Services.getArray());
+        category.setAdapter(adapter);
+        category.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                ((TextView) category.getSelectedView()).setTextColor(getResources().getColor(R.color.colorPrimary));
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) { }
+        });
+
         post.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("StaticFieldLeak")
             @Override
@@ -80,8 +95,7 @@ public class NewPostActivity extends AppCompatActivity {
                     String message = "N;" +
                             prefs.getString("gid", "") + ";" +
                             description.getText().toString() + ";" +
-                            "mechanic" + ";" +
-                            //category.getSelectedItem().toString()
+                            Services.getById((int)category.getSelectedItemId()).toEnglishString() + ";" +
                             location + ";" +
                             imageBytes + ";;";
                     post.setEnabled(false);

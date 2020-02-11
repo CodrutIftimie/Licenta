@@ -5,6 +5,7 @@ import android.view.View;
 import android.view.LayoutInflater;
 import android.widget.Button;
 import android.widget.RatingBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class Rating {
@@ -15,6 +16,11 @@ public class Rating {
         final RatingBar rating = deleteDialogView.findViewById(R.id.rating_rateBar);
         final Button okButton = deleteDialogView.findViewById(R.id.rating_btnOk);
         final Button cancelButton = deleteDialogView.findViewById(R.id.rating_btnCancel);
+        final TextView ratingFor = deleteDialogView.findViewById(R.id.rating_ratetv);
+        final TextView userName = view.findViewById(R.id.messagepv_receiverName);
+
+        String receiverName = "Evaluare pentru " + userName.getText().toString();
+        ratingFor.setText(receiverName);
 
         deleteDialogBuilder.setView(deleteDialogView);
         final AlertDialog deleteDialog = deleteDialogBuilder.create();
@@ -22,8 +28,8 @@ public class Rating {
         okButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Server.sendMessage("Z;" + rating.getRating() + ";;");
                 String senderId = (String)view.getTag();
+                Server.sendMessage("E;"+ senderId + ";" + rating.getRating() + ";;");
 
                 Toast.makeText(view.getContext(),"Mulțumim pentru evaluarea utilizatorului!", Toast.LENGTH_SHORT).show();
                 deleteDialog.dismiss();

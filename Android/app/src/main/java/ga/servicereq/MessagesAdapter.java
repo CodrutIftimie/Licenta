@@ -8,6 +8,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -43,9 +44,10 @@ public class MessagesAdapter {
                 TextView receiverName = toBeAdded.findViewById(R.id.messagepv_receiverName);
                 TextView lastMessageTv = toBeAdded.findViewById(R.id.messagepv_msgPreview);
                 Button endButton = toBeAdded.findViewById(R.id.messagepv_endButton);
+                ImageView helperIcon = toBeAdded.findViewById(R.id.messagepv_helper);
 
-                //ToDo: [DONE] rating layout fully working
-                //ToDo: [DONE] for rating might need another class
+                if(!msg.isHelper)
+                    helperIcon.setImageDrawable(null);
 
                 final LayoutInflater inflater = LayoutInflater.from(toBeAdded.getContext());
 
@@ -53,7 +55,6 @@ public class MessagesAdapter {
                     @Override
                     public void onClick(View view) {
                         Rating.show(inflater, toBeAdded);
-                        //ToDo: repair in database the rating (might need to rebuild the tables)
                     }
                 });
 
@@ -73,6 +74,7 @@ public class MessagesAdapter {
                         i.putExtra("fname", msg.firstName);
                         i.putExtra("lname", msg.lastName);
                         i.putExtra("receiverId", msg.senderId);
+                        i.putExtra("helper", msg.isHelper);
                         fragment.startActivity(i);
                     }
                 });
@@ -90,32 +92,33 @@ public class MessagesAdapter {
     }
 
     public void add(final Message msg) {
-        String currentUserId = preferences.getString("gid","");
-        Map<String, ?> convos = preferences.getAll();
-        boolean found = false;
-        for (Map.Entry<String, ?> convo : convos.entrySet())
-            if(convo.getKey().length() > 5) {
-                if (convo.getKey().substring(0, 5).equals("CONVO")) {
-                    Conversation convoObj = new Gson().fromJson(convo.getValue().toString(), Conversation.class);
-                    if (convoObj.receiverId.equals(msg.senderId)) {
-                        add(msg, msg.senderId);
-                        if(msg.activityAdded)
-                            convoObj.addMessage(new ExchangedMessage(currentUserId, msg.lastMessage,msg.date));
-                        else convoObj.addMessage(new ExchangedMessage(msg.senderId,msg.lastMessage,msg.date));
-                        found = true;
-                    }
-                }
-            }
-        if (!found) {
-            Conversation newConversation = new Conversation(msg.senderId, msg.firstName, msg.lastName);
-            add(msg, newConversation.receiverId);
-        }
+        add(msg,msg.senderId);
+//        String currentUserId = preferences.getString("gid","");
+//        Map<String, ?> convos = preferences.getAll();
+//        boolean found = false;
+//        for (Map.Entry<String, ?> convo : convos.entrySet())
+//            if(convo.getKey().length() > 5) {
+//                if (convo.getKey().substring(0, 5).equals("CONVO")) {
+//                    Conversation convoObj = new Gson().fromJson(convo.getValue().toString(), Conversation.class);
+//                    if (convoObj.receiverId.equals(msg.senderId)) {
+//                        add(msg, msg.senderId);
+//                        if(msg.activityAdded)
+//                            convoObj.addMessage(new ExchangedMessage(currentUserId, msg.lastMessage,msg.date));
+//                        else convoObj.addMessage(new ExchangedMessage(msg.senderId,msg.lastMessage,msg.date));
+//                        found = true;
+//                    }
+//                }
+//            }
+//        if (!found) {
+//            Conversation newConversation = new Conversation(msg.senderId, msg.firstName, msg.lastName);
+//            add(msg, newConversation.receiverId);
+//        }
     }
 
     public void add(Conversation convo) {
         ExchangedMessage messagesExchanged = convo.conversation.get(convo.conversation.size()-1);
         String latestMessage = messagesExchanged.message;
-        add(new Message(convo.receiverId, convo.firstName, convo.lastName, latestMessage, ""), convo.receiverId);
+        add(new Message(convo.receiverId, convo.firstName, convo.lastName, latestMessage, "", false), convo.receiverId);
     }
 
     public void runUpdater() {

@@ -8,11 +8,13 @@ namespace AppServer.Data
         public TcpClient Client { get; set; }
         public long ThreadId { get; set; }
         public bool loggedIn { get; set; }
+        public string Categories { get; set; }
 
         public AppClient(object Client, long ThreadId)
         {
             this.ThreadId = ThreadId;
             this.Client = (TcpClient)Client;
+            Categories = "";
         }
 
         public void Close()

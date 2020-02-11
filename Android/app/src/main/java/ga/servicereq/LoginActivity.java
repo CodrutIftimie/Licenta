@@ -20,6 +20,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 import java.security.MessageDigest;
+import java.util.Map;
 import java.util.concurrent.CountDownLatch;
 
 public class LoginActivity extends AppCompatActivity {
@@ -160,6 +161,7 @@ public class LoginActivity extends AppCompatActivity {
                                                 preferencesEditor.putString("fn", userData[1]);
                                                 preferencesEditor.putString("ln", userData[2]);
                                                 preferencesEditor.putString("img", "NONE");
+                                                preferencesEditor.putString("cat", "");
                                                 preferencesEditor.putFloat("rtg", Float.valueOf(userData[3]));
                                                 preferencesEditor.apply();
 
@@ -222,6 +224,22 @@ public class LoginActivity extends AppCompatActivity {
                     preferencesEditor.putString("ln", userData[2]);
                     preferencesEditor.putString("img", userData[4]);
                     preferencesEditor.putFloat("rtg", Float.valueOf(userData[3]));
+                    int index = 5;
+                    try {
+                        StringBuilder categories = new StringBuilder();
+                        for(; index< 26; index++)
+                            categories.append(userData[index]).append(";");
+                        preferencesEditor.putString("cat", categories.substring(0,categories.length()-1));
+                    } catch (IndexOutOfBoundsException e) {
+                        if(index == 5)
+                            preferencesEditor.putString("cat", "");
+                    }
+
+                    Map<String, ?> convos = preferences.getAll();
+                    for(Map.Entry<String, ?> convo : convos.entrySet())
+                        if(convo.getKey().startsWith("CONVO")) {
+                            preferencesEditor.remove(convo.getKey());
+                        }
                     preferencesEditor.apply();
 
                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);

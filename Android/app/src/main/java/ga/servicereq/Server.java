@@ -1,7 +1,17 @@
 package ga.servicereq;
 
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Build;
+import android.preference.PreferenceManager;
+import android.support.v4.app.NotificationCompat;
+import android.support.v4.app.NotificationManagerCompat;
 import android.util.Log;
+
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -11,6 +21,7 @@ import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public final class Server implements Runnable {
 
@@ -45,12 +56,12 @@ public final class Server implements Runnable {
                 try {
                     while (writeSocket == null)
                         Thread.sleep(100);
-                   byte[] messageInBytes = message.getBytes(StandardCharsets.UTF_8);
-                   byte[] messageLength = ByteBuffer.allocate(4).putInt(messageInBytes.length).array();
-                   writeSocket.write(messageLength,0,4);
-                   writeSocket.flush();
-                   writeSocket.write(messageInBytes,0,messageInBytes.length);
-                   writeSocket.flush();
+                    byte[] messageInBytes = message.getBytes(StandardCharsets.UTF_8);
+                    byte[] messageLength = ByteBuffer.allocate(4).putInt(messageInBytes.length).array();
+                    writeSocket.write(messageLength, 0, 4);
+                    writeSocket.flush();
+                    writeSocket.write(messageInBytes, 0, messageInBytes.length);
+                    writeSocket.flush();
 
                 } catch (IOException | InterruptedException e) {
                     e.printStackTrace();
@@ -60,21 +71,8 @@ public final class Server implements Runnable {
     }
 
     private String readMessage() throws IOException {
-        if(readSocket.ready()) {
+        if (readSocket.ready()) {
             return readSocket.readLine();
-//            byte[] messageLength = new byte[4];
-////            readSocket.read(messageLength, 0, 4);
-//            int messageLengthInteger = ByteBuffer.wrap(messageLength).getInt();
-//            byte[] message = new byte[messageLengthInteger];
-//            int bytesRead = 0, bytesLeft = messageLengthInteger;
-////            while (bytesRead < messageLengthInteger) {
-////                int currentBytesRead = readSocket.read(message, bytesRead, bytesLeft);
-////                bytesRead += currentBytesRead;
-////                bytesLeft -= currentBytesRead;
-////            }
-//            return new String(message, StandardCharsets.UTF_8);
-//        }
-//        return null;
         }
         return null;
     }
@@ -99,12 +97,39 @@ public final class Server implements Runnable {
                         if (!m.equals("[CheckConnection]")) {
                             if (m.substring(0, 1).equals("P")) {
                                 String[] data = m.split(";");
-                                PostsAdapter.serverAdd(new Post(data[1], data[2], data[3], data[4], data[5], data[6], data[7]));
-                            }
-                            if (m.substring(0, 1).equals("M")) {
+                                Post post;
+                                if (data.length > 9) {
+                                    post = new Post(data[1], data[2], data[3], data[4], data[5], data[6], data[7], data[8], true);
+                                    PostsAdapter.serverAdd(post);
+                                } else {
+                                    post = new Post(data[1], data[2], data[3], data[4], data[5], data[6], data[7], data[8], false);
+                                    PostsAdapter.serverAdd(post);
+                                }
+                                SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(appContext);
+                                String helperCategories = Objects.requireNonNull(preferences.getString("cat", ""));
+                                if(helperCategories.contains(post.getCategory()))
+                                    createNotification("ServiceReq: [Helper] O nouă postare", "A apărut o nouă postare dintr-o categorie în care ajutați!");
+                            } else if (m.substring(0, 1).equals("M")) {
                                 String[] data = m.split(";");
-                                MessagesAdapter.serverAdd(new Message(data[1], data[2], data[3], data[4], data[5]));
-                                MessagingActivity.staticAdd(new Message(data[1], data[2], data[3], data[4], data[5]));
+                                Message message;
+                                if (data.length > 7) {
+                                    message = new Message(data[2], data[3], data[4], data[5], data[6], true);
+                                    if(data[1].equals("0"))
+                                        message.activityAdded = true;
+                                    MessagesAdapter.serverAdd(message);
+                                    MessagingActivity.staticAdd(message);
+                                } else {
+                                    message = new Message(data[2], data[3], data[4], data[5], data[6], false);
+                                    if(data[1].equals("0"))
+                                        message.activityAdded = true;
+                                    MessagesAdapter.serverAdd(message);
+                                    MessagingActivity.staticAdd(message);
+                                }
+                                String notificationMessage = message.firstName + " " + message.lastName + ": ";
+                                if (message.lastMessage.length() > 35)
+                                    notificationMessage += message.lastMessage.substring(0, 35) + "...";
+                                else notificationMessage += message.lastMessage;
+                                createNotification("ServiceReq: Aveți un nou mesaj", notificationMessage);
                             } else messages.add(m);
                         }
                     }
@@ -131,5 +156,37 @@ public final class Server implements Runnable {
         return Server.messages.size();
     }
 
-    public static void clearMessages() {Server.messages.clear();}
+    public static void clearMessages() {
+        Server.messages.clear();
+    }
+
+    private void createNotification(String title, String message) {
+
+
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+            String name = "ServiceReq";
+            String description = "Channel for ServiceReq notifications";
+            NotificationChannel notificationChannel = null;
+            notificationChannel = new NotificationChannel("ServiceReq", name, NotificationManager.IMPORTANCE_DEFAULT);
+            notificationChannel.setDescription(description);
+            NotificationManager manager = (NotificationManager) (appContext.getSystemService(Context.NOTIFICATION_SERVICE));
+            manager.createNotificationChannel(notificationChannel);
+        }
+
+        Intent notificationIntent = new Intent(appContext, LoginActivity.class);
+        PendingIntent intent = PendingIntent.getActivity(appContext, 0, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(appContext, "ServiceReq")
+                .setSmallIcon(R.mipmap.ic_launcher)
+                .setContentTitle(title)
+                .setContentText(message)
+                .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+                .setChannelId("ServiceReq")
+                .setContentIntent(intent)
+                .setAutoCancel(true);
+
+
+        NotificationManagerCompat notificationManager = NotificationManagerCompat.from(appContext);
+        notificationManager.notify("ServiceReq", 6787, builder.build());
+    }
 }

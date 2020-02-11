@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
@@ -18,35 +19,37 @@ import com.google.gson.Gson;
 
 import java.util.ArrayList;
 import java.util.Map;
+import java.util.Objects;
 
 public class MessagingActivity extends AppCompatActivity {
 
     private boolean updaterRunning = false;
-    private static ArrayList<Message> senderMessages = new ArrayList<>();
+    private static ArrayList<Message> senderMessages;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.message_opened);
+        senderMessages = new ArrayList<>();
         runUpdater();
-        //ToDo: [DONE - need fix] server-side send message to receiver (similar to post broadcast but check client name (implement that))
-
-        //ToDo: [DONE] message adding like in Posts (most likely with an adapter)
-        //ToDo: [DONE] messages distinctive from sender to receiver (most likely with a different layout for each type of message)
-        //ToDo: [DONE] send button to work (with onClickButton possible being the easiest method)
 
         final ImageButton sendButton = findViewById(R.id.message_send_button);
         final EditText message = findViewById(R.id.message_input);
         final LinearLayout exchangedMessages = findViewById(R.id.exchanged_messages);
         final ScrollView scrollArea = findViewById(R.id.message_scrollArea);
+        final ImageView helperIcon = findViewById(R.id.message_helper);
         final LayoutInflater inflater = LayoutInflater.from(exchangedMessages.getContext());
 
         final SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
-        final String currentUserId = preferences.getString("gid","");
+        final String currentUserId = preferences.getString("gid", "");
         final String receiverId = getIntent().getStringExtra("receiverId");
         final String firstName = getIntent().getStringExtra("fname");
         final String lastName = getIntent().getStringExtra("lname");
-        final String conversationId = "CONVO"+receiverId;
+        final boolean isHelper = getIntent().getBooleanExtra("helper", false);
+        final String conversationId = "CONVO" + receiverId;
+
+        if (!isHelper)
+            helperIcon.setImageDrawable(null);
 
         TextView name = findViewById(R.id.message_receiverName);
         String fullName = firstName + " " + lastName;
@@ -54,21 +57,20 @@ public class MessagingActivity extends AppCompatActivity {
 
         final Conversation conversation;
         String savedConversation = preferences.getString(conversationId, "CONVO NOT FOUND");
-        if(savedConversation.equals("CONVO NOT FOUND"))
+        if (savedConversation.equals("CONVO NOT FOUND"))
             conversation = new Conversation(receiverId, firstName, lastName);
         else {
             conversation = new Gson().fromJson(savedConversation, Conversation.class);
         }
 
-        for(ExchangedMessage msg : conversation.conversation) {
+        for (ExchangedMessage msg : conversation.conversation) {
             RelativeLayout savedMessage;
             TextView messageText;
-            if(msg.senderId.equals(currentUserId)) {
+            if (msg.senderId.equals(currentUserId)) {
                 savedMessage = (RelativeLayout) inflater.inflate(R.layout.message_sent, null);
                 messageText = savedMessage.findViewById(R.id.messagesent_senderText);
                 messageText.setText(msg.message);
-            }
-            else {
+            } else {
                 savedMessage = (RelativeLayout) inflater.inflate(R.layout.message_received, null);
                 messageText = savedMessage.findViewById(R.id.messagerecv_senderText);
                 messageText.setText(msg.message);
@@ -81,7 +83,7 @@ public class MessagingActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //TODO: Send message to server
-                if(message.getText().length() > 0) {
+                if (message.getText().length() > 0) {
                     RelativeLayout newMessage = (RelativeLayout) inflater.inflate(R.layout.message_sent, null);
                     TextView messageText = newMessage.findViewById(R.id.messagesent_senderText);
                     final String msg = message.getText().toString();
@@ -97,12 +99,13 @@ public class MessagingActivity extends AppCompatActivity {
                     sendButton.post(new Runnable() {
                         @Override
                         public void run() {
-                            Server.sendMessage("M;"+currentUserId+";"+receiverId+";"+msg+";;");
+                            Server.sendMessage("M;" + currentUserId + ";" + receiverId + ";" + msg + ";;");
                         }
                     });
                     message.setText("");
                     scrollArea.fullScroll(View.FOCUS_DOWN);
-                    Message m = new Message(receiverId,firstName,lastName,msg,"");
+                    boolean isHelper = !(preferences.getString("cat", "").equals(""));
+                    Message m = new Message(receiverId, firstName, lastName, msg, "", isHelper);
                     m.activityAdded = true;
                     MessagesAdapter.serverAdd(m);
                 }
@@ -129,7 +132,7 @@ public class MessagingActivity extends AppCompatActivity {
     }
 
     public void runUpdater() {
-        if(!updaterRunning) {
+        if (!updaterRunning) {
             updaterRunning = true;
             new Thread(new Runnable() {
                 @Override
@@ -151,16 +154,21 @@ public class MessagingActivity extends AppCompatActivity {
     public static void staticAdd(Message m) {
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
         SharedPreferences.Editor editor = preferences.edit();
+        String currentUserId = Objects.requireNonNull(preferences.getString("gid", ""));
         Map<String, ?> convos = preferences.getAll();
         boolean found = false;
         for (Map.Entry<String, ?> convo : convos.entrySet())
-            if(convo.getKey().length() > 5) {
+            if (convo.getKey().length() > 5) {
                 if (convo.getKey().substring(0, 5).equals("CONVO")) {
                     Conversation convoObj = new Gson().fromJson(convo.getValue().toString(), Conversation.class);
                     if (convoObj.receiverId.equals(m.senderId)) {
-                        convoObj.addMessage(new ExchangedMessage(m.senderId,m.lastMessage,m.date));
-                        String convoString = new Gson().toJson(convoObj,Conversation.class);
-                        editor.putString("CONVO"+convoObj.receiverId,convoString);
+                        if (m.activityAdded)
+                            convoObj.addMessage(new ExchangedMessage(currentUserId, m.lastMessage, m.date));
+                        else
+                            convoObj.addMessage(new ExchangedMessage(m.senderId, m.lastMessage, m.date));
+
+                        String convoString = new Gson().toJson(convoObj, Conversation.class);
+                        editor.putString("CONVO" + convoObj.receiverId, convoString);
                         editor.apply();
                         found = true;
                     }
@@ -171,11 +179,15 @@ public class MessagingActivity extends AppCompatActivity {
             newConversation.receiverId = m.senderId;
             newConversation.firstName = m.firstName;
             newConversation.lastName = m.lastName;
-            newConversation.addMessage(new ExchangedMessage(m.senderId,m.lastMessage,m.date));
-            String convoString = new Gson().toJson(newConversation,Conversation.class);
-            editor.putString("CONVO"+newConversation.receiverId,convoString);
+            if (m.activityAdded)
+                newConversation.addMessage(new ExchangedMessage(currentUserId, m.lastMessage, m.date));
+            else
+                newConversation.addMessage(new ExchangedMessage(m.senderId, m.lastMessage, m.date));
+            String convoString = new Gson().toJson(newConversation, Conversation.class);
+            editor.putString("CONVO" + newConversation.receiverId, convoString);
             editor.apply();
         }
-        senderMessages.add(m);
+        if (senderMessages != null)
+            senderMessages.add(m);
     }
 }

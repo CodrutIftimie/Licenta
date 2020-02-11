@@ -29,15 +29,35 @@ public class EditProfileActivity extends AppCompatActivity {
         final LinearLayout helperOptions = findViewById(R.id.editprofile_categories);
         final Button saveButton = findViewById(R.id.editprofile_btn_save);
         final Button cancelButton = findViewById(R.id.editprofile_btn_cancel);
+
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
+        final String categories = preferences.getString("cat", "");
+
+        if (categories != null && !categories.equals("")) {
+            enableHelper.setChecked(true);
+            for (int i = 0; i < 21; i++) {
+                CheckBox helpOption = new CheckBox(enableHelper.getContext());
+                helpOption.setText(Services.getById(i).toString().replace("_", " "));
+                helpOption.setTextColor(Color.WHITE);
+                helpOption.setTag(Services.getById(i).toEnglishString());
+                if (categories.contains(Services.getById(i).toEnglishString()))
+                    helpOption.setChecked(true);
+                helperOptions.addView(helpOption);
+            }
+
+        }
+
         enableHelper.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
                     for (int i = 0; i < 21; i++) {
                         CheckBox helpOption = new CheckBox(enableHelper.getContext());
-                        helpOption.setText(Services.getById(i).toString().replace("_"," "));
+                        helpOption.setText(Services.getById(i).toString().replace("_", " "));
                         helpOption.setTextColor(Color.WHITE);
-                        helpOption.setTag(Services.getById(i).toString());
+                        helpOption.setTag(Services.getById(i).toEnglishString());
+                        if (categories != null && categories.contains(Services.getById(i).toEnglishString()))
+                            helpOption.setChecked(true);
                         helperOptions.addView(helpOption);
                     }
                 } else {
@@ -60,24 +80,24 @@ public class EditProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
-                StringBuilder updateString = new StringBuilder("U;").append(preferences.getString("gid","")).append(";");
-                String firstName = preferences.getString("fn","");
-                String lastName = preferences.getString("ln","");
-                String psd = preferences.getString("psd","");
+                StringBuilder updateString = new StringBuilder("U;").append(preferences.getString("gid", "")).append(";");
+                String firstName = preferences.getString("fn", "");
+                String lastName = preferences.getString("ln", "");
+                String psd = preferences.getString("psd", "");
                 EditText newFn = findViewById(R.id.editprofile_firstNameInput);
                 EditText newLn = findViewById(R.id.editprofile_lastNameInput);
                 EditText newPsd = findViewById(R.id.editprofile_passwordInput);
                 EditText newCpsd = findViewById(R.id.editprofile_cPasswordInput);
                 List<String> helpOptions = new ArrayList<>();
                 byte numberOfOptions = 0;
-                if(enableHelper.isChecked()) {
+                if (enableHelper.isChecked()) {
                     for (int i = 0; i < helperOptions.getChildCount() + 10; i++) {
                         try {
                             CheckBox view = (CheckBox) helperOptions.getChildAt(i);
                             if (view != null) {
                                 String viewTag = view.getTag().toString();
                                 if (Services.isService(viewTag))
-                                    if(view.isChecked()) {
+                                    if (view.isChecked()) {
                                         helpOptions.add(viewTag);
                                         numberOfOptions++;
                                     }
@@ -87,13 +107,13 @@ public class EditProfileActivity extends AppCompatActivity {
                     }
                 }
                 updateString.append(numberOfOptions).append(";");
-                if(!firstName.equals(newFn.getText().toString()) && newFn.getText().length()>0) {
+                if (!firstName.equals(newFn.getText().toString()) && newFn.getText().length() > 0) {
                     updateString.append(newFn.getText()).append(";");
                 } else updateString.append("_;");
-                if(!lastName.equals(newLn.getText().toString()) && newLn.getText().length()>0) {
+                if (!lastName.equals(newLn.getText().toString()) && newLn.getText().length() > 0) {
                     updateString.append(newLn.getText()).append(";");
                 } else updateString.append("_;");
-                if(newPsd.getText().length()>0) {
+                if (newPsd.getText().length() > 0) {
                     if (newPsd.getText().equals(newCpsd.getText())) {
                         try {
                             MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
@@ -110,16 +130,24 @@ public class EditProfileActivity extends AppCompatActivity {
                         }
                     } else updateString.append("_;");
                 } else updateString.append("_;");
-                if(numberOfOptions > 0) {
-                    for(int i=0;i<numberOfOptions;i++)
+                StringBuilder categories = new StringBuilder();
+                if (numberOfOptions > 0) {
+                    for (int i = 0; i < numberOfOptions; i++) {
                         updateString.append(helpOptions.get(i)).append(";");
+                        categories.append(helpOptions.get(i)).append(";");
+                    }
                 }
+                SharedPreferences.Editor prefEdit = preferences.edit();
+                if (categories.length() > 1)
+                    prefEdit.putString("cat", categories.substring(0, categories.length() - 1));
+                else prefEdit.putString("cat", "");
+                prefEdit.apply();
                 updateString.append(";");
-                if(updateString.equals("U;" + preferences.getString("gid","") + "0;_;_;_;;"))
-                    Toast.makeText(Server.getAppContext(), "No changes applied!",Toast.LENGTH_SHORT).show();
+                if (updateString.toString().equals("U;" + preferences.getString("gid", "") + "0;_;_;_;;"))
+                    Toast.makeText(Server.getAppContext(), "No changes applied!", Toast.LENGTH_SHORT).show();
                 else {
                     Server.sendMessage(updateString.toString());
-                    Toast.makeText(Server.getAppContext(), "Saved changes! Login again for the changes to take effect!",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Server.getAppContext(), "Saved changes! Login again for the changes to take effect!", Toast.LENGTH_SHORT).show();
                 }
                 finish();
             }

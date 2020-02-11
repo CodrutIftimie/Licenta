@@ -34,6 +34,15 @@
             android:layout_toEndOf="@+id/messagepv_receiverAvatar"
             android:text="@string/post_posterName"
             android:textColor="#FFFFFF" />
+        <ImageView
+            android:id="@+id/messagepv_helper"
+            android:layout_width="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="5dp"
+            android:layout_height="17dp"
+            android:src="@drawable/helper"
+            android:contentDescription="@string/helper_icon_description"
+            android:layout_toEndOf="@+id/messagepv_receiverName" />
 
         <TextView
             android:id="@+id/messagepv_msgPreview"

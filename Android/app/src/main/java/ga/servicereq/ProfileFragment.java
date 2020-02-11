@@ -30,6 +30,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
@@ -48,7 +49,7 @@ import static android.app.Activity.RESULT_OK;
 
 public class ProfileFragment extends Fragment {
 
-    private Button editProfile;
+    private ImageButton editProfile;
     private Button logout;
     public ImageView avatar;
     private View rootView;
@@ -70,7 +71,7 @@ public class ProfileFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        pref = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
+        pref = PreferenceManager.getDefaultSharedPreferences(getContext());
 
         editProfile = Objects.requireNonNull(getView()).findViewById(R.id.profile_editButton);
         editProfile.setOnClickListener(new View.OnClickListener() {

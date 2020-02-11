@@ -68,4 +68,6 @@
     <string name="profile_available">Valabil</string>
     <string name="main_add_new_post">Adaugă o postare</string>
     <string name="profile_logout">Deconectare</string>
+    <string name="helper_icon_description">Helper Icon</string>
+    <string name="editare_profil">Editare profil</string>
 </resources>

@@ -82,9 +82,10 @@
                 android:id="@+id/newpost_spinner"
                 android:layout_below="@+id/newpost_btn_uploadImage"
                 android:layout_toEndOf="@id/newpost_tv_category"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="19dp"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                />
 
             <RadioGroup
                 android:id="@+id/newpost_radiogroup"

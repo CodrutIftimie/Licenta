@@ -33,12 +33,13 @@ public class MessagesFragment extends Fragment {
             preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
             adapter = new MessagesAdapter(getContext(),messages,this);
 
-            Map<String, ?> convos = preferences.getAll();
-            for(Map.Entry<String, ?> convo : convos.entrySet())
-                if(convo.getKey().startsWith("CONVO")) {
-                    Conversation convoObj = new Gson().fromJson(convo.getValue().toString(), Conversation.class);
-                    adapter.add(convoObj);
-                }
+            //Get the conversations from the SharedPreferences
+//            Map<String, ?> convos = preferences.getAll();
+//            for(Map.Entry<String, ?> convo : convos.entrySet())
+//                if(convo.getKey().startsWith("CONVO")) {
+//                    Conversation convoObj = new Gson().fromJson(convo.getValue().toString(), Conversation.class);
+//                    adapter.add(convoObj);
+//                }
 
             adapter.runUpdater();
         }
