@@ -91,6 +91,8 @@ public final class Server implements Runnable {
 
             while (activeConnection) {
                 String readMessage = readMessage();
+                if(!activeConnection)
+                    break;
                 if (readMessage != null && readMessage.split(";;").length > 0) {
                     for (String m : readMessage.split(";;")) {
                         Log.d("SERVER", m.contains("[CheckConnection]") ? "" : m);
@@ -112,14 +114,14 @@ public final class Server implements Runnable {
                             } else if (m.substring(0, 1).equals("M")) {
                                 String[] data = m.split(";");
                                 Message message;
-                                if (data.length > 7) {
-                                    message = new Message(data[2], data[3], data[4], data[5], data[6], true);
+                                if (data.length > 8) {
+                                    message = new Message(data[2], data[3], data[4], data[5], data[6], data[7], true);
                                     if(data[1].equals("0"))
                                         message.activityAdded = true;
                                     MessagesAdapter.serverAdd(message);
                                     MessagingActivity.staticAdd(message);
                                 } else {
-                                    message = new Message(data[2], data[3], data[4], data[5], data[6], false);
+                                    message = new Message(data[2], data[3], data[4], data[5], data[6], data[7], false);
                                     if(data[1].equals("0"))
                                         message.activityAdded = true;
                                     MessagesAdapter.serverAdd(message);
@@ -130,6 +132,22 @@ public final class Server implements Runnable {
                                     notificationMessage += message.lastMessage.substring(0, 35) + "...";
                                 else notificationMessage += message.lastMessage;
                                 createNotification("ServiceReq: Aveți un nou mesaj", notificationMessage);
+                            }
+                            else if(m.substring(0,1).equals("C")){
+                                Log.d("SERVER", "CHECK NOTIFICATION");
+                                String[] data = m.split(";");
+                                if(data[1].equals("NONE"))
+                                    continue;
+                                Message message;
+                                if(data.length > 2) {
+                                    message = new Message(data[3], data[4], data[5], data[6], data[7], data[8], false);
+                                    String notificationMessage = message.firstName + " " + message.lastName + ": ";
+                                    if (message.lastMessage.length() > 35)
+                                        notificationMessage += message.lastMessage.substring(0, 35) + "...";
+                                    else notificationMessage += message.lastMessage;
+                                    createNotification("ServiceReq: Aveți un nou mesaj", notificationMessage);
+                                }
+                                else createNotification("ServiceReq: Aveți mesaje noi!", "Aveți noi mesaje care așteaptă răspunsul dumneavoastră!");
                             } else messages.add(m);
                         }
                     }
@@ -160,13 +178,11 @@ public final class Server implements Runnable {
         Server.messages.clear();
     }
 
-    private void createNotification(String title, String message) {
-
-
+    public static void createNotification(String title, String message) {
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
             String name = "ServiceReq";
             String description = "Channel for ServiceReq notifications";
-            NotificationChannel notificationChannel = null;
+            NotificationChannel notificationChannel;
             notificationChannel = new NotificationChannel("ServiceReq", name, NotificationManager.IMPORTANCE_DEFAULT);
             notificationChannel.setDescription(description);
             NotificationManager manager = (NotificationManager) (appContext.getSystemService(Context.NOTIFICATION_SERVICE));

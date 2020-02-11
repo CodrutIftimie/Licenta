@@ -1,6 +1,8 @@
 package ga.servicereq;
 
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -39,14 +41,45 @@ public class MessagingActivity extends AppCompatActivity {
         final ScrollView scrollArea = findViewById(R.id.message_scrollArea);
         final ImageView helperIcon = findViewById(R.id.message_helper);
         final LayoutInflater inflater = LayoutInflater.from(exchangedMessages.getContext());
+        final ImageView profilePicture = findViewById(R.id.message_receiverAvatar);
 
         final SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
         final String currentUserId = preferences.getString("gid", "");
+        final String currentUserPicture = preferences.getString("img", "NONE");
         final String receiverId = getIntent().getStringExtra("receiverId");
         final String firstName = getIntent().getStringExtra("fname");
         final String lastName = getIntent().getStringExtra("lname");
+        final String picture = getIntent().getStringExtra("image");
         final boolean isHelper = getIntent().getBooleanExtra("helper", false);
         final String conversationId = "CONVO" + receiverId;
+
+        RoundDrawable receiverImageDrawable = null;
+        RoundDrawable currentUserImageDrawable = null;
+
+        if(!picture.equals("NONE")) {
+            String[] byteValues = picture.substring(1, picture.length() - 1).split(",");
+            byte[] bytes = new byte[byteValues.length];
+
+            for (int i = 0, len = bytes.length; i < len; i++) {
+                bytes[i] = Byte.parseByte(byteValues[i]);
+            }
+            Bitmap image = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
+            image = Bitmap.createScaledBitmap(image, 200, 200, true);
+            receiverImageDrawable = new RoundDrawable(image);
+            profilePicture.setImageDrawable(receiverImageDrawable);
+        }
+
+        if(!currentUserPicture.equals("NONE")) {
+            String[] byteValues = currentUserPicture.substring(1, currentUserPicture.length() - 1).split(",");
+            byte[] bytes = new byte[byteValues.length];
+
+            for (int i = 0, len = bytes.length; i < len; i++) {
+                bytes[i] = Byte.parseByte(byteValues[i]);
+            }
+            Bitmap image = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
+            image = Bitmap.createScaledBitmap(image, 200, 200, true);
+            currentUserImageDrawable = new RoundDrawable(image);
+        }
 
         if (!isHelper)
             helperIcon.setImageDrawable(null);
@@ -66,19 +99,27 @@ public class MessagingActivity extends AppCompatActivity {
         for (ExchangedMessage msg : conversation.conversation) {
             RelativeLayout savedMessage;
             TextView messageText;
+            ImageView userPicture;
             if (msg.senderId.equals(currentUserId)) {
                 savedMessage = (RelativeLayout) inflater.inflate(R.layout.message_sent, null);
                 messageText = savedMessage.findViewById(R.id.messagesent_senderText);
+                userPicture = savedMessage.findViewById(R.id.messagesent_senderAvatar);
+                if(currentUserImageDrawable != null)
+                    userPicture.setImageDrawable(currentUserImageDrawable);
                 messageText.setText(msg.message);
             } else {
                 savedMessage = (RelativeLayout) inflater.inflate(R.layout.message_received, null);
                 messageText = savedMessage.findViewById(R.id.messagerecv_senderText);
+                userPicture = savedMessage.findViewById(R.id.messagerecv_senderAvatar);
+                if(receiverImageDrawable != null)
+                    userPicture.setImageDrawable(receiverImageDrawable);
                 messageText.setText(msg.message);
             }
             exchangedMessages.addView(savedMessage);
         }
 //        runUpdater();
 
+        final RoundDrawable finalUserImage = currentUserImageDrawable;
         sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -86,8 +127,11 @@ public class MessagingActivity extends AppCompatActivity {
                 if (message.getText().length() > 0) {
                     RelativeLayout newMessage = (RelativeLayout) inflater.inflate(R.layout.message_sent, null);
                     TextView messageText = newMessage.findViewById(R.id.messagesent_senderText);
+                    ImageView userPicture = newMessage.findViewById(R.id.messagesent_senderAvatar);
                     final String msg = message.getText().toString();
                     messageText.setText(message.getText());
+                    if(finalUserImage != null)
+                        userPicture.setImageDrawable(finalUserImage);
 
                     exchangedMessages.addView(newMessage);
                     ExchangedMessage exchMsgObj = new ExchangedMessage(currentUserId, message.getText().toString());
@@ -105,7 +149,7 @@ public class MessagingActivity extends AppCompatActivity {
                     message.setText("");
                     scrollArea.fullScroll(View.FOCUS_DOWN);
                     boolean isHelper = !(preferences.getString("cat", "").equals(""));
-                    Message m = new Message(receiverId, firstName, lastName, msg, "", isHelper);
+                    Message m = new Message(receiverId, firstName, lastName, msg, "", currentUserPicture, isHelper);
                     m.activityAdded = true;
                     MessagesAdapter.serverAdd(m);
                 }

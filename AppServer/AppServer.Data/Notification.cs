@@ -33,5 +33,15 @@ namespace AppServer.Data
             }
             return null;
         }
+
+        public int getNotificationsCount()
+        {
+            return notifications.Count;
+        }
+
+        public void clearNotifications()
+        {
+            notifications.Clear();
+        }
     }
 }

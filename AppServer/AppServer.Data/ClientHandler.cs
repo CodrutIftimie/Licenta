@@ -95,8 +95,8 @@ namespace AppServer.Data
         {
             bool messageSent = false;
             string anotherMessage;
-            List<string[]> queryResult = Server.QueryResult(4, $"SELECT u.FirstName, u.LastName, m.Date, u.HelperCategories FROM Users u, Messages m WHERE m.SenderId='{senderId}' AND m.ReceiverId='{receiverId}' AND u.UserId='{senderId}' ORDER BY Date DESC");
-            anotherMessage = $"M;1;{senderId};{queryResult[0][0]};{queryResult[0][1]};{message};{queryResult[0][2]}{(queryResult[0][3] == "" ? "" : ";Helper") };;";
+            List<string[]> queryResult = Server.QueryResult(5, $"SELECT u.FirstName, u.LastName, m.Date, u.PictureAddr, u.HelperCategories FROM Users u, Messages m WHERE m.SenderId='{senderId}' AND m.ReceiverId='{receiverId}' AND u.UserId='{senderId}' ORDER BY Date DESC");
+            anotherMessage = $"M;1;{senderId};{queryResult[0][0]};{queryResult[0][1]};{message};{queryResult[0][2]};{queryResult[0][3]}{(queryResult[0][3] == "" ? "" : ";Helper") };;";
 
             foreach (AppThread thread in threads)
                 foreach (AppClient client in thread.Clients)
@@ -186,8 +186,11 @@ namespace AppServer.Data
                 updateClientImage(message);
             else if (message[0].Equals('E'))
                 rateClient(message);
+            else if (message[0].Equals('C'))
+                checkNotificationsForClient(client, message);
             else Log.Add($"Received an unknown request: {message}");
         }
+
         private static void loginClient(AppClient client, string message)
         {
             String lEmail = message.Split(';')[1];
@@ -216,12 +219,12 @@ namespace AppServer.Data
 
                     Log.Add($"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};[POST IMAGE];[USER AVATAR];");
                 }
-                List<string[]> messagesValues = Server.QueryResult(7, $"SELECT m.SenderId, m.ReceiverId, u.FirstName, u.LastName, m.Text, m.Date, u.HelperCategories FROM Messages m, Users u WHERE (m.ReceiverId='{client.UserId}' and u.UserId=m.SenderId) or (m.SenderId='{client.UserId}' and u.UserId=m.ReceiverId) order by Date ASC");
+                List<string[]> messagesValues = Server.QueryResult(8, $"SELECT m.SenderId, m.ReceiverId, u.FirstName, u.LastName, m.Text, m.Date, u.PictureAddr, u.HelperCategories FROM Messages m, Users u WHERE (m.ReceiverId='{client.UserId}' and u.UserId=m.SenderId) or (m.SenderId='{client.UserId}' and u.UserId=m.ReceiverId) order by Date ASC");
                 foreach (string[] msg in messagesValues)
                 {
                     if (msg[0].Equals(client.UserId))
-                        Server.Write(client.Client, $"M;0;{msg[1]};{msg[2]};{msg[3]};{msg[4]};{msg[5]}{(msg[6].Equals("")?"":";Helper")};;");
-                    else Server.Write(client.Client, $"M;1;{msg[0]};{msg[2]};{msg[3]};{msg[4]};{msg[5]}{(msg[6].Equals("") ? "" : ";Helper")};;");
+                        Server.Write(client.Client, $"M;0;{msg[1]};{msg[2]};{msg[3]};{msg[4]};{msg[5]};{msg[6]}{(msg[7].Equals("")?"":";Helper")};;");
+                    else Server.Write(client.Client, $"M;1;{msg[0]};{msg[2]};{msg[3]};{msg[4]};{msg[5]};{msg[6]}{(msg[7].Equals("") ? "" : ";Helper")};;");
                 }
             }
             else Server.Write(client.Client, "LFAIL;;");
@@ -359,12 +362,36 @@ namespace AppServer.Data
 
             if (ratingNumber == 0)
                 rating = rateValue;
+            else if (ratingNumber == 1)
+                rating = (rating + rateValue) / 2;
             else rating = rating + ((rateValue - rating) / ratingNumber);
 
             string[] uFields = { "UserId", "Rating", "RatingNumber" };
             string[] uValues = { ratingFor.ToString(), rating.ToString(), (ratingNumber + 1).ToString() };
 
             Server.Update("Users", uFields, uValues);
+        }
+
+        private static void checkNotificationsForClient(AppClient client, string message)
+        {
+            bool notificationSent = false;
+            string guid = message.Split(';')[1];
+            foreach(Notification n in notifications)
+            {
+                if(n.Guid.Equals(guid))
+                {
+                    notificationSent = true;
+                    if (n.getNotificationsCount() > 1)
+                    {
+                        Server.Write(client.Client, "C;Messages;;");
+                        n.clearNotifications();
+                    }
+                    else Server.Write(client.Client, "C;" + n.getNotification());
+                }
+            }
+
+            if (!notificationSent)
+                Server.Write(client.Client, "C;NONE;;");
         }
 
         private static void RemoveDisconnected(object argument)

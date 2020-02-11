@@ -3,6 +3,8 @@ package ga.servicereq;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -45,7 +47,20 @@ public class MessagesAdapter {
                 TextView lastMessageTv = toBeAdded.findViewById(R.id.messagepv_msgPreview);
                 Button endButton = toBeAdded.findViewById(R.id.messagepv_endButton);
                 ImageView helperIcon = toBeAdded.findViewById(R.id.messagepv_helper);
+                ImageView profilePicture = toBeAdded.findViewById(R.id.messagepv_receiverAvatar);
 
+                if(!msg.picture.equals("NONE")) {
+                    String[] byteValues = msg.picture.substring(1, msg.picture.length() - 1).split(",");
+                    byte[] bytes = new byte[byteValues.length];
+
+                    for (int i = 0, len = bytes.length; i < len; i++) {
+                        bytes[i] = Byte.parseByte(byteValues[i]);
+                    }
+                    Bitmap image = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
+                    image = Bitmap.createScaledBitmap(image, 400, 400, true);
+                    RoundDrawable roundDrawable = new RoundDrawable(image);
+                    profilePicture.setImageDrawable(roundDrawable);
+                }
                 if(!msg.isHelper)
                     helperIcon.setImageDrawable(null);
 
@@ -74,6 +89,7 @@ public class MessagesAdapter {
                         i.putExtra("fname", msg.firstName);
                         i.putExtra("lname", msg.lastName);
                         i.putExtra("receiverId", msg.senderId);
+                        i.putExtra("image", msg.picture);
                         i.putExtra("helper", msg.isHelper);
                         fragment.startActivity(i);
                     }
@@ -113,12 +129,6 @@ public class MessagesAdapter {
 //            Conversation newConversation = new Conversation(msg.senderId, msg.firstName, msg.lastName);
 //            add(msg, newConversation.receiverId);
 //        }
-    }
-
-    public void add(Conversation convo) {
-        ExchangedMessage messagesExchanged = convo.conversation.get(convo.conversation.size()-1);
-        String latestMessage = messagesExchanged.message;
-        add(new Message(convo.receiverId, convo.firstName, convo.lastName, latestMessage, "", false), convo.receiverId);
     }
 
     public void runUpdater() {

@@ -1,5 +1,8 @@
 package ga.servicereq;
 
+import android.app.job.JobInfo;
+import android.app.job.JobScheduler;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -38,7 +41,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         if (!Server.isActiveConnection())
             new Thread(new Server(getApplicationContext())).start();
-
+        scheduleJob();
         preferences = PreferenceManager.getDefaultSharedPreferences(Server.getAppContext());
         createLoginForm();
         if (!preferences.getString("usr", "def").equals("def")) {
@@ -66,6 +69,17 @@ public class LoginActivity extends AppCompatActivity {
             });
         }
 
+    }
+
+    private void scheduleJob() {
+        ComponentName component = new ComponentName(Server.getAppContext(), BackgroundChecks.class);
+        JobInfo info = new JobInfo.Builder(6788, component)
+                .setPeriodic(15 * 60 * 1000)
+                .setRequiredNetworkType(JobInfo.NETWORK_TYPE_ANY)
+                .setPersisted(true)
+                .build();
+        JobScheduler scheduler = (JobScheduler) getSystemService(JOB_SCHEDULER_SERVICE);
+        scheduler.schedule(info);
     }
 
     public void loginClicked(View view) {
