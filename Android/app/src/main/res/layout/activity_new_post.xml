@@ -87,34 +87,21 @@
                 android:layout_height="wrap_content"
                 />
 
-            <RadioGroup
-                android:id="@+id/newpost_radiogroup"
+            <TextView
+                android:id="@+id/newpost_locationTV"
                 android:layout_below="@+id/newpost_spinner"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="20dp">
-
-                <RadioButton
-                    android:id="@+id/newpost_homeRadio"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/newpost_only_at_my_home"
-                    android:textColor="#FFFFFF"
-                    android:textSize="17sp" />
-                <RadioButton
-                    android:id="@+id/newpost_awayRadio"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/newpost_i_can_move"
-                    android:textColor="#FFFFFF"
-                    android:textSize="17sp"/>
-
-            </RadioGroup>
+                android:textSize="20sp"
+                android:text="@string/locatie"
+                android:textColor="@color/colorPrimary"
+                />
 
             <Button
                 android:id="@+id/newpost_postButton"
-                android:layout_below="@+id/newpost_radiogroup"
+                android:layout_below="@+id/newpost_locationTV"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="30dp"
                 android:layout_marginTop="30dp"

@@ -1,0 +1,7 @@
+D:\GitHub\Licenta\AppServer\AppServer.Data\bin\Debug\netcoreapp3.0\AppServer.Data.deps.json
+D:\GitHub\Licenta\AppServer\AppServer.Data\bin\Debug\netcoreapp3.0\AppServer.Data.dll
+D:\GitHub\Licenta\AppServer\AppServer.Data\bin\Debug\netcoreapp3.0\AppServer.Data.pdb
+D:\GitHub\Licenta\AppServer\AppServer.Data\obj\Debug\netcoreapp3.0\AppServer.Data.AssemblyInfoInputs.cache
+D:\GitHub\Licenta\AppServer\AppServer.Data\obj\Debug\netcoreapp3.0\AppServer.Data.AssemblyInfo.cs
+D:\GitHub\Licenta\AppServer\AppServer.Data\obj\Debug\netcoreapp3.0\AppServer.Data.dll
+D:\GitHub\Licenta\AppServer\AppServer.Data\obj\Debug\netcoreapp3.0\AppServer.Data.pdb

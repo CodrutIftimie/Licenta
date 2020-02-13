@@ -1,5 +1,6 @@
 package ga.servicereq;
 
+import android.annotation.SuppressLint;
 import android.app.job.JobInfo;
 import android.app.job.JobScheduler;
 import android.content.ComponentName;
@@ -149,8 +150,8 @@ public class LoginActivity extends AppCompatActivity {
 
                                 String info = "R;" +
                                         registerForm.getEmailInput().getText().toString() + ";" +
-                                        registerForm.getFirstNameInput().getText().toString() + ";" +
-                                        registerForm.getLastNameInput().getText().toString() + ";" +
+                                        Server.formatSpecialCharacters(registerForm.getFirstNameInput().getText().toString()) + ";" +
+                                        Server.formatSpecialCharacters(registerForm.getLastNameInput().getText().toString()) + ";" +
                                         pass.toString();
 
                                 Server.sendMessage(info);
@@ -168,12 +169,11 @@ public class LoginActivity extends AppCompatActivity {
                                             String status = Server.getMessage(0);
                                             if (status.equals("RSUCCESS")) {
                                                 String[] userData = Server.getMessage(0).split(";");
-                                                preferencesEditor = preferences.edit();
                                                 preferencesEditor.putString("usr", usr);
                                                 preferencesEditor.putString("psd", psd);
                                                 preferencesEditor.putString("gid", userData[0]);
-                                                preferencesEditor.putString("fn", userData[1]);
-                                                preferencesEditor.putString("ln", userData[2]);
+                                                preferencesEditor.putString("fn", Server.convertBackSpecialCharacters(userData[1]));
+                                                preferencesEditor.putString("ln", Server.convertBackSpecialCharacters(userData[2]));
                                                 preferencesEditor.putString("img", "NONE");
                                                 preferencesEditor.putString("cat", "");
                                                 preferencesEditor.putFloat("rtg", Float.valueOf(userData[3]));
@@ -210,8 +210,11 @@ public class LoginActivity extends AppCompatActivity {
     private void login(final View v, final String usr, final String psd) {
         final Button btn = v.findViewById(R.id.login_loginButton);
         btn.post(new Runnable() {
+            @SuppressLint("ApplySharedPref")
             @Override
             public void run() {
+                preferencesEditor = preferences.edit();
+                preferencesEditor.clear().commit();
                 while(Server.messagesCount() == 0) {
                     try {
                         Thread.sleep(50);
@@ -229,13 +232,13 @@ public class LoginActivity extends AppCompatActivity {
                             e.printStackTrace();
                         }
                     }
+                    preferencesEditor.clear().apply();
                     String[] userData = Server.getMessage(0).split(";");
-                    preferencesEditor = preferences.edit();
                     preferencesEditor.putString("usr", usr);
                     preferencesEditor.putString("psd", psd);
                     preferencesEditor.putString("gid", userData[0]);
-                    preferencesEditor.putString("fn", userData[1]);
-                    preferencesEditor.putString("ln", userData[2]);
+                    preferencesEditor.putString("fn", Server.convertBackSpecialCharacters(userData[1]));
+                    preferencesEditor.putString("ln", Server.convertBackSpecialCharacters(userData[2]));
                     preferencesEditor.putString("img", userData[4]);
                     preferencesEditor.putFloat("rtg", Float.valueOf(userData[3]));
                     int index = 5;

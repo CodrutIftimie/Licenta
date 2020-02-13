@@ -110,7 +110,6 @@ public class ProfileFragment extends Fragment {
         avatar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getContext(),"SELECT IMAGE IN ACTION", Toast.LENGTH_SHORT).show();
                 selectImage();
             }
         });

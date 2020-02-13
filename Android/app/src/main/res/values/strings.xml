@@ -45,7 +45,7 @@
     <string name="messages_title">Mesaje</string>
     <string name="message_previewMessage">Previzualizare mesaj</string>
     <string name="your_posts">Postările tale</string>
-    <string name="newpost_tv_add_a_new_post">Adaugă</string>
+    <string name="newpost_tv_add_a_new_post">Adaugă o postare</string>
     <string name="newpost_upload_image">Încarcă o imagine</string>
     <string name="newpost_post">Postează</string>
     <string name="newpost_category">Categorie:</string>
@@ -70,4 +70,7 @@
     <string name="profile_logout">Deconectare</string>
     <string name="helper_icon_description">Helper Icon</string>
     <string name="editare_profil">Editare profil</string>
+    <string name="solved_post">Solved post</string>
+    <string name="locatie">Locație:</string>
+    <string name="city">City</string>
 </resources>

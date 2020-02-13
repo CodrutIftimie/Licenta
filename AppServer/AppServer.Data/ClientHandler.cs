@@ -96,7 +96,7 @@ namespace AppServer.Data
             bool messageSent = false;
             string anotherMessage;
             List<string[]> queryResult = Server.QueryResult(5, $"SELECT u.FirstName, u.LastName, m.Date, u.PictureAddr, u.HelperCategories FROM Users u, Messages m WHERE m.SenderId='{senderId}' AND m.ReceiverId='{receiverId}' AND u.UserId='{senderId}' ORDER BY Date DESC");
-            anotherMessage = $"M;1;{senderId};{queryResult[0][0]};{queryResult[0][1]};{message};{queryResult[0][2]};{queryResult[0][3]}{(queryResult[0][3] == "" ? "" : ";Helper") };;";
+            anotherMessage = $"M;2;{senderId};{queryResult[0][0]};{queryResult[0][1]};{message};{queryResult[0][2]};{queryResult[0][3]}{(queryResult[0][4] == "" ? "" : ";Helper") };;";
 
             foreach (AppThread thread in threads)
                 foreach (AppClient client in thread.Clients)
@@ -162,6 +162,7 @@ namespace AppServer.Data
                             }
                         }
                         catch (ObjectDisposedException) { } //Accessing the client right after it was removed and throws an exception, so it just needs to be ignored
+                        catch (Exception) { }
                     }
                 }
             }
@@ -186,6 +187,10 @@ namespace AppServer.Data
                 updateClientImage(message);
             else if (message[0].Equals('E'))
                 rateClient(message);
+            else if (message[0].Equals('D'))
+                deletePost(message);
+            else if (message[0].Equals('S'))
+                markPostSolved(message);
             else if (message[0].Equals('C'))
                 checkNotificationsForClient(client, message);
             else Log.Add($"Received an unknown request: {message}");
@@ -209,13 +214,13 @@ namespace AppServer.Data
                 client.loggedIn = true;
                 client.UserId = lValues[0][0];
                 client.Categories = lValues[0][5];
-                List<string[]> postsValues = Server.QueryResult(10, $"SELECT p.UserId, u.FirstName, u.LastName, p.Date, p.Description, p.ImageAddr, u.PictureAddr, p.Category, p.Location, u.HelperCategories FROM Posts p, Users u WHERE p.UserId = u.UserId ORDER BY Date ASC");
+                List<string[]> postsValues = Server.QueryResult(11, $"SELECT p.UserId, u.FirstName, u.LastName, p.Date, p.Description, p.ImageAddr, u.PictureAddr, p.Category, p.Location, p.Solved, u.HelperCategories FROM Posts p, Users u WHERE p.UserId = u.UserId ORDER BY Date ASC");
                 foreach (string[] post in postsValues)
                 {
-                    if (post[9] != "")
-                        Server.Write(client.Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};{post[6]};{post[7]};Helper;;");
+                    if (post[10] != "")
+                        Server.Write(client.Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[8]};{post[5]};{post[6]};{post[7]};{post[9]};Helper;;");
                     else
-                        Server.Write(client.Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};{post[6]};{post[7]};;");
+                        Server.Write(client.Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[8]};{post[5]};{post[6]};{post[7]};{post[9]};;");
 
                     Log.Add($"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};[POST IMAGE];[USER AVATAR];");
                 }
@@ -250,13 +255,13 @@ namespace AppServer.Data
                     client.loggedIn = true;
                     client.UserId = intVals[0][0];
                     client.Categories = "";
-                    List<string[]> postsValues = Server.QueryResult(10, $"SELECT p.UserId, u.FirstName, u.LastName, p.Date, p.Description, p.ImageAddr, u.PictureAddr, p.Category, p.Location, u.HelperCategories FROM Posts p, Users u WHERE p.UserId = u.UserId ORDER BY Date ASC");
+                    List<string[]> postsValues = Server.QueryResult(11, $"SELECT p.UserId, u.FirstName, u.LastName, p.Date, p.Description, p.ImageAddr, u.PictureAddr, p.Category, p.Location, p.Solved, u.HelperCategories FROM Posts p, Users u WHERE p.UserId = u.UserId ORDER BY Date ASC");
                     foreach (string[] post in postsValues)
                     {
-                        if (post[9] != "")
-                            Server.Write(client.Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};{post[6]};{post[7]};Helper;;");
+                        if (post[10] != "")
+                            Server.Write(client.Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[8]};{post[5]};{post[6]};{post[7]};{post[9]};Helper;;");
                         else
-                            Server.Write(client.Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[5]};{post[6]};{post[7]};;");
+                            Server.Write(client.Client, $"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};{post[8]};{post[5]};{post[6]};{post[7]};{post[9]};;");
                         Log.Add($"P;{post[0]};{post[1]};{post[2]};{post[3]};{post[4]};[POST IMAGE];[USER AVATAR];");
                     }
                 }
@@ -392,6 +397,21 @@ namespace AppServer.Data
 
             if (!notificationSent)
                 Server.Write(client.Client, "C;NONE;;");
+
+            client.Client.Close();
+        }
+
+        private static void markPostSolved(string message)
+        {
+            string[] data = message.Split(';');
+            string[] fields = { "UserId", "FORMAT(Date, 'dd.M.yyyy h:mm:ss tt')", "Solved" };
+            string[] values = { data[1], data[2], "YES" };
+            Server.Update("Posts", fields, values);
+        }
+
+        private static void deletePost(string message)
+        {
+            Server.DeletePostQuery(message);
         }
 
         private static void RemoveDisconnected(object argument)

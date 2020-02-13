@@ -56,7 +56,7 @@ public final class Server implements Runnable {
                 try {
                     while (writeSocket == null)
                         Thread.sleep(100);
-                    byte[] messageInBytes = message.getBytes(StandardCharsets.UTF_8);
+                    byte[] messageInBytes = message.getBytes(StandardCharsets.US_ASCII);
                     byte[] messageLength = ByteBuffer.allocate(4).putInt(messageInBytes.length).array();
                     writeSocket.write(messageLength, 0, 4);
                     writeSocket.flush();
@@ -83,9 +83,9 @@ public final class Server implements Runnable {
 
         activeConnection = true;
         try {
-//            connection = new Socket("192.168.43.5", 6787);
-            connection = new Socket("192.168.0.173", 6787);
-//            connection = new Socket("192.168.137.1",6787);
+//            connection = new Socket("192.168.43.5", 6787); // Phone hotspot
+            connection = new Socket("192.168.0.173", 6787); //Home network
+//            connection = new Socket("192.168.137.1",6787); //Laptop hotspot
             writeSocket = new DataOutputStream(connection.getOutputStream());
             readSocket = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 
@@ -100,11 +100,11 @@ public final class Server implements Runnable {
                             if (m.substring(0, 1).equals("P")) {
                                 String[] data = m.split(";");
                                 Post post;
-                                if (data.length > 9) {
-                                    post = new Post(data[1], data[2], data[3], data[4], data[5], data[6], data[7], data[8], true);
+                                if (data.length > 11) {
+                                    post = new Post(data[1], data[2], data[3], data[4], data[5], data[6], data[7], data[8], data[9], data[10], true);
                                     PostsAdapter.serverAdd(post);
                                 } else {
-                                    post = new Post(data[1], data[2], data[3], data[4], data[5], data[6], data[7], data[8], false);
+                                    post = new Post(data[1], data[2], data[3], data[4], data[5], data[6], data[7], data[8], data[9], data[10], false);
                                     PostsAdapter.serverAdd(post);
                                 }
                                 SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(appContext);
@@ -131,7 +131,8 @@ public final class Server implements Runnable {
                                 if (message.lastMessage.length() > 35)
                                     notificationMessage += message.lastMessage.substring(0, 35) + "...";
                                 else notificationMessage += message.lastMessage;
-                                createNotification("ServiceReq: Aveți un nou mesaj", notificationMessage);
+                                if(data[1].equals("2"))
+                                    createNotification("ServiceReq: Aveți un nou mesaj", notificationMessage);
                             }
                             else if(m.substring(0,1).equals("C")){
                                 Log.d("SERVER", "CHECK NOTIFICATION");
@@ -195,7 +196,7 @@ public final class Server implements Runnable {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(appContext, "ServiceReq")
                 .setSmallIcon(R.mipmap.ic_launcher)
                 .setContentTitle(title)
-                .setContentText(message)
+                .setContentText(Server.convertBackSpecialCharacters(message))
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                 .setChannelId("ServiceReq")
                 .setContentIntent(intent)
@@ -204,5 +205,33 @@ public final class Server implements Runnable {
 
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(appContext);
         notificationManager.notify("ServiceReq", 6787, builder.build());
+    }
+
+    public static String formatSpecialCharacters(String text) {
+        return text.replace("ș","<[sh]>")
+                .replace("ț","<[tz]>")
+                .replace("ă","<[a/]>")
+                .replace("â", "<[a\\]>")
+                .replace("î", "<[i\\]>")
+                .replace("Ș","<[Sh]>")
+                .replace("Ț","<[Tz]>")
+                .replace("Ă","<[A/]>")
+                .replace("Â", "<[A\\]>")
+                .replace("Î", "<[I\\]>")
+                .replace(";","<[.,]>");
+    }
+
+    public static String convertBackSpecialCharacters(String text) {
+        return text.replace("<[sh]>","ș")
+                .replace("<[tz]>","ț")
+                .replace("<[a/]>","ă")
+                .replace("<[a\\]>", "â")
+                .replace("<[i\\]>", "î")
+                .replace("<[Sh]>","Ș")
+                .replace("<[Tz]>","Ț")
+                .replace("<[A/]>","Ă")
+                .replace("<[A\\]>", "Â")
+                .replace("<[I\\]>", "Î")
+                .replace("<[.,]>",";");
     }
 }

@@ -75,12 +75,12 @@ public class MessagesAdapter {
 
 
                 final String name = msg.firstName + " " + msg.lastName;
-                receiverName.setText(name);
+                receiverName.setText(Server.convertBackSpecialCharacters(name));
                 String lM;
-                if(msg.lastMessage.length()>34)
+                if(Server.convertBackSpecialCharacters(msg.lastMessage).length()>34)
                     lM = msg.lastMessage.substring(0,35) + "...";
                 else lM = msg.lastMessage;
-                lastMessageTv.setText(lM);
+                lastMessageTv.setText(Server.convertBackSpecialCharacters(lM));
 
                 toBeAdded.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -109,26 +109,6 @@ public class MessagesAdapter {
 
     public void add(final Message msg) {
         add(msg,msg.senderId);
-//        String currentUserId = preferences.getString("gid","");
-//        Map<String, ?> convos = preferences.getAll();
-//        boolean found = false;
-//        for (Map.Entry<String, ?> convo : convos.entrySet())
-//            if(convo.getKey().length() > 5) {
-//                if (convo.getKey().substring(0, 5).equals("CONVO")) {
-//                    Conversation convoObj = new Gson().fromJson(convo.getValue().toString(), Conversation.class);
-//                    if (convoObj.receiverId.equals(msg.senderId)) {
-//                        add(msg, msg.senderId);
-//                        if(msg.activityAdded)
-//                            convoObj.addMessage(new ExchangedMessage(currentUserId, msg.lastMessage,msg.date));
-//                        else convoObj.addMessage(new ExchangedMessage(msg.senderId,msg.lastMessage,msg.date));
-//                        found = true;
-//                    }
-//                }
-//            }
-//        if (!found) {
-//            Conversation newConversation = new Conversation(msg.senderId, msg.firstName, msg.lastName);
-//            add(msg, newConversation.receiverId);
-//        }
     }
 
     public void runUpdater() {

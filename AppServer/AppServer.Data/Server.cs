@@ -98,19 +98,19 @@ namespace AppServer.Data
                     if (table.Equals("Posts"))
                     {
                         List<string[]> result = QueryResult(4, $"SELECT FirstName, LastName, PictureAddr, HelperCategories FROM USERS WHERE UserId='{values[0]}'"); //Get the name from the new post
-                        string[] newValues = new string[9];
+                        string[] newValues = new string[11];
                         newValues[0] = values[0]; //userId
                         newValues[1] = result[0][0]; // FirstName
                         newValues[2] = result[0][1]; // LastName
                         newValues[4] = values[1]; // PostDescription
-                        newValues[5] = values[4]; // PostImage
-                        newValues[6] = result[0][2]; // PictureAddr
-                        newValues[8] = result[0][3] == "" ? "" : "Helper";
-                        result = QueryResult(2, $"SELECT Date, Category FROM Posts WHERE Description='{values[1]}' ORDER BY Date DESC"); //Get the date from the new post
+                        newValues[6] = values[4]; // PostImage
+                        newValues[7] = result[0][2]; // PictureAddr
+                        newValues[10] = result[0][3] == "" ? "" : "Helper";
+                        result = QueryResult(4, $"SELECT Date, Category, Solved, Location FROM Posts WHERE Description='{values[1]}' ORDER BY Date DESC"); //Get the date from the new post
                         newValues[3] = result[0][0]; // Date
-                        newValues[7] = result[0][1]; // Category
-                        //for (int i = 5; i < values.Length + 1; i++) //Copy rest of values
-                        //    newValues[i] = values[i - 4];
+                        newValues[8] = result[0][1]; // Category
+                        newValues[9] = result[0][2]; // Solved
+                        newValues[5] = result[0][3]; // Location
                         ClientHandler.BroadcastNewPost(newValues);
                     }
                     return true;
@@ -126,21 +126,42 @@ namespace AppServer.Data
                 cmd.Connection = Database;
                 cmd.CommandType = CommandType.Text;
                 cmd.CommandText = $"UPDATE {table} SET ";
-                for (int i = 1; i < fields.Length; i++)
+                if (table.Equals("Posts"))
                 {
-                    cmd.CommandText += $"{fields[i]} = '{values[i]}',";
+                    for (int i = 2; i < fields.Length; i++)
+                    {
+                        cmd.CommandText += $"{fields[i]} = '{values[i]}'";
+                    }
+                    cmd.CommandText += $" WHERE {fields[0]} = '{values[0]}' AND {fields[1]} = '{values[1]}'";
                 }
-                cmd.CommandText = cmd.CommandText.Remove(cmd.CommandText.Length - 1);
-                cmd.CommandText += $" WHERE {fields[0]} = '{values[0]}'";
+                else {
+                    for (int i = 1; i < fields.Length; i++)
+                    {
+                        cmd.CommandText += $"{fields[i]} = '{values[i]}',";
+                    }
+                    cmd.CommandText = cmd.CommandText.Remove(cmd.CommandText.Length - 1);
+                    cmd.CommandText += $" WHERE {fields[0]} = '{values[0]}'";
+                }
                 if (cmd.ExecuteNonQuery() > 0)
                     return true;
                 return false;
             }
         }
 
+        public static void DeletePostQuery(string message)
+        {
+            using (SqlCommand cmd = new SqlCommand())
+            {
+                cmd.Connection = Database;
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = $"DELETE FROM Posts WHERE UserId='{message.Split(';')[1]}' AND FORMAT(Date, 'dd.M.yyyy h:mm:ss tt')='{message.Split(';')[2]}'";
+                cmd.ExecuteNonQuery();
+            }
+        }
+
         public static void Write(TcpClient client, string message)
         {
-            byte[] messageBytes = Encoding.UTF8.GetBytes(message);
+            byte[] messageBytes = Encoding.ASCII.GetBytes(message);
             //byte[] messageSize = BitConverter.GetBytes(messageBytes.Length);
             //Array.Reverse(messageSize);
             //client.GetStream().Write(messageSize, 0, 4);
@@ -165,7 +186,7 @@ namespace AppServer.Data
                 bytesLeft -= currentBytesRead;
             }
 
-            return System.Text.Encoding.UTF8.GetString(message);
+            return System.Text.Encoding.ASCII.GetString(message);
         }
     }
 }

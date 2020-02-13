@@ -33,6 +33,8 @@ public class Rating {
 
                 Toast.makeText(view.getContext(),"Mulțumim pentru evaluarea utilizatorului!", Toast.LENGTH_SHORT).show();
                 deleteDialog.dismiss();
+                Button ratingButton = view.findViewById(R.id.messagepv_endButton);
+                ratingButton.setEnabled(false);
             }
         });
 

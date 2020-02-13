@@ -1,7 +1,5 @@
 package ga.servicereq;
 
-import android.util.Log;
-
 public class Post {
     private String posterId;
     private String firstName;
@@ -11,17 +9,21 @@ public class Post {
     private String descriptionImageURL;
     private String profileImageURL;
     private String category;
+    private String location;
+    private boolean isSolved;
     private boolean isHelper;
 
-    public Post(String posterId, String firstName, String lastName, String postDate, String description, String descriptionImageURL, String profileImageURL, String category, boolean isHelper) {
+    public Post(String posterId, String firstName, String lastName, String postDate, String description, String location, String descriptionImageURL, String profileImageURL, String category, String isSolved, boolean isHelper) {
         this.posterId = posterId;
         this.firstName = firstName;
         this.lastName = lastName;
         this.postDate = postDate;
         this.description = description;
+        this.location = location;
         this.descriptionImageURL = descriptionImageURL;
         this.profileImageURL = profileImageURL;
         this.category = category;
+        this.isSolved = isSolved.equals("YES");
         this.isHelper = isHelper;
     }
 
@@ -73,6 +75,14 @@ public class Post {
         this.description = description;
     }
 
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
     public String getDescriptionImageURL() {
         if(descriptionImageURL == null)
             return "";
@@ -99,6 +109,14 @@ public class Post {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    public boolean isSolved() {
+        return isSolved;
+    }
+
+    public void setSolved(boolean solved) {
+        isSolved = solved;
     }
 
     public boolean isHelper() {

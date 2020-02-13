@@ -2,14 +2,20 @@ package ga.servicereq;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.location.Address;
+import android.location.Geocoder;
+import android.location.Location;
+import android.location.LocationManager;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Environment;
 import android.os.StrictMode;
 import android.os.SystemClock;
@@ -38,6 +44,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
+import java.util.Locale;
 
 public class NewPostActivity extends AppCompatActivity {
 
@@ -45,9 +52,8 @@ public class NewPostActivity extends AppCompatActivity {
     Button postImage;
     EditText description;
     TextView imageName;
+    TextView locationTv;
     Spinner category;
-    RadioGroup radios;
-    byte location;
     SharedPreferences prefs;
     static AsyncTask<String, String, String> task;
     private String imageBytes = "NONE";
@@ -64,9 +70,8 @@ public class NewPostActivity extends AppCompatActivity {
         imageName = findViewById(R.id.newpost_imageName);
         description = findViewById(R.id.newpost_editText);
         category = findViewById(R.id.newpost_spinner);
+        locationTv = findViewById(R.id.newpost_locationTV);
 
-        radios = findViewById(R.id.newpost_radiogroup);
-        radios.check(R.id.newpost_homeRadio);
 
         ArrayAdapter adapter = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, Services.getArray());
         category.setAdapter(adapter);
@@ -85,18 +90,15 @@ public class NewPostActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (description.getText().length() == 0) {
-                    Toast.makeText(getApplicationContext(), "The description cannot be empty", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Nu poți adăuga o postare fără descriere", Toast.LENGTH_LONG).show();
                 } else {
-                    RadioButton radio = findViewById(radios.getCheckedRadioButtonId());
-                    if (radio.getText().toString().split(" ")[0].equals("Only"))
-                        location = 0;
-                    else location = 1;
 
+                    String location = locationTv.getText().toString().contains("Nu a putut fi")?"Not found":locationTv.getText().toString().substring(9);
                     String message = "N;" +
                             prefs.getString("gid", "") + ";" +
-                            description.getText().toString() + ";" +
+                            Server.formatSpecialCharacters(description.getText().toString()) + ";" +
                             Services.getById((int)category.getSelectedItemId()).toEnglishString() + ";" +
-                            location + ";" +
+                            Server.formatSpecialCharacters(location) + ";" +
                             imageBytes + ";;";
                     post.setEnabled(false);
 
@@ -123,10 +125,10 @@ public class NewPostActivity extends AppCompatActivity {
                             runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
-                                    if ((response.equals("SUCCESS")))
-                                        Toast.makeText(NewPostActivity.this, "Post added!", Toast.LENGTH_SHORT).show();
+                                    if (response.equals("SUCCESS") || response.equals(";SUCCESS"))
+                                        Toast.makeText(NewPostActivity.this, "Postare adăugată!", Toast.LENGTH_SHORT).show();
                                     else
-                                        Toast.makeText(NewPostActivity.this, "Failed to add the post!", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(NewPostActivity.this, "Eroare la adăugarea postării! Încearcă din nou.", Toast.LENGTH_SHORT).show();
                                 }
                             });
                             return null;
@@ -144,6 +146,50 @@ public class NewPostActivity extends AppCompatActivity {
                 selectImage();
             }
         });
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                setLocation();
+            }
+        }).start();
+    }
+
+
+
+    private void setLocation() {
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M &&
+            checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                requestPermissions(new String[]{Manifest.permission.ACCESS_COARSE_LOCATION},3);
+        }
+        else {
+            LocationManager locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
+            Location location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+            setCityName(location);
+        }
+    }
+
+    private void setCityName(Location location) {
+        String city = "";
+        Geocoder geocoder = new Geocoder(this, Locale.getDefault());
+        try {
+            List<Address> addresses = geocoder.getFromLocation(location.getLatitude(),location.getLongitude(),10);
+            for(Address address : addresses) {
+                if(address.getLocality() != null && address.getLocality().length() > 0) {
+                    city = "Locație: " + address.getLocality();
+                    break;
+                }
+            }
+        } catch (IOException e) {
+            city = "Locație: Nu a putut fi găsită locația.";
+        }
+        final String finalCity = city;
+        locationTv.post(new Runnable() {
+            @Override
+            public void run() {
+                locationTv.setText(finalCity);
+            }
+        });
+
     }
 
     private void selectImage() {
@@ -185,6 +231,7 @@ public class NewPostActivity extends AppCompatActivity {
         builder.show();
     }
 
+    @SuppressLint("MissingPermission")
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         try {
@@ -247,14 +294,20 @@ public class NewPostActivity extends AppCompatActivity {
 
                     } catch (IOException e) {
                         Log.e("IMAGE_INTENT", e.getMessage());
-                        Toast.makeText(Server.getAppContext(), "Could not upload the image", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Server.getAppContext(), "Nu s-a putut încărca imaginea!", Toast.LENGTH_SHORT).show();
                         post.setEnabled(true);
                     }
                 }
             }
+            else if(requestCode == 3) {
+                if(resultCode == RESULT_OK) {
+                    LocationManager locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
+                    setCityName(locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER));
+                }
+            }
         } catch (Exception e) {
             Log.e("UPLOAD_POST_IMAGE", "Exception in onActivityResult : " + e.getMessage());
-            Toast.makeText(Server.getAppContext(), "Could not upload the image", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Server.getAppContext(), "Nu s-a putut încărca imaginea!", Toast.LENGTH_SHORT).show();
             post.setEnabled(true);
         }
     }

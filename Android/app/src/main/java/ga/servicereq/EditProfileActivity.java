@@ -108,10 +108,10 @@ public class EditProfileActivity extends AppCompatActivity {
                 }
                 updateString.append(numberOfOptions).append(";");
                 if (!firstName.equals(newFn.getText().toString()) && newFn.getText().length() > 0) {
-                    updateString.append(newFn.getText()).append(";");
+                    updateString.append(Server.formatSpecialCharacters(newFn.getText().toString())).append(";");
                 } else updateString.append("_;");
                 if (!lastName.equals(newLn.getText().toString()) && newLn.getText().length() > 0) {
-                    updateString.append(newLn.getText()).append(";");
+                    updateString.append(Server.formatSpecialCharacters(newLn.getText().toString())).append(";");
                 } else updateString.append("_;");
                 if (newPsd.getText().length() > 0) {
                     if (newPsd.getText().equals(newCpsd.getText())) {
@@ -143,11 +143,9 @@ public class EditProfileActivity extends AppCompatActivity {
                 else prefEdit.putString("cat", "");
                 prefEdit.apply();
                 updateString.append(";");
-                if (updateString.toString().equals("U;" + preferences.getString("gid", "") + "0;_;_;_;;"))
-                    Toast.makeText(Server.getAppContext(), "No changes applied!", Toast.LENGTH_SHORT).show();
-                else {
+                if (!updateString.toString().equals("U;" + preferences.getString("gid", "") + "0;_;_;_;;")) {
                     Server.sendMessage(updateString.toString());
-                    Toast.makeText(Server.getAppContext(), "Saved changes! Login again for the changes to take effect!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Server.getAppContext(), "Moficări aplicate! La repornirea aplicației veți vedea modificările.", Toast.LENGTH_SHORT).show();
                 }
                 finish();
             }

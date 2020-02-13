@@ -41,6 +41,15 @@
             android:contentDescription="@string/helper_icon_description"
             android:layout_toEndOf="@+id/post_posterName" />
 
+        <ImageView
+            android:id="@+id/post_solved_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/solved_post"
+            />
+
         <TextView
             android:id="@+id/post_time"
             android:layout_width="wrap_content"
@@ -49,6 +58,16 @@
             android:layout_marginStart="5dp"
             android:layout_toEndOf="@+id/post_posterAvatar"
             android:text="@string/post_postTime"
+            android:textColor="#AAAAAA"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/post_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/post_posterName"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/post_time"
+            android:text="@string/city"
             android:textColor="#AAAAAA"
             android:textSize="12sp" />
     </RelativeLayout>

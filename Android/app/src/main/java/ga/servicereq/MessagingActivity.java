@@ -27,6 +27,7 @@ public class MessagingActivity extends AppCompatActivity {
 
     private boolean updaterRunning = false;
     private static ArrayList<Message> senderMessages;
+    private RoundDrawable receiverImageDrawable = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +54,6 @@ public class MessagingActivity extends AppCompatActivity {
         final boolean isHelper = getIntent().getBooleanExtra("helper", false);
         final String conversationId = "CONVO" + receiverId;
 
-        RoundDrawable receiverImageDrawable = null;
         RoundDrawable currentUserImageDrawable = null;
 
         if(!picture.equals("NONE")) {
@@ -86,7 +86,7 @@ public class MessagingActivity extends AppCompatActivity {
 
         TextView name = findViewById(R.id.message_receiverName);
         String fullName = firstName + " " + lastName;
-        name.setText(fullName);
+        name.setText(Server.convertBackSpecialCharacters(fullName));
 
         final Conversation conversation;
         String savedConversation = preferences.getString(conversationId, "CONVO NOT FOUND");
@@ -106,14 +106,14 @@ public class MessagingActivity extends AppCompatActivity {
                 userPicture = savedMessage.findViewById(R.id.messagesent_senderAvatar);
                 if(currentUserImageDrawable != null)
                     userPicture.setImageDrawable(currentUserImageDrawable);
-                messageText.setText(msg.message);
+                messageText.setText(Server.convertBackSpecialCharacters(msg.message));
             } else {
                 savedMessage = (RelativeLayout) inflater.inflate(R.layout.message_received, null);
                 messageText = savedMessage.findViewById(R.id.messagerecv_senderText);
                 userPicture = savedMessage.findViewById(R.id.messagerecv_senderAvatar);
                 if(receiverImageDrawable != null)
                     userPicture.setImageDrawable(receiverImageDrawable);
-                messageText.setText(msg.message);
+                messageText.setText(Server.convertBackSpecialCharacters(msg.message));
             }
             exchangedMessages.addView(savedMessage);
         }
@@ -129,7 +129,7 @@ public class MessagingActivity extends AppCompatActivity {
                     TextView messageText = newMessage.findViewById(R.id.messagesent_senderText);
                     ImageView userPicture = newMessage.findViewById(R.id.messagesent_senderAvatar);
                     final String msg = message.getText().toString();
-                    messageText.setText(message.getText());
+                    messageText.setText(message.getText().toString());
                     if(finalUserImage != null)
                         userPicture.setImageDrawable(finalUserImage);
 
@@ -143,13 +143,13 @@ public class MessagingActivity extends AppCompatActivity {
                     sendButton.post(new Runnable() {
                         @Override
                         public void run() {
-                            Server.sendMessage("M;" + currentUserId + ";" + receiverId + ";" + msg + ";;");
+                            Server.sendMessage("M;" + currentUserId + ";" + receiverId + ";" + Server.formatSpecialCharacters(msg) + ";;");
                         }
                     });
                     message.setText("");
                     scrollArea.fullScroll(View.FOCUS_DOWN);
                     boolean isHelper = !(preferences.getString("cat", "").equals(""));
-                    Message m = new Message(receiverId, firstName, lastName, msg, "", currentUserPicture, isHelper);
+                    Message m = new Message(receiverId, firstName, lastName, Server.formatSpecialCharacters(msg), "", picture, isHelper);
                     m.activityAdded = true;
                     MessagesAdapter.serverAdd(m);
                 }
@@ -163,9 +163,13 @@ public class MessagingActivity extends AppCompatActivity {
         final LayoutInflater inflater = LayoutInflater.from(exchangedMessages.getContext());
         final RelativeLayout queueMessage;
         TextView messageText;
+        ImageView receiverPicture;
         queueMessage = (RelativeLayout) inflater.inflate(R.layout.message_received, null);
         messageText = queueMessage.findViewById(R.id.messagerecv_senderText);
-        messageText.setText(m.lastMessage);
+        receiverPicture = queueMessage.findViewById(R.id.messagerecv_senderAvatar);
+        messageText.setText(Server.convertBackSpecialCharacters(m.lastMessage));
+        if(receiverImageDrawable != null)
+            receiverPicture.setImageDrawable(receiverImageDrawable);
         exchangedMessages.post(new Runnable() {
             @Override
             public void run() {
